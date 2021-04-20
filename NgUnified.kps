@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>13.0.111.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <ReadMeFile>doc\readme.htm</ReadMeFile>
+    <GraphicFile>icons and pictures\nigeria unified image.jpg</GraphicFile>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+    <FollowKeyboardVersion/>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Version URL=""></Version>
+    <Name URL="">Nigeria Unified</Name>
+    <Copyright URL="">© David Rowbory 2021</Copyright>
+    <Author URL="mailto:keyboards@m.rowbory.co.uk">David Rowbory</Author>
+    <WebSite URL="http://www.rowbory.co.uk">http://www.rowbory.co.uk</WebSite>
+  </Info>
+  <Files>
+    <File>
+      <Name>NgUnified.kvk</Name>
+      <Description>File NgUnified.kvk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>NgUnified.kmx</Name>
+      <Description>Keyboard Nigeria Unified</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>ngunified.js</Name>
+      <Description>File ngunified.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>icons and pictures\Nigeria Open Shape.png</Name>
+      <Description>File Nigeria Open Shape.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>icons and pictures\Nigeria Open Shape.jpg</Name>
+      <Description>File Nigeria Open Shape.jpg</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.jpg</FileType>
+    </File>
+    <File>
+      <Name>doc\readme.htm</Name>
+      <Description>File readme.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>icons and pictures\NgUnified.ico</Name>
+      <Description>File NgUnified.ico</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ico</FileType>
+    </File>
+    <File>
+      <Name>icons and pictures\nigeria unified image 140x250.png</Name>
+      <Description>File nigeria unified image 140x250.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>icons and pictures\nigeria unified image.jpg</Name>
+      <Description>File nigeria unified image.jpg</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.jpg</FileType>
+    </File>
+    <File>
+      <Name>AndikaAfr-R.ttf</Name>
+      <Description>Font Andika Afr</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>Nigeria Unified</Name>
+      <ID>ngunified</ID>
+      <Version>7</Version>
+      <OSKFont>AndikaAfr-R.ttf</OSKFont>
+      <DisplayFont>AndikaAfr-R.ttf</DisplayFont>
+      <Languages>
+        <Language ID="ha-Latn">Hausa (Latin)</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>

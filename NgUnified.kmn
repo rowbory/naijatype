@@ -1,0 +1,207 @@
+﻿c Desktop version uses ; key to transform. Long press on related vowels/consonants for the Mobile keyboard.
+store(&VERSION) '9.0'
+store(&NAME) 'Nigeria Unified'
+store(&TARGETS) 'any windows macosx linux web iphone ipad androidphone androidtablet mobile desktop tablet'
+store(&ETHNOLOGUECODE) 'hau ibo yor' c tiv dri ahs bqv yes ldb'
+store(&WINDOWSLANGUAGES) 'x0468 x0470 x046A'
+store(&LANGUAGE) 'x0468'
+store(&VISUALKEYBOARD) 'NgUnified.kvk'
+store(&LAYOUTFILE) 'NgUnified-layout.js'
+store(&COPYRIGHT) '© David Rowbory 2021'
+
+
+c Rota system designed by Andy Kellogg and adapted by David Rowbory
+c We start with the normal letters.
+c Lookup char in CURRENT. Position p.
+c Switch to position p in CHANGED.
+c Then if press again we look up in CURRENT, finding it in position q etc.
+c If CURRENT(p)=CHANGED(q) then we have a back-forth rota.
+c But we can manage a longer rota by arranging a chain
+c CURRENT: abcde
+c CHANGED: eabcd
+c 
+c All this is very well but the lookup and switch only works
+c if we are replacing single unicode characters, not the double
+c (combining) underline and underdot.
+c For those we need to do something different.
+c For example, to get the underline after the 1st change, we
+c could ask if index q > p, and if so, then first we add the underline.
+c But then we need to make sure first that we check for an underline.
+c And if underline, then we switch to dot.
+c And if dot then we remove dot.
+c Unfortunately it's rather tricky to allow a long chain of rotations and restrict the underlines
+c and underdots to those letters for which it makes sense.
+
+c SO: It's important that the underlinable letters come first in the pairs between CURRENT and CHANGED.
+c Current logic only allows toggling between 2 shapes without the underlines (or dots)
+c rather than running through a sequence of different shapes as happened in past keyboards.
+store(LtrsUnderlinable) "aeiounhsAEIOUNHS"                                    c exclude the palatal from the run of ns NŊƝ and the small caps ɪ from the run of i
+store(LtrsCURRENT)       "aəeɛiɨoɔuʊbɓcçdɗgɣhɦkƙnŋsʃvⱱyƴzʒAƏEƐIƗOƆUƱBƁCÇDƊGƔKƘNŊSƩVƲYƳZƷ$₦£?ˈ" c no capital "hooktop h"
+store(LtrsCHANGED)       "əaɛeɨiɔoʊuɓbçcɗdɣgɦhƙkŋnʃsⱱvƴyʒzƏAƐEƗIƆOƱUƁBÇCƊDƔGƘGŊNƩSƲVƳYƷZ₦£$ˈ?" c no capital "hooktop h"
+store(LtrsWithTone)   "qaəeɛiɨɪoɔuʊQAƏEƐIƗOƆUƱmnŋɲMNŊƝ"
+store(LtrsWithNasal)  "qaəeɛiɨɪoɔuʊnQAƏEƐIƗOƆUƱN"
+store(ToneSubset)     U+0300 U+0301 U+0302 U+030C U+0304
+store(Tone)           U+0300 U+0301 U+0302 U+0304 U+030B U+030C U+030F U+1DC4 U+1DC5 U+1DC6 U+1DC7
+store(ToneNasal)      U+0300 U+0301 U+0302 U+0304 U+030B U+030C U+030F U+1DC4 U+1DC5 U+1DC6 U+1DC7 U+0303
+store(LtrsKey)        ";"         c if changed, you have to manually change method for typing this control key
+store(ToneKey)        "`"         c if changed, you have to manually change method for typing this control key
+store(NasalKey)       "~" c U+00AC c if changed, you have to manually change method for typing this control key
+store(UnderLine)  U+0331
+store(UnderDot) U+0323
+store(&BITMAP) 'NgUnified.ico'
+store(&KMW_HELPFILE) 'NgUnified-help.htm'
+store(&MESSAGE) 'Inspired by prior work by Heidi Rosendall and Andy Kellogg'
+store(&KEYBOARDVERSION) '8'
+
+begin Unicode > use(main)
+
+group(main) using keys
+c Special Ways to Type Select Special Letters Directly (Mac users appreciate this)
++ [CTRL ALT K_Y] > 'ƴ'
++ [CTRL ALT K_K] > 'ƙ'
++ [CTRL ALT K_B] > 'ɓ'
++ [CTRL ALT K_D] > 'ɗ'
++ [CTRL ALT K_N] > 'ŋ'
++ [CTRL ALT K_O] > 'ɔ'
++ [CTRL ALT K_I] > 'ɨ'
++ [CTRL ALT K_U] > 'ʊ'
++ [CTRL ALT K_E] > 'ɛ'
++ [CTRL ALT K_A] > 'ə'
++ [CTRL ALT SHIFT K_Y] > 'Ƴ'
++ [CTRL ALT SHIFT K_K] > 'Ƙ'
++ [CTRL ALT SHIFT K_B] > 'Ɓ'
++ [CTRL ALT SHIFT K_D] > 'Ɗ'
++ [CTRL ALT SHIFT K_N] > 'Ŋ'
++ [CTRL ALT SHIFT K_O] > 'Ɔ'
++ [CTRL ALT SHIFT K_I] > 'Ɨ'
++ [CTRL ALT SHIFT K_U] > 'Ʊ'
++ [CTRL ALT SHIFT K_E] > 'Ɛ'
++ [CTRL ALT SHIFT K_A] > 'Ə'
+c Use alt+semicolon to get a real semicolon
++ [ALT K_COLON] > ';'
++ [T_a_underline] > 'a̱'
++ [T_e_underline] > 'e̱'
++ [T_i_underline] > 'i̱'
++ [T_o_underline] > 'o̱'
++ [T_u_underline] > 'u̱'
++ [T_a_underdot] > 'ạ'
++ [T_e_underdot] > 'ẹ'
++ [T_i_underdot] > 'ị'
++ [T_o_underdot] >  'ọ'
++ [T_u_underdot] > 'ụ'
++ [T_n_underdot] > 'ṇ'
++ [T_h_underdot] > 'ḥ'
++ [T_a_underline] > 'a̱'
++ [T_e_underline] > 'e̱'
++ [T_i_underline] > 'i̱'
++ [T_o_underline] > 'o̱'
++ [T_u_underline] > 'u̱'
++ [T_a_underdot] > 'ạ'
++ [T_e_underdot] > 'ẹ'
++ [T_i_underdot] > 'ị'
++ [T_o_underdot] >  'ọ'
++ [T_u_underdot] > 'ụ'
++ [T_A_underline] > 'A̱'
++ [T_E_underline] > 'E̱'
++ [T_I_underline] > 'I̱'
++ [T_O_underline] > 'O̱'
++ [T_U_underline] > 'U̱'
++ [T_A_underdot] > 'Ạ'
++ [T_E_underdot] > 'Ẹ'
++ [T_I_underdot] > 'Ị'
++ [T_O_underdot] > 'Ọ'
++ [T_U_underdot] > 'Ụ'
++ [T_N_underdot] > 'Ṇ'
++ [T_H_underdot] > 'Ḥ'
++ [T_n_bar] > 'n' U+0304
++ [T_N_bar] > 'N' U+0304
++ [T_q_acute] > 'q' U+0301
++ [T_q_grave] > 'q' U+0300
++ [T_q_nasal] > 'q' U+0303
++ [T_Q_acute] > 'Q' U+0301
++ [T_Q_grave] > 'Q' U+0300
++ [T_Q_nasal] > 'Q' U+0303
+
+c Moved letter substitution from here, since it needs to happen last
+
+c Tone Rota
+any(LtrsWithTone) + any(ToneKey) > context U+0301
+U+0301 + any(ToneKey) > U+0300
+U+0300 + any(ToneKey) > U+0302
+U+0302 + any(ToneKey) > U+030C
+U+030C + any(ToneKey) > U+0304
+U+0304 + any(ToneKey) > nul
+U+0303 + any(ToneKey) > context U+0301    c it is assumed that if a letter has nasal it can have tone
+
+c Nasal Toggle
+c NOTE: Lettters with only tone need to be hard-coded since Keyman
+c cannot handle 2+ any() functions in the context
+any(LtrsWithNasal) + any(NasalKey) > context U+0303
+U+0303 + any(NasalKey) > nul
+U+0303 any(ToneSubset) + any(NasalKey) > index(ToneSubset, 2)
+any(LtrsWithNasal) U+0300 + any(NasalKey) > index(LtrsWithNasal, 1) U+0303 U+0300
+any(LtrsWithNasal) U+0301 + any(NasalKey) > index(LtrsWithNasal, 1) U+0303 U+0301
+any(LtrsWithNasal) U+0302 + any(NasalKey) > index(LtrsWithNasal, 1) U+0303 U+0302
+any(LtrsWithNasal) U+030C + any(NasalKey) > index(LtrsWithNasal, 1) U+0303 U+030C
+any(LtrsWithNasal) U+0304 + any(NasalKey) > index(LtrsWithNasal, 1) U+0303 U+0304
+
+c Change a Letter from under Tone and Nasal
+c NOTE: These need to be hard-coded since Keyman
+c cannot handle 2+ any() functions in the context
+c any(LtrsCURRENT) U+0303 U+0300 + any(LtrsKey) > index(LtrsCHANGED, 1) U+0303 U+0300
+c any(LtrsCURRENT) U+0303 U+0301 + any(LtrsKey) > index(LtrsCHANGED, 1) U+0303 U+0301
+c any(LtrsCURRENT) U+0303 U+0302 + any(LtrsKey) > index(LtrsCHANGED, 1) U+0303 U+0302
+c any(LtrsCURRENT) U+0303 U+030C + any(LtrsKey) > index(LtrsCHANGED, 1) U+0303 U+030C
+c any(LtrsCURRENT) U+0303 U+0304 + any(LtrsKey) > index(LtrsCHANGED, 1) U+0303 U+0304
+
+c Change a Letter from under Tone
+c NOTE: These need to be hard-coded since Keyman
+c cannot handle 2+ any() functions in the context
+c any(LtrsCURRENT) U+0300 + any(LtrsKey) > index(LtrsCHANGED, 1) U+0300
+c any(LtrsCURRENT) U+0301 + any(LtrsKey) > index(LtrsCHANGED, 1) U+0301
+c any(LtrsCURRENT) U+0302 + any(LtrsKey) > index(LtrsCHANGED, 1) U+0302
+c any(LtrsCURRENT) U+030C + any(LtrsKey) > index(LtrsCHANGED, 1) U+030C
+c any(LtrsCURRENT) U+0304 + any(LtrsKey) > index(LtrsCHANGED, 1) U+0304
+
+c Change a Letter from under Nasal
+c IMPORTANT: This needs to follow the Tone and Nasal grouping
+c any(LtrsCURRENT) U+0303 + any(LtrsKey) > index(LtrsCHANGED, 1) U+0303
+
+c Type Control Keys
+c IMPORTANT: This has only been tested on US Keyboards
++ [ALT K_COLON]         > ";"
++ [ALT K_BKQUOTE]       > "`"
++ [ALT SHIFT K_BKQUOTE] > "~"
+
+c Make Control Keys Do Nothing Unless with Special Context
++ any(LtrsKey)  > nul
++ any(ToneKey)  > nul
++ any(NasalKey) > '~'
+
+c Letter Modifications
+store(changeshape) '1' c ie default to changing shape
+store(canunderline) '0' c ie can't underline
+c if we have an underline then...
+U+0331 + any(LtrsKey) > U+0323 set(changeshape='2') c underline to underdot, then don't change shape
+c if we have an underdot then
+U+0323 + any(LtrsKey) > nul set(changeshape='1') c underdot to change shape once and next shape change will switch to underline
+c any(LtrsUnderlinable) + any(LtrsKey) > context set(canunderline='1')
+c if (canunderline='0') + any(LtrsKey) > set(changeshape='1') c Override to require changing shape if we can't underline (or dot) here.
+
+if (changeshape='2') + any(LtrsKey) > use(changeShapeRules2) c any(LtrsCURRENT) + any(LtrsKey) > index(LtrsCHANGED, 1)
+if (changeshape='1') + any(LtrsKey) > use(changeShapeRules) c any(LtrsCURRENT) + any(LtrsKey) > index(LtrsCHANGED, 1)
+if (changeshape='0') + any(LtrsKey) > use(underlineRules) c any(LtrsCURRENT) + any(LtrsKey) > context U+0331 c Add underline
+
+c changeshape 
+
+group(changeShapeRules2) using keys c 2nd shape change (ie back) adds automatic underline
+    	any(LtrsCURRENT) + any(LtrsKey) > index(LtrsCHANGED, 1) U+0331 set(changeshape='0')    c underline is next
+
+group(changeShapeRules) using keys   c first shape change
+    	any(LtrsCURRENT) + any(LtrsKey) > index(LtrsCHANGED, 1) set(changeshape='2')
+
+group(changeShapeRules2) using keys c 2nd shape change (ie back) adds automatic underline
+    	any(LtrsCURRENT) + any(LtrsKey) > index(LtrsCHANGED, 1) U+0331 set(changeshape='0')    c underline is next
+
+group(underlineRules) using keys
+    	any(LtrsCURRENT) + any(LtrsKey) > context U+0331 set(changeshape='1') c Add underline

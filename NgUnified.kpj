@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProject>
+  <Options>
+    <BuildPath></BuildPath>
+    <CompilerWarningsAsErrors>False</CompilerWarningsAsErrors>
+    <WarnDeprecatedCode>True</WarnDeprecatedCode>
+    <CheckFilenameConventions>False</CheckFilenameConventions>
+    <ProjectType>keyboard</ProjectType>
+  </Options>
+  <Files>
+    <File>
+      <ID>id_9814e9c74029310570b5bd3ae3890b15</ID>
+      <Filename>NgUnified.kmn</Filename>
+      <Filepath>NgUnified.kmn</Filepath>
+      <FileVersion>8</FileVersion>
+      <FileType>.kmn</FileType>
+      <Details>
+        <Name>Nigeria Unified</Name>
+        <Copyright>© David Rowbory 2021</Copyright>
+        <Message>Inspired by prior work by Heidi Rosendall and Andy Kellogg</Message>
+      </Details>
+    </File>
+    <File>
+      <ID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ID>
+      <Filename>NgUnified.kps</Filename>
+      <Filepath>NgUnified.kps</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kps</FileType>
+      <Details>
+        <Name>Nigeria Unified</Name>
+        <Copyright>© David Rowbory 2021</Copyright>
+      </Details>
+    </File>
+    <File>
+      <ID>id_815284c55e5dac0c2e732d4eea527c91</ID>
+      <Filename>NgUnified.kmp</Filename>
+      <Filepath>NgUnified.kmp</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kmp</FileType>
+    </File>
+    <File>
+      <ID>id_e5d08ebb23827018418af352acb65791</ID>
+      <Filename>AndikaNewBasic-Compact-R.ttf</Filename>
+      <Filepath>C:\Users\David Rowbory\Desktop\AndikaNewBasic-Compact-R.ttf</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <ID>id_10508157f4cfd6b8d41abbb73542f3e5</ID>
+      <Filename>NgUnified.ico</Filename>
+      <Filepath>NgUnified.ico</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.ico</FileType>
+      <ParentFileID>id_9814e9c74029310570b5bd3ae3890b15</ParentFileID>
+    </File>
+    <File>
+      <ID>id_f77ce01a8b8c94a0302091a890501820</ID>
+      <Filename>NgUnified.kvk</Filename>
+      <Filepath>NgUnified.kvk</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kvk</FileType>
+      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
+    </File>
+    <File>
+      <ID>id_c68a6484ae2d228d61ea4e4f0d0bac96</ID>
+      <Filename>NgUnified.kmx</Filename>
+      <Filepath>NgUnified.kmx</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kmx</FileType>
+      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
+    </File>
+    <File>
+      <ID>id_23a4ea67d455c26ef7ea48cf515b9806</ID>
+      <Filename>ngunified.js</Filename>
+      <Filepath>ngunified.js</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.js</FileType>
+      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
+    </File>
+    <File>
+      <ID>id_ce5d5d76e0b2c5c967c37c4f74c9ffe7</ID>
+      <Filename>Nigeria Open Shape.png</Filename>
+      <Filepath>icons and pictures\Nigeria Open Shape.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
+    </File>
+    <File>
+      <ID>id_70c70f90c052d7562fe84d6a11a70aa2</ID>
+      <Filename>Nigeria Open Shape.jpg</Filename>
+      <Filepath>icons and pictures\Nigeria Open Shape.jpg</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.jpg</FileType>
+      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
+    </File>
+    <File>
+      <ID>id_f67b4e9abca33bed158bd7e593d19d83</ID>
+      <Filename>readme.htm</Filename>
+      <Filepath>doc\readme.htm</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.htm</FileType>
+      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
+    </File>
+    <File>
+      <ID>id_f9dd6a5493c9979bdd00eb1f221020b8</ID>
+      <Filename>NgUnified.ico</Filename>
+      <Filepath>icons and pictures\NgUnified.ico</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.ico</FileType>
+      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
+    </File>
+    <File>
+      <ID>id_974659eb9574972c4f4b05f69f0f2a8e</ID>
+      <Filename>nigeria unified image 140x250.png</Filename>
+      <Filepath>icons and pictures\nigeria unified image 140x250.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
+    </File>
+    <File>
+      <ID>id_0d5a8332b0314676a4446ca9b7c31e6e</ID>
+      <Filename>nigeria unified image.jpg</Filename>
+      <Filepath>icons and pictures\nigeria unified image.jpg</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.jpg</FileType>
+      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
+    </File>
+    <File>
+      <ID>id_ed45c500ab3a60993b4797b16768c0bd</ID>
+      <Filename>AndikaAfr-R.ttf</Filename>
+      <Filepath>AndikaAfr-R.ttf</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.ttf</FileType>
+      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
+    </File>
+  </Files>
+</KeymanDeveloperProject>

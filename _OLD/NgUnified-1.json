@@ -1,0 +1,63 @@
+﻿{
+  "options" : {
+  },
+  "keyboard" : {
+    "id" : "ngunified",
+    "name" : "Nigeria Unified",
+    "filename" : "ngunified-2.js",
+    "version" : "2",
+    "lastModified" : "2016-12-02T09:55:18.123+01:00",
+    "font" : {
+      "family" : "Andika",
+      "size" : "12",
+      "source" : "AndikaAfr-R.ttf"
+    },
+    "oskFont" : {
+      "family" : "Andika",
+      "size" : "12",
+      "source" : "AndikaAfr-Rttf"
+    },
+    "languages" : [
+      {
+        "id" : "1",
+        "name" : "Hausa"
+      },
+      {
+        "id" : "2",
+        "name" : "Yoruba"
+      },
+      {
+        "id" : "3",
+        "name" : "Igbo"
+      },
+      {
+        "id" : "4",
+        "name" : "Tiv"
+      },
+      {
+        "id" : "5",
+        "name" : "C'Lela"
+      },
+      {
+        "id" : "6",
+        "name" : "Gworog"
+      },
+      {
+        "id" : "7",
+        "name" : "Tyap"
+      },
+      {
+        "id" : "8",
+        "name" : "Mwaghavul"
+      },
+      {
+        "id" : "9",
+        "name" : "Ngas"
+      },
+      {
+        "id" : "10",
+        "name" : "Berom"
+      }
+      ]
+  }
+}
