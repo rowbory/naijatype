@@ -1,12 +1,12 @@
-﻿c Desktop version uses ; key to transform. Long press on related vowels/consonants for the Mobile keyboard.
+﻿c Physical keyboard uses ; key to transform. 
+c Touch keyboard uses long press on related letters.
 store(&VERSION) '9.0'
-store(&NAME) 'Nigeria Unified'
+store(&NAME) 'Naija Type'
 store(&TARGETS) 'any windows macosx linux web iphone ipad androidphone androidtablet mobile desktop tablet'
-store(&ETHNOLOGUECODE) 'hau ibo yor' c tiv dri ahs bqv yes ldb'
+store(&ETHNOLOGUECODE) 'hau ibo yor ahs'
 store(&WINDOWSLANGUAGES) 'x0468 x0470 x046A'
 store(&LANGUAGE) 'x0468'
-store(&VISUALKEYBOARD) 'NgUnified.kvk'
-store(&LAYOUTFILE) 'NgUnified-layout.js'
+store(&LAYOUTFILE) 'naijatype-layout.js'
 store(&COPYRIGHT) '© David Rowbory 2021'
 
 
@@ -48,10 +48,11 @@ store(ToneKey)        "`"         c if changed, you have to manually change meth
 store(NasalKey)       "~" c U+00AC c if changed, you have to manually change method for typing this control key
 store(UnderLine)  U+0331
 store(UnderDot) U+0323
-store(&BITMAP) 'NgUnified.ico'
-store(&KMW_HELPFILE) 'NgUnified-help.htm'
+store(&BITMAP) 'naijatype.ico'
+store(&KMW_HELPFILE) 'naijatype-help.htm'
 store(&MESSAGE) 'Inspired by prior work by Heidi Rosendall and Andy Kellogg'
-store(&KEYBOARDVERSION) '8'
+store(&KMW_HELPTEXT) 'Type common Nigerian language letters and the ₦ sign'
+store(&KEYBOARDVERSION) '10'
 
 begin Unicode > use(main)
 
@@ -101,26 +102,27 @@ c Use alt+semicolon to get a real semicolon
 + [T_i_underdot] > 'ị'
 + [T_o_underdot] >  'ọ'
 + [T_u_underdot] > 'ụ'
-+ [T_A_underline] > 'A̱'
-+ [T_E_underline] > 'E̱'
-+ [T_I_underline] > 'I̱'
-+ [T_O_underline] > 'O̱'
-+ [T_U_underline] > 'U̱'
-+ [T_A_underdot] > 'Ạ'
-+ [T_E_underdot] > 'Ẹ'
-+ [T_I_underdot] > 'Ị'
-+ [T_O_underdot] > 'Ọ'
-+ [T_U_underdot] > 'Ụ'
-+ [T_N_underdot] > 'Ṇ'
-+ [T_H_underdot] > 'Ḥ'
++ [T_ucA_underline] > 'A̱'
++ [T_ucE_underline] > 'E̱'
++ [T_ucI_underline] > 'I̱'
++ [T_ucO_underline] > 'O̱'
++ [T_ucU_underline] > 'U̱'
++ [T_ucA_underdot] > 'Ạ'
++ [T_ucE_underdot] > 'Ẹ'
++ [T_ucI_underdot] > 'Ị'
++ [T_ucO_underdot] > 'Ọ'
++ [T_ucU_underdot] > 'Ụ'
++ [T_ucN_underdot] > 'Ṇ'
++ [T_ucH_underdot] > 'Ḥ'
 + [T_n_bar] > 'n' U+0304
-+ [T_N_bar] > 'N' U+0304
++ [T_ucN_bar] > 'N' U+0304
 + [T_q_acute] > 'q' U+0301
 + [T_q_grave] > 'q' U+0300
 + [T_q_nasal] > 'q' U+0303
-+ [T_Q_acute] > 'Q' U+0301
-+ [T_Q_grave] > 'Q' U+0300
-+ [T_Q_nasal] > 'Q' U+0303
++ [T_ucQ_acute] > 'Q' U+0301
++ [T_ucQ_grave] > 'Q' U+0300
++ [T_ucQ_nasal] > 'Q' U+0303
++ [T_end_sentence] > '. '
 
 c Moved letter substitution from here, since it needs to happen last
 
@@ -134,7 +136,7 @@ U+0304 + any(ToneKey) > nul
 U+0303 + any(ToneKey) > context U+0301    c it is assumed that if a letter has nasal it can have tone
 
 c Nasal Toggle
-c NOTE: Lettters with only tone need to be hard-coded since Keyman
+c NOTE: Letters with only tone need to be hard-coded since Keyman
 c cannot handle 2+ any() functions in the context
 any(LtrsWithNasal) + any(NasalKey) > context U+0303
 U+0303 + any(NasalKey) > nul
@@ -174,8 +176,8 @@ c IMPORTANT: This has only been tested on US Keyboards
 + [ALT SHIFT K_BKQUOTE] > "~"
 
 c Make Control Keys Do Nothing Unless with Special Context
-+ any(LtrsKey)  > nul
-+ any(ToneKey)  > nul
++ any(LtrsKey)  > ';'       c was null, but changed to output the normal character - 2021
++ any(ToneKey)  > '`'
 + any(NasalKey) > '~'
 
 c Letter Modifications

@@ -34,8 +34,8 @@ Author="David Rowbory","mailto:david_rowbory@sil.org"
 WebSite="www.ngbible.com","www.ngbible.com"
 [Files]
 0="Font Andika Afr","AndikaAfr-R.ttf",0
-1="File NgUnified.kvk","NgUnified.kvk",0
-2="Keyboard Nigeria Unified","NgUnified.kmx",0
+1="File naijatype.kvk","naijatype.kvk",0
+2="Keyboard Nigeria Unified","naijatype.kmx",0
 3="File Nigeria Open Shape 32.ico","Nigeria Open Shape 32.ico",0
 4="File Nigeria Open Shape.png","Nigeria Open Shape.png",0
 5="File Nigeria Underdot 32.ico","Nigeria Underdot 32.ico",0

@@ -18,41 +18,23 @@
   </StartMenu>
   <Info>
     <Version URL=""></Version>
-    <Name URL="">Nigeria Unified</Name>
+    <Name URL="">Naija Type</Name>
     <Copyright URL="">© David Rowbory 2021</Copyright>
     <Author URL="mailto:keyboards@m.rowbory.co.uk">David Rowbory</Author>
     <WebSite URL="http://www.rowbory.co.uk">http://www.rowbory.co.uk</WebSite>
   </Info>
   <Files>
     <File>
-      <Name>NgUnified.kvk</Name>
-      <Description>File NgUnified.kvk</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.kvk</FileType>
-    </File>
-    <File>
-      <Name>NgUnified.kmx</Name>
+      <Name>naijatype.kmx</Name>
       <Description>Keyboard Nigeria Unified</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.kmx</FileType>
     </File>
     <File>
-      <Name>ngunified.js</Name>
-      <Description>File ngunified.js</Description>
+      <Name>naijatype.js</Name>
+      <Description>File naijatype.js</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.js</FileType>
-    </File>
-    <File>
-      <Name>icons and pictures\Nigeria Open Shape.png</Name>
-      <Description>File Nigeria Open Shape.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>icons and pictures\Nigeria Open Shape.jpg</Name>
-      <Description>File Nigeria Open Shape.jpg</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.jpg</FileType>
     </File>
     <File>
       <Name>doc\readme.htm</Name>
@@ -61,8 +43,8 @@
       <FileType>.htm</FileType>
     </File>
     <File>
-      <Name>icons and pictures\NgUnified.ico</Name>
-      <Description>File NgUnified.ico</Description>
+      <Name>icons and pictures\naijatype.ico</Name>
+      <Description>File naijatype.ico</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.ico</FileType>
     </File>
@@ -87,9 +69,9 @@
   </Files>
   <Keyboards>
     <Keyboard>
-      <Name>Nigeria Unified</Name>
-      <ID>ngunified</ID>
-      <Version>7</Version>
+      <Name>Naija Type</Name>
+      <ID>naijatype</ID>
+      <Version>9</Version>
       <OSKFont>AndikaAfr-R.ttf</OSKFont>
       <DisplayFont>AndikaAfr-R.ttf</DisplayFont>
       <Languages>

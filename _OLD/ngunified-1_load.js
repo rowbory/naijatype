@@ -1,1 +1,1 @@
-KeymanWeb.KRS(new Stub_Keyboard_ngunified()); function Stub_Keyboard_ngunified() {this.KF="ngunified-1.js";this.KI="Keyboard_ngunified";this.KN="Nigeria Unified";}
+KeymanWeb.KRS(new Stub_Keyboard_naijatype()); function Stub_Keyboard_naijatype() {this.KF="naijatype-1.js";this.KI="Keyboard_naijatype";this.KN="Nigeria Unified";}

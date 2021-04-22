@@ -9,32 +9,32 @@
   </Options>
   <Files>
     <File>
-      <ID>id_9814e9c74029310570b5bd3ae3890b15</ID>
-      <Filename>NgUnified.kmn</Filename>
-      <Filepath>NgUnified.kmn</Filepath>
-      <FileVersion>8</FileVersion>
+      <ID>id_c0b0912b28fbdf582965b55bed5b6e8f</ID>
+      <Filename>naijatype.kmn</Filename>
+      <Filepath>naijatype.kmn</Filepath>
+      <FileVersion>10</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
-        <Name>Nigeria Unified</Name>
+        <Name>Naija Type</Name>
         <Copyright>© David Rowbory 2021</Copyright>
         <Message>Inspired by prior work by Heidi Rosendall and Andy Kellogg</Message>
       </Details>
     </File>
     <File>
       <ID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ID>
-      <Filename>NgUnified.kps</Filename>
-      <Filepath>NgUnified.kps</Filepath>
+      <Filename>naijatype.kps</Filename>
+      <Filepath>naijatype.kps</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kps</FileType>
       <Details>
-        <Name>Nigeria Unified</Name>
+        <Name>Naija Type</Name>
         <Copyright>© David Rowbory 2021</Copyright>
       </Details>
     </File>
     <File>
       <ID>id_815284c55e5dac0c2e732d4eea527c91</ID>
-      <Filename>NgUnified.kmp</Filename>
-      <Filepath>NgUnified.kmp</Filepath>
+      <Filename>naijatype.kmp</Filename>
+      <Filepath>naijatype.kmp</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kmp</FileType>
     </File>
@@ -46,51 +46,34 @@
       <FileType>.ttf</FileType>
     </File>
     <File>
-      <ID>id_10508157f4cfd6b8d41abbb73542f3e5</ID>
-      <Filename>NgUnified.ico</Filename>
-      <Filepath>NgUnified.ico</Filepath>
+      <ID>id_cd7f1c377562da78e75edd693c8e17b3</ID>
+      <Filename>david_rowbory.ha-latn.hausa.model.js</Filename>
+      <Filepath>..\Hausa\david_rowbory.ha-latn.hausa\build\david_rowbory.ha-latn.hausa.model.js</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <ID>id_2b2d7c0eba1607cc377930feb5914647</ID>
+      <Filename>naijatype.ico</Filename>
+      <Filepath>naijatype.ico</Filepath>
       <FileVersion></FileVersion>
       <FileType>.ico</FileType>
-      <ParentFileID>id_9814e9c74029310570b5bd3ae3890b15</ParentFileID>
+      <ParentFileID>id_c0b0912b28fbdf582965b55bed5b6e8f</ParentFileID>
     </File>
     <File>
-      <ID>id_f77ce01a8b8c94a0302091a890501820</ID>
-      <Filename>NgUnified.kvk</Filename>
-      <Filepath>NgUnified.kvk</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.kvk</FileType>
-      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
-    </File>
-    <File>
-      <ID>id_c68a6484ae2d228d61ea4e4f0d0bac96</ID>
-      <Filename>NgUnified.kmx</Filename>
-      <Filepath>NgUnified.kmx</Filepath>
+      <ID>id_eec507584bfa6c78dd7a34b0e2fcaeed</ID>
+      <Filename>naijatype.kmx</Filename>
+      <Filepath>naijatype.kmx</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kmx</FileType>
       <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
     </File>
     <File>
-      <ID>id_23a4ea67d455c26ef7ea48cf515b9806</ID>
-      <Filename>ngunified.js</Filename>
-      <Filepath>ngunified.js</Filepath>
+      <ID>id_79593d6d7b5aea0669aada4a2bbc8e86</ID>
+      <Filename>naijatype.js</Filename>
+      <Filepath>naijatype.js</Filepath>
       <FileVersion></FileVersion>
       <FileType>.js</FileType>
-      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
-    </File>
-    <File>
-      <ID>id_ce5d5d76e0b2c5c967c37c4f74c9ffe7</ID>
-      <Filename>Nigeria Open Shape.png</Filename>
-      <Filepath>icons and pictures\Nigeria Open Shape.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
-    </File>
-    <File>
-      <ID>id_70c70f90c052d7562fe84d6a11a70aa2</ID>
-      <Filename>Nigeria Open Shape.jpg</Filename>
-      <Filepath>icons and pictures\Nigeria Open Shape.jpg</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.jpg</FileType>
       <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
     </File>
     <File>
@@ -102,9 +85,9 @@
       <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
     </File>
     <File>
-      <ID>id_f9dd6a5493c9979bdd00eb1f221020b8</ID>
-      <Filename>NgUnified.ico</Filename>
-      <Filepath>icons and pictures\NgUnified.ico</Filepath>
+      <ID>id_ceff86438cea4be49416029ca6c895eb</ID>
+      <Filename>naijatype.ico</Filename>
+      <Filepath>icons and pictures\naijatype.ico</Filepath>
       <FileVersion></FileVersion>
       <FileType>.ico</FileType>
       <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>

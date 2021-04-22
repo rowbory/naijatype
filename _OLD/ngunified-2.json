@@ -5,9 +5,9 @@
     "fontBaseUri" : "http://your-host-here/font-path/"
   },
   "keyboard" : {
-    "id" : "ngunified",
+    "id" : "naijatype",
     "name" : "Nigeria Unified",
-    "filename" : "ngunified-2.js",
+    "filename" : "naijatype-2.js",
     "version" : "2",
     "lastModified" : "2016-12-02T09:55:18.138+01:00",
     "languages" : [
