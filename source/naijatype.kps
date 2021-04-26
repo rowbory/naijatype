@@ -26,7 +26,7 @@
   <Files>
     <File>
       <Name>naijatype.kmx</Name>
-      <Description>Keyboard Nigeria Unified</Description>
+      <Description>Keyboard Naija Type</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.kmx</FileType>
     </File>
@@ -71,7 +71,7 @@
     <Keyboard>
       <Name>Naija Type</Name>
       <ID>naijatype</ID>
-      <Version>9</Version>
+      <Version>11</Version>
       <OSKFont>AndikaAfr-R.ttf</OSKFont>
       <DisplayFont>AndikaAfr-R.ttf</DisplayFont>
       <Languages>

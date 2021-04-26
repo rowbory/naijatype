@@ -12,16 +12,16 @@
       <ID>id_c0b0912b28fbdf582965b55bed5b6e8f</ID>
       <Filename>naijatype.kmn</Filename>
       <Filepath>naijatype.kmn</Filepath>
-      <FileVersion>10</FileVersion>
+      <FileVersion>11</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>Naija Type</Name>
-        <Copyright>© David Rowbory 2021</Copyright>
+        <Copyright>© David Rowbory 2021 Free to distribute under licence CC-BY-SA</Copyright>
         <Message>Inspired by prior work by Heidi Rosendall and Andy Kellogg</Message>
       </Details>
     </File>
     <File>
-      <ID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ID>
+      <ID>id_8d2a91c4e7a6ac44bafd3f63e2ba877b</ID>
       <Filename>naijatype.kps</Filename>
       <Filepath>naijatype.kps</Filepath>
       <FileVersion></FileVersion>
@@ -39,20 +39,6 @@
       <FileType>.kmp</FileType>
     </File>
     <File>
-      <ID>id_e5d08ebb23827018418af352acb65791</ID>
-      <Filename>AndikaNewBasic-Compact-R.ttf</Filename>
-      <Filepath>C:\Users\David Rowbory\Desktop\AndikaNewBasic-Compact-R.ttf</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.ttf</FileType>
-    </File>
-    <File>
-      <ID>id_cd7f1c377562da78e75edd693c8e17b3</ID>
-      <Filename>david_rowbory.ha-latn.hausa.model.js</Filename>
-      <Filepath>..\Hausa\david_rowbory.ha-latn.hausa\build\david_rowbory.ha-latn.hausa.model.js</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.js</FileType>
-    </File>
-    <File>
       <ID>id_2b2d7c0eba1607cc377930feb5914647</ID>
       <Filename>naijatype.ico</Filename>
       <Filepath>naijatype.ico</Filepath>
@@ -66,7 +52,7 @@
       <Filepath>naijatype.kmx</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kmx</FileType>
-      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
+      <ParentFileID>id_8d2a91c4e7a6ac44bafd3f63e2ba877b</ParentFileID>
     </File>
     <File>
       <ID>id_79593d6d7b5aea0669aada4a2bbc8e86</ID>
@@ -74,7 +60,7 @@
       <Filepath>naijatype.js</Filepath>
       <FileVersion></FileVersion>
       <FileType>.js</FileType>
-      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
+      <ParentFileID>id_8d2a91c4e7a6ac44bafd3f63e2ba877b</ParentFileID>
     </File>
     <File>
       <ID>id_f67b4e9abca33bed158bd7e593d19d83</ID>
@@ -82,7 +68,7 @@
       <Filepath>doc\readme.htm</Filepath>
       <FileVersion></FileVersion>
       <FileType>.htm</FileType>
-      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
+      <ParentFileID>id_8d2a91c4e7a6ac44bafd3f63e2ba877b</ParentFileID>
     </File>
     <File>
       <ID>id_ceff86438cea4be49416029ca6c895eb</ID>
@@ -90,7 +76,7 @@
       <Filepath>icons and pictures\naijatype.ico</Filepath>
       <FileVersion></FileVersion>
       <FileType>.ico</FileType>
-      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
+      <ParentFileID>id_8d2a91c4e7a6ac44bafd3f63e2ba877b</ParentFileID>
     </File>
     <File>
       <ID>id_974659eb9574972c4f4b05f69f0f2a8e</ID>
@@ -98,7 +84,7 @@
       <Filepath>icons and pictures\nigeria unified image 140x250.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
-      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
+      <ParentFileID>id_8d2a91c4e7a6ac44bafd3f63e2ba877b</ParentFileID>
     </File>
     <File>
       <ID>id_0d5a8332b0314676a4446ca9b7c31e6e</ID>
@@ -106,7 +92,7 @@
       <Filepath>icons and pictures\nigeria unified image.jpg</Filepath>
       <FileVersion></FileVersion>
       <FileType>.jpg</FileType>
-      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
+      <ParentFileID>id_8d2a91c4e7a6ac44bafd3f63e2ba877b</ParentFileID>
     </File>
     <File>
       <ID>id_ed45c500ab3a60993b4797b16768c0bd</ID>
@@ -114,7 +100,7 @@
       <Filepath>AndikaAfr-R.ttf</Filepath>
       <FileVersion></FileVersion>
       <FileType>.ttf</FileType>
-      <ParentFileID>id_f9a1b5ad09f04a0de82b235e63b10ad3</ParentFileID>
+      <ParentFileID>id_8d2a91c4e7a6ac44bafd3f63e2ba877b</ParentFileID>
     </File>
   </Files>
 </KeymanDeveloperProject>

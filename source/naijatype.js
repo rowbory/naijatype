@@ -9,14 +9,15 @@ function Keyboard_naijatype()
   this.KMINVER="9.0";
   this.KV=null;
   this.KDU=0;
-  this.KH='This keyboard aims to serve all Nigerian languages, not just Hausa, Yoruba and Igbo.  On touch, press and hold for alternate characters similar to the letter you press. Q and space have several combining letters so you can type o then hold on Q to choose the underline or underdot or an accent above. On a computer with physical keyboard use the semicolon, back tick (`) and tilde (~) keys to generate variations. ';
+  this.KH='This keyboard aims to serve all Nigerian languages, not just Hausa, Yoruba and Igbo, using the standard characters normally recommended for each script.  Please write to keyboards@m.rowbory.co.uk if you need letters that are not provided here.  On touch, press and hold for alternate characters similar to the letter you press. Q and space have several combining letters so you can type o then hold on Q to choose the underline or underdot or an accent above. On a computer with physical keyboard use the semicolon, back tick (`) and tilde (~) keys to generate variations. ';
   this.KM=0;
-  this.KBVER="10";
+  this.KBVER="11";
   this.KMBM=0x0070;
-  this.KVKD="T_a_underline T_e_underline T_i_underline T_o_underline T_u_underline T_a_underdot T_e_underdot T_i_underdot T_o_underdot T_u_underdot T_n_underdot T_h_underdot T_ucA_underline T_ucE_underline T_ucI_underline T_ucO_underline T_ucU_underline T_ucA_underdot T_ucE_underdot T_ucI_underdot T_ucO_underdot T_ucU_underdot T_ucN_underdot T_ucH_underdot T_n_bar T_ucN_bar T_q_acute T_q_grave T_q_nasal T_ucQ_acute T_ucQ_grave T_ucQ_nasal T_end_sentence";
+  this.KVKD="T_a_underline T_e_underline T_i_underline T_o_underline T_u_underline T_a_underdot T_e_underdot T_i_underdot T_o_underdot T_u_underdot T_n_underdot T_n_underline T_h_underdot T_ucA_underline T_ucE_underline T_ucI_underline T_ucO_underline T_ucU_underline T_ucA_underdot T_ucE_underdot T_ucI_underdot T_ucO_underdot T_ucU_underdot T_ucN_underdot T_ucN_underline T_ucH_underdot T_n_bar T_ucN_bar T_q_acute T_q_grave T_q_nasal T_ucQ_acute T_ucQ_grave T_ucQ_nasal T_end_sentence";
   this.KVKL={
   "phone": {
     "font": "Andika New Basic Compact",
+    "fontsize": 1,
     "displayUnderlying": false,
     "layer": [
       {
@@ -88,13 +89,13 @@ function Keyboard_naijatype()
               {
                 "width": "95",
                 "id": "K_W",
-                "pad": "1",
+                "pad": "3",
                 "text": "w"
               },
               {
                 "width": "95",
                 "id": "K_E",
-                "pad": "1",
+                "pad": "3",
                 "text": "e",
                 "sk": [
                   {
@@ -130,13 +131,13 @@ function Keyboard_naijatype()
               {
                 "width": "95",
                 "id": "K_R",
-                "pad": "1",
+                "pad": "3",
                 "text": "r"
               },
               {
                 "width": "95",
                 "id": "K_T",
-                "pad": "1",
+                "pad": "3",
                 "text": "t",
                 "sk": [
                   {
@@ -148,7 +149,7 @@ function Keyboard_naijatype()
               {
                 "width": "95",
                 "id": "K_Y",
-                "pad": "1",
+                "pad": "3",
                 "text": "y",
                 "sk": [
                   {
@@ -164,7 +165,7 @@ function Keyboard_naijatype()
               {
                 "width": "95",
                 "id": "K_U",
-                "pad": "1",
+                "pad": "3",
                 "text": "u",
                 "sk": [
                   {
@@ -200,7 +201,7 @@ function Keyboard_naijatype()
               {
                 "width": "95",
                 "id": "K_I",
-                "pad": "1",
+                "pad": "3",
                 "text": "i",
                 "sk": [
                   {
@@ -236,7 +237,7 @@ function Keyboard_naijatype()
               {
                 "width": "95",
                 "id": "K_O",
-                "pad": "1",
+                "pad": "3",
                 "text": "o",
                 "sk": [
                   {
@@ -280,7 +281,7 @@ function Keyboard_naijatype()
               {
                 "width": "95",
                 "id": "K_P",
-                "pad": "1",
+                "pad": "3",
                 "text": "p"
               }
             ]
@@ -325,7 +326,7 @@ function Keyboard_naijatype()
               },
               {
                 "id": "K_S",
-                "pad": "1",
+                "pad": "3",
                 "text": "s",
                 "sk": [
                   {
@@ -340,7 +341,7 @@ function Keyboard_naijatype()
               },
               {
                 "id": "K_D",
-                "pad": "1",
+                "pad": "3",
                 "text": "d",
                 "sk": [
                   {
@@ -355,27 +356,27 @@ function Keyboard_naijatype()
               },
               {
                 "id": "K_F",
-                "pad": "1",
+                "pad": "3",
                 "text": "f"
               },
               {
                 "id": "K_G",
-                "pad": "1",
+                "pad": "3",
                 "text": "g"
               },
               {
                 "id": "K_H",
-                "pad": "1",
+                "pad": "3",
                 "text": "h"
               },
               {
                 "id": "K_J",
-                "pad": "1",
+                "pad": "3",
                 "text": "j"
               },
               {
                 "id": "K_K",
-                "pad": "1",
+                "pad": "3",
                 "text": "k",
                 "sk": [
                   {
@@ -386,7 +387,7 @@ function Keyboard_naijatype()
               },
               {
                 "id": "K_L",
-                "pad": "1",
+                "pad": "3",
                 "text": "l"
               },
               {
@@ -421,12 +422,12 @@ function Keyboard_naijatype()
               },
               {
                 "id": "K_X",
-                "pad": "1",
+                "pad": "3",
                 "text": "x"
               },
               {
                 "id": "K_C",
-                "pad": "1",
+                "pad": "3",
                 "text": "c",
                 "sk": [
                   {
@@ -441,12 +442,12 @@ function Keyboard_naijatype()
               },
               {
                 "id": "K_V",
-                "pad": "1",
+                "pad": "3",
                 "text": "v"
               },
               {
                 "id": "K_B",
-                "pad": "1",
+                "pad": "3",
                 "text": "b",
                 "sk": [
                   {
@@ -461,7 +462,7 @@ function Keyboard_naijatype()
               },
               {
                 "id": "K_N",
-                "pad": "1",
+                "pad": "3",
                 "text": "n",
                 "sk": [
                   {
@@ -483,12 +484,16 @@ function Keyboard_naijatype()
                   {
                     "id": "U_014A",
                     "text": "\u014A"
+                  },
+                  {
+                    "id": "T_n_underline",
+                    "text": "n\u0331"
                   }
                 ]
               },
               {
                 "id": "K_M",
-                "pad": "1",
+                "pad": "3",
                 "text": "m",
                 "sk": [
                   {
@@ -519,46 +524,11 @@ function Keyboard_naijatype()
             "key": [
               {
                 "nextlayer": "numeric",
-                "width": "200",
+                "width": "170",
                 "id": "K_NUMLOCK",
-                "pad": "1",
+                "pad": "3",
                 "sp": "1",
                 "text": "*123*"
-              },
-              {
-                "width": "50",
-                "id": "K_LOPT",
-                "pad": "2",
-                "sp": "1",
-                "text": "*Menu*"
-              },
-              {
-                "width": "300",
-                "id": "K_SPACE",
-                "pad": "5",
-                "sk": [
-                  {
-                    "layer": "shift",
-                    "id": "K_HYPHEN",
-                    "text": "_"
-                  },
-                  {
-                    "id": "K_HYPHEN",
-                    "text": "-"
-                  },
-                  {
-                    "id": "U_2013",
-                    "text": "\u2013"
-                  },
-                  {
-                    "id": "U_2014",
-                    "text": "\u2014"
-                  },
-                  {
-                    "id": "K_LOPT",
-                    "text": "Exit"
-                  }
-                ]
               },
               {
                 "id": "K_COMMA",
@@ -592,9 +562,96 @@ function Keyboard_naijatype()
                 ]
               },
               {
+                "id": "U_1F600",
+                "pad": "3",
+                "text": "\uD83D\uDE00",
+                "sk": [
+                  {
+                    "id": "U_1F601",
+                    "text": "\uD83D\uDE01"
+                  },
+                  {
+                    "id": "U_1F602",
+                    "text": "\uD83D\uDE02"
+                  },
+                  {
+                    "id": "U_1F606",
+                    "text": "\uD83D\uDE06"
+                  },
+                  {
+                    "id": "U_1F609",
+                    "text": "\uD83D\uDE09"
+                  },
+                  {
+                    "id": "U_1F60F",
+                    "text": "\uD83D\uDE0F"
+                  },
+                  {
+                    "id": "U_1F610",
+                    "text": "\uD83D\uDE10"
+                  },
+                  {
+                    "id": "U_1F615",
+                    "text": "\uD83D\uDE15"
+                  },
+                  {
+                    "id": "U_1F617",
+                    "text": "\uD83D\uDE17"
+                  },
+                  {
+                    "id": "U_1F622",
+                    "text": "\uD83D\uDE22"
+                  },
+                  {
+                    "id": "U_1F62E",
+                    "text": "\uD83D\uDE2E"
+                  },
+                  {
+                    "id": "U_1F643",
+                    "text": "\uD83D\uDE43"
+                  },
+                  {
+                    "id": "U_1F644",
+                    "text": "\uD83D\uDE44"
+                  },
+                  {
+                    "id": "U_1F64F",
+                    "text": "\uD83D\uDE4F"
+                  }
+                ]
+              },
+              {
+                "width": "300",
+                "id": "K_SPACE",
+                "pad": "5",
+                "sk": [
+                  {
+                    "layer": "shift",
+                    "id": "K_HYPHEN",
+                    "text": "_"
+                  },
+                  {
+                    "id": "K_HYPHEN",
+                    "text": "-"
+                  },
+                  {
+                    "id": "U_2013",
+                    "text": "\u2013"
+                  },
+                  {
+                    "id": "U_2014",
+                    "text": "\u2014"
+                  },
+                  {
+                    "id": "K_LOPT",
+                    "text": "Exit"
+                  }
+                ]
+              },
+              {
                 "nextlayer": "shift",
                 "id": "K_PERIOD",
-                "pad": "1",
+                "pad": "5",
                 "text": ".",
                 "sk": [
                   {
@@ -639,8 +696,9 @@ function Keyboard_naijatype()
               },
               {
                 "nextlayer": "shift",
-                "width": "160",
+                "width": "170",
                 "id": "K_ENTER",
+                "pad": "5",
                 "sp": "1",
                 "text": "*Enter*"
               }
@@ -665,14 +723,14 @@ function Keyboard_naijatype()
                 "nextlayer": "default",
                 "width": "95",
                 "id": "K_W",
-                "pad": "1",
+                "pad": "3",
                 "text": "W"
               },
               {
                 "nextlayer": "default",
                 "width": "95",
                 "id": "K_E",
-                "pad": "1",
+                "pad": "3",
                 "text": "E",
                 "sk": [
                   {
@@ -719,14 +777,14 @@ function Keyboard_naijatype()
                 "nextlayer": "default",
                 "width": "95",
                 "id": "K_R",
-                "pad": "1",
+                "pad": "3",
                 "text": "R"
               },
               {
                 "nextlayer": "default",
                 "width": "95",
                 "id": "K_T",
-                "pad": "1",
+                "pad": "3",
                 "text": "T",
                 "sk": [
                   {
@@ -739,7 +797,7 @@ function Keyboard_naijatype()
                 "nextlayer": "default",
                 "width": "95",
                 "id": "K_Y",
-                "pad": "1",
+                "pad": "3",
                 "text": "Y",
                 "sk": [
                   {
@@ -753,7 +811,7 @@ function Keyboard_naijatype()
                 "nextlayer": "default",
                 "width": "95",
                 "id": "K_U",
-                "pad": "1",
+                "pad": "3",
                 "text": "U",
                 "sk": [
                   {
@@ -799,7 +857,7 @@ function Keyboard_naijatype()
                 "nextlayer": "default",
                 "width": "95",
                 "id": "K_I",
-                "pad": "1",
+                "pad": "3",
                 "text": "I",
                 "sk": [
                   {
@@ -844,7 +902,7 @@ function Keyboard_naijatype()
                 "nextlayer": "default",
                 "width": "95",
                 "id": "K_O",
-                "pad": "1",
+                "pad": "3",
                 "text": "O",
                 "sk": [
                   {
@@ -900,7 +958,7 @@ function Keyboard_naijatype()
                 "nextlayer": "default",
                 "width": "95",
                 "id": "K_P",
-                "pad": "1",
+                "pad": "3",
                 "text": "P"
               }
             ]
@@ -970,13 +1028,13 @@ function Keyboard_naijatype()
               {
                 "nextlayer": "default",
                 "id": "K_S",
-                "pad": "1",
+                "pad": "3",
                 "text": "S"
               },
               {
                 "nextlayer": "default",
                 "id": "K_D",
-                "pad": "1",
+                "pad": "3",
                 "text": "D",
                 "sk": [
                   {
@@ -993,31 +1051,31 @@ function Keyboard_naijatype()
               {
                 "nextlayer": "default",
                 "id": "K_F",
-                "pad": "1",
+                "pad": "3",
                 "text": "F"
               },
               {
                 "nextlayer": "default",
                 "id": "K_G",
-                "pad": "1",
+                "pad": "3",
                 "text": "G"
               },
               {
                 "nextlayer": "default",
                 "id": "K_H",
-                "pad": "1",
+                "pad": "3",
                 "text": "H"
               },
               {
                 "nextlayer": "default",
                 "id": "K_J",
-                "pad": "1",
+                "pad": "3",
                 "text": "J"
               },
               {
                 "nextlayer": "default",
                 "id": "K_K",
-                "pad": "1",
+                "pad": "3",
                 "text": "K",
                 "sk": [
                   {
@@ -1029,7 +1087,7 @@ function Keyboard_naijatype()
               {
                 "nextlayer": "default",
                 "id": "K_L",
-                "pad": "1",
+                "pad": "3",
                 "text": "L"
               },
               {
@@ -1066,13 +1124,13 @@ function Keyboard_naijatype()
               {
                 "nextlayer": "default",
                 "id": "K_X",
-                "pad": "1",
+                "pad": "3",
                 "text": "X"
               },
               {
                 "nextlayer": "default",
                 "id": "K_C",
-                "pad": "1",
+                "pad": "3",
                 "text": "C",
                 "sk": [
                   {
@@ -1084,7 +1142,7 @@ function Keyboard_naijatype()
               {
                 "nextlayer": "default",
                 "id": "K_V",
-                "pad": "1",
+                "pad": "3",
                 "text": "V",
                 "sk": [
                   {
@@ -1096,7 +1154,7 @@ function Keyboard_naijatype()
               {
                 "nextlayer": "default",
                 "id": "K_B",
-                "pad": "1",
+                "pad": "3",
                 "text": "B",
                 "sk": [
                   {
@@ -1108,7 +1166,7 @@ function Keyboard_naijatype()
               {
                 "nextlayer": "default",
                 "id": "K_N",
-                "pad": "1",
+                "pad": "3",
                 "text": "N",
                 "sk": [
                   {
@@ -1132,7 +1190,7 @@ function Keyboard_naijatype()
               {
                 "nextlayer": "default",
                 "id": "K_M",
-                "pad": "1",
+                "pad": "3",
                 "text": "M",
                 "sk": [
                   {
@@ -1155,23 +1213,99 @@ function Keyboard_naijatype()
             "key": [
               {
                 "nextlayer": "numeric",
-                "width": "200",
+                "width": "170",
                 "id": "K_NUMLOCK",
                 "pad": "1",
                 "sp": "1",
                 "text": "*123*"
               },
               {
-                "width": "50",
-                "id": "K_LOPT",
-                "pad": "2",
-                "sp": "1",
-                "text": "*Menu*",
+                "id": "K_COMMA",
+                "pad": "5",
+                "text": ",",
                 "sk": [
                   {
-                    "id": "T_new_3123",
-                    "sp": "1",
-                    "text": "*Hide*"
+                    "id": "U_2018",
+                    "text": "\u2018"
+                  },
+                  {
+                    "id": "U_2019",
+                    "text": "\u2019"
+                  },
+                  {
+                    "id": "U_201C",
+                    "text": "\u201C"
+                  },
+                  {
+                    "id": "U_201D",
+                    "text": "\u201D"
+                  },
+                  {
+                    "id": "U_003C",
+                    "text": "<"
+                  },
+                  {
+                    "id": "U_003E",
+                    "text": ">"
+                  }
+                ]
+              },
+              {
+                "id": "U_1F600",
+                "pad": "3",
+                "text": "\uD83D\uDE00",
+                "sk": [
+                  {
+                    "id": "U_1F601",
+                    "text": "\uD83D\uDE01"
+                  },
+                  {
+                    "id": "U_1F602",
+                    "text": "\uD83D\uDE02"
+                  },
+                  {
+                    "id": "U_1F606",
+                    "text": "\uD83D\uDE06"
+                  },
+                  {
+                    "id": "U_1F609",
+                    "text": "\uD83D\uDE09"
+                  },
+                  {
+                    "id": "U_1F60F",
+                    "text": "\uD83D\uDE0F"
+                  },
+                  {
+                    "id": "U_1F610",
+                    "text": "\uD83D\uDE10"
+                  },
+                  {
+                    "id": "U_1F615",
+                    "text": "\uD83D\uDE15"
+                  },
+                  {
+                    "id": "U_1F617",
+                    "text": "\uD83D\uDE17"
+                  },
+                  {
+                    "id": "U_1F622",
+                    "text": "\uD83D\uDE22"
+                  },
+                  {
+                    "id": "U_1F62E",
+                    "text": "\uD83D\uDE2E"
+                  },
+                  {
+                    "id": "U_1F643",
+                    "text": "\uD83D\uDE43"
+                  },
+                  {
+                    "id": "U_1F644",
+                    "text": "\uD83D\uDE44"
+                  },
+                  {
+                    "id": "U_1F64F",
+                    "text": "\uD83D\uDE4F"
                   }
                 ]
               },
@@ -1207,40 +1341,9 @@ function Keyboard_naijatype()
                 ]
               },
               {
-                "id": "K_COMMA",
-                "pad": "5",
-                "text": ",",
-                "sk": [
-                  {
-                    "id": "U_2018",
-                    "text": "\u2018"
-                  },
-                  {
-                    "id": "U_2019",
-                    "text": "\u2019"
-                  },
-                  {
-                    "id": "U_201C",
-                    "text": "\u201C"
-                  },
-                  {
-                    "id": "U_201D",
-                    "text": "\u201D"
-                  },
-                  {
-                    "id": "U_003C",
-                    "text": "<"
-                  },
-                  {
-                    "id": "U_003E",
-                    "text": ">"
-                  }
-                ]
-              },
-              {
                 "nextlayer": "shift",
                 "id": "K_PERIOD",
-                "pad": "1",
+                "pad": "3",
                 "text": ".",
                 "sk": [
                   {
@@ -1285,8 +1388,9 @@ function Keyboard_naijatype()
               },
               {
                 "nextlayer": "shift",
-                "width": "160",
+                "width": "170",
                 "id": "K_ENTER",
+                "pad": "5",
                 "sp": "1",
                 "text": "*Enter*"
               }
@@ -1309,55 +1413,55 @@ function Keyboard_naijatype()
               {
                 "width": "95",
                 "id": "K_2",
-                "pad": "1",
+                "pad": "3",
                 "text": "2"
               },
               {
                 "width": "95",
                 "id": "K_3",
-                "pad": "1",
+                "pad": "3",
                 "text": "3"
               },
               {
                 "width": "95",
                 "id": "K_4",
-                "pad": "1",
+                "pad": "3",
                 "text": "4"
               },
               {
                 "width": "95",
                 "id": "K_5",
-                "pad": "1",
+                "pad": "3",
                 "text": "5"
               },
               {
                 "width": "95",
                 "id": "K_6",
-                "pad": "1",
+                "pad": "3",
                 "text": "6"
               },
               {
                 "width": "95",
                 "id": "K_7",
-                "pad": "1",
+                "pad": "3",
                 "text": "7"
               },
               {
                 "width": "95",
                 "id": "K_8",
-                "pad": "1",
+                "pad": "3",
                 "text": "8"
               },
               {
                 "width": "95",
                 "id": "K_9",
-                "pad": "1",
+                "pad": "3",
                 "text": "9"
               },
               {
                 "width": "95",
                 "id": "K_0",
-                "pad": "1",
+                "pad": "3",
                 "text": "0"
               }
             ]
@@ -1388,13 +1492,13 @@ function Keyboard_naijatype()
               {
                 "layer": "shift",
                 "id": "K_2",
-                "pad": "1",
+                "pad": "3",
                 "text": "@"
               },
               {
                 "layer": "shift",
                 "id": "K_3",
-                "pad": "1",
+                "pad": "3",
                 "text": "#",
                 "sk": [
                   {
@@ -1406,37 +1510,37 @@ function Keyboard_naijatype()
               {
                 "layer": "shift",
                 "id": "K_5",
-                "pad": "1",
+                "pad": "3",
                 "text": "%"
               },
               {
                 "layer": "shift",
                 "id": "K_7",
-                "pad": "1",
+                "pad": "3",
                 "text": "&"
               },
               {
                 "layer": "shift",
                 "id": "K_HYPHEN",
-                "pad": "1",
+                "pad": "3",
                 "text": "_"
               },
               {
                 "layer": "default",
                 "id": "K_EQUAL",
-                "pad": "1",
+                "pad": "3",
                 "text": "="
               },
               {
                 "layer": "shift",
                 "id": "K_BKSLASH",
-                "pad": "1",
+                "pad": "3",
                 "text": "|"
               },
               {
                 "layer": "default",
                 "id": "K_BKSLASH",
-                "pad": "1",
+                "pad": "3",
                 "text": "\\"
               },
               {
@@ -1479,18 +1583,18 @@ function Keyboard_naijatype()
               {
                 "layer": "shift",
                 "id": "K_9",
-                "pad": "1",
+                "pad": "3",
                 "text": "("
               },
               {
                 "layer": "shift",
                 "id": "K_0",
-                "pad": "1",
+                "pad": "3",
                 "text": ")"
               },
               {
                 "id": "K_RBRKT",
-                "pad": "1",
+                "pad": "3",
                 "text": "]",
                 "sk": [
                   {
@@ -1510,19 +1614,19 @@ function Keyboard_naijatype()
               {
                 "layer": "shift",
                 "id": "K_EQUAL",
-                "pad": "1",
+                "pad": "3",
                 "text": "+"
               },
               {
                 "layer": "default",
                 "id": "K_HYPHEN",
-                "pad": "1",
+                "pad": "3",
                 "text": "-"
               },
               {
                 "layer": "default",
                 "id": "K_SLASH",
-                "pad": "1",
+                "pad": "3",
                 "text": "/"
               },
               {
@@ -1539,18 +1643,76 @@ function Keyboard_naijatype()
             "key": [
               {
                 "nextlayer": "default",
-                "width": "200",
+                "width": "170",
                 "id": "K_LOWER",
                 "pad": "1",
                 "sp": "2",
                 "text": "*abc*"
               },
               {
-                "width": "50",
-                "id": "K_LOPT",
-                "pad": "2",
-                "sp": "1",
-                "text": "*Menu*"
+                "layer": "shift",
+                "id": "K_8",
+                "pad": "5",
+                "text": "*"
+              },
+              {
+                "id": "U_1F600",
+                "pad": "3",
+                "text": "\uD83D\uDE00",
+                "sk": [
+                  {
+                    "id": "U_1F601",
+                    "text": "\uD83D\uDE01"
+                  },
+                  {
+                    "id": "U_1F602",
+                    "text": "\uD83D\uDE02"
+                  },
+                  {
+                    "id": "U_1F606",
+                    "text": "\uD83D\uDE06"
+                  },
+                  {
+                    "id": "U_1F609",
+                    "text": "\uD83D\uDE09"
+                  },
+                  {
+                    "id": "U_1F60F",
+                    "text": "\uD83D\uDE0F"
+                  },
+                  {
+                    "id": "U_1F610",
+                    "text": "\uD83D\uDE10"
+                  },
+                  {
+                    "id": "U_1F615",
+                    "text": "\uD83D\uDE15"
+                  },
+                  {
+                    "id": "U_1F617",
+                    "text": "\uD83D\uDE17"
+                  },
+                  {
+                    "id": "U_1F622",
+                    "text": "\uD83D\uDE22"
+                  },
+                  {
+                    "id": "U_1F62E",
+                    "text": "\uD83D\uDE2E"
+                  },
+                  {
+                    "id": "U_1F643",
+                    "text": "\uD83D\uDE43"
+                  },
+                  {
+                    "id": "U_1F644",
+                    "text": "\uD83D\uDE44"
+                  },
+                  {
+                    "id": "U_1F64F",
+                    "text": "\uD83D\uDE4F"
+                  }
+                ]
               },
               {
                 "width": "300",
@@ -1581,15 +1743,9 @@ function Keyboard_naijatype()
                 ]
               },
               {
-                "layer": "shift",
-                "id": "K_8",
-                "pad": "5",
-                "text": "*"
-              },
-              {
                 "nextlayer": "shift",
                 "id": "K_PERIOD",
-                "pad": "1",
+                "pad": "3",
                 "text": ".",
                 "sk": [
                   {
@@ -1633,8 +1789,9 @@ function Keyboard_naijatype()
                 ]
               },
               {
-                "width": "160",
+                "width": "170",
                 "id": "K_ENTER",
+                "pad": "5",
                 "sp": "1",
                 "text": "*Enter*"
               }
@@ -1650,6 +1807,71 @@ function Keyboard_naijatype()
             "key": [
               {
                 "width": "95",
+                "id": "K_1",
+                "pad": "1",
+                "text": "1"
+              },
+              {
+                "width": "95",
+                "id": "K_2",
+                "pad": "3",
+                "text": "2"
+              },
+              {
+                "width": "95",
+                "id": "K_3",
+                "pad": "3",
+                "text": "3"
+              },
+              {
+                "width": "95",
+                "id": "K_4",
+                "pad": "3",
+                "text": "4"
+              },
+              {
+                "width": "95",
+                "id": "K_5",
+                "pad": "3",
+                "text": "5"
+              },
+              {
+                "width": "95",
+                "id": "K_6",
+                "pad": "3",
+                "text": "6"
+              },
+              {
+                "width": "95",
+                "id": "K_7",
+                "pad": "3",
+                "text": "7"
+              },
+              {
+                "width": "95",
+                "id": "K_8",
+                "pad": "3",
+                "text": "8"
+              },
+              {
+                "width": "95",
+                "id": "K_9",
+                "pad": "3",
+                "text": "9"
+              },
+              {
+                "width": "95",
+                "id": "K_0",
+                "pad": "3",
+                "text": "0"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "key": [
+              {
+                "width": "95",
                 "id": "U_0060",
                 "pad": "1",
                 "text": "`"
@@ -1657,61 +1879,61 @@ function Keyboard_naijatype()
               {
                 "width": "95",
                 "id": "U_007E",
-                "pad": "1",
+                "pad": "3",
                 "text": "~"
               },
               {
                 "width": "95",
                 "id": "U_005E",
-                "pad": "1",
+                "pad": "3",
                 "text": "^"
               },
               {
                 "width": "95",
                 "id": "U_00A8",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00A8"
               },
               {
                 "width": "95",
                 "id": "U_00B4",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00B4"
               },
               {
                 "width": "95",
                 "id": "U_00B8",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00B8"
               },
               {
                 "width": "95",
                 "id": "U_00AF",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00AF"
               },
               {
                 "width": "95",
                 "id": "U_00BF",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00BF"
               },
               {
                 "width": "95",
                 "id": "U_00A1",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00A1"
               },
               {
                 "width": "94",
                 "id": "U_00AC",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00AC"
               }
             ]
           },
           {
-            "id": "2",
+            "id": "3",
             "key": [
               {
                 "id": "U_00AA",
@@ -1720,42 +1942,42 @@ function Keyboard_naijatype()
               },
               {
                 "id": "U_00BA",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00BA"
               },
               {
                 "id": "U_00B6",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00B6"
               },
               {
                 "id": "U_00A7",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00A7"
               },
               {
                 "id": "U_00B1",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00B1"
               },
               {
                 "id": "U_00D7",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00D7"
               },
               {
                 "id": "U_00F7",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00F7"
               },
               {
                 "id": "U_00A6",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00A6"
               },
               {
                 "id": "U_00B0",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00B0"
               },
               {
@@ -1766,7 +1988,7 @@ function Keyboard_naijatype()
             ]
           },
           {
-            "id": "3",
+            "id": "4",
             "key": [
               {
                 "nextlayer": "numeric",
@@ -1783,32 +2005,32 @@ function Keyboard_naijatype()
               },
               {
                 "id": "U_00A9",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00A9"
               },
               {
                 "id": "U_00AE",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00AE"
               },
               {
                 "id": "U_00A3",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00A3"
               },
               {
                 "id": "U_20AC",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u20AC"
               },
               {
                 "id": "U_00A5",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u00A5"
               },
               {
                 "id": "U_2022",
-                "pad": "1",
+                "pad": "3",
                 "text": "\u2022"
               },
               {
@@ -1821,7 +2043,7 @@ function Keyboard_naijatype()
             ]
           },
           {
-            "id": "4",
+            "id": "5",
             "key": [
               {
                 "nextlayer": "default",
@@ -1830,34 +2052,6 @@ function Keyboard_naijatype()
                 "pad": "1",
                 "sp": "1",
                 "text": "*abc*"
-              },
-              {
-                "width": "300",
-                "id": "K_SPACE",
-                "pad": "5",
-                "sk": [
-                  {
-                    "layer": "shift",
-                    "id": "K_HYPHEN",
-                    "text": "_"
-                  },
-                  {
-                    "id": "K_HYPHEN",
-                    "text": "-"
-                  },
-                  {
-                    "id": "U_2013",
-                    "text": "\u2013"
-                  },
-                  {
-                    "id": "U_2014",
-                    "text": "\u2014"
-                  },
-                  {
-                    "id": "K_LOPT",
-                    "text": "*Menu*"
-                  }
-                ]
               },
               {
                 "id": "K_COMMA",
@@ -1891,9 +2085,96 @@ function Keyboard_naijatype()
                 ]
               },
               {
+                "id": "U_1F600",
+                "pad": "3",
+                "text": "\uD83D\uDE00",
+                "sk": [
+                  {
+                    "id": "U_1F601",
+                    "text": "\uD83D\uDE01"
+                  },
+                  {
+                    "id": "U_1F602",
+                    "text": "\uD83D\uDE02"
+                  },
+                  {
+                    "id": "U_1F606",
+                    "text": "\uD83D\uDE06"
+                  },
+                  {
+                    "id": "U_1F609",
+                    "text": "\uD83D\uDE09"
+                  },
+                  {
+                    "id": "U_1F60F",
+                    "text": "\uD83D\uDE0F"
+                  },
+                  {
+                    "id": "U_1F610",
+                    "text": "\uD83D\uDE10"
+                  },
+                  {
+                    "id": "U_1F615",
+                    "text": "\uD83D\uDE15"
+                  },
+                  {
+                    "id": "U_1F617",
+                    "text": "\uD83D\uDE17"
+                  },
+                  {
+                    "id": "U_1F622",
+                    "text": "\uD83D\uDE22"
+                  },
+                  {
+                    "id": "U_1F62E",
+                    "text": "\uD83D\uDE2E"
+                  },
+                  {
+                    "id": "U_1F643",
+                    "text": "\uD83D\uDE43"
+                  },
+                  {
+                    "id": "U_1F644",
+                    "text": "\uD83D\uDE44"
+                  },
+                  {
+                    "id": "U_1F64F",
+                    "text": "\uD83D\uDE4F"
+                  }
+                ]
+              },
+              {
+                "width": "210",
+                "id": "K_SPACE",
+                "pad": "5",
+                "sk": [
+                  {
+                    "layer": "shift",
+                    "id": "K_HYPHEN",
+                    "text": "_"
+                  },
+                  {
+                    "id": "K_HYPHEN",
+                    "text": "-"
+                  },
+                  {
+                    "id": "U_2013",
+                    "text": "\u2013"
+                  },
+                  {
+                    "id": "U_2014",
+                    "text": "\u2014"
+                  },
+                  {
+                    "id": "K_LOPT",
+                    "text": "*Menu*"
+                  }
+                ]
+              },
+              {
                 "nextlayer": "shift",
                 "id": "K_PERIOD",
-                "pad": "1",
+                "pad": "3",
                 "text": ".",
                 "sk": [
                   {
@@ -1970,7 +2251,7 @@ function Keyboard_naijatype()
                 "layer": "shift",
                 "width": "95",
                 "id": "K_W",
-                "pad": "1",
+                "pad": "3",
                 "text": "W"
               },
               {
@@ -1978,7 +2259,7 @@ function Keyboard_naijatype()
                 "layer": "shift",
                 "width": "95",
                 "id": "K_E",
-                "pad": "1",
+                "pad": "3",
                 "text": "E",
                 "sk": [
                   {
@@ -2016,7 +2297,7 @@ function Keyboard_naijatype()
                 "layer": "shift",
                 "width": "95",
                 "id": "K_R",
-                "pad": "1",
+                "pad": "3",
                 "text": "R"
               },
               {
@@ -2024,7 +2305,7 @@ function Keyboard_naijatype()
                 "layer": "shift",
                 "width": "95",
                 "id": "K_T",
-                "pad": "1",
+                "pad": "3",
                 "text": "T",
                 "sk": [
                   {
@@ -2038,7 +2319,7 @@ function Keyboard_naijatype()
                 "layer": "shift",
                 "width": "95",
                 "id": "K_Y",
-                "pad": "1",
+                "pad": "3",
                 "text": "Y",
                 "sk": [
                   {
@@ -2052,7 +2333,7 @@ function Keyboard_naijatype()
                 "layer": "shift",
                 "width": "95",
                 "id": "K_U",
-                "pad": "1",
+                "pad": "3",
                 "text": "U",
                 "sk": [
                   {
@@ -2090,7 +2371,7 @@ function Keyboard_naijatype()
                 "layer": "shift",
                 "width": "95",
                 "id": "K_I",
-                "pad": "1",
+                "pad": "3",
                 "text": "I",
                 "sk": [
                   {
@@ -2128,7 +2409,7 @@ function Keyboard_naijatype()
                 "layer": "shift",
                 "width": "95",
                 "id": "K_O",
-                "pad": "1",
+                "pad": "3",
                 "text": "O",
                 "sk": [
                   {
@@ -2174,7 +2455,7 @@ function Keyboard_naijatype()
                 "layer": "shift",
                 "width": "95",
                 "id": "K_P",
-                "pad": "1",
+                "pad": "3",
                 "text": "P"
               }
             ]
@@ -2235,14 +2516,14 @@ function Keyboard_naijatype()
                 "nextlayer": "capslock",
                 "layer": "shift",
                 "id": "K_S",
-                "pad": "1",
+                "pad": "3",
                 "text": "S"
               },
               {
                 "nextlayer": "capslock",
                 "layer": "shift",
                 "id": "K_D",
-                "pad": "1",
+                "pad": "3",
                 "text": "D",
                 "sk": [
                   {
@@ -2259,35 +2540,35 @@ function Keyboard_naijatype()
                 "nextlayer": "capslock",
                 "layer": "shift",
                 "id": "K_F",
-                "pad": "1",
+                "pad": "3",
                 "text": "F"
               },
               {
                 "nextlayer": "capslock",
                 "layer": "shift",
                 "id": "K_G",
-                "pad": "1",
+                "pad": "3",
                 "text": "G"
               },
               {
                 "nextlayer": "capslock",
                 "layer": "shift",
                 "id": "K_H",
-                "pad": "1",
+                "pad": "3",
                 "text": "H"
               },
               {
                 "nextlayer": "capslock",
                 "layer": "shift",
                 "id": "K_J",
-                "pad": "1",
+                "pad": "3",
                 "text": "J"
               },
               {
                 "nextlayer": "capslock",
                 "layer": "shift",
                 "id": "K_K",
-                "pad": "1",
+                "pad": "3",
                 "text": "K",
                 "sk": [
                   {
@@ -2300,7 +2581,7 @@ function Keyboard_naijatype()
                 "nextlayer": "capslock",
                 "layer": "shift",
                 "id": "K_L",
-                "pad": "1",
+                "pad": "3",
                 "text": "L"
               },
               {
@@ -2332,14 +2613,14 @@ function Keyboard_naijatype()
                 "nextlayer": "capslock",
                 "layer": "shift",
                 "id": "K_X",
-                "pad": "1",
+                "pad": "3",
                 "text": "X"
               },
               {
                 "nextlayer": "capslock",
                 "layer": "shift",
                 "id": "K_C",
-                "pad": "1",
+                "pad": "3",
                 "text": "C",
                 "sk": [
                   {
@@ -2352,7 +2633,7 @@ function Keyboard_naijatype()
                 "nextlayer": "capslock",
                 "layer": "shift",
                 "id": "K_V",
-                "pad": "1",
+                "pad": "3",
                 "text": "V",
                 "sk": [
                   {
@@ -2365,7 +2646,7 @@ function Keyboard_naijatype()
                 "nextlayer": "capslock",
                 "layer": "shift",
                 "id": "K_B",
-                "pad": "1",
+                "pad": "3",
                 "text": "B",
                 "sk": [
                   {
@@ -2378,7 +2659,7 @@ function Keyboard_naijatype()
                 "nextlayer": "capslock",
                 "layer": "shift",
                 "id": "K_N",
-                "pad": "1",
+                "pad": "3",
                 "text": "N",
                 "sk": [
                   {
@@ -2403,7 +2684,7 @@ function Keyboard_naijatype()
                 "nextlayer": "capslock",
                 "layer": "shift",
                 "id": "K_M",
-                "pad": "1",
+                "pad": "3",
                 "text": "M",
                 "sk": [
                   {
@@ -2426,53 +2707,11 @@ function Keyboard_naijatype()
             "key": [
               {
                 "nextlayer": "numeric",
-                "width": "200",
+                "width": "170",
                 "id": "K_NUMLOCK",
                 "pad": "1",
                 "sp": "1",
                 "text": "*123*"
-              },
-              {
-                "width": "50",
-                "id": "K_LOPT",
-                "sp": "1",
-                "text": "*Menu*",
-                "sk": [
-                  {
-                    "id": "T_new_3123",
-                    "sp": "1",
-                    "text": "*Hide*"
-                  }
-                ]
-              },
-              {
-                "nextlayer": "capslock",
-                "width": "300",
-                "id": "K_SPACE",
-                "pad": "5",
-                "sk": [
-                  {
-                    "layer": "shift",
-                    "id": "K_HYPHEN",
-                    "text": "_"
-                  },
-                  {
-                    "id": "K_HYPHEN",
-                    "text": "-"
-                  },
-                  {
-                    "id": "U_2013",
-                    "text": "\u2013"
-                  },
-                  {
-                    "id": "U_2014",
-                    "text": "\u2014"
-                  },
-                  {
-                    "id": "K_LOPT",
-                    "text": "*Menu*"
-                  }
-                ]
               },
               {
                 "id": "K_COMMA",
@@ -2506,9 +2745,97 @@ function Keyboard_naijatype()
                 ]
               },
               {
+                "id": "U_1F600",
+                "pad": "3",
+                "text": "\uD83D\uDE00",
+                "sk": [
+                  {
+                    "id": "U_1F601",
+                    "text": "\uD83D\uDE01"
+                  },
+                  {
+                    "id": "U_1F602",
+                    "text": "\uD83D\uDE02"
+                  },
+                  {
+                    "id": "U_1F606",
+                    "text": "\uD83D\uDE06"
+                  },
+                  {
+                    "id": "U_1F609",
+                    "text": "\uD83D\uDE09"
+                  },
+                  {
+                    "id": "U_1F60F",
+                    "text": "\uD83D\uDE0F"
+                  },
+                  {
+                    "id": "U_1F610",
+                    "text": "\uD83D\uDE10"
+                  },
+                  {
+                    "id": "U_1F615",
+                    "text": "\uD83D\uDE15"
+                  },
+                  {
+                    "id": "U_1F617",
+                    "text": "\uD83D\uDE17"
+                  },
+                  {
+                    "id": "U_1F622",
+                    "text": "\uD83D\uDE22"
+                  },
+                  {
+                    "id": "U_1F62E",
+                    "text": "\uD83D\uDE2E"
+                  },
+                  {
+                    "id": "U_1F643",
+                    "text": "\uD83D\uDE43"
+                  },
+                  {
+                    "id": "U_1F644",
+                    "text": "\uD83D\uDE44"
+                  },
+                  {
+                    "id": "U_1F64F",
+                    "text": "\uD83D\uDE4F"
+                  }
+                ]
+              },
+              {
+                "nextlayer": "capslock",
+                "width": "300",
+                "id": "K_SPACE",
+                "pad": "5",
+                "sk": [
+                  {
+                    "layer": "shift",
+                    "id": "K_HYPHEN",
+                    "text": "_"
+                  },
+                  {
+                    "id": "K_HYPHEN",
+                    "text": "-"
+                  },
+                  {
+                    "id": "U_2013",
+                    "text": "\u2013"
+                  },
+                  {
+                    "id": "U_2014",
+                    "text": "\u2014"
+                  },
+                  {
+                    "id": "K_LOPT",
+                    "text": "*Menu*"
+                  }
+                ]
+              },
+              {
                 "nextlayer": "shift",
                 "id": "K_PERIOD",
-                "pad": "1",
+                "pad": "3",
                 "text": ".",
                 "sk": [
                   {
@@ -2553,8 +2880,9 @@ function Keyboard_naijatype()
               },
               {
                 "nextlayer": "shift",
-                "width": "160",
+                "width": "170",
                 "id": "K_ENTER",
+                "pad": "5",
                 "sp": "1",
                 "text": "*Enter*"
               }
@@ -2598,486 +2926,498 @@ function Keyboard_naijatype()
     var k=KeymanWeb,r=0,m=0;
     if(k.KKM(e, 0x4000, 0x100)) {
       if(1){
-        r=m=1;   // Line 83
+        r=m=1;   // Line 84
         k.KO(0,t,"a̱");
       }
       else if(1){
-        r=m=1;   // Line 95
+        r=m=1;   // Line 97
         k.KO(0,t,"a̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x101)) {
       if(1){
-        r=m=1;   // Line 84
+        r=m=1;   // Line 85
         k.KO(0,t,"e̱");
       }
       else if(1){
-        r=m=1;   // Line 96
+        r=m=1;   // Line 98
         k.KO(0,t,"e̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x102)) {
       if(1){
-        r=m=1;   // Line 85
+        r=m=1;   // Line 86
         k.KO(0,t,"i̱");
       }
       else if(1){
-        r=m=1;   // Line 97
+        r=m=1;   // Line 99
         k.KO(0,t,"i̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x103)) {
       if(1){
-        r=m=1;   // Line 86
+        r=m=1;   // Line 87
         k.KO(0,t,"o̱");
       }
       else if(1){
-        r=m=1;   // Line 98
+        r=m=1;   // Line 100
         k.KO(0,t,"o̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x104)) {
       if(1){
-        r=m=1;   // Line 87
+        r=m=1;   // Line 88
         k.KO(0,t,"u̱");
       }
       else if(1){
-        r=m=1;   // Line 99
+        r=m=1;   // Line 101
         k.KO(0,t,"u̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x105)) {
       if(1){
-        r=m=1;   // Line 88
+        r=m=1;   // Line 89
         k.KO(0,t,"ạ");
       }
       else if(1){
-        r=m=1;   // Line 100
+        r=m=1;   // Line 102
         k.KO(0,t,"ạ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x106)) {
       if(1){
-        r=m=1;   // Line 89
+        r=m=1;   // Line 90
         k.KO(0,t,"ẹ");
       }
       else if(1){
-        r=m=1;   // Line 101
+        r=m=1;   // Line 103
         k.KO(0,t,"ẹ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x107)) {
       if(1){
-        r=m=1;   // Line 90
+        r=m=1;   // Line 91
         k.KO(0,t,"ị");
       }
       else if(1){
-        r=m=1;   // Line 102
+        r=m=1;   // Line 104
         k.KO(0,t,"ị");
       }
     }
     else if(k.KKM(e, 0x4000, 0x108)) {
       if(1){
-        r=m=1;   // Line 91
+        r=m=1;   // Line 92
         k.KO(0,t,"ọ");
       }
       else if(1){
-        r=m=1;   // Line 103
+        r=m=1;   // Line 105
         k.KO(0,t,"ọ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x109)) {
       if(1){
-        r=m=1;   // Line 92
+        r=m=1;   // Line 93
         k.KO(0,t,"ụ");
       }
       else if(1){
-        r=m=1;   // Line 104
+        r=m=1;   // Line 106
         k.KO(0,t,"ụ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x10A)) {
       if(1){
-        r=m=1;   // Line 93
+        r=m=1;   // Line 94
         k.KO(0,t,"ṇ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x10B)) {
       if(1){
-        r=m=1;   // Line 94
-        k.KO(0,t,"ḥ");
+        r=m=1;   // Line 95
+        k.KO(0,t,"ṉ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x10C)) {
       if(1){
-        r=m=1;   // Line 105
-        k.KO(0,t,"A̱");
+        r=m=1;   // Line 96
+        k.KO(0,t,"ḥ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x10D)) {
       if(1){
-        r=m=1;   // Line 106
-        k.KO(0,t,"E̱");
+        r=m=1;   // Line 107
+        k.KO(0,t,"A̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x10E)) {
       if(1){
-        r=m=1;   // Line 107
-        k.KO(0,t,"I̱");
+        r=m=1;   // Line 108
+        k.KO(0,t,"E̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x10F)) {
       if(1){
-        r=m=1;   // Line 108
-        k.KO(0,t,"O̱");
+        r=m=1;   // Line 109
+        k.KO(0,t,"I̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x110)) {
       if(1){
-        r=m=1;   // Line 109
-        k.KO(0,t,"U̱");
+        r=m=1;   // Line 110
+        k.KO(0,t,"O̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x111)) {
       if(1){
-        r=m=1;   // Line 110
-        k.KO(0,t,"Ạ");
+        r=m=1;   // Line 111
+        k.KO(0,t,"U̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x112)) {
       if(1){
-        r=m=1;   // Line 111
-        k.KO(0,t,"Ẹ");
+        r=m=1;   // Line 112
+        k.KO(0,t,"Ạ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x113)) {
       if(1){
-        r=m=1;   // Line 112
-        k.KO(0,t,"Ị");
+        r=m=1;   // Line 113
+        k.KO(0,t,"Ẹ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x114)) {
       if(1){
-        r=m=1;   // Line 113
-        k.KO(0,t,"Ọ");
+        r=m=1;   // Line 114
+        k.KO(0,t,"Ị");
       }
     }
     else if(k.KKM(e, 0x4000, 0x115)) {
       if(1){
-        r=m=1;   // Line 114
-        k.KO(0,t,"Ụ");
+        r=m=1;   // Line 115
+        k.KO(0,t,"Ọ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x116)) {
       if(1){
-        r=m=1;   // Line 115
-        k.KO(0,t,"Ṇ");
+        r=m=1;   // Line 116
+        k.KO(0,t,"Ụ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x117)) {
       if(1){
-        r=m=1;   // Line 116
-        k.KO(0,t,"Ḥ");
+        r=m=1;   // Line 117
+        k.KO(0,t,"Ṇ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x118)) {
       if(1){
-        r=m=1;   // Line 117
-        k.KO(0,t,"n̄");
+        r=m=1;   // Line 118
+        k.KO(0,t,"Ṉ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x119)) {
       if(1){
-        r=m=1;   // Line 118
-        k.KO(0,t,"N̄");
+        r=m=1;   // Line 119
+        k.KO(0,t,"Ḥ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x11A)) {
       if(1){
-        r=m=1;   // Line 119
-        k.KO(0,t,"q́");
+        r=m=1;   // Line 120
+        k.KO(0,t,"n̄");
       }
     }
     else if(k.KKM(e, 0x4000, 0x11B)) {
       if(1){
-        r=m=1;   // Line 120
-        k.KO(0,t,"q̀");
+        r=m=1;   // Line 121
+        k.KO(0,t,"N̄");
       }
     }
     else if(k.KKM(e, 0x4000, 0x11C)) {
       if(1){
-        r=m=1;   // Line 121
-        k.KO(0,t,"q̃");
+        r=m=1;   // Line 122
+        k.KO(0,t,"q́");
       }
     }
     else if(k.KKM(e, 0x4000, 0x11D)) {
       if(1){
-        r=m=1;   // Line 122
-        k.KO(0,t,"Q́");
+        r=m=1;   // Line 123
+        k.KO(0,t,"q̀");
       }
     }
     else if(k.KKM(e, 0x4000, 0x11E)) {
       if(1){
-        r=m=1;   // Line 123
-        k.KO(0,t,"Q̀");
+        r=m=1;   // Line 124
+        k.KO(0,t,"q̃");
       }
     }
     else if(k.KKM(e, 0x4000, 0x11F)) {
       if(1){
-        r=m=1;   // Line 124
-        k.KO(0,t,"Q̃");
+        r=m=1;   // Line 125
+        k.KO(0,t,"Q́");
       }
     }
     else if(k.KKM(e, 0x4000, 0x120)) {
       if(1){
-        r=m=1;   // Line 125
+        r=m=1;   // Line 126
+        k.KO(0,t,"Q̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x121)) {
+      if(1){
+        r=m=1;   // Line 127
+        k.KO(0,t,"Q̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x122)) {
+      if(1){
+        r=m=1;   // Line 128
         k.KO(0,t,". ");
       }
     }
     else if(k.KKM(e, 0x4000, 0xBA)) {
       if(k.KCM(1,t,"̱",1)){
-        r=m=1;   // Line 187
+        r=m=1;   // Line 190
         k.KO(1,t,"̣");
         this.s_changeshape=this.s37;
       }
       else if(k.KCM(1,t,"̣",1)){
-        r=m=1;   // Line 189
+        r=m=1;   // Line 192
         k.KO(1,t,"");
         this.s_changeshape=this.s38;
       }
       else if(this.s_changeshape===this.s39){
-        r=m=1;   // Line 193
+        r=m=1;   // Line 196
         r=this.g_changeShapeRules2(t,e);
       }
       else if(this.s_changeshape===this.s40){
-        r=m=1;   // Line 194
+        r=m=1;   // Line 197
         r=this.g_changeShapeRules(t,e);
       }
       else if(this.s_changeshape===this.s41){
-        r=m=1;   // Line 195
+        r=m=1;   // Line 198
         r=this.g_underlineRules(t,e);
       }
       else if(1){
-        r=m=1;   // Line 179
+        r=m=1;   // Line 182
         k.KO(0,t,";");
       }
     }
     else if(k.KKM(e, 0x4040, 0xBA)) {
       if(1){
-        r=m=1;   // Line 82
+        r=m=1;   // Line 83
         k.KO(0,t,";");
       }
       else if(1){
-        r=m=1;   // Line 174
+        r=m=1;   // Line 177
         k.KO(0,t,";");
       }
     }
     else if(k.KKM(e, 0x4070, 0x41)) {
       if(1){
-        r=m=1;   // Line 80
+        r=m=1;   // Line 81
         k.KO(0,t,"Ə");
       }
     }
     else if(k.KKM(e, 0x4070, 0x42)) {
       if(1){
-        r=m=1;   // Line 73
+        r=m=1;   // Line 74
         k.KO(0,t,"Ɓ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x44)) {
       if(1){
-        r=m=1;   // Line 74
+        r=m=1;   // Line 75
         k.KO(0,t,"Ɗ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x45)) {
       if(1){
-        r=m=1;   // Line 79
+        r=m=1;   // Line 80
         k.KO(0,t,"Ɛ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x49)) {
       if(1){
-        r=m=1;   // Line 77
+        r=m=1;   // Line 78
         k.KO(0,t,"Ɨ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x4B)) {
       if(1){
-        r=m=1;   // Line 72
+        r=m=1;   // Line 73
         k.KO(0,t,"Ƙ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x4E)) {
       if(1){
-        r=m=1;   // Line 75
+        r=m=1;   // Line 76
         k.KO(0,t,"Ŋ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x4F)) {
       if(1){
-        r=m=1;   // Line 76
+        r=m=1;   // Line 77
         k.KO(0,t,"Ɔ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x55)) {
       if(1){
-        r=m=1;   // Line 78
+        r=m=1;   // Line 79
         k.KO(0,t,"Ʊ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x59)) {
       if(1){
-        r=m=1;   // Line 71
+        r=m=1;   // Line 72
         k.KO(0,t,"Ƴ");
       }
     }
     else if(k.KKM(e, 0x4000, 0xC0)) {
       if(k.KA(0,k.KC(1,1,t),this.s_LtrsWithTone)){
-        r=m=1;   // Line 130
+        r=m=1;   // Line 133
         k.KO(-1,t,"́");
       }
       else if(k.KCM(1,t,"́",1)){
-        r=m=1;   // Line 131
+        r=m=1;   // Line 134
         k.KO(1,t,"̀");
       }
       else if(k.KCM(1,t,"̀",1)){
-        r=m=1;   // Line 132
+        r=m=1;   // Line 135
         k.KO(1,t,"̂");
       }
       else if(k.KCM(1,t,"̂",1)){
-        r=m=1;   // Line 133
+        r=m=1;   // Line 136
         k.KO(1,t,"̌");
       }
       else if(k.KCM(1,t,"̌",1)){
-        r=m=1;   // Line 134
+        r=m=1;   // Line 137
         k.KO(1,t,"̄");
       }
       else if(k.KCM(1,t,"̄",1)){
-        r=m=1;   // Line 135
+        r=m=1;   // Line 138
         k.KO(1,t,"");
       }
       else if(k.KCM(1,t,"̃",1)){
-        r=m=1;   // Line 136
+        r=m=1;   // Line 139
         k.KO(-1,t,"́");
       }
       else if(1){
-        r=m=1;   // Line 180
+        r=m=1;   // Line 183
         k.KO(0,t,"`");
       }
     }
     else if(k.KKM(e, 0x4040, 0xC0)) {
       if(1){
-        r=m=1;   // Line 175
+        r=m=1;   // Line 178
         k.KO(0,t,"`");
       }
     }
     else if(k.KKM(e, 0x4060, 0x41)) {
       if(1){
-        r=m=1;   // Line 70
+        r=m=1;   // Line 71
         k.KO(0,t,"ə");
       }
     }
     else if(k.KKM(e, 0x4060, 0x42)) {
       if(1){
-        r=m=1;   // Line 63
+        r=m=1;   // Line 64
         k.KO(0,t,"ɓ");
       }
     }
     else if(k.KKM(e, 0x4060, 0x44)) {
       if(1){
-        r=m=1;   // Line 64
+        r=m=1;   // Line 65
         k.KO(0,t,"ɗ");
       }
     }
     else if(k.KKM(e, 0x4060, 0x45)) {
       if(1){
-        r=m=1;   // Line 69
+        r=m=1;   // Line 70
         k.KO(0,t,"ɛ");
       }
     }
     else if(k.KKM(e, 0x4060, 0x49)) {
       if(1){
-        r=m=1;   // Line 67
+        r=m=1;   // Line 68
         k.KO(0,t,"ɨ");
       }
     }
     else if(k.KKM(e, 0x4060, 0x4B)) {
       if(1){
-        r=m=1;   // Line 62
+        r=m=1;   // Line 63
         k.KO(0,t,"ƙ");
       }
     }
     else if(k.KKM(e, 0x4060, 0x4E)) {
       if(1){
-        r=m=1;   // Line 65
+        r=m=1;   // Line 66
         k.KO(0,t,"ŋ");
       }
     }
     else if(k.KKM(e, 0x4060, 0x4F)) {
       if(1){
-        r=m=1;   // Line 66
+        r=m=1;   // Line 67
         k.KO(0,t,"ɔ");
       }
     }
     else if(k.KKM(e, 0x4060, 0x55)) {
       if(1){
-        r=m=1;   // Line 68
+        r=m=1;   // Line 69
         k.KO(0,t,"ʊ");
       }
     }
     else if(k.KKM(e, 0x4060, 0x59)) {
       if(1){
-        r=m=1;   // Line 61
+        r=m=1;   // Line 62
         k.KO(0,t,"ƴ");
       }
     }
     else if(k.KKM(e, 0x4010, 0xC0)) {
       if(k.KCM(2,t,"̃",1)&&k.KA(1,k.KC(1,1,t),this.s_ToneSubset)){
-        r=m=1;   // Line 143
+        r=m=1;   // Line 146
         k.KIO(2,this.s_ToneSubset,2,t);
       }
       else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal)&&k.KCM(1,t,"̀",1)){
-        r=m=1;   // Line 144
+        r=m=1;   // Line 147
         k.KIO(2,this.s_LtrsWithNasal,1,t);
         k.KO(-1,t,"̃̀");
       }
       else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal)&&k.KCM(1,t,"́",1)){
-        r=m=1;   // Line 145
+        r=m=1;   // Line 148
         k.KIO(2,this.s_LtrsWithNasal,1,t);
         k.KO(-1,t,"̃́");
       }
       else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal)&&k.KCM(1,t,"̂",1)){
-        r=m=1;   // Line 146
+        r=m=1;   // Line 149
         k.KIO(2,this.s_LtrsWithNasal,1,t);
         k.KO(-1,t,"̃̂");
       }
       else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal)&&k.KCM(1,t,"̌",1)){
-        r=m=1;   // Line 147
+        r=m=1;   // Line 150
         k.KIO(2,this.s_LtrsWithNasal,1,t);
         k.KO(-1,t,"̃̌");
       }
       else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal)&&k.KCM(1,t,"̄",1)){
-        r=m=1;   // Line 148
+        r=m=1;   // Line 151
         k.KIO(2,this.s_LtrsWithNasal,1,t);
         k.KO(-1,t,"̃̄");
       }
       else if(k.KA(0,k.KC(1,1,t),this.s_LtrsWithNasal)){
-        r=m=1;   // Line 141
+        r=m=1;   // Line 144
         k.KO(-1,t,"̃");
       }
       else if(k.KCM(1,t,"̃",1)){
-        r=m=1;   // Line 142
+        r=m=1;   // Line 145
         k.KO(1,t,"");
       }
       else if(1){
-        r=m=1;   // Line 181
+        r=m=1;   // Line 184
         k.KO(0,t,"~");
       }
     }
     else if(k.KKM(e, 0x4050, 0xC0)) {
       if(1){
-        r=m=1;   // Line 176
+        r=m=1;   // Line 179
         k.KO(0,t,"~");
       }
     }
@@ -3087,7 +3427,7 @@ function Keyboard_naijatype()
     var k=KeymanWeb,r=0,m=0;
     if(k.KKM(e, 0x4000, 0xBA)) {
       if(k.KA(0,k.KC(1,1,t),this.s_LtrsCURRENT)){
-        r=m=1;   // Line 200
+        r=m=1;   // Line 203
         k.KIO(1,this.s_LtrsCHANGED,1,t);
         k.KO(-1,t,"̱");
         this.s_changeshape=this.s42;
@@ -3099,7 +3439,7 @@ function Keyboard_naijatype()
     var k=KeymanWeb,r=0,m=0;
     if(k.KKM(e, 0x4000, 0xBA)) {
       if(k.KA(0,k.KC(1,1,t),this.s_LtrsCURRENT)){
-        r=m=1;   // Line 203
+        r=m=1;   // Line 206
         k.KIO(1,this.s_LtrsCHANGED,1,t);
         this.s_changeshape=this.s43;
       }
@@ -3110,7 +3450,7 @@ function Keyboard_naijatype()
     var k=KeymanWeb,r=0,m=0;
     if(k.KKM(e, 0x4000, 0xBA)) {
       if(k.KA(0,k.KC(1,1,t),this.s_LtrsCURRENT)){
-        r=m=1;   // Line 206
+        r=m=1;   // Line 209
         k.KIO(1,this.s_LtrsCHANGED,1,t);
         k.KO(-1,t,"̱");
         this.s_changeshape=this.s44;
@@ -3122,7 +3462,7 @@ function Keyboard_naijatype()
     var k=KeymanWeb,r=0,m=0;
     if(k.KKM(e, 0x4000, 0xBA)) {
       if(k.KA(0,k.KC(1,1,t),this.s_LtrsCURRENT)){
-        r=m=1;   // Line 209
+        r=m=1;   // Line 212
         k.KO(-1,t,"̱");
         this.s_changeshape=this.s45;
       }

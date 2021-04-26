@@ -1,5 +1,6 @@
-﻿c Physical keyboard uses ; key to transform. 
+﻿c Physical keyboard uses ; key to transform.
 c Touch keyboard uses long press on related letters.
+c Comma to left of space bar.
 store(&VERSION) '9.0'
 store(&NAME) 'Naija Type'
 store(&TARGETS) 'any windows macosx linux web iphone ipad androidphone androidtablet mobile desktop tablet'
@@ -7,7 +8,7 @@ store(&ETHNOLOGUECODE) 'hau ibo yor ahs'
 store(&WINDOWSLANGUAGES) 'x0468 x0470 x046A'
 store(&LANGUAGE) 'x0468'
 store(&LAYOUTFILE) 'naijatype-layout.js'
-store(&COPYRIGHT) '© David Rowbory 2021'
+store(&COPYRIGHT) '© David Rowbory 2021 Free to distribute under licence CC-BY-SA'
 
 
 c Rota system designed by Andy Kellogg and adapted by David Rowbory
@@ -52,7 +53,7 @@ store(&BITMAP) 'naijatype.ico'
 store(&KMW_HELPFILE) 'naijatype-help.htm'
 store(&MESSAGE) 'Inspired by prior work by Heidi Rosendall and Andy Kellogg'
 store(&KMW_HELPTEXT) 'Type common Nigerian language letters and the ₦ sign'
-store(&KEYBOARDVERSION) '10'
+store(&KEYBOARDVERSION) '11'
 
 begin Unicode > use(main)
 
@@ -91,6 +92,7 @@ c Use alt+semicolon to get a real semicolon
 + [T_o_underdot] >  'ọ'
 + [T_u_underdot] > 'ụ'
 + [T_n_underdot] > 'ṇ'
++ [T_n_underline] > 'n' U+0331
 + [T_h_underdot] > 'ḥ'
 + [T_a_underline] > 'a̱'
 + [T_e_underline] > 'e̱'
@@ -113,6 +115,7 @@ c Use alt+semicolon to get a real semicolon
 + [T_ucO_underdot] > 'Ọ'
 + [T_ucU_underdot] > 'Ụ'
 + [T_ucN_underdot] > 'Ṇ'
++ [T_ucN_underline] > 'N' U+0331
 + [T_ucH_underdot] > 'Ḥ'
 + [T_n_bar] > 'n' U+0304
 + [T_ucN_bar] > 'N' U+0304

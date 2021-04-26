@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProjectUser>
+  <ViewState>
+    <tab>1</tab>
+    <showhelp>0</showhelp>
+    <path>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\naijatype.kpj</path>
+    <file ID="id_MRU0" Expanded="1"/>
+    <file ID="id_MRU1" Expanded="1"/>
+    <file ID="id_MRU2" Expanded="1"/>
+    <file ID="id_c0b0912b28fbdf582965b55bed5b6e8f" Expanded="1"/>
+    <file ID="id_8d2a91c4e7a6ac44bafd3f63e2ba877b" Expanded="1"/>
+  </ViewState>
+  <FileStates>
+    <FileState>
+      <ID>id_c0b0912b28fbdf582965b55bed5b6e8f</ID>
+      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\naijatype.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>MS Sans Serif|8|   |1</DebugFont>
+        <CodeFont>DejaVu Sans Condensed|14|   |0</CodeFont>
+        <CharFont>Andika New Basic Compact|14|   |0</CharFont>
+      </IDEState>
+      <Debug>True</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_8d2a91c4e7a6ac44bafd3f63e2ba877b</ID>
+      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\naijatype.kps</FullPath>
+      <IDEState>
+        <CodeFont>Courier New|12|   |0</CodeFont>
+        <CharFont>Courier New|12|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_815284c55e5dac0c2e732d4eea527c91</ID>
+      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\naijatype.kmp</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_2b2d7c0eba1607cc377930feb5914647</ID>
+      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\naijatype.ico</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_eec507584bfa6c78dd7a34b0e2fcaeed</ID>
+      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\naijatype.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_79593d6d7b5aea0669aada4a2bbc8e86</ID>
+      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\naijatype.js</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_f67b4e9abca33bed158bd7e593d19d83</ID>
+      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\doc\readme.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_ceff86438cea4be49416029ca6c895eb</ID>
+      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\icons and pictures\naijatype.ico</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_974659eb9574972c4f4b05f69f0f2a8e</ID>
+      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\icons and pictures\nigeria unified image 140x250.png</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_0d5a8332b0314676a4446ca9b7c31e6e</ID>
+      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\icons and pictures\nigeria unified image.jpg</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_ed45c500ab3a60993b4797b16768c0bd</ID>
+      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\AndikaAfr-R.ttf</FullPath>
+    </FileState>
+  </FileStates>
+  <MRU>
+    <File>
+      <ID>id_MRU0</ID>
+      <Filename>naijatype.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\naijatype.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>naijatype.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\naijatype.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU2</ID>
+      <Filename>naijatype.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\naijatype.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU3</ID>
+      <Filename>naijatype.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\naijatype.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU4</ID>
+      <Filename>naijatype.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>Z:\Shared Docs\KeyMan Dev\naijatype\naijatype.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU5</ID>
+      <Filename>naijatype.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>Z:\Shared Docs\KeyMan Dev\naijatype\naijatype.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU6</ID>
+      <Filename>naijatype.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>Z:\Shared Docs\KeyMan Dev\naijatype.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU7</ID>
+      <Filename>readme.htm</Filename>
+      <FileType>.htm</FileType>
+      <FullPath>Z:\Shared Docs\KeyMan Dev\naijatype\doc\readme.htm</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU8</ID>
+      <Filename>naijatype.js</Filename>
+      <FileType>.js</FileType>
+      <FullPath>Z:\Shared Docs\KeyMan Dev\naijatype\naijatype.js</FullPath>
+    </File>
+  </MRU>
+</KeymanDeveloperProjectUser>
