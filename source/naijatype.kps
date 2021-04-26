@@ -71,11 +71,13 @@
     <Keyboard>
       <Name>Naija Type</Name>
       <ID>naijatype</ID>
-      <Version>11</Version>
+      <Version>13</Version>
       <OSKFont>AndikaAfr-R.ttf</OSKFont>
       <DisplayFont>AndikaAfr-R.ttf</DisplayFont>
       <Languages>
         <Language ID="ha-Latn">Hausa (Latin)</Language>
+        <Language ID="png">Pongu</Language>
+        <Language ID="ahs">Ashe</Language>
       </Languages>
     </Keyboard>
   </Keyboards>

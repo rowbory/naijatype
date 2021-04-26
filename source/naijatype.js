@@ -11,13 +11,12 @@ function Keyboard_naijatype()
   this.KDU=0;
   this.KH='This keyboard aims to serve all Nigerian languages, not just Hausa, Yoruba and Igbo, using the standard characters normally recommended for each script.  Please write to keyboards@m.rowbory.co.uk if you need letters that are not provided here.  On touch, press and hold for alternate characters similar to the letter you press. Q and space have several combining letters so you can type o then hold on Q to choose the underline or underdot or an accent above. On a computer with physical keyboard use the semicolon, back tick (`) and tilde (~) keys to generate variations. ';
   this.KM=0;
-  this.KBVER="12";
+  this.KBVER="13";
   this.KMBM=0x0070;
   this.KVKD="T_a_underline T_e_underline T_i_underline T_o_underline T_u_underline T_a_underdot T_e_underdot T_i_underdot T_o_underdot T_u_underdot T_n_underdot T_n_underline T_h_underdot T_ucA_underline T_ucE_underline T_ucI_underline T_ucO_underline T_ucU_underline T_ucA_underdot T_ucE_underdot T_ucI_underdot T_ucO_underdot T_ucU_underdot T_ucN_underdot T_ucN_underline T_ucH_underdot T_n_bar T_ucN_bar T_q_acute T_q_grave T_q_nasal T_ucQ_acute T_ucQ_grave T_ucQ_nasal T_end_sentence";
   this.KVKL={
   "phone": {
-    "font": "Andika New Basic Compact",
-    "fontsize": 1,
+    "font": "Andika Afr",
     "displayUnderlying": false,
     "layer": [
       {

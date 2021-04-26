@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KeymanDeveloperProjectUser>
   <ViewState>
-    <tab>1</tab>
+    <tab>3</tab>
     <showhelp>0</showhelp>
     <path>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\naijatype.kpj</path>
     <file ID="id_MRU0" Expanded="1"/>
@@ -19,7 +19,7 @@
         <DebugDefaultFont>1</DebugDefaultFont>
         <DebugFont>MS Sans Serif|8|   |1</DebugFont>
         <CodeFont>DejaVu Sans Condensed|14|   |0</CodeFont>
-        <CharFont>Andika New Basic Compact|14|   |0</CharFont>
+        <CharFont>Andika Afr|14|   |0</CharFont>
       </IDEState>
       <Debug>True</Debug>
     </FileState>
@@ -28,7 +28,7 @@
       <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\naijatype.kps</FullPath>
       <IDEState>
         <CodeFont>Courier New|12|   |0</CodeFont>
-        <CharFont>Courier New|12|   |0</CharFont>
+        <CharFont>Andika Afr|18|   |0</CharFont>
       </IDEState>
     </FileState>
     <FileState>
