@@ -11,7 +11,7 @@ function Keyboard_naijatype()
   this.KDU=0;
   this.KH='This keyboard aims to serve all Nigerian languages, not just Hausa, Yoruba and Igbo, using the standard characters normally recommended for each script.  Please write to keyboards@m.rowbory.co.uk if you need letters that are not provided here.  On touch, press and hold for alternate characters similar to the letter you press. Q and space have several combining letters so you can type o then hold on Q to choose the underline or underdot or an accent above. On a computer with physical keyboard use the semicolon, back tick (`) and tilde (~) keys to generate variations. ';
   this.KM=0;
-  this.KBVER="11";
+  this.KBVER="12";
   this.KMBM=0x0070;
   this.KVKD="T_a_underline T_e_underline T_i_underline T_o_underline T_u_underline T_a_underdot T_e_underdot T_i_underdot T_o_underdot T_u_underdot T_n_underdot T_n_underline T_h_underdot T_ucA_underline T_ucE_underline T_ucI_underline T_ucO_underline T_ucU_underline T_ucA_underdot T_ucE_underdot T_ucI_underdot T_ucO_underdot T_ucU_underdot T_ucN_underdot T_ucN_underline T_ucH_underdot T_n_bar T_ucN_bar T_q_acute T_q_grave T_q_nasal T_ucQ_acute T_ucQ_grave T_ucQ_nasal T_end_sentence";
   this.KVKL={
@@ -332,10 +332,6 @@ function Keyboard_naijatype()
                   {
                     "id": "U_00DF",
                     "text": "\u00DF"
-                  },
-                  {
-                    "id": "K_S",
-                    "text": "S"
                   }
                 ]
               },
@@ -349,8 +345,8 @@ function Keyboard_naijatype()
                     "text": "\u0257"
                   },
                   {
-                    "id": "K_D",
-                    "text": "D"
+                    "id": "U_018A",
+                    "text": "\u018A"
                   }
                 ]
               },
@@ -470,6 +466,10 @@ function Keyboard_naijatype()
                     "text": "\u014B"
                   },
                   {
+                    "id": "U_0272",
+                    "text": "\u0272"
+                  },
+                  {
                     "id": "T_n_underdot",
                     "text": "n\u0323"
                   },
@@ -484,6 +484,11 @@ function Keyboard_naijatype()
                   {
                     "id": "U_014A",
                     "text": "\u014A"
+                  },
+                  {
+                    "layer": "default",
+                    "id": "U_019D",
+                    "text": "\u019D"
                   },
                   {
                     "id": "T_n_underline",
@@ -562,6 +567,7 @@ function Keyboard_naijatype()
                 ]
               },
               {
+                "width": "80",
                 "id": "U_1F600",
                 "pad": "3",
                 "text": "\uD83D\uDE00",
@@ -621,7 +627,7 @@ function Keyboard_naijatype()
                 ]
               },
               {
-                "width": "300",
+                "width": "320",
                 "id": "K_SPACE",
                 "pad": "5",
                 "sk": [
@@ -735,6 +741,7 @@ function Keyboard_naijatype()
                 "sk": [
                   {
                     "nextlayer": "default",
+                    "layer": "default",
                     "id": "U_0190",
                     "text": "\u0190"
                   },
@@ -800,6 +807,11 @@ function Keyboard_naijatype()
                 "pad": "3",
                 "text": "Y",
                 "sk": [
+                  {
+                    "nextlayer": "default",
+                    "id": "U_01B3",
+                    "text": "\u01B3"
+                  },
                   {
                     "nextlayer": "default",
                     "id": "U_00DD",
@@ -893,6 +905,7 @@ function Keyboard_naijatype()
                     "text": "\u00CE"
                   },
                   {
+                    "nextlayer": "default",
                     "id": "U_00CF",
                     "text": "\u00CF"
                   }
@@ -907,6 +920,7 @@ function Keyboard_naijatype()
                 "sk": [
                   {
                     "nextlayer": "default",
+                    "layer": "default",
                     "id": "U_0186",
                     "text": "\u0186"
                   },
@@ -924,31 +938,37 @@ function Keyboard_naijatype()
                   },
                   {
                     "nextlayer": "default",
+                    "layer": "default",
                     "id": "U_00D2",
                     "text": "\u00D2"
                   },
                   {
                     "nextlayer": "default",
+                    "layer": "default",
                     "id": "U_00D3",
                     "text": "\u00D3"
                   },
                   {
                     "nextlayer": "default",
+                    "layer": "default",
                     "id": "U_00D4",
                     "text": "\u00D4"
                   },
                   {
                     "nextlayer": "default",
+                    "layer": "default",
                     "id": "U_00D5",
                     "text": "\u00D5"
                   },
                   {
                     "nextlayer": "default",
+                    "layer": "default",
                     "id": "U_00D6",
                     "text": "\u00D6"
                   },
                   {
                     "nextlayer": "default",
+                    "layer": "default",
                     "id": "U_00D8",
                     "text": "\u00D8"
                   }
@@ -1020,6 +1040,7 @@ function Keyboard_naijatype()
                     "text": "\u00C5"
                   },
                   {
+                    "nextlayer": "default",
                     "id": "U_00C6",
                     "text": "\u00C6"
                   }
@@ -1039,10 +1060,12 @@ function Keyboard_naijatype()
                 "sk": [
                   {
                     "nextlayer": "default",
+                    "layer": "default",
                     "id": "U_018A",
                     "text": "\u018A"
                   },
                   {
+                    "layer": "default",
                     "id": "U_00D0",
                     "text": "\u00D0"
                   }
@@ -1143,13 +1166,7 @@ function Keyboard_naijatype()
                 "nextlayer": "default",
                 "id": "K_V",
                 "pad": "3",
-                "text": "V",
-                "sk": [
-                  {
-                    "id": "U_01B2",
-                    "text": "\u01B2"
-                  }
-                ]
+                "text": "V"
               },
               {
                 "nextlayer": "default",
@@ -1170,20 +1187,34 @@ function Keyboard_naijatype()
                 "text": "N",
                 "sk": [
                   {
+                    "nextlayer": "default",
+                    "layer": "default",
                     "id": "U_014A",
                     "text": "\u014A"
                   },
                   {
+                    "nextlayer": "default",
+                    "layer": "default",
                     "id": "U_019D",
                     "text": "\u019D"
                   },
                   {
-                    "id": "U_00D1",
-                    "text": "\u00D1"
-                  },
-                  {
+                    "nextlayer": "default",
+                    "layer": "default",
                     "id": "T_ucN_underdot",
                     "text": "N\u0323"
+                  },
+                  {
+                    "nextlayer": "default",
+                    "layer": "default",
+                    "id": "T_ucN_underline",
+                    "text": "\u1E48"
+                  },
+                  {
+                    "nextlayer": "default",
+                    "layer": "default",
+                    "id": "U_00D1",
+                    "text": "\u00D1"
                   }
                 ]
               },
@@ -1220,37 +1251,45 @@ function Keyboard_naijatype()
                 "text": "*123*"
               },
               {
+                "layer": "default",
                 "id": "K_COMMA",
                 "pad": "5",
                 "text": ",",
                 "sk": [
                   {
+                    "layer": "default",
                     "id": "U_2018",
                     "text": "\u2018"
                   },
                   {
+                    "layer": "default",
                     "id": "U_2019",
                     "text": "\u2019"
                   },
                   {
+                    "layer": "default",
                     "id": "U_201C",
                     "text": "\u201C"
                   },
                   {
+                    "layer": "default",
                     "id": "U_201D",
                     "text": "\u201D"
                   },
                   {
+                    "layer": "default",
                     "id": "U_003C",
                     "text": "<"
                   },
                   {
+                    "layer": "default",
                     "id": "U_003E",
                     "text": ">"
                   }
                 ]
               },
               {
+                "width": "80",
                 "id": "U_1F600",
                 "pad": "3",
                 "text": "\uD83D\uDE00",
@@ -1312,7 +1351,7 @@ function Keyboard_naijatype()
               {
                 "nextlayer": "shift",
                 "layer": "shift",
-                "width": "300",
+                "width": "320",
                 "id": "K_SPACE",
                 "pad": "5",
                 "sk": [
@@ -1342,45 +1381,55 @@ function Keyboard_naijatype()
               },
               {
                 "nextlayer": "shift",
+                "layer": "default",
                 "id": "K_PERIOD",
                 "pad": "3",
                 "text": ".",
                 "sk": [
                   {
+                    "layer": "default",
                     "id": "U_0022",
                     "text": "\""
                   },
                   {
+                    "layer": "default",
                     "id": "U_005C",
                     "text": "\\"
                   },
                   {
+                    "layer": "default",
                     "id": "U_003A",
                     "text": ":"
                   },
                   {
+                    "layer": "default",
                     "id": "U_003B",
                     "text": ";"
                   },
                   {
+                    "layer": "default",
                     "id": "U_0027",
                     "text": "'"
                   },
                   {
+                    "layer": "default",
                     "id": "U_002C",
                     "text": ","
                   },
                   {
                     "nextlayer": "shift",
+                    "layer": "default",
                     "id": "U_003F",
                     "text": "?"
                   },
                   {
                     "nextlayer": "shift",
+                    "layer": "default",
                     "id": "U_0021",
                     "text": "!"
                   },
                   {
+                    "layer": "default",
                     "id": "U_2026",
                     "text": "\u2026"
                   }
@@ -1656,6 +1705,7 @@ function Keyboard_naijatype()
                 "text": "*"
               },
               {
+                "width": "80",
                 "id": "U_1F600",
                 "pad": "3",
                 "text": "\uD83D\uDE00",
@@ -1715,7 +1765,7 @@ function Keyboard_naijatype()
                 ]
               },
               {
-                "width": "300",
+                "width": "320",
                 "id": "K_SPACE",
                 "pad": "5",
                 "sk": [
