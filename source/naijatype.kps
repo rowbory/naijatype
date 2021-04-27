@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>13.0.111.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>14.0.273.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
@@ -71,13 +71,14 @@
     <Keyboard>
       <Name>Naija Type</Name>
       <ID>naijatype</ID>
-      <Version>13</Version>
+      <Version>14</Version>
       <OSKFont>AndikaAfr-R.ttf</OSKFont>
       <DisplayFont>AndikaAfr-R.ttf</DisplayFont>
       <Languages>
-        <Language ID="ha-Latn">Hausa (Latin)</Language>
-        <Language ID="png">Pongu</Language>
+        <Language ID="ha">Hausa</Language>
+        <Language ID="png">Pangu</Language>
         <Language ID="ahs">Ashe</Language>
+        <Language ID="en">English</Language>
       </Languages>
     </Keyboard>
   </Keyboards>

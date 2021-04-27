@@ -1,6 +1,6 @@
 ﻿c Physical keyboard uses ; key to transform.
 c Touch keyboard uses long press on related letters.
-c Comma to left of space bar.
+c Comma to left of space bar + Emoji. Removed capitals on long press default keyboard.
 store(&VERSION) '9.0'
 store(&NAME) 'Naija Type'
 store(&TARGETS) 'any windows macosx linux web iphone ipad androidphone androidtablet mobile desktop tablet'
@@ -53,7 +53,7 @@ store(&BITMAP) 'naijatype.ico'
 store(&KMW_HELPFILE) 'naijatype-help.htm'
 store(&MESSAGE) 'Inspired by prior work by Heidi Rosendall and Andy Kellogg'
 store(&KMW_HELPTEXT) 'Type common Nigerian language letters and the ₦ sign'
-store(&KEYBOARDVERSION) '13'
+store(&KEYBOARDVERSION) '15'
 
 begin Unicode > use(main)
 

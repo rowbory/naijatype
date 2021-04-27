@@ -4,6 +4,7 @@ KeymanWeb.KR(new Keyboard_naijatype());
 function Keyboard_naijatype()
 {
   
+  this._v=(typeof keyman!="undefined"&&typeof keyman.version=="string")?parseInt(keyman.version,10):9;
   this.KI="Keyboard_naijatype";
   this.KN="Naija Type";
   this.KMINVER="9.0";
@@ -11,7 +12,7 @@ function Keyboard_naijatype()
   this.KDU=0;
   this.KH='This keyboard aims to serve all Nigerian languages, not just Hausa, Yoruba and Igbo, using the standard characters normally recommended for each script.  Please write to keyboards@m.rowbory.co.uk if you need letters that are not provided here.  On touch, press and hold for alternate characters similar to the letter you press. Q and space have several combining letters so you can type o then hold on Q to choose the underline or underdot or an accent above. On a computer with physical keyboard use the semicolon, back tick (`) and tilde (~) keys to generate variations. ';
   this.KM=0;
-  this.KBVER="13";
+  this.KBVER="15";
   this.KMBM=0x0070;
   this.KVKD="T_a_underline T_e_underline T_i_underline T_o_underline T_u_underline T_a_underdot T_e_underdot T_i_underdot T_o_underdot T_u_underdot T_n_underdot T_n_underline T_h_underdot T_ucA_underline T_ucE_underline T_ucI_underline T_ucO_underline T_ucU_underline T_ucA_underdot T_ucE_underdot T_ucI_underdot T_ucO_underdot T_ucU_underdot T_ucN_underdot T_ucN_underline T_ucH_underdot T_n_bar T_ucN_bar T_q_acute T_q_grave T_q_nasal T_ucQ_acute T_ucQ_grave T_ucQ_nasal T_end_sentence";
   this.KVKL={
@@ -340,12 +341,9 @@ function Keyboard_naijatype()
                 "text": "d",
                 "sk": [
                   {
+                    "layer": "default",
                     "id": "U_0257",
                     "text": "\u0257"
-                  },
-                  {
-                    "id": "U_018A",
-                    "text": "\u018A"
                   }
                 ]
               },
@@ -406,6 +404,7 @@ function Keyboard_naijatype()
                   {
                     "nextlayer": "capslock",
                     "id": "K_CAPS",
+                    "sp": "1",
                     "text": "*Caps*"
                   }
                 ]
@@ -448,10 +447,6 @@ function Keyboard_naijatype()
                   {
                     "id": "U_0253",
                     "text": "\u0253"
-                  },
-                  {
-                    "id": "U_0181",
-                    "text": "\u0181"
                   }
                 ]
               },
@@ -481,15 +476,6 @@ function Keyboard_naijatype()
                     "text": "\u00F1"
                   },
                   {
-                    "id": "U_014A",
-                    "text": "\u014A"
-                  },
-                  {
-                    "layer": "default",
-                    "id": "U_019D",
-                    "text": "\u019D"
-                  },
-                  {
                     "id": "T_n_underline",
                     "text": "n\u0331"
                   }
@@ -503,10 +489,6 @@ function Keyboard_naijatype()
                   {
                     "id": "U_0271",
                     "text": "\u0271"
-                  },
-                  {
-                    "id": "U_2C6E",
-                    "text": "\u2C6E"
                   },
                   {
                     "id": "U_0303",
@@ -648,8 +630,12 @@ function Keyboard_naijatype()
                     "text": "\u2014"
                   },
                   {
+                    "id": "T_new_98",
+                    "sp": "10"
+                  },
+                  {
                     "id": "K_LOPT",
-                    "text": "Exit"
+                    "text": "Close"
                   }
                 ]
               },
@@ -1133,6 +1119,7 @@ function Keyboard_naijatype()
                   {
                     "nextlayer": "capslock",
                     "id": "K_CAPS",
+                    "sp": "1",
                     "text": "*Caps*"
                   }
                 ]
@@ -1373,8 +1360,13 @@ function Keyboard_naijatype()
                     "text": "\u2014"
                   },
                   {
+                    "id": "T_new_594",
+                    "sp": "10"
+                  },
+                  {
+                    "layer": "default",
                     "id": "K_LOPT",
-                    "text": "Exit"
+                    "text": "\u2BBF"
                   }
                 ]
               },
@@ -1786,8 +1778,13 @@ function Keyboard_naijatype()
                     "text": "\u2014"
                   },
                   {
+                    "id": "T_new_635",
+                    "sp": "10"
+                  },
+                  {
+                    "layer": "default",
                     "id": "K_LOPT",
-                    "text": "Exit"
+                    "text": "\u2BBF"
                   }
                 ]
               },
@@ -2794,6 +2791,7 @@ function Keyboard_naijatype()
                 ]
               },
               {
+                "width": "80",
                 "id": "U_1F600",
                 "pad": "3",
                 "text": "\uD83D\uDE00",
@@ -2854,7 +2852,7 @@ function Keyboard_naijatype()
               },
               {
                 "nextlayer": "capslock",
-                "width": "300",
+                "width": "320",
                 "id": "K_SPACE",
                 "pad": "5",
                 "sk": [
@@ -2876,8 +2874,13 @@ function Keyboard_naijatype()
                     "text": "\u2014"
                   },
                   {
+                    "id": "T_new_553",
+                    "sp": "10"
+                  },
+                  {
+                    "layer": "default",
                     "id": "K_LOPT",
-                    "text": "*Menu*"
+                    "text": "\u2BBF"
                   }
                 ]
               },
@@ -2943,21 +2946,21 @@ function Keyboard_naijatype()
   }
 }
 ;
-  this.s_LtrsUnderlinable="aeiounhsAEIOUNHS";
-  this.s_LtrsCURRENT="aəeɛiɨoɔuʊbɓcçdɗgɣhɦkƙnŋsʃvⱱyƴzʒAƏEƐIƗOƆUƱBƁCÇDƊGƔKƘNŊSƩVƲYƳZƷ$₦£?ˈ";
-  this.s_LtrsCHANGED="əaɛeɨiɔoʊuɓbçcɗdɣgɦhƙkŋnʃsⱱvƴyʒzƏAƐEƗIƆOƱUƁBÇCƊDƔGƘGŊNƩSƲVƳYƷZ₦£$ˈ?";
-  this.s_LtrsWithTone="qaəeɛiɨɪoɔuʊQAƏEƐIƗOƆUƱmnŋɲMNŊƝ";
-  this.s_LtrsWithNasal="qaəeɛiɨɪoɔuʊnQAƏEƐIƗOƆUƱN";
-  this.s_ToneSubset="̀́̂̌̄";
-  this.s_Tone="̀́̂̄̋̌̏᷄᷅᷆᷇";
-  this.s_ToneNasal="̀́̂̄̋̌̏᷄᷅᷆᷇̃";
-  this.s_LtrsKey=";";
-  this.s_ToneKey="`";
-  this.s_NasalKey="~";
-  this.s_UnderLine="̱";
-  this.s_UnderDot="̣";
-  this.s_changeshape=KeymanWeb.KLOAD(this.KI,"changeshape","1");
-  this.s_canunderline="0";
+  this.s_LtrsUnderlinable_11="aeiounhsAEIOUNHS";
+  this.s_LtrsCURRENT_12="aəeɛiɨoɔuʊbɓcçdɗgɣhɦkƙnŋsʃvⱱyƴzʒAƏEƐIƗOƆUƱBƁCÇDƊGƔKƘNŊSƩVƲYƳZƷ$₦£?ˈ";
+  this.s_LtrsCHANGED_13="əaɛeɨiɔoʊuɓbçcɗdɣgɦhƙkŋnʃsⱱvƴyʒzƏAƐEƗIƆOƱUƁBÇCƊDƔGƘGŊNƩSƲVƳYƷZ₦£$ˈ?";
+  this.s_LtrsWithTone_14="qaəeɛiɨɪoɔuʊQAƏEƐIƗOƆUƱmnŋɲMNŊƝ";
+  this.s_LtrsWithNasal_15="qaəeɛiɨɪoɔuʊnQAƏEƐIƗOƆUƱN";
+  this.s_ToneSubset_16="̀́̂̌̄";
+  this.s_Tone_17="̀́̂̄̋̌̏᷄᷅᷆᷇";
+  this.s_ToneNasal_18="̀́̂̄̋̌̏᷄᷅᷆᷇̃";
+  this.s_LtrsKey_19=";";
+  this.s_ToneKey_20="`";
+  this.s_NasalKey_21="~";
+  this.s_UnderLine_22="̱";
+  this.s_UnderDot_23="̣";
+  this.s_changeshape_30=KeymanWeb.KLOAD(this.KI,"changeshape","1");
+  this.s_canunderline_31="0";
   this.s37="2";
   this.s38="1";
   this.s39="2";
@@ -2967,11 +2970,11 @@ function Keyboard_naijatype()
   this.s43="2";
   this.s44="0";
   this.s45="1";
-  this.KVER="13.0.111.0";
+  this.KVER="14.0.273.0";
   this.gs=function(t,e) {
-    return this.g_main(t,e);
+    return this.g_main_0(t,e);
   };
-  this.g_main=function(t,e) {
+  this.g_main_0=function(t,e) {
     var k=KeymanWeb,r=0,m=0;
     if(k.KKM(e, 0x4000, 0x100)) {
       if(1){
@@ -3227,24 +3230,24 @@ function Keyboard_naijatype()
       if(k.KCM(1,t,"̱",1)){
         r=m=1;   // Line 190
         k.KO(1,t,"̣");
-        this.s_changeshape=this.s37;
+        this.s_changeshape_30=this.s37;
       }
       else if(k.KCM(1,t,"̣",1)){
         r=m=1;   // Line 192
         k.KO(1,t,"");
-        this.s_changeshape=this.s38;
+        this.s_changeshape_30=this.s38;
       }
-      else if(this.s_changeshape===this.s39){
+      else if(this.s_changeshape_30===this.s39){
         r=m=1;   // Line 196
-        r=this.g_changeShapeRules2(t,e);
+        r=this.g_changeShapeRules2_1(t,e);
       }
-      else if(this.s_changeshape===this.s40){
+      else if(this.s_changeshape_30===this.s40){
         r=m=1;   // Line 197
-        r=this.g_changeShapeRules(t,e);
+        r=this.g_changeShapeRules_2(t,e);
       }
-      else if(this.s_changeshape===this.s41){
+      else if(this.s_changeshape_30===this.s41){
         r=m=1;   // Line 198
-        r=this.g_underlineRules(t,e);
+        r=this.g_underlineRules_4(t,e);
       }
       else if(1){
         r=m=1;   // Line 182
@@ -3322,7 +3325,7 @@ function Keyboard_naijatype()
       }
     }
     else if(k.KKM(e, 0x4000, 0xC0)) {
-      if(k.KA(0,k.KC(1,1,t),this.s_LtrsWithTone)){
+      if(k.KA(0,k.KC(1,1,t),this.s_LtrsWithTone_14)){
         r=m=1;   // Line 133
         k.KO(-1,t,"́");
       }
@@ -3422,36 +3425,36 @@ function Keyboard_naijatype()
       }
     }
     else if(k.KKM(e, 0x4010, 0xC0)) {
-      if(k.KCM(2,t,"̃",1)&&k.KA(1,k.KC(1,1,t),this.s_ToneSubset)){
+      if(k.KCM(2,t,"̃",1)&&k.KA(1,k.KC(1,1,t),this.s_ToneSubset_16)){
         r=m=1;   // Line 146
-        k.KIO(2,this.s_ToneSubset,2,t);
+        k.KIO(2,this.s_ToneSubset_16,2,t);
       }
-      else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal)&&k.KCM(1,t,"̀",1)){
+      else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal_15)&&k.KCM(1,t,"̀",1)){
         r=m=1;   // Line 147
-        k.KIO(2,this.s_LtrsWithNasal,1,t);
+        k.KIO(2,this.s_LtrsWithNasal_15,1,t);
         k.KO(-1,t,"̃̀");
       }
-      else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal)&&k.KCM(1,t,"́",1)){
+      else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal_15)&&k.KCM(1,t,"́",1)){
         r=m=1;   // Line 148
-        k.KIO(2,this.s_LtrsWithNasal,1,t);
+        k.KIO(2,this.s_LtrsWithNasal_15,1,t);
         k.KO(-1,t,"̃́");
       }
-      else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal)&&k.KCM(1,t,"̂",1)){
+      else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal_15)&&k.KCM(1,t,"̂",1)){
         r=m=1;   // Line 149
-        k.KIO(2,this.s_LtrsWithNasal,1,t);
+        k.KIO(2,this.s_LtrsWithNasal_15,1,t);
         k.KO(-1,t,"̃̂");
       }
-      else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal)&&k.KCM(1,t,"̌",1)){
+      else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal_15)&&k.KCM(1,t,"̌",1)){
         r=m=1;   // Line 150
-        k.KIO(2,this.s_LtrsWithNasal,1,t);
+        k.KIO(2,this.s_LtrsWithNasal_15,1,t);
         k.KO(-1,t,"̃̌");
       }
-      else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal)&&k.KCM(1,t,"̄",1)){
+      else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal_15)&&k.KCM(1,t,"̄",1)){
         r=m=1;   // Line 151
-        k.KIO(2,this.s_LtrsWithNasal,1,t);
+        k.KIO(2,this.s_LtrsWithNasal_15,1,t);
         k.KO(-1,t,"̃̄");
       }
-      else if(k.KA(0,k.KC(1,1,t),this.s_LtrsWithNasal)){
+      else if(k.KA(0,k.KC(1,1,t),this.s_LtrsWithNasal_15)){
         r=m=1;   // Line 144
         k.KO(-1,t,"̃");
       }
@@ -3472,48 +3475,48 @@ function Keyboard_naijatype()
     }
     return r;
   };
-  this.g_changeShapeRules2=function(t,e) {
+  this.g_changeShapeRules2_1=function(t,e) {
     var k=KeymanWeb,r=0,m=0;
     if(k.KKM(e, 0x4000, 0xBA)) {
-      if(k.KA(0,k.KC(1,1,t),this.s_LtrsCURRENT)){
+      if(k.KA(0,k.KC(1,1,t),this.s_LtrsCURRENT_12)){
         r=m=1;   // Line 203
-        k.KIO(1,this.s_LtrsCHANGED,1,t);
+        k.KIO(1,this.s_LtrsCHANGED_13,1,t);
         k.KO(-1,t,"̱");
-        this.s_changeshape=this.s42;
+        this.s_changeshape_30=this.s42;
       }
     }
     return r;
   };
-  this.g_changeShapeRules=function(t,e) {
+  this.g_changeShapeRules_2=function(t,e) {
     var k=KeymanWeb,r=0,m=0;
     if(k.KKM(e, 0x4000, 0xBA)) {
-      if(k.KA(0,k.KC(1,1,t),this.s_LtrsCURRENT)){
+      if(k.KA(0,k.KC(1,1,t),this.s_LtrsCURRENT_12)){
         r=m=1;   // Line 206
-        k.KIO(1,this.s_LtrsCHANGED,1,t);
-        this.s_changeshape=this.s43;
+        k.KIO(1,this.s_LtrsCHANGED_13,1,t);
+        this.s_changeshape_30=this.s43;
       }
     }
     return r;
   };
-  this.g_changeShapeRules2=function(t,e) {
+  this.g_changeShapeRules2_3=function(t,e) {
     var k=KeymanWeb,r=0,m=0;
     if(k.KKM(e, 0x4000, 0xBA)) {
-      if(k.KA(0,k.KC(1,1,t),this.s_LtrsCURRENT)){
+      if(k.KA(0,k.KC(1,1,t),this.s_LtrsCURRENT_12)){
         r=m=1;   // Line 209
-        k.KIO(1,this.s_LtrsCHANGED,1,t);
+        k.KIO(1,this.s_LtrsCHANGED_13,1,t);
         k.KO(-1,t,"̱");
-        this.s_changeshape=this.s44;
+        this.s_changeshape_30=this.s44;
       }
     }
     return r;
   };
-  this.g_underlineRules=function(t,e) {
+  this.g_underlineRules_4=function(t,e) {
     var k=KeymanWeb,r=0,m=0;
     if(k.KKM(e, 0x4000, 0xBA)) {
-      if(k.KA(0,k.KC(1,1,t),this.s_LtrsCURRENT)){
+      if(k.KA(0,k.KC(1,1,t),this.s_LtrsCURRENT_12)){
         r=m=1;   // Line 212
         k.KO(-1,t,"̱");
-        this.s_changeshape=this.s45;
+        this.s_changeshape_30=this.s45;
       }
     }
     return r;
