@@ -616,20 +616,17 @@
                     "id": "K_HYPHEN"
                   },
                   {
+                    "text": "Close",
+                    "id": "K_LOPT",
+                    "sp": "1"
+                  },
+                  {
                     "text": "–",
                     "id": "U_2013"
                   },
                   {
                     "text": "—",
                     "id": "U_2014"
-                  },
-                  {
-                    "id": "T_new_98",
-                    "sp": "10"
-                  },
-                  {
-                    "text": "Close",
-                    "id": "K_LOPT"
                   }
                 ]
               },
@@ -666,13 +663,15 @@
                   },
                   {
                     "text": "?",
-                    "id": "U_003F",
-                    "nextlayer": "shift"
+                    "id": "K_SLASH",
+                    "nextlayer": "shift",
+                    "layer": "shift"
                   },
                   {
                     "text": "!",
-                    "id": "U_0021",
-                    "nextlayer": "shift"
+                    "id": "K_1",
+                    "nextlayer": "shift",
+                    "layer": "shift"
                   },
                   {
                     "text": "…",
@@ -1350,21 +1349,18 @@
                     "id": "K_HYPHEN"
                   },
                   {
+                    "text": "Close",
+                    "id": "K_LOPT",
+                    "sp": "1",
+                    "layer": "default"
+                  },
+                  {
                     "text": "–",
                     "id": "U_2013"
                   },
                   {
                     "text": "—",
                     "id": "U_2014"
-                  },
-                  {
-                    "id": "T_new_594",
-                    "sp": "10"
-                  },
-                  {
-                    "text": "⮿",
-                    "id": "K_LOPT",
-                    "layer": "default"
                   }
                 ]
               },
@@ -1772,6 +1768,12 @@
                     "id": "K_HYPHEN"
                   },
                   {
+                    "text": "Close",
+                    "id": "K_LOPT",
+                    "sp": "1",
+                    "layer": "default"
+                  },
+                  {
                     "text": "–",
                     "id": "U_2013"
                   },
@@ -1780,13 +1782,9 @@
                     "id": "U_2014"
                   },
                   {
+                    "text": "",
                     "id": "T_new_635",
                     "sp": "10"
-                  },
-                  {
-                    "text": "⮿",
-                    "id": "K_LOPT",
-                    "layer": "default"
                   }
                 ]
               },
@@ -2210,16 +2208,17 @@
                     "id": "K_HYPHEN"
                   },
                   {
+                    "text": "Close",
+                    "id": "K_LOPT",
+                    "sp": "1"
+                  },
+                  {
                     "text": "–",
                     "id": "U_2013"
                   },
                   {
                     "text": "—",
                     "id": "U_2014"
-                  },
-                  {
-                    "text": "*Menu*",
-                    "id": "K_LOPT"
                   }
                 ]
               },
@@ -2877,21 +2876,27 @@
                     "id": "K_HYPHEN"
                   },
                   {
+                    "id": "T_new_270",
+                    "sp": "10"
+                  },
+                  {
+                    "text": "Close",
+                    "id": "K_LOPT",
+                    "sp": "1",
+                    "nextlayer": "default",
+                    "layer": "default"
+                  },
+                  {
+                    "id": "T_new_271",
+                    "sp": "10"
+                  },
+                  {
                     "text": "–",
                     "id": "U_2013"
                   },
                   {
                     "text": "—",
                     "id": "U_2014"
-                  },
-                  {
-                    "id": "T_new_553",
-                    "sp": "10"
-                  },
-                  {
-                    "text": "⮿",
-                    "id": "K_LOPT",
-                    "layer": "default"
                   }
                 ]
               },

@@ -10,9 +10,9 @@ function Keyboard_naijatype()
   this.KMINVER="9.0";
   this.KV=null;
   this.KDU=0;
-  this.KH='This keyboard aims to serve all Nigerian languages, not just Hausa, Yoruba and Igbo, using the standard characters normally recommended for each script.  Please write to keyboards@m.rowbory.co.uk if you need letters that are not provided here.  On touch, press and hold for alternate characters similar to the letter you press. Q and space have several combining letters so you can type o then hold on Q to choose the underline or underdot or an accent above. On a computer with physical keyboard use the semicolon, back tick (`) and tilde (~) keys to generate variations. ';
+  this.KH='This keyboard aims to serve all Nigerian languages, not just Hausa, Yoruba and Igbo, using the standard characters normally recommended for each script.  Please write to keyboards@m.rowbory.co.uk if you need letters that are not provided here.  On touch, press and hold for alternate characters similar to the letter you press. Q and space have several combining letters so you can type o then hold on Q to choose the underline or underdot or an accent above. On a computer with physical keyboard use the semicolon, back tick (`) and tilde (~) keys to generate variations.  Double press space bar to get a full stop followed by a space.  ';
   this.KM=0;
-  this.KBVER="15";
+  this.KBVER="16";
   this.KMBM=0x0070;
   this.KVKD="T_a_underline T_e_underline T_i_underline T_o_underline T_u_underline T_a_underdot T_e_underdot T_i_underdot T_o_underdot T_u_underdot T_n_underdot T_n_underline T_h_underdot T_ucA_underline T_ucE_underline T_ucI_underline T_ucO_underline T_ucU_underline T_ucA_underdot T_ucE_underdot T_ucI_underdot T_ucO_underdot T_ucU_underdot T_ucN_underdot T_ucN_underline T_ucH_underdot T_n_bar T_ucN_bar T_q_acute T_q_grave T_q_nasal T_ucQ_acute T_ucQ_grave T_ucQ_nasal T_end_sentence";
   this.KVKL={
@@ -622,20 +622,16 @@ function Keyboard_naijatype()
                     "text": "-"
                   },
                   {
+                    "id": "K_LOPT",
+                    "text": "\u26D2"
+                  },
+                  {
                     "id": "U_2013",
                     "text": "\u2013"
                   },
                   {
                     "id": "U_2014",
                     "text": "\u2014"
-                  },
-                  {
-                    "id": "T_new_98",
-                    "sp": "10"
-                  },
-                  {
-                    "id": "K_LOPT",
-                    "text": "Close"
                   }
                 ]
               },
@@ -671,12 +667,14 @@ function Keyboard_naijatype()
                   },
                   {
                     "nextlayer": "shift",
-                    "id": "U_003F",
+                    "layer": "shift",
+                    "id": "K_SLASH",
                     "text": "?"
                   },
                   {
                     "nextlayer": "shift",
-                    "id": "U_0021",
+                    "layer": "shift",
+                    "id": "K_1",
                     "text": "!"
                   },
                   {
@@ -1352,21 +1350,17 @@ function Keyboard_naijatype()
                     "text": "-"
                   },
                   {
+                    "layer": "default",
+                    "id": "K_LOPT",
+                    "text": "\u26D2"
+                  },
+                  {
                     "id": "U_2013",
                     "text": "\u2013"
                   },
                   {
                     "id": "U_2014",
                     "text": "\u2014"
-                  },
-                  {
-                    "id": "T_new_594",
-                    "sp": "10"
-                  },
-                  {
-                    "layer": "default",
-                    "id": "K_LOPT",
-                    "text": "\u2BBF"
                   }
                 ]
               },
@@ -1770,6 +1764,11 @@ function Keyboard_naijatype()
                     "text": "-"
                   },
                   {
+                    "layer": "default",
+                    "id": "K_LOPT",
+                    "text": "\u2BBF"
+                  },
+                  {
                     "id": "U_2013",
                     "text": "\u2013"
                   },
@@ -1780,11 +1779,6 @@ function Keyboard_naijatype()
                   {
                     "id": "T_new_635",
                     "sp": "10"
-                  },
-                  {
-                    "layer": "default",
-                    "id": "K_LOPT",
-                    "text": "\u2BBF"
                   }
                 ]
               },
@@ -2204,16 +2198,16 @@ function Keyboard_naijatype()
                     "text": "-"
                   },
                   {
+                    "id": "K_LOPT",
+                    "text": "\u26D2"
+                  },
+                  {
                     "id": "U_2013",
                     "text": "\u2013"
                   },
                   {
                     "id": "U_2014",
                     "text": "\u2014"
-                  },
-                  {
-                    "id": "K_LOPT",
-                    "text": "*Menu*"
                   }
                 ]
               },
@@ -2866,21 +2860,18 @@ function Keyboard_naijatype()
                     "text": "-"
                   },
                   {
+                    "nextlayer": "default",
+                    "layer": "default",
+                    "id": "K_LOPT",
+                    "text": "\u2BBF"
+                  },
+                  {
                     "id": "U_2013",
                     "text": "\u2013"
                   },
                   {
                     "id": "U_2014",
                     "text": "\u2014"
-                  },
-                  {
-                    "id": "T_new_553",
-                    "sp": "10"
-                  },
-                  {
-                    "layer": "default",
-                    "id": "K_LOPT",
-                    "text": "\u2BBF"
                   }
                 ]
               },
@@ -2961,15 +2952,21 @@ function Keyboard_naijatype()
   this.s_UnderDot_23="̣";
   this.s_changeshape_30=KeymanWeb.KLOAD(this.KI,"changeshape","1");
   this.s_canunderline_31="0";
-  this.s37="2";
-  this.s38="1";
-  this.s39="2";
-  this.s40="1";
-  this.s41="0";
-  this.s42="0";
+  this.s37="shift";
+  this.s38="shift";
+  this.s39="shift";
+  this.s40="shift";
+  this.s41="shift";
+  this.s42="shift";
   this.s43="2";
-  this.s44="0";
-  this.s45="1";
+  this.s44="1";
+  this.s45="2";
+  this.s46="1";
+  this.s47="0";
+  this.s48="0";
+  this.s49="2";
+  this.s50="0";
+  this.s51="1";
   this.KVER="14.0.273.0";
   this.gs=function(t,e) {
     return this.g_main_0(t,e);
@@ -2978,498 +2975,542 @@ function Keyboard_naijatype()
     var k=KeymanWeb,r=0,m=0;
     if(k.KKM(e, 0x4000, 0x100)) {
       if(1){
-        r=m=1;   // Line 84
+        r=m=1;   // Line 85
         k.KO(0,t,"a̱");
       }
       else if(1){
-        r=m=1;   // Line 97
+        r=m=1;   // Line 98
         k.KO(0,t,"a̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x101)) {
       if(1){
-        r=m=1;   // Line 85
+        r=m=1;   // Line 86
         k.KO(0,t,"e̱");
       }
       else if(1){
-        r=m=1;   // Line 98
+        r=m=1;   // Line 99
         k.KO(0,t,"e̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x102)) {
       if(1){
-        r=m=1;   // Line 86
+        r=m=1;   // Line 87
         k.KO(0,t,"i̱");
       }
       else if(1){
-        r=m=1;   // Line 99
+        r=m=1;   // Line 100
         k.KO(0,t,"i̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x103)) {
       if(1){
-        r=m=1;   // Line 87
+        r=m=1;   // Line 88
         k.KO(0,t,"o̱");
       }
       else if(1){
-        r=m=1;   // Line 100
+        r=m=1;   // Line 101
         k.KO(0,t,"o̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x104)) {
       if(1){
-        r=m=1;   // Line 88
+        r=m=1;   // Line 89
         k.KO(0,t,"u̱");
       }
       else if(1){
-        r=m=1;   // Line 101
+        r=m=1;   // Line 102
         k.KO(0,t,"u̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x105)) {
       if(1){
-        r=m=1;   // Line 89
+        r=m=1;   // Line 90
         k.KO(0,t,"ạ");
       }
       else if(1){
-        r=m=1;   // Line 102
+        r=m=1;   // Line 103
         k.KO(0,t,"ạ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x106)) {
       if(1){
-        r=m=1;   // Line 90
+        r=m=1;   // Line 91
         k.KO(0,t,"ẹ");
       }
       else if(1){
-        r=m=1;   // Line 103
+        r=m=1;   // Line 104
         k.KO(0,t,"ẹ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x107)) {
       if(1){
-        r=m=1;   // Line 91
+        r=m=1;   // Line 92
         k.KO(0,t,"ị");
       }
       else if(1){
-        r=m=1;   // Line 104
+        r=m=1;   // Line 105
         k.KO(0,t,"ị");
       }
     }
     else if(k.KKM(e, 0x4000, 0x108)) {
       if(1){
-        r=m=1;   // Line 92
+        r=m=1;   // Line 93
         k.KO(0,t,"ọ");
       }
       else if(1){
-        r=m=1;   // Line 105
+        r=m=1;   // Line 106
         k.KO(0,t,"ọ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x109)) {
       if(1){
-        r=m=1;   // Line 93
+        r=m=1;   // Line 94
         k.KO(0,t,"ụ");
       }
       else if(1){
-        r=m=1;   // Line 106
+        r=m=1;   // Line 107
         k.KO(0,t,"ụ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x10A)) {
       if(1){
-        r=m=1;   // Line 94
+        r=m=1;   // Line 95
         k.KO(0,t,"ṇ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x10B)) {
       if(1){
-        r=m=1;   // Line 95
+        r=m=1;   // Line 96
         k.KO(0,t,"ṉ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x10C)) {
       if(1){
-        r=m=1;   // Line 96
+        r=m=1;   // Line 97
         k.KO(0,t,"ḥ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x10D)) {
       if(1){
-        r=m=1;   // Line 107
+        r=m=1;   // Line 108
         k.KO(0,t,"A̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x10E)) {
       if(1){
-        r=m=1;   // Line 108
+        r=m=1;   // Line 109
         k.KO(0,t,"E̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x10F)) {
       if(1){
-        r=m=1;   // Line 109
+        r=m=1;   // Line 110
         k.KO(0,t,"I̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x110)) {
       if(1){
-        r=m=1;   // Line 110
+        r=m=1;   // Line 111
         k.KO(0,t,"O̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x111)) {
       if(1){
-        r=m=1;   // Line 111
+        r=m=1;   // Line 112
         k.KO(0,t,"U̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x112)) {
       if(1){
-        r=m=1;   // Line 112
+        r=m=1;   // Line 113
         k.KO(0,t,"Ạ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x113)) {
       if(1){
-        r=m=1;   // Line 113
+        r=m=1;   // Line 114
         k.KO(0,t,"Ẹ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x114)) {
       if(1){
-        r=m=1;   // Line 114
+        r=m=1;   // Line 115
         k.KO(0,t,"Ị");
       }
     }
     else if(k.KKM(e, 0x4000, 0x115)) {
       if(1){
-        r=m=1;   // Line 115
+        r=m=1;   // Line 116
         k.KO(0,t,"Ọ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x116)) {
       if(1){
-        r=m=1;   // Line 116
+        r=m=1;   // Line 117
         k.KO(0,t,"Ụ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x117)) {
       if(1){
-        r=m=1;   // Line 117
+        r=m=1;   // Line 118
         k.KO(0,t,"Ṇ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x118)) {
       if(1){
-        r=m=1;   // Line 118
+        r=m=1;   // Line 119
         k.KO(0,t,"Ṉ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x119)) {
       if(1){
-        r=m=1;   // Line 119
+        r=m=1;   // Line 120
         k.KO(0,t,"Ḥ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x11A)) {
       if(1){
-        r=m=1;   // Line 120
+        r=m=1;   // Line 121
         k.KO(0,t,"n̄");
       }
     }
     else if(k.KKM(e, 0x4000, 0x11B)) {
       if(1){
-        r=m=1;   // Line 121
+        r=m=1;   // Line 122
         k.KO(0,t,"N̄");
       }
     }
     else if(k.KKM(e, 0x4000, 0x11C)) {
       if(1){
-        r=m=1;   // Line 122
+        r=m=1;   // Line 123
         k.KO(0,t,"q́");
       }
     }
     else if(k.KKM(e, 0x4000, 0x11D)) {
       if(1){
-        r=m=1;   // Line 123
+        r=m=1;   // Line 124
         k.KO(0,t,"q̀");
       }
     }
     else if(k.KKM(e, 0x4000, 0x11E)) {
       if(1){
-        r=m=1;   // Line 124
+        r=m=1;   // Line 125
         k.KO(0,t,"q̃");
       }
     }
     else if(k.KKM(e, 0x4000, 0x11F)) {
       if(1){
-        r=m=1;   // Line 125
+        r=m=1;   // Line 126
         k.KO(0,t,"Q́");
       }
     }
     else if(k.KKM(e, 0x4000, 0x120)) {
       if(1){
-        r=m=1;   // Line 126
+        r=m=1;   // Line 127
         k.KO(0,t,"Q̀");
       }
     }
     else if(k.KKM(e, 0x4000, 0x121)) {
       if(1){
-        r=m=1;   // Line 127
+        r=m=1;   // Line 128
         k.KO(0,t,"Q̃");
       }
     }
     else if(k.KKM(e, 0x4000, 0x122)) {
       if(1){
-        r=m=1;   // Line 128
+        r=m=1;   // Line 129
         k.KO(0,t,". ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x20)) {
+      if(k.KCM(1,t," ",1)){
+        r=m=1;   // Line 156
+        k.KO(1,t,". ");
+        k.KSETS(33,this.s37,t);
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x31)) {
+      if(k.KCM(1,t," ",1)){
+        r=m=1;   // Line 160
+        k.KO(1,t,"! ");
+        k.KSETS(33,this.s40,t);
+      }
+      else if(k.KCM(1,t," ",1)){
+        r=m=1;   // Line 162
+        k.KO(1,t,"! ");
+        k.KSETS(33,this.s42,t);
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0xBC)) {
+      if(k.KCM(1,t," ",1)){
+        r=m=1;   // Line 158
+        k.KO(1,t,", ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0xBE)) {
+      if(k.KCM(1,t," ",1)){
+        r=m=1;   // Line 157
+        k.KO(1,t,". ");
+        k.KSETS(33,this.s38,t);
       }
     }
     else if(k.KKM(e, 0x4000, 0xBA)) {
       if(k.KCM(1,t,"̱",1)){
-        r=m=1;   // Line 190
+        r=m=1;   // Line 201
         k.KO(1,t,"̣");
-        this.s_changeshape_30=this.s37;
+        this.s_changeshape_30=this.s43;
       }
       else if(k.KCM(1,t,"̣",1)){
-        r=m=1;   // Line 192
+        r=m=1;   // Line 203
         k.KO(1,t,"");
-        this.s_changeshape_30=this.s38;
+        this.s_changeshape_30=this.s44;
       }
-      else if(this.s_changeshape_30===this.s39){
-        r=m=1;   // Line 196
+      else if(this.s_changeshape_30===this.s45){
+        r=m=1;   // Line 207
         r=this.g_changeShapeRules2_1(t,e);
       }
-      else if(this.s_changeshape_30===this.s40){
-        r=m=1;   // Line 197
+      else if(this.s_changeshape_30===this.s46){
+        r=m=1;   // Line 208
         r=this.g_changeShapeRules_2(t,e);
       }
-      else if(this.s_changeshape_30===this.s41){
-        r=m=1;   // Line 198
+      else if(this.s_changeshape_30===this.s47){
+        r=m=1;   // Line 209
         r=this.g_underlineRules_4(t,e);
       }
       else if(1){
-        r=m=1;   // Line 182
+        r=m=1;   // Line 193
         k.KO(0,t,";");
       }
     }
     else if(k.KKM(e, 0x4040, 0xBA)) {
       if(1){
-        r=m=1;   // Line 83
+        r=m=1;   // Line 84
         k.KO(0,t,";");
       }
       else if(1){
-        r=m=1;   // Line 177
+        r=m=1;   // Line 188
         k.KO(0,t,";");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0xBF)) {
+      if(k.KCM(1,t," ",1)){
+        r=m=1;   // Line 159
+        k.KO(1,t,"? ");
+        k.KSETS(33,this.s39,t);
+      }
+      else if(k.KCM(1,t," ",1)){
+        r=m=1;   // Line 161
+        k.KO(1,t,"? ");
+        k.KSETS(33,this.s41,t);
       }
     }
     else if(k.KKM(e, 0x4070, 0x41)) {
       if(1){
-        r=m=1;   // Line 81
+        r=m=1;   // Line 82
         k.KO(0,t,"Ə");
       }
     }
     else if(k.KKM(e, 0x4070, 0x42)) {
       if(1){
-        r=m=1;   // Line 74
+        r=m=1;   // Line 75
         k.KO(0,t,"Ɓ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x44)) {
       if(1){
-        r=m=1;   // Line 75
+        r=m=1;   // Line 76
         k.KO(0,t,"Ɗ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x45)) {
       if(1){
-        r=m=1;   // Line 80
+        r=m=1;   // Line 81
         k.KO(0,t,"Ɛ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x49)) {
       if(1){
-        r=m=1;   // Line 78
+        r=m=1;   // Line 79
         k.KO(0,t,"Ɨ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x4B)) {
       if(1){
-        r=m=1;   // Line 73
+        r=m=1;   // Line 74
         k.KO(0,t,"Ƙ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x4E)) {
       if(1){
-        r=m=1;   // Line 76
+        r=m=1;   // Line 77
         k.KO(0,t,"Ŋ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x4F)) {
       if(1){
-        r=m=1;   // Line 77
+        r=m=1;   // Line 78
         k.KO(0,t,"Ɔ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x55)) {
       if(1){
-        r=m=1;   // Line 79
+        r=m=1;   // Line 80
         k.KO(0,t,"Ʊ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x59)) {
       if(1){
-        r=m=1;   // Line 72
+        r=m=1;   // Line 73
         k.KO(0,t,"Ƴ");
       }
     }
     else if(k.KKM(e, 0x4000, 0xC0)) {
       if(k.KA(0,k.KC(1,1,t),this.s_LtrsWithTone_14)){
-        r=m=1;   // Line 133
+        r=m=1;   // Line 134
         k.KO(-1,t,"́");
       }
       else if(k.KCM(1,t,"́",1)){
-        r=m=1;   // Line 134
+        r=m=1;   // Line 135
         k.KO(1,t,"̀");
       }
       else if(k.KCM(1,t,"̀",1)){
-        r=m=1;   // Line 135
+        r=m=1;   // Line 136
         k.KO(1,t,"̂");
       }
       else if(k.KCM(1,t,"̂",1)){
-        r=m=1;   // Line 136
+        r=m=1;   // Line 137
         k.KO(1,t,"̌");
       }
       else if(k.KCM(1,t,"̌",1)){
-        r=m=1;   // Line 137
+        r=m=1;   // Line 138
         k.KO(1,t,"̄");
       }
       else if(k.KCM(1,t,"̄",1)){
-        r=m=1;   // Line 138
+        r=m=1;   // Line 139
         k.KO(1,t,"");
       }
       else if(k.KCM(1,t,"̃",1)){
-        r=m=1;   // Line 139
+        r=m=1;   // Line 140
         k.KO(-1,t,"́");
       }
       else if(1){
-        r=m=1;   // Line 183
+        r=m=1;   // Line 194
         k.KO(0,t,"`");
       }
     }
     else if(k.KKM(e, 0x4040, 0xC0)) {
       if(1){
-        r=m=1;   // Line 178
+        r=m=1;   // Line 189
         k.KO(0,t,"`");
       }
     }
     else if(k.KKM(e, 0x4060, 0x41)) {
       if(1){
-        r=m=1;   // Line 71
+        r=m=1;   // Line 72
         k.KO(0,t,"ə");
       }
     }
     else if(k.KKM(e, 0x4060, 0x42)) {
       if(1){
-        r=m=1;   // Line 64
+        r=m=1;   // Line 65
         k.KO(0,t,"ɓ");
       }
     }
     else if(k.KKM(e, 0x4060, 0x44)) {
       if(1){
-        r=m=1;   // Line 65
+        r=m=1;   // Line 66
         k.KO(0,t,"ɗ");
       }
     }
     else if(k.KKM(e, 0x4060, 0x45)) {
       if(1){
-        r=m=1;   // Line 70
+        r=m=1;   // Line 71
         k.KO(0,t,"ɛ");
       }
     }
     else if(k.KKM(e, 0x4060, 0x49)) {
       if(1){
-        r=m=1;   // Line 68
+        r=m=1;   // Line 69
         k.KO(0,t,"ɨ");
       }
     }
     else if(k.KKM(e, 0x4060, 0x4B)) {
       if(1){
-        r=m=1;   // Line 63
+        r=m=1;   // Line 64
         k.KO(0,t,"ƙ");
       }
     }
     else if(k.KKM(e, 0x4060, 0x4E)) {
       if(1){
-        r=m=1;   // Line 66
+        r=m=1;   // Line 67
         k.KO(0,t,"ŋ");
       }
     }
     else if(k.KKM(e, 0x4060, 0x4F)) {
       if(1){
-        r=m=1;   // Line 67
+        r=m=1;   // Line 68
         k.KO(0,t,"ɔ");
       }
     }
     else if(k.KKM(e, 0x4060, 0x55)) {
       if(1){
-        r=m=1;   // Line 69
+        r=m=1;   // Line 70
         k.KO(0,t,"ʊ");
       }
     }
     else if(k.KKM(e, 0x4060, 0x59)) {
       if(1){
-        r=m=1;   // Line 62
+        r=m=1;   // Line 63
         k.KO(0,t,"ƴ");
       }
     }
     else if(k.KKM(e, 0x4010, 0xC0)) {
       if(k.KCM(2,t,"̃",1)&&k.KA(1,k.KC(1,1,t),this.s_ToneSubset_16)){
-        r=m=1;   // Line 146
+        r=m=1;   // Line 147
         k.KIO(2,this.s_ToneSubset_16,2,t);
       }
       else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal_15)&&k.KCM(1,t,"̀",1)){
-        r=m=1;   // Line 147
+        r=m=1;   // Line 148
         k.KIO(2,this.s_LtrsWithNasal_15,1,t);
         k.KO(-1,t,"̃̀");
       }
       else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal_15)&&k.KCM(1,t,"́",1)){
-        r=m=1;   // Line 148
+        r=m=1;   // Line 149
         k.KIO(2,this.s_LtrsWithNasal_15,1,t);
         k.KO(-1,t,"̃́");
       }
       else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal_15)&&k.KCM(1,t,"̂",1)){
-        r=m=1;   // Line 149
+        r=m=1;   // Line 150
         k.KIO(2,this.s_LtrsWithNasal_15,1,t);
         k.KO(-1,t,"̃̂");
       }
       else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal_15)&&k.KCM(1,t,"̌",1)){
-        r=m=1;   // Line 150
+        r=m=1;   // Line 151
         k.KIO(2,this.s_LtrsWithNasal_15,1,t);
         k.KO(-1,t,"̃̌");
       }
       else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal_15)&&k.KCM(1,t,"̄",1)){
-        r=m=1;   // Line 151
+        r=m=1;   // Line 152
         k.KIO(2,this.s_LtrsWithNasal_15,1,t);
         k.KO(-1,t,"̃̄");
       }
       else if(k.KA(0,k.KC(1,1,t),this.s_LtrsWithNasal_15)){
-        r=m=1;   // Line 144
+        r=m=1;   // Line 145
         k.KO(-1,t,"̃");
       }
       else if(k.KCM(1,t,"̃",1)){
-        r=m=1;   // Line 145
+        r=m=1;   // Line 146
         k.KO(1,t,"");
       }
       else if(1){
-        r=m=1;   // Line 184
+        r=m=1;   // Line 195
         k.KO(0,t,"~");
       }
     }
     else if(k.KKM(e, 0x4050, 0xC0)) {
       if(1){
-        r=m=1;   // Line 179
+        r=m=1;   // Line 190
         k.KO(0,t,"~");
       }
     }
@@ -3479,10 +3520,10 @@ function Keyboard_naijatype()
     var k=KeymanWeb,r=0,m=0;
     if(k.KKM(e, 0x4000, 0xBA)) {
       if(k.KA(0,k.KC(1,1,t),this.s_LtrsCURRENT_12)){
-        r=m=1;   // Line 203
+        r=m=1;   // Line 214
         k.KIO(1,this.s_LtrsCHANGED_13,1,t);
         k.KO(-1,t,"̱");
-        this.s_changeshape_30=this.s42;
+        this.s_changeshape_30=this.s48;
       }
     }
     return r;
@@ -3491,9 +3532,9 @@ function Keyboard_naijatype()
     var k=KeymanWeb,r=0,m=0;
     if(k.KKM(e, 0x4000, 0xBA)) {
       if(k.KA(0,k.KC(1,1,t),this.s_LtrsCURRENT_12)){
-        r=m=1;   // Line 206
+        r=m=1;   // Line 217
         k.KIO(1,this.s_LtrsCHANGED_13,1,t);
-        this.s_changeshape_30=this.s43;
+        this.s_changeshape_30=this.s49;
       }
     }
     return r;
@@ -3502,10 +3543,10 @@ function Keyboard_naijatype()
     var k=KeymanWeb,r=0,m=0;
     if(k.KKM(e, 0x4000, 0xBA)) {
       if(k.KA(0,k.KC(1,1,t),this.s_LtrsCURRENT_12)){
-        r=m=1;   // Line 209
+        r=m=1;   // Line 220
         k.KIO(1,this.s_LtrsCHANGED_13,1,t);
         k.KO(-1,t,"̱");
-        this.s_changeshape_30=this.s44;
+        this.s_changeshape_30=this.s50;
       }
     }
     return r;
@@ -3514,9 +3555,9 @@ function Keyboard_naijatype()
     var k=KeymanWeb,r=0,m=0;
     if(k.KKM(e, 0x4000, 0xBA)) {
       if(k.KA(0,k.KC(1,1,t),this.s_LtrsCURRENT_12)){
-        r=m=1;   // Line 212
+        r=m=1;   // Line 223
         k.KO(-1,t,"̱");
-        this.s_changeshape_30=this.s45;
+        this.s_changeshape_30=this.s51;
       }
     }
     return r;

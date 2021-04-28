@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KeymanDeveloperProjectUser>
   <ViewState>
-    <tab>3</tab>
+    <tab>4</tab>
     <showhelp>0</showhelp>
     <path>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\naijatype.kpj</path>
     <file ID="id_MRU0" Expanded="1"/>
@@ -41,6 +41,14 @@
       </IDEState>
     </FileState>
     <FileState>
+      <ID>id_b9136d79862887d47d7938f5e38b8bbf</ID>
+      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\LexicalModels\david_rowbory.en.british_english\source\david_rowbory.en.british_english.model.kps</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
       <ID>id_2b2d7c0eba1607cc377930feb5914647</ID>
       <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\naijatype.ico</FullPath>
     </FileState>
@@ -73,14 +81,6 @@
       <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\AndikaAfr-R.ttf</FullPath>
     </FileState>
     <FileState>
-      <ID>id_b9136d79862887d47d7938f5e38b8bbf</ID>
-      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\LexicalModels\david_rowbory.en.british_english\source\david_rowbory.en.british_english.model.kps</FullPath>
-      <IDEState>
-        <CodeFont>Consolas|-9|   |0</CodeFont>
-        <CharFont>Consolas|-9|   |0</CharFont>
-      </IDEState>
-    </FileState>
-    <FileState>
       <ID>id_8e366c66b0e32b0a73f575da935282f1</ID>
       <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\LexicalModels\david_rowbory.en.british_english\source\..\build\david_rowbory.en.british_english.model.js</FullPath>
     </FileState>
@@ -96,21 +96,21 @@
   <MRU>
     <File>
       <ID>id_MRU0</ID>
-      <Filename>david_rowbory.en.british_english.model.kps</Filename>
-      <FileType>.kps</FileType>
-      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\LexicalModels\david_rowbory.en.british_english\source\david_rowbory.en.british_english.model.kps</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU1</ID>
       <Filename>naijatype.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\naijatype.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU2</ID>
+      <ID>id_MRU1</ID>
       <Filename>naijatype.kps</Filename>
       <FileType>.kps</FileType>
       <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\naijatype\source\naijatype.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU2</ID>
+      <Filename>david_rowbory.en.british_english.model.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>\\vmware-host\Shared Folders\Shared Docs\KeyMan Dev\LexicalModels\david_rowbory.en.british_english\source\david_rowbory.en.british_english.model.kps</FullPath>
     </File>
     <File>
       <ID>id_MRU3</ID>

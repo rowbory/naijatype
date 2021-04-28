@@ -12,7 +12,7 @@
       <ID>id_c0b0912b28fbdf582965b55bed5b6e8f</ID>
       <Filename>naijatype.kmn</Filename>
       <Filepath>naijatype.kmn</Filepath>
-      <FileVersion>15</FileVersion>
+      <FileVersion>16</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>Naija Type</Name>
@@ -37,6 +37,18 @@
       <Filepath>naijatype.kmp</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kmp</FileType>
+    </File>
+    <File>
+      <ID>id_b9136d79862887d47d7938f5e38b8bbf</ID>
+      <Filename>david_rowbory.en.british_english.model.kps</Filename>
+      <Filepath>..\..\LexicalModels\david_rowbory.en.british_english\source\david_rowbory.en.british_english.model.kps</Filepath>
+      <FileVersion>1.0</FileVersion>
+      <FileType>.kps</FileType>
+      <Details>
+        <Name>British English</Name>
+        <Copyright>© 2021 David Rowbory</Copyright>
+        <Version>1.0</Version>
+      </Details>
     </File>
     <File>
       <ID>id_2b2d7c0eba1607cc377930feb5914647</ID>
@@ -101,18 +113,6 @@
       <FileVersion></FileVersion>
       <FileType>.ttf</FileType>
       <ParentFileID>id_8d2a91c4e7a6ac44bafd3f63e2ba877b</ParentFileID>
-    </File>
-    <File>
-      <ID>id_b9136d79862887d47d7938f5e38b8bbf</ID>
-      <Filename>david_rowbory.en.british_english.model.kps</Filename>
-      <Filepath>..\..\LexicalModels\david_rowbory.en.british_english\source\david_rowbory.en.british_english.model.kps</Filepath>
-      <FileVersion>1.0</FileVersion>
-      <FileType>.kps</FileType>
-      <Details>
-        <Name>British English</Name>
-        <Copyright>© 2021 David Rowbory</Copyright>
-        <Version>1.0</Version>
-      </Details>
     </File>
     <File>
       <ID>id_8e366c66b0e32b0a73f575da935282f1</ID>
