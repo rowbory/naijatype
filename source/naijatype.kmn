@@ -2,10 +2,14 @@
 c Touch keyboard uses long press on related letters.
 c Comma to left of space bar + Emoji. Removed capitals on long press default keyboard.
 c Note we need to output K_ keys on punctuation with appropriate modifier keys held down to make sure the key runs through the Keyman Layout rules and converts space + ? into ? + space. This makes it handle the automatic space put in at the end of predictive texting better.
+c 
+c Added small capital I.
+c Restored the globe language menu but moved it left.
+c Custom CSS styling to try to match the less cluttered Google look.
 store(&VERSION) '9.0'
 store(&NAME) 'Naija Type'
 store(&TARGETS) 'any windows macosx linux web iphone ipad androidphone androidtablet mobile desktop tablet'
-store(&ETHNOLOGUECODE) 'eng hau ibo yor ahs png'
+store(&ETHNOLOGUECODE) 'eng hau ibo yor ahs png fuv'
 store(&WINDOWSLANGUAGES) 'x0468 x0470 x046A'
 store(&LANGUAGE) 'x0468'
 store(&LAYOUTFILE) 'naijatype-layout.js'
@@ -54,7 +58,8 @@ store(&BITMAP) 'naijatype.ico'
 store(&KMW_HELPFILE) 'naijatype-help.htm'
 store(&MESSAGE) 'Inspired by prior work by Heidi Rosendall and Andy Kellogg'
 store(&KMW_HELPTEXT) 'Type common Nigerian language letters and the ₦ sign'
-store(&KEYBOARDVERSION) '16'
+store(&KEYBOARDVERSION) '20'
+store(&KMW_EMBEDCSS) 'naijatype.css'
 
 begin Unicode > use(main)
 
@@ -160,6 +165,10 @@ U+0020 + U+003f > '? ' layer("shift")
 U+0020 + U+0021 > '! ' layer("shift")
 U+0020 + '?' > '? ' layer("shift")
 U+0020 + '!' > '! ' layer("shift")
+
+c Todo: how to change shift layer when we backspace, eg space-space then backspace backspace.
+c This should unshift.
+c But when we backspace to the start of a sentence (context ./?/!) it should auto shift.
 
 c Change a Letter from under Tone and Nasal
 c NOTE: These need to be hard-coded since Keyman
