@@ -6,10 +6,15 @@ c
 c Added small capital I.
 c Restored the globe language menu but moved it left.
 c Custom CSS styling to try to match the less cluttered Google look.
+c Added / to punctuation. Stopped . doing shift until after a space.
+c Added more language codes
+c Fixed JDM issues: not changing to default after some longpress shift letters.
+c Styling for iOS added.
+c v26 Added nasal vowels in touch
 store(&VERSION) '9.0'
 store(&NAME) 'Naija Type'
 store(&TARGETS) 'any windows macosx linux web iphone ipad androidphone androidtablet mobile desktop tablet'
-store(&ETHNOLOGUECODE) 'eng hau ibo yor ahs png fuv'
+store(&ETHNOLOGUECODE) 'eng hau ibo yor ahs png fuv ldb yes bqv'
 store(&WINDOWSLANGUAGES) 'x0468 x0470 x046A'
 store(&LANGUAGE) 'x0468'
 store(&LAYOUTFILE) 'naijatype-layout.js'
@@ -58,7 +63,7 @@ store(&BITMAP) 'naijatype.ico'
 store(&KMW_HELPFILE) 'naijatype-help.htm'
 store(&MESSAGE) 'Inspired by prior work by Heidi Rosendall and Andy Kellogg'
 store(&KMW_HELPTEXT) 'Type common Nigerian language letters and the ₦ sign'
-store(&KEYBOARDVERSION) '20'
+store(&KEYBOARDVERSION) '26'
 store(&KMW_EMBEDCSS) 'naijatype.css'
 
 begin Unicode > use(main)
@@ -133,6 +138,27 @@ c Use alt+semicolon to get a real semicolon
 + [T_ucQ_nasal] > 'Q' U+0303
 + [T_end_sentence] > '. '
 
+c nasals from touch layout
++ [T_a_nasal] > 'a' U+0303
++ [T_A_nasal] > 'A' U+0303
++ [T_a2_nasal] > 'ə' U+0303
++ [T_A2_nasal] > 'Ə' U+0303
++ [T_e_nasal] > 'e' U+0303
++ [T_E_nasal] > 'E' U+0303
++ [T_e2_nasal] > 'ɛ' U+0303
++ [T_E2_nasal] > 'Ɛ' U+0303
++ [T_i_nasal] > 'i' U+0303
++ [T_I_nasal] > 'I' U+0303
++ [T_i2_nasal] > 'ɨ' U+0303
++ [T_I2_nasal] > 'Ɨ' U+0303
++ [T_u_nasal] > 'u' U+0303
++ [T_U_nasal] > 'U' U+0303
++ [T_o_nasal] > 'o' U+0303
++ [T_O_nasal] > 'O' U+0303
++ [T_o2_nasal] > 'ɔ' U+0303
++ [T_O2_nasal] > 'Ɔ' U+0303
+
+
 c Moved letter substitution from here, since it needs to happen last
 
 c Tone Rota
@@ -165,10 +191,17 @@ U+0020 + U+003f > '? ' layer("shift")
 U+0020 + U+0021 > '! ' layer("shift")
 U+0020 + '?' > '? ' layer("shift")
 U+0020 + '!' > '! ' layer("shift")
+'.' + U+0020 > '. ' layer("shift") c For touch, so we can avoid switching to shift during URLs 
+'.' + [K_ENTER] > '.' U+0010 layer("shift") 
 
 c Todo: how to change shift layer when we backspace, eg space-space then backspace backspace.
 c This should unshift.
 c But when we backspace to the start of a sentence (context ./?/!) it should auto shift.
+
+c Emojis
++ [T_thumbs_up] > U+1F44D U+1F3FE
++ [T_hands_together] > U+1F64F U+1F3FE
+
 
 c Change a Letter from under Tone and Nasal
 c NOTE: These need to be hard-coded since Keyman
