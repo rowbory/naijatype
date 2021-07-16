@@ -19,7 +19,7 @@ font-size: 1.2em;
     background: #ccc;
 }
 .phone.android .kmw-key.kmw-key-default.kmw-spacebar, .phone.ios .kmw-key.kmw-key-default.kmw-spacebar {
-    border: 1pt solid white; 
+    border: 1pt solid white;
     border-bottom: none;
 }
 
@@ -42,7 +42,7 @@ font-size: 1.2em;
 }
 
 .phone.android #kmw-popup-keys, .phone.ios #kmw-popup-keys {
-    background: #ccc;
+    background: #fff;
 }
 
 .phone.android #kmw-popup-keys .kmw-key.kmw-key-default, #kmw-popup-keys .kmw-key.kmw-key-default {
@@ -50,11 +50,11 @@ background: #eee;
 }
 
 .phone.android #kmw-popup-keys .kmw-key.kmw-key-default.kmw-key-touched, #kmw-popup-keys .kmw-key.kmw-key-default.kmw-key-touched {
-background-color: #9f9;
+background-color: #9e9;
 }
 
 .phone.android .kmw-key-touched,  .kmw-key-touched {
-background-color: #9f9;
+background-color: #9e9;
 }
 
 .phone.android #kmw-popup-keys .kmw-key-square-ex .kmw-key,  #kmw-popup-keys .kmw-key-square-ex .kmw-key {

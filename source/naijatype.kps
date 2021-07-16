@@ -8,7 +8,7 @@
     <ExecuteProgram></ExecuteProgram>
     <ReadMeFile>doc\readme.htm</ReadMeFile>
     <GraphicFile>icons and pictures\nigeria unified image.jpg</GraphicFile>
-    <MSIFileName></MSIFileName>
+    <MSIFileName>\\vmware-host\Shared Folders\Downloads 2\keymandesktop.msi</MSIFileName>
     <MSIOptions></MSIOptions>
     <FollowKeyboardVersion/>
   </Options>
@@ -71,7 +71,7 @@
     <Keyboard>
       <Name>Naija Type</Name>
       <ID>naijatype</ID>
-      <Version>28</Version>
+      <Version>29</Version>
       <OSKFont>AndikaAfr-R.ttf</OSKFont>
       <DisplayFont>AndikaAfr-R.ttf</DisplayFont>
       <Languages>
