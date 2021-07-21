@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KeymanDeveloperProject>
   <Options>
-    <BuildPath></BuildPath>
+    <BuildPath>$PROJECTPATH\..\..\LexicalModels\build</BuildPath>
     <CompilerWarningsAsErrors>False</CompilerWarningsAsErrors>
     <WarnDeprecatedCode>True</WarnDeprecatedCode>
     <CheckFilenameConventions>False</CheckFilenameConventions>
@@ -12,7 +12,7 @@
       <ID>id_c0b0912b28fbdf582965b55bed5b6e8f</ID>
       <Filename>naijatype.kmn</Filename>
       <Filepath>naijatype.kmn</Filepath>
-      <FileVersion>29</FileVersion>
+      <FileVersion>30</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>Naija Type</Name>
@@ -91,27 +91,11 @@
       <ParentFileID>id_8d2a91c4e7a6ac44bafd3f63e2ba877b</ParentFileID>
     </File>
     <File>
-      <ID>id_ceff86438cea4be49416029ca6c895eb</ID>
+      <ID>id_0a1b09bec22a3a370750298a2accfe23</ID>
       <Filename>naijatype.ico</Filename>
-      <Filepath>icons and pictures\naijatype.ico</Filepath>
+      <Filepath>icons_pictures\naijatype.ico</Filepath>
       <FileVersion></FileVersion>
       <FileType>.ico</FileType>
-      <ParentFileID>id_8d2a91c4e7a6ac44bafd3f63e2ba877b</ParentFileID>
-    </File>
-    <File>
-      <ID>id_974659eb9574972c4f4b05f69f0f2a8e</ID>
-      <Filename>nigeria unified image 140x250.png</Filename>
-      <Filepath>icons and pictures\nigeria unified image 140x250.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_8d2a91c4e7a6ac44bafd3f63e2ba877b</ParentFileID>
-    </File>
-    <File>
-      <ID>id_0d5a8332b0314676a4446ca9b7c31e6e</ID>
-      <Filename>nigeria unified image.jpg</Filename>
-      <Filepath>icons and pictures\nigeria unified image.jpg</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.jpg</FileType>
       <ParentFileID>id_8d2a91c4e7a6ac44bafd3f63e2ba877b</ParentFileID>
     </File>
     <File>
@@ -136,6 +120,14 @@
       <Filepath>..\..\LexicalModels\build\naijatype.js</Filepath>
       <FileVersion></FileVersion>
       <FileType>.js</FileType>
+      <ParentFileID>id_8d2a91c4e7a6ac44bafd3f63e2ba877b</ParentFileID>
+    </File>
+    <File>
+      <ID>id_c8ac0178a26ae295c44b5dc15fc35ccc</ID>
+      <Filename>naijatype_400.jpg</Filename>
+      <Filepath>..\promotional\naijatype_400.jpg</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.jpg</FileType>
       <ParentFileID>id_8d2a91c4e7a6ac44bafd3f63e2ba877b</ParentFileID>
     </File>
   </Files>
