@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>14.0.277.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>14.0.283.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
@@ -42,29 +42,35 @@
       <FileType>.ttf</FileType>
     </File>
     <File>
-      <Name>..\..\LexicalModels\build\naijatype.kmx</Name>
+      <Name>icons_pictures\naijatype_400.jpg</Name>
+      <Description>File naijatype_400.jpg</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.jpg</FileType>
+    </File>
+    <File>
+      <Name>welcome\welcome.htm</Name>
+      <Description>File welcome.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>Z:\Shared Docs\KeyMan Dev\LexicalModels\build\naijatype.kmx</Name>
       <Description>Keyboard Naija Type</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.kmx</FileType>
     </File>
     <File>
-      <Name>..\..\LexicalModels\build\naijatype.js</Name>
+      <Name>Z:\Shared Docs\KeyMan Dev\LexicalModels\build\naijatype.js</Name>
       <Description>File naijatype.js</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.js</FileType>
-    </File>
-    <File>
-      <Name>..\promotional\naijatype_400.jpg</Name>
-      <Description>File naijatype_400.jpg</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.jpg</FileType>
     </File>
   </Files>
   <Keyboards>
     <Keyboard>
       <Name>Naija Type</Name>
       <ID>naijatype</ID>
-      <Version>30</Version>
+      <Version>31</Version>
       <OSKFont>AndikaAfr-R.ttf</OSKFont>
       <DisplayFont>AndikaAfr-R.ttf</DisplayFont>
       <Languages>

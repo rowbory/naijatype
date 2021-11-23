@@ -580,6 +580,10 @@
                   {
                     "text": ">",
                     "id": "U_003E"
+                  },
+                  {
+                    "text": "@",
+                    "id": "U_0040"
                   }
                 ]
               },
@@ -645,15 +649,13 @@
                   },
                   {
                     "text": "?",
-                    "id": "K_SLASH",
-                    "nextlayer": "shift",
-                    "layer": "shift"
+                    "id": "U_003F",
+                    "nextlayer": "shift"
                   },
                   {
                     "text": "!",
-                    "id": "K_1",
-                    "nextlayer": "shift",
-                    "layer": "shift"
+                    "id": "U_0021",
+                    "nextlayer": "shift"
                   },
                   {
                     "text": "…",
@@ -1829,7 +1831,6 @@
                 "text": ".",
                 "pad": "3",
                 "width": "",
-                "nextlayer": "shift",
                 "sk": [
                   {
                     "text": "\"",
