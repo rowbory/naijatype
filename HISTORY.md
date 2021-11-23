@@ -1,6 +1,12 @@
 Naijatype Keyboard Change History
 =======================
 
+31-33 (23 Nov 2021)
+-----------------
+
+* Fixed ? and ! keys that were not outputting correctly.
+* Updated keyboard version to match Google App version.
+
 30 (21 July 2021)
 -----------------
 
