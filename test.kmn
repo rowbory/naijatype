@@ -1,0 +1,17 @@
+﻿store(&NAME) 'test'
+store(&TARGETS) 'any windows macosx linux web iphone ipad androidphone androidtablet mobile desktop tablet'
+store(bFlag) '0'
+begin Unicode > use(main)
+
+group(main) using keys
+
+if(bFlag='1')+'z'> '***'
+if(bFlag!='1')'='+'='> set(bFlag='1') beep
+c Test. Type: a==z==a==z
+c Should get: a***==a==***
+c Does that on Web tester but on Windows 15.0.268 gives: azaz (with 2 beeps when == typed)
+
+
+c Test. Type aaa==aaa==aaa==aaa aaa==
+c Should end up with: aaaᴀᴀᴀaaaᴀᴀᴀ aaa^
+c Works on Web tester but not on Windows 15.0.268
