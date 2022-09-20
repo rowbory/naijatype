@@ -119,7 +119,7 @@
     <Keyboard>
       <Name>Naija Type</Name>
       <ID>naijatype</ID>
-      <Version>38</Version>
+      <Version>40</Version>
       <OSKFont>AndikaAfr-R.ttf</OSKFont>
       <DisplayFont>AndikaAfr-R.ttf</DisplayFont>
       <Languages>
@@ -146,8 +146,11 @@
         <Language ID="yo">Yoruba</Language>
         <Language ID="ig">Igbo</Language>
         <Language ID="cdr">Kamuku</Language>
-        <Language ID="dud">Dukawa</Language>
         <Language ID="uss">es-Saare</Language>
+        <Language ID="en-US">English (United States)</Language>
+        <Language ID="en-UK">English (UK)</Language>
+        <Language ID="en-GB">English (United Kingdom)</Language>
+        <Language ID="en-NG">English (Nigeria)</Language>
       </Languages>
     </Keyboard>
   </Keyboards>
