@@ -32,10 +32,10 @@ store(&ETHNOLOGUECODE) 'eng hau ibo yor ahs png fuv ldb yes bqv uss uth cdr dri 
 store(&WINDOWSLANGUAGES) 'x0468 x0470 x046A x0809 x0409'
 store(&LANGUAGE) 'x0468'
 store(&LAYOUTFILE) 'naijatype.keyman-touch-layout'
-store(&COPYRIGHT) '© David Rowbory 2022 Distribute under MIT licence'
+store(&COPYRIGHT) '© 2022 David Rowbory'
 store(&BITMAP) 'icons_pictures\naijatype.ico'
 store(&KMW_HELPFILE) 'naijatype-help.htm'
-store(&MESSAGE) 'Inspired by prior work by Heidi Rosendall and Andy Kellogg'
+store(&MESSAGE) 'Distribute under MIT Licence'
 store(&KMW_HELPTEXT) 'Type common Nigerian language letters and the ₦ sign'
 store(&KMW_EMBEDCSS) 'naijatype.css'
 

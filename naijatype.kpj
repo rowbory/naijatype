@@ -16,8 +16,8 @@
       <FileType>.kmn</FileType>
       <Details>
         <Name>Naija Type</Name>
-        <Copyright>© David Rowbory 2022 Distribute under MIT licence</Copyright>
-        <Message>Inspired by prior work by Heidi Rosendall and Andy Kellogg</Message>
+        <Copyright>© 2022 David Rowbory</Copyright>
+        <Message>Distribute under MIT Licence</Message>
       </Details>
     </File>
     <File>
@@ -28,7 +28,7 @@
       <FileType>.kps</FileType>
       <Details>
         <Name>Naija Type</Name>
-        <Copyright>© David Rowbory 2022</Copyright>
+        <Copyright>© 2022 David Rowbory</Copyright>
       </Details>
     </File>
     <File>
