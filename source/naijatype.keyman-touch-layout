@@ -3213,6 +3213,7 @@
                 "text": ".",
                 "pad": "5",
                 "width": "95",
+                "nextlayer": "numeric",
                 "sk": [
                   {
                     "text": "\"",

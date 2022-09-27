@@ -1,12 +1,25 @@
 ﻿store(&NAME) 'test'
 store(&TARGETS) 'any windows macosx linux web iphone ipad androidphone androidtablet mobile desktop tablet'
 store(bFlag) '0'
+store(LtrsSET1)	"QWERTYUIOPASDFGHJKLZXCVBNM"
+store(CurlyQuoteOpenBefore) outs(LtrsSET1) "qwrtypsdfghjklzxcvbnmQWRTYPSDFGHJKLZXCVBNM"
+store(CurlyQuoteCloseAfter) ".,!?"
+
 begin Unicode > use(main)
 
 group(main) using keys
 
-if(bFlag='1')+'z'> '***'
+c Curly quotes
+U+0027 + U+0041 > "ABCDE"
+U+0022 + U+0020 > U+201D " "
+U+0027 + U+0020 > U+201D " "
+any(CurlyQuoteCloseAfter) + U+0022 > context U+201D
+U+0022 + any(CurlyQuoteOpenBefore) > U+201C index(CurlyQuoteOpenBefore,2)
+"zz" + " " > U+201C
+
+if(bFlag='1')+'zzzz'> '***'
 if(bFlag!='1')'='+'='> set(bFlag='1') beep
+if(bFlag='1')'='+'='> set(bFlag='0') beep beep 'OFF!'
 c Test. Type: a==z==a==z
 c Should get: a***==a==***
 c Does that on Web tester but on Windows 15.0.268 gives: azaz (with 2 beeps when == typed)
