@@ -3036,18 +3036,21 @@
                 "id": "K_SLASH",
                 "text": "/",
                 "pad": "30",
+                "nextlayer": "numeric",
                 "layer": "default"
               },
               {
                 "id": "K_8",
                 "text": "*",
                 "pad": "3",
+                "nextlayer": "numeric",
                 "layer": "shift"
               },
               {
                 "id": "K_HYPHEN",
                 "text": "-",
                 "pad": "3",
+                "nextlayer": "numeric",
                 "layer": "default"
               },
               {
@@ -3127,6 +3130,7 @@
                 "id": "K_EQUAL",
                 "text": "+",
                 "pad": "3",
+                "nextlayer": "numeric",
                 "layer": "shift"
               },
               {
@@ -3183,6 +3187,7 @@
                 "id": "K_EQUAL",
                 "text": "=",
                 "pad": "3",
+                "nextlayer": "numeric",
                 "layer": "default"
               },
               {

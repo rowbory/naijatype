@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>15.0.268.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>15.0.270.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
@@ -114,12 +114,42 @@
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
+    <File>
+      <Name>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\comma_punc.png</Name>
+      <Description>File comma_punc.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_a.png</Name>
+      <Description>File popup_a.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_currency.png</Name>
+      <Description>File popup_currency.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_e.png</Name>
+      <Description>File popup_e.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_punc.png</Name>
+      <Description>File popup_punc.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
   </Files>
   <Keyboards>
     <Keyboard>
       <Name>Naija Type</Name>
       <ID>naijatype</ID>
-      <Version>41</Version>
+      <Version>47</Version>
       <OSKFont>AndikaAfr-R.ttf</OSKFont>
       <DisplayFont>AndikaAfr-R.ttf</DisplayFont>
       <Languages>
@@ -154,6 +184,7 @@
         <Language ID="grh">Tugbiri</Language>
         <Language ID="igl">Igala</Language>
         <Language ID="kks">Giiwo</Language>
+        <Language ID="krh">Kurama</Language>
       </Languages>
     </Keyboard>
   </Keyboards>
