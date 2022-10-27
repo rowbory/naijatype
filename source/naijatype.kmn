@@ -2,7 +2,7 @@
 c Touch keyboard uses long press on related letters.
 c Comma to left of space bar + Emoji. Removed capitals on long press default keyboard.
 c Note we need to output K_ keys on punctuation with appropriate modifier keys held down to make sure the key runs through the Keyman Layout rules and converts space + ? into ? + space. This makes it handle the automatic space put in at the end of predictive texting better.
-c 
+c
 c Added small capital I.
 c Restored the globe language menu but moved it left.
 c Custom CSS styling to try to match the less cluttered Google look.
@@ -30,7 +30,8 @@ c v44 Added saltillo and modifier letter vertical bar as well as upside down que
 c v45 ? gives vertical line fist then saltillo, ' gives saltillo only, so we can teach different solutions
 c v46 Compensate for Word etc autocurling the apostrophe into U+2018 or U+2019 by having a starting rota for those that ends in Saltillo
 c v47 ctrl-alt ] or hyphen to produce [ and = in case one set of keys stops working (obscure keyboard problems!)
-c 
+c v48 vertical line and overdot added to diacritics. Alternatives to underline, overline, underdot and overdot combining chars added, and capital Q popup on touch keyboard.
+c
 c Current issues - doesn't work when Windows typing suggestions is on.
 
 store(&VERSION) '10.0'
@@ -100,8 +101,8 @@ store(Underdot)	U+0323								c underdot
 store(LtrsWithTone)	"aəeɛiɨɪoɔuʊʉnŋɲqmAƏEƐIƗƗOƆUƱɄNŊƝQM"							outs(Underline) outs(Underdot)
 store(LtrsWithNasal)	"aəeɛiɨɪoɔuʊʉnŋɲqmAƏEƐIƗƗOƆUƱɄNŊƝQM"							outs(Underline) outs(Underdot)
 store(Tone1st)	U+0301								c high
-store(ToneLast)	U+0304								c mid/bar
-store(ToneCore)  	U+0300 U+0302 U+030C								c low, rise, fall
+store(ToneLast)	U+0307								c overdot
+store(ToneCore)  	U+0300 U+0302 U+030C U+0304 U+030D								c low, rise, fall, mid, vertical
 store(ToneRota1)	outs(Tone1st) outs(ToneCore)								c All but the last tone diacritic
 store(ToneRota2)	outs(ToneCore) outs(ToneLast)								c The next tone diacritic to change to
 store(ToneSubset)	outs(ToneRota1) outs(ToneLast)    								c All the tones
@@ -111,10 +112,10 @@ store(TonesAll)                outs(ToneSubset) U+030B U+030F U+1DC4 U+1DC5 U+1D
 store(WhiteSpace) [K_ENTER] " " [K_TAB]
 store(CurlyQuoteOpenBefore) "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopsdfghjklzxcvbnm"
 store(CurlyQuoteCloseAfter) ".,!?"
-store(&KEYBOARDVERSION) '47'
+store(&KEYBOARDVERSION) '48'
 c store(&mnemoniclayout) '1' c Experimental - will it keep working on UK keyboards?
 c To be mnemonic we need to remove all K_ key codes and replace with the output letter,
-c eg instead of K_A we would use 'a'. 
+c eg instead of K_A we would use 'a'.
 c https://blog.keyman.com/2011/08/developing-mnemonic-layouts-for-keyman-desktop/
 
 c BEGIN CODE FROM https://help.keyman.com/developer/language/guide/casing-support
@@ -222,6 +223,14 @@ c Obscure workarounds for broken keyboards
 '{' + outs(LtrsKey) > '}'
 '_' + outs(LtrsKey) > '+'
 '-' + outs(LtrsKey) > '='
+'<' + outs(LtrsKey) > 'M'
+',' + outs(LtrsKey) > 'm'
+
+c direct diacritic adds
++ [ALT K_PERIOD] > U+0323       c underdot  . 
++ [SHIFT ALT K_PERIOD] > U+0307 c overdot
++ [SHIFT ALT K_HYPHEN] > U+0304 c underline _
++ [ALT K_HYPHEN] > U+0331   c overline
 
 c Special Ways to Type Select Special Letters Directly (Mac users appreciate this)
 + [CTRL ALT K_Y] > 'ƴ'

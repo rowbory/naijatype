@@ -149,7 +149,7 @@
     <Keyboard>
       <Name>Naija Type</Name>
       <ID>naijatype</ID>
-      <Version>47</Version>
+      <Version>48</Version>
       <OSKFont>AndikaAfr-R.ttf</OSKFont>
       <DisplayFont>AndikaAfr-R.ttf</DisplayFont>
       <Languages>
@@ -185,6 +185,11 @@
         <Language ID="igl">Igala</Language>
         <Language ID="kks">Giiwo</Language>
         <Language ID="krh">Kurama</Language>
+        <Language ID="yba">Yala</Language>
+        <Language ID="ig">Igbo</Language>
+        <Language ID="bec">Iceve-Maci</Language>
+        <Language ID="tiv">Tiv</Language>
+        <Language ID="bky">Bokyi</Language>
       </Languages>
     </Keyboard>
   </Keyboards>
