@@ -2,17 +2,13 @@
 <KeymanDeveloperProject>
   <Options>
     <BuildPath>$PROJECTPATH\..\LexicalModels\build</BuildPath>
-    <CompilerWarningsAsErrors>False</CompilerWarningsAsErrors>
-    <WarnDeprecatedCode>True</WarnDeprecatedCode>
-    <CheckFilenameConventions>False</CheckFilenameConventions>
-    <ProjectType>keyboard</ProjectType>
   </Options>
   <Files>
     <File>
       <ID>id_af30306506b955d0a8dc9617bf1089f6</ID>
       <Filename>naijatype.kmn</Filename>
       <Filepath>source\naijatype.kmn</Filepath>
-      <FileVersion>56</FileVersion>
+      <FileVersion>57</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>Naija Type</Name>

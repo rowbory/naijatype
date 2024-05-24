@@ -36,6 +36,7 @@ c Current issues - doesn't work when Windows typing suggestions is on.
 c v50 Added IPA-stye LATIN ** TURNED V (028C, 0245) small and capital letters to touch and as variants of v for Dadiya and some other languages.
 c v51 Touch: Added ⱱ (small and capital) with hook, used in Tugbiri and a few other languages for labio-dental flap. Starting to experiment with Keyman 16's other gestures.
 c v52-56 Added o with stroke (Cicipu) to the desktop keybaord. Bumped version number to match Android version.
+c v57 Added 00; > empty set especially for discourse work. Fixed defects in the Touch Keyboard text output
 
 store(&VERSION) '10.0'
 store(&NAME) 'Naija Type'
@@ -132,7 +133,7 @@ store(TonesAll)                outs(ToneSubset) U+030B U+030F U+1DC4 U+1DC5 U+1D
 store(WhiteSpace) [K_ENTER] " " [K_TAB]
 store(CurlyQuoteOpenBefore) "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopsdfghjklzxcvbnm"
 store(CurlyQuoteCloseAfter) ".,!?"
-store(&KEYBOARDVERSION) '56'
+store(&KEYBOARDVERSION) '57'
 c store(&mnemoniclayout) '1' c Experimental - will it keep working on UK keyboards?
 c To be mnemonic we need to remove all K_ key codes and replace with the output letter,
 c eg instead of K_A we would use 'a'.
@@ -358,13 +359,53 @@ c 14: These named letters and combinations are used by the touch keyboard
 + [T_ucH_underdot] > 'Ḥ'
 + [T_n_bar] > 'n' U+0304
 + [T_ucN_bar] > 'N' U+0304
-+ [T_q_acute] > 'q' U+0301
++ [T_q_grave] > 'q' U+0301
 + [T_q_grave] > 'q' U+0300
 + [T_q_nasal] > 'q' U+0303
-+ [T_ucQ_acute] > 'Q' U+0301
++ [T_ucQ_grave] > 'Q' U+0301
 + [T_ucQ_grave] > 'Q' U+0300
 + [T_ucQ_nasal] > 'Q' U+0303
 + [T_end_sentence] > '. '
+
+c Acute accents
++ [T_a_acute] > 'a' U+0301
++ [T_ucA_acute] > 'A' U+0301
++ [T_a2_acute] > 'ə' U+0301
++ [T_ucA2_acute] > 'Ə' U+0301
++ [T_e_acute] > 'e' U+0301
++ [T_ucE_acute] > 'E' U+0301
++ [T_e2_acute] > 'ɛ' U+0301
++ [T_ucE2_acute] > 'Ɛ' U+0301
++ [T_i_acute] > 'i' U+0301
++ [T_ucI_acute] > 'I' U+0301
++ [T_i2_acute] > 'ɨ' U+0301
++ [T_ucI2_acute] > 'Ɨ' U+0301
++ [T_u_acute] > 'u' U+0301
++ [T_ucU_acute] > 'U' U+0301
++ [T_o_acute] > 'o' U+0301
++ [T_ucO_acute] > 'O' U+0301
++ [T_o2_acute] > 'ɔ' U+0301
++ [T_ucO2_acute] > 'Ɔ' U+0301
+
+c Grave accents
++ [T_a_grave] > 'a' U+0300
++ [T_ucA_grave] > 'A' U+0300
++ [T_a2_grave] > 'ə' U+0300
++ [T_ucA2_grave] > 'Ə' U+0300
++ [T_e_grave] > 'e' U+0300
++ [T_ucE_grave] > 'E' U+0300
++ [T_e2_grave] > 'ɛ' U+0300
++ [T_ucE2_grave] > 'Ɛ' U+0300
++ [T_i_grave] > 'i' U+0300
++ [T_ucI_grave] > 'I' U+0300
++ [T_i2_grave] > 'ɨ' U+0300
++ [T_ucI2_grave] > 'Ɨ' U+0300
++ [T_u_grave] > 'u' U+0300
++ [T_ucU_grave] > 'U' U+0300
++ [T_o_grave] > 'o' U+0300
++ [T_ucO_grave] > 'O' U+0300
++ [T_o2_grave] > 'ɔ' U+0300
++ [T_ucO2_grave] > 'Ɔ' U+0300
 
 c nasals from touch layout
 + [T_a_nasal] > 'a' U+0303
@@ -420,8 +461,11 @@ c Shift when we backspace to end of sentence.
 '! '+ [K_BKSP] > '!' layer("shift")
 '? '+ [K_BKSP] > '?' layer("shift")
 
-+ [T_new_325] > 'down'
-+ [T_new_326] > 'up'
-+ [T_new_327] > 'right'
-+ [T_new_328] > 'left'
++ [T_down] > 'down'
++ [T_up] > 'up'
++ [T_right] > 'right'
++ [T_left] > 'left'
 
+c Special technical symbols
+'00' + any(LtrsKey) > U+2205 c Null / empty set
++ [T_null] > U+2205

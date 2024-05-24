@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KeymanDeveloperProjectUser>
   <ViewState>
-    <tab>4</tab>
+    <tab>0</tab>
     <showhelp>0</showhelp>
     <path>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\naijatype.kpj</path>
     <file ID="id_MRU0" Expanded="1"/>
@@ -18,9 +18,9 @@
       <IDEState>
         <LayoutDisplay102Key>0</LayoutDisplay102Key>
         <DebugDefaultFont>1</DebugDefaultFont>
-        <DebugFont>Andika|10|   |0</DebugFont>
-        <CodeFont>Consolas|10|   |0</CodeFont>
-        <CharFont>Andika|10|   |0</CharFont>
+        <DebugFont>Andika|12|   |0</DebugFont>
+        <CodeFont>Consolas|12|   |0</CodeFont>
+        <CharFont>Andika|12|   |0</CharFont>
       </IDEState>
       <Debug>True</Debug>
     </FileState>
@@ -164,15 +164,15 @@
   <MRU>
     <File>
       <ID>id_MRU0</ID>
-      <Filename>naijatype.kps</Filename>
-      <FileType>.kps</FileType>
-      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\naijatype.kps</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU1</ID>
       <Filename>naijatype.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\naijatype.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>naijatype.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\naijatype.kps</FullPath>
     </File>
     <File>
       <ID>id_MRU2</ID>
