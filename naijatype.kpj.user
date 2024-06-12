@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KeymanDeveloperProjectUser>
   <ViewState>
-    <tab>0</tab>
+    <tab>3</tab>
     <showhelp>0</showhelp>
     <path>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\naijatype.kpj</path>
     <file ID="id_MRU0" Expanded="1"/>
@@ -18,9 +18,9 @@
       <IDEState>
         <LayoutDisplay102Key>0</LayoutDisplay102Key>
         <DebugDefaultFont>1</DebugDefaultFont>
-        <DebugFont>Andika|12|   |0</DebugFont>
+        <DebugFont>Andika|10|   |0</DebugFont>
         <CodeFont>Consolas|12|   |0</CodeFont>
-        <CharFont>Andika|12|   |0</CharFont>
+        <CharFont>Andika|10|   |0</CharFont>
       </IDEState>
       <Debug>True</Debug>
     </FileState>
@@ -29,7 +29,7 @@
       <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\naijatype.kps</FullPath>
       <IDEState>
         <CodeFont>Courier New|12|   |0</CodeFont>
-        <CharFont>Andika Afr|18|   |0</CharFont>
+        <CharFont>Andika Afr|12|   |0</CharFont>
       </IDEState>
     </FileState>
     <FileState>
@@ -87,10 +87,10 @@
     <FileState>
       <ID>id_de56594d1fce1a13674518bdfd1b92fb</ID>
       <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\doc\readme.htm</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_ba2e738d83f8ec67be5e64ffd8b20a96</ID>
-      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\AndikaAfr-R.ttf</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
     </FileState>
     <FileState>
       <ID>id_114f9ab17d389f40025d7062ffcbc9e6</ID>
@@ -99,14 +99,14 @@
     <FileState>
       <ID>id_724e5b4c63f10bc0abf7077f7c3172fc</ID>
       <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\welcome\welcome.htm</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
     </FileState>
     <FileState>
       <ID>id_dadcad63be72df2b9ff15c117dc49d42</ID>
       <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\..\..\LexicalModels\build\naijatype.js</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_53dcad9f08abab9a591e2c8fc85e8eb0</ID>
-      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\..\..\LexicalModels\build\naijatype.kmx</FullPath>
     </FileState>
     <FileState>
       <ID>id_25b7bed839e9f1f7b98d4ce876d07361</ID>
@@ -141,38 +141,50 @@
       <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\welcome\welcome_htm_e972d2eb335edd69.png</FullPath>
     </FileState>
     <FileState>
-      <ID>id_921200e186b7ec22e170d0242a37b95f</ID>
-      <FullPath>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\comma_punc.png</FullPath>
+      <ID>id_7053f0d8d51e342e80d9e8d1b915a30c</ID>
+      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\welcome\comma_punc.png</FullPath>
     </FileState>
     <FileState>
-      <ID>id_c424ff341a731304a794f1ff5fec88b2</ID>
-      <FullPath>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_a.png</FullPath>
+      <ID>id_5c6b757f9a465f537f554dcd9f1ae26b</ID>
+      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_a.png</FullPath>
     </FileState>
     <FileState>
-      <ID>id_57fda54f0f48d03ae6720b171f34afaf</ID>
-      <FullPath>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_currency.png</FullPath>
+      <ID>id_2ebfff9c52e9aa27007bfd94054fa0bb</ID>
+      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_currency.png</FullPath>
     </FileState>
     <FileState>
-      <ID>id_599d2a0205edfc12c80a98e7a541d08d</ID>
-      <FullPath>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_e.png</FullPath>
+      <ID>id_3d032958d6022d8cd9f890bcd1426981</ID>
+      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_e.png</FullPath>
     </FileState>
     <FileState>
-      <ID>id_9573a916be370d168a7f68a93124fd03</ID>
-      <FullPath>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_punc.png</FullPath>
+      <ID>id_7283b38944a798ec15422c2e73b4bfaf</ID>
+      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_punc.png</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_53dcad9f08abab9a591e2c8fc85e8eb0</ID>
+      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\..\..\LexicalModels\build\naijatype.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_386275f580f029310dc0b8aa1a908243</ID>
+      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\Andika-Regular.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_ba2e738d83f8ec67be5e64ffd8b20a96</ID>
+      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\AndikaAfr-R.ttf</FullPath>
     </FileState>
   </FileStates>
   <MRU>
     <File>
       <ID>id_MRU0</ID>
-      <Filename>naijatype.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\naijatype.kmn</FullPath>
+      <Filename>readme.htm</Filename>
+      <FileType>.htm</FileType>
+      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\doc\readme.htm</FullPath>
     </File>
     <File>
       <ID>id_MRU1</ID>
-      <Filename>naijatype.kps</Filename>
-      <FileType>.kps</FileType>
-      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\naijatype.kps</FullPath>
+      <Filename>naijatype.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\naijatype.kmn</FullPath>
     </File>
     <File>
       <ID>id_MRU2</ID>
@@ -182,9 +194,15 @@
     </File>
     <File>
       <ID>id_MRU3</ID>
-      <Filename>readme.htm</Filename>
-      <FileType>.htm</FileType>
-      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\doc\readme.htm</FullPath>
+      <Filename>naijatype.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\naijatype.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU4</ID>
+      <Filename>naijatype.js</Filename>
+      <FileType>.js</FileType>
+      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\LexicalModels\build\naijatype.js</FullPath>
     </File>
   </MRU>
 </KeymanDeveloperProjectUser>

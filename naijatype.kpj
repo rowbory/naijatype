@@ -110,14 +110,6 @@
       <ParentFileID>id_308f23edb2dd358e589edfa4144f2e6c</ParentFileID>
     </File>
     <File>
-      <ID>id_ba2e738d83f8ec67be5e64ffd8b20a96</ID>
-      <Filename>AndikaAfr-R.ttf</Filename>
-      <Filepath>source\AndikaAfr-R.ttf</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.ttf</FileType>
-      <ParentFileID>id_308f23edb2dd358e589edfa4144f2e6c</ParentFileID>
-    </File>
-    <File>
       <ID>id_114f9ab17d389f40025d7062ffcbc9e6</ID>
       <Filename>naijatype_400.jpg</Filename>
       <Filepath>source\icons_pictures\naijatype_400.jpg</Filepath>
@@ -139,14 +131,6 @@
       <Filepath>source\..\..\LexicalModels\build\naijatype.js</Filepath>
       <FileVersion></FileVersion>
       <FileType>.js</FileType>
-      <ParentFileID>id_308f23edb2dd358e589edfa4144f2e6c</ParentFileID>
-    </File>
-    <File>
-      <ID>id_53dcad9f08abab9a591e2c8fc85e8eb0</ID>
-      <Filename>naijatype.kmx</Filename>
-      <Filepath>source\..\..\LexicalModels\build\naijatype.kmx</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.kmx</FileType>
       <ParentFileID>id_308f23edb2dd358e589edfa4144f2e6c</ParentFileID>
     </File>
     <File>
@@ -214,43 +198,67 @@
       <ParentFileID>id_308f23edb2dd358e589edfa4144f2e6c</ParentFileID>
     </File>
     <File>
-      <ID>id_921200e186b7ec22e170d0242a37b95f</ID>
+      <ID>id_7053f0d8d51e342e80d9e8d1b915a30c</ID>
       <Filename>comma_punc.png</Filename>
-      <Filepath>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\comma_punc.png</Filepath>
+      <Filepath>source\welcome\comma_punc.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_308f23edb2dd358e589edfa4144f2e6c</ParentFileID>
     </File>
     <File>
-      <ID>id_c424ff341a731304a794f1ff5fec88b2</ID>
+      <ID>id_5c6b757f9a465f537f554dcd9f1ae26b</ID>
       <Filename>popup_a.png</Filename>
-      <Filepath>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_a.png</Filepath>
+      <Filepath>source\welcome\popup_a.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_308f23edb2dd358e589edfa4144f2e6c</ParentFileID>
     </File>
     <File>
-      <ID>id_57fda54f0f48d03ae6720b171f34afaf</ID>
+      <ID>id_2ebfff9c52e9aa27007bfd94054fa0bb</ID>
       <Filename>popup_currency.png</Filename>
-      <Filepath>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_currency.png</Filepath>
+      <Filepath>source\welcome\popup_currency.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_308f23edb2dd358e589edfa4144f2e6c</ParentFileID>
     </File>
     <File>
-      <ID>id_599d2a0205edfc12c80a98e7a541d08d</ID>
+      <ID>id_3d032958d6022d8cd9f890bcd1426981</ID>
       <Filename>popup_e.png</Filename>
-      <Filepath>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_e.png</Filepath>
+      <Filepath>source\welcome\popup_e.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_308f23edb2dd358e589edfa4144f2e6c</ParentFileID>
     </File>
     <File>
-      <ID>id_9573a916be370d168a7f68a93124fd03</ID>
+      <ID>id_7283b38944a798ec15422c2e73b4bfaf</ID>
       <Filename>popup_punc.png</Filename>
-      <Filepath>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_punc.png</Filepath>
+      <Filepath>source\welcome\popup_punc.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
+      <ParentFileID>id_308f23edb2dd358e589edfa4144f2e6c</ParentFileID>
+    </File>
+    <File>
+      <ID>id_53dcad9f08abab9a591e2c8fc85e8eb0</ID>
+      <Filename>naijatype.kmx</Filename>
+      <Filepath>source\..\..\LexicalModels\build\naijatype.kmx</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kmx</FileType>
+      <ParentFileID>id_308f23edb2dd358e589edfa4144f2e6c</ParentFileID>
+    </File>
+    <File>
+      <ID>id_386275f580f029310dc0b8aa1a908243</ID>
+      <Filename>Andika-Regular.ttf</Filename>
+      <Filepath>source\Andika-Regular.ttf</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.ttf</FileType>
+      <ParentFileID>id_308f23edb2dd358e589edfa4144f2e6c</ParentFileID>
+    </File>
+    <File>
+      <ID>id_ba2e738d83f8ec67be5e64ffd8b20a96</ID>
+      <Filename>AndikaAfr-R.ttf</Filename>
+      <Filepath>source\AndikaAfr-R.ttf</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.ttf</FileType>
       <ParentFileID>id_308f23edb2dd358e589edfa4144f2e6c</ParentFileID>
     </File>
   </Files>

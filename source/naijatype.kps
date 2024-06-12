@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>16.0.145.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>17.0.325.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
     <ExecuteProgram></ExecuteProgram>
     <ReadMeFile>doc\readme.htm</ReadMeFile>
     <GraphicFile>icons_pictures\naijatype_400.jpg</GraphicFile>
+    <WelcomeFile>welcome\welcome.htm</WelcomeFile>
     <MSIFileName>\\vmware-host\Shared Folders\Downloads 2\keymandesktop.msi</MSIFileName>
     <MSIOptions></MSIOptions>
     <FollowKeyboardVersion/>
@@ -37,12 +38,6 @@
       <FileType>.ico</FileType>
     </File>
     <File>
-      <Name>AndikaAfr-R.ttf</Name>
-      <Description>Font Andika Afr</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.ttf</FileType>
-    </File>
-    <File>
       <Name>icons_pictures\naijatype_400.jpg</Name>
       <Description>File naijatype_400.jpg</Description>
       <CopyLocation>0</CopyLocation>
@@ -59,12 +54,6 @@
       <Description>File naijatype.js</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.js</FileType>
-    </File>
-    <File>
-      <Name>..\..\LexicalModels\build\naijatype.kmx</Name>
-      <Description>Keyboard Naija Type</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.kmx</FileType>
     </File>
     <File>
       <Name>welcome\welcome_htm_1b25dce56d8d67ee.jpg</Name>
@@ -115,43 +104,59 @@
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\comma_punc.png</Name>
+      <Name>welcome\comma_punc.png</Name>
       <Description>File comma_punc.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_a.png</Name>
+      <Name>welcome\popup_a.png</Name>
       <Description>File popup_a.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_currency.png</Name>
+      <Name>welcome\popup_currency.png</Name>
       <Description>File popup_currency.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_e.png</Name>
+      <Name>welcome\popup_e.png</Name>
       <Description>File popup_e.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>Z:\WinMacShare\KeyMan Dev\naijatype\source\welcome\popup_punc.png</Name>
+      <Name>welcome\popup_punc.png</Name>
       <Description>File popup_punc.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>..\..\LexicalModels\build\naijatype.kmx</Name>
+      <Description>Keyboard Naija Type</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>Andika-Regular.ttf</Name>
+      <Description>Font Andika</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>AndikaAfr-R.ttf</Name>
+      <Description>Font Andika Afr</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
     </File>
   </Files>
   <Keyboards>
     <Keyboard>
       <Name>Naija Type</Name>
       <ID>naijatype</ID>
-      <Version>56</Version>
-      <OSKFont>AndikaAfr-R.ttf</OSKFont>
-      <DisplayFont>AndikaAfr-R.ttf</DisplayFont>
+      <Version>57</Version>
       <Languages>
         <Language ID="ha">Hausa</Language>
         <Language ID="en">English</Language>
@@ -177,7 +182,6 @@
         <Language ID="ig">Igbo</Language>
         <Language ID="cdr">Kamuku</Language>
         <Language ID="uss">es-Saare</Language>
-        <Language ID="en-UK">English (UK)</Language>
         <Language ID="en-GB">English (United Kingdom)</Language>
         <Language ID="en-NG">English (Nigeria)</Language>
         <Language ID="grh">Tugbiri</Language>
@@ -185,7 +189,6 @@
         <Language ID="kks">Giiwo</Language>
         <Language ID="krh">Kurama</Language>
         <Language ID="yba">Yala</Language>
-        <Language ID="ig">Igbo</Language>
         <Language ID="bec">Iceve-Maci</Language>
         <Language ID="tiv">Tiv</Language>
         <Language ID="bky">Bokyi</Language>
