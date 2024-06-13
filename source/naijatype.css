@@ -5,7 +5,7 @@ color: rgb(200,10,10);
 
 body {
     background: rgb(193, 194, 193);
-    font-family: "Andika","AndikaAfr","Andika Afr","Andika New Basic Compact";
+    font-family: "Andika","DejaVu Sans","AndikaAfr","Andika Afr","Andika New Basic Compact";
 }
 .kmw-key-row {
 }
@@ -42,7 +42,7 @@ font-size: 1.2em;
     bottom: 0px;
     right: 8%;
     left: initial;*/
-    color: #8b8; 
+    color: #7b7; 
 }
 
 .phone.android #kmw-popup-keys {
