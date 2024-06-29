@@ -2,7 +2,7 @@
 c Touch keyboard uses long press on related letters.
 c Comma to left of space bar + Emoji. Removed capitals on long press default keyboard.
 c Note we need to output K_ keys on punctuation with appropriate modifier keys held down to make sure the key runs through the Keyman Layout rules and converts space + ? into ? + space. This makes it handle the automatic space put in at the end of predictive texting better.
-c
+c 
 c Added small capital I.
 c Restored the globe language menu but moved it left.
 c Custom CSS styling to try to match the less cluttered Google look.
@@ -40,6 +40,7 @@ c v57 Added 00; > empty set especially for discourse work. Fixed defects in the 
 c v58 Added diagonal flicks for accents and all numbers on top row.
 c v59 Added some missing diagonal and up flicks.
 c v60 Added underdots and underlines to b d g k y to support Atsam, Kirike etc
+c v61 Fuller coverage of Nigerian alphabets added to documentation and language listing.
 
 
 
@@ -141,7 +142,7 @@ store(TonesAll)                outs(ToneSubset) U+030B U+030F U+1DC4 U+1DC5 U+1D
 store(WhiteSpace) [K_ENTER] " " [K_TAB]
 store(CurlyQuoteOpenBefore) "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopsdfghjklzxcvbnm"
 store(CurlyQuoteCloseAfter) ".,!?"
-store(&KEYBOARDVERSION) '60'
+store(&KEYBOARDVERSION) '61'
 c store(&mnemoniclayout) '1' c Experimental - will it keep working on UK keyboards?
 c To be mnemonic we need to remove all K_ key codes and replace with the output letter,
 c eg instead of K_A we would use 'a'.
