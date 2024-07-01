@@ -173,15 +173,15 @@
   <MRU>
     <File>
       <ID>id_MRU0</ID>
-      <Filename>naijatype.kps</Filename>
-      <FileType>.kps</FileType>
-      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\naijatype.kps</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU1</ID>
       <Filename>naijatype.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\naijatype.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>naijatype.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\naijatype.kps</FullPath>
     </File>
     <File>
       <ID>id_MRU2</ID>
