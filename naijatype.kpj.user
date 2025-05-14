@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KeymanDeveloperProjectUser>
   <ViewState>
-    <tab>3</tab>
+    <tab>1</tab>
     <showhelp>0</showhelp>
     <path>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\naijatype.kpj</path>
     <file ID="id_MRU0" Expanded="1"/>
@@ -67,7 +67,7 @@
         <DebugFont>Andika|10|   |0</DebugFont>
         <CodeFont>Consolas|12|   |0</CodeFont>
       </IDEState>
-      <Debug>False</Debug>
+      <Debug>True</Debug>
     </FileState>
     <FileState>
       <ID>id_8f2fbcdb908042ed060e65be90812b96</ID>
@@ -179,27 +179,27 @@
     </File>
     <File>
       <ID>id_MRU1</ID>
-      <Filename>naijatype.kps</Filename>
-      <FileType>.kps</FileType>
-      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\naijatype.kps</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU2</ID>
-      <Filename>LICENSE.md</Filename>
-      <FileType>.md</FileType>
-      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\LICENSE.md</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU3</ID>
       <Filename>welcome.htm</Filename>
       <FileType>.htm</FileType>
       <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\welcome\welcome.htm</FullPath>
     </File>
     <File>
-      <ID>id_MRU4</ID>
+      <ID>id_MRU2</ID>
+      <Filename>naijatype.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\naijatype.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU3</ID>
       <Filename>readme.htm</Filename>
       <FileType>.htm</FileType>
       <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\source\doc\readme.htm</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU4</ID>
+      <Filename>LICENSE.md</Filename>
+      <FileType>.md</FileType>
+      <FullPath>\\vmware-host\Shared Folders\WinMacShare\KeyMan Dev\naijatype\LICENSE.md</FullPath>
     </File>
   </MRU>
 </KeymanDeveloperProjectUser>
