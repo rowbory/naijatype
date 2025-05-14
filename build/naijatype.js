@@ -10,17 +10,15 @@ function Keyboard_naijatype()
   this.KMINVER="9.0";
   this.KV=null;
   this.KDU=0;
-  this.KH='<h1>Naija Type</h1> <p>This keyboard aims to serve all Nigerian languages, not just Hausa, Yoruba and Igbo, using the standard characters normally recommended for each script. </p> <p>Please write to keyboards@m.rowbory.co.uk if you need letters that are not provided here.</p>  <ul><li><b>On touch (phones/tablets)</b>,  <ul><li>Press and hold a key for alternate characters similar to the letter you press. Then move your finger over to the letter you want.</li> <li>For most punctuation press and hold the . (full stop / period) key or the comma key on the left of the keyboard.</li> <li>Q and space have several combining letters so you can type o then hold on Q to choose the underline or underdot or an accent above.</li></ul></li> <li> <b>On a computer with physical keyboard</b> <ul><li>Press a key like the letter you want then use the semicolon to change its shape. <br/>eg <b>a ; → ə </b> <br /><b> U ; → Ʉ </b><br /><b> U ; ; ; → U̱</b></li> <li>Type the top-left back tick (`) and hold shift and press tilde (~) keys to add diacritics above the letter.  <br />eg <b>a ` → á</b><br /><b> e ; ~ → ε̃ </b></li> <li>Keep pressing these special keys to move through different options.</li> <li>Double press space bar to get a full stop followed by a space.  </li></ul></li></ul> <h2>Version 29</h2> ';
+  this.KH='<h1 style=“font-family: Andika, Andika Afr; font-size: 200%">Naija Type</h1> <p style=“font-family: Andika, Andika Afr; font-size: 150%">The Naija Type keyboard aims to serve all Nigerian languages, not just Hausa, Yoruba and Igbo, supplying the standard characters normally recommended for each script. </p> <p>Please write to keyboards@m.rowbory.co.uk if you need letters that are not provided here.</p>  <ul><li><b>On touch (phones/tablets)</b>, <ul><li>Press and hold a key for alternate characters similar to the letter you press. Then move your finger over to highlight the letter you want and release.</li> <li>For most punctuation press and hold the . (full stop / period) key or the comma key on the left of the keyboard.</li> <li>Q, V and space contain combining symbols to add on top of the previous letter typed, so you can type o then hold on Q to choose the underline or underdot or an accent above.</li> <li>Flick DOWN on the top row to get a digit. </li> <li>Flick from a vowel UP-RIGHT to get the vowel with acute accent and DOWN-RIGHT to get the grave accent.</li> <li> Flick DOWN on b, d, k for the hooked version.</li> <li>Flick UP on the vowels to get their most common alternate shape.</li> <li>Flick LEFT and RIGHT on the space bar to get underscore and hyphen. UP to get a non-breaking space.</li> <li>Double-tap vowels to get the underdot version.</li></ul></li> <li> <b>On a computer with physical keyboard</b> <ul><li>Press a key like the letter you want then use the semicolon to change its shape. <br/>eg <b>a ; → ə </b> <br /><b> U ; → Ʉ </b><br /><b> U ; ; ; → U̱</b></li> <li>Type the top-left back tick (`) and hold shift and press tilde (~) keys to add diacritics above the previous letter.  <br />eg <b>a ` → á</b><br /><b> e ; ~ → ε̃ </b></li> <li>Keep pressing these special keys to move through different options.</li> <li>The apostrophe, question mark and exclamation mark and dollar sign have several options activated by pressing the semicolon key. </li> <li>Try ctrl-alt (on a Mac option or ctrl-option) then a letter to get a variation shape, eg ctrl-alt-e = ɛ.</li> <li>Double press space bar to get a full stop followed by a space. </li> <li>Double press apostrophe to get a saltillo character (like an apostrophe, but word-forming and not turned into curly quotes by word-processors). Shift-apostrophe-apostrophe to get the capital version. ? then ; rotates through ¿ and then the modifier letter vertical line which is also sometimes used for a caseless glottal. </li> <li>Underdot alternative: type main letter then ALT-FullStop, (Overdot with ALT-SHIFT-FullStop) </li> <li>Underline alternative: type letter then ALT-SHIFT-HYPHEN (overline with ALT-Hyphen) </li> <li>Vertical line above alternative: type letter then ALT-Backslash. </li></ul></li></ul> <h3>Version 61</h3> ';
   this.KM=0;
-  this.KBVER="30";
+  this.KBVER="60";
   this.KMBM=0x0070;
   this.KS=1;
-  this.KVKD="T_a_underline T_e_underline T_i_underline T_o_underline T_u_underline T_a_underdot T_e_underdot T_i_underdot T_o_underdot T_u_underdot T_n_underdot T_n_underline T_h_underdot T_ucA_underline T_ucE_underline T_ucI_underline T_ucO_underline T_ucU_underline T_ucA_underdot T_ucE_underdot T_ucI_underdot T_ucO_underdot T_ucU_underdot T_ucN_underdot T_ucN_underline T_ucH_underdot T_n_bar T_ucN_bar T_q_acute T_q_grave T_q_nasal T_ucQ_acute T_ucQ_grave T_ucQ_nasal T_end_sentence T_a_nasal T_a2_nasal T_e_nasal T_e2_nasal T_i_nasal T_i2_nasal T_u_nasal T_o_nasal T_o2_nasal T_thumbs_up T_hands_together";
+  this.KVKD="T_a_underline T_e_underline T_i_underline T_o_underline T_u_underline T_n_underline T_a_underdot T_e_underdot T_i_underdot T_o_underdot T_u_underdot T_n_underdot T_s_underdot T_z_underdot T_h_underdot T_h_hook T_b_underdot T_d_underdot T_g_underline T_k_underline T_y_underline T_m_nasal T_n_nasal T_ucA_underline T_ucE_underline T_ucI_underline T_ucO_underline T_ucU_underline T_ucN_underline T_ucA_underdot T_ucE_underdot T_ucI_underdot T_ucO_underdot T_ucU_underdot T_ucN_underdot T_ucS_underdot T_ucZ_underdot T_ucH_underdot T_ucH_hook T_ucB_underdot T_ucD_underdot T_ucK_underline T_ucG_underline T_ucY_underline T_ucM_nasal T_ucN_nasal T_end_sentence T_thumbs_up T_hands_together T_a_acute T_ucA_acute T_a_grave T_ucA_grave T_a_rise T_ucA_rise T_a_fall T_ucA_fall T_a_macron T_ucA_macron T_a_nasal T_ucA_nasal T_a2_acute T_ucA2_acute T_a2_grave T_ucA2_grave T_a2_rise T_ucA2_rise T_a2_fall T_ucA2_fall T_a2_macron T_ucA2_macron T_a2_nasal T_ucA2_nasal T_e_acute T_ucE_acute T_e_grave T_ucE_grave T_e_rise T_ucE_rise T_e_fall T_ucE_fall T_e_macron T_ucE_macron T_e_nasal T_ucE_nasal T_e2_acute T_ucE2_acute T_e2_grave T_ucE2_grave T_e2_rise T_ucE2_rise T_e2_fall T_ucE2_fall T_e2_macron T_ucE2_macron T_e2_nasal T_ucE2_nasal T_i_acute T_ucI_acute T_i_grave T_ucI_grave T_i_rise T_ucI_rise T_i_fall T_ucI_fall T_i_macron T_ucI_macron T_i_nasal T_ucI_nasal T_i2_acute T_ucI2_acute T_i2_grave T_ucI2_grave T_i2_rise T_ucI2_rise T_i2_fall T_ucI2_fall T_i2_macron T_ucI2_macron T_i2_nasal T_ucI2_nasal T_i3_acute T_ucI3_acute T_i3_grave T_ucI3_grave T_i3_rise T_ucI3_rise T_i3_fall T_ucI3_fall T_i3_macron T_ucI3_macron T_i3_nasal T_ucI3_nasal T_o_acute T_ucO_acute T_o_grave T_ucO_grave T_o_rise T_ucO_rise T_o_fall T_ucO_fall T_o_macron T_ucO_macron T_o_nasal T_ucO_nasal T_o2_acute T_ucO2_acute T_o2_grave T_ucO2_grave T_o2_rise T_ucO2_rise T_o2_fall T_ucO2_fall T_o2_macron T_ucO2_macron T_o2_nasal T_ucO2_nasal T_o3_acute T_ucO3_acute T_o3_grave T_ucO3_grave T_o3_rise T_ucO3_rise T_o3_fall T_ucO3_fall T_o3_macron T_ucO3_macron T_o3_nasal T_ucO3_nasal T_u_acute T_ucU_acute T_u_grave T_ucU_grave T_u_rise T_ucU_rise T_u_fall T_ucU_fall T_u_macron T_ucU_macron T_u_nasal T_ucU_nasal T_u2_acute T_ucU2_acute T_u2_grave T_ucU2_grave T_u2_rise T_ucU2_rise T_u2_fall T_ucU2_fall T_u2_macron T_ucU2_macron T_u2_nasal T_ucU2_nasal T_u3_acute T_ucU3_acute T_u3_grave T_ucU3_grave T_u3_rise T_ucU3_rise T_u3_fall T_ucU3_fall T_u3_macron T_ucU3_macron T_u3_nasal T_ucU3_nasal T_n_acute T_ucN_acute T_n_grave T_ucN_grave T_n_rise T_ucN_rise T_n_fall T_ucN_fall T_n_macron T_ucN_macron T_n2_acute T_ucN2_acute T_n2_grave T_ucN2_grave T_n2_rise T_ucN2_rise T_n2_fall T_ucN2_fall T_n2_macron T_ucN2_macron T_n2_nasal T_ucN2_nasal T_n3_acute T_ucN3_acute T_n3_grave T_ucN3_grave T_n3_rise T_ucN3_rise T_n3_fall T_ucN3_fall T_n3_macron T_ucN3_macron T_n3_nasal T_ucN3_nasal T_v_acute T_ucV_acute T_v_grave T_ucV_grave T_v_rise T_ucV_rise T_v_fall T_ucV_fall T_v_macron T_ucV_macron T_v_nasal T_ucV_nasal T_v2_acute T_ucV2_acute T_v2_grave T_ucV2_grave T_v2_rise T_ucV2_rise T_v2_fall T_ucV2_fall T_v2_macron T_ucV2_macron T_v2_nasal T_ucV2_nasal T_a3_acute T_ucA3_acute T_a3_grave T_ucA3_grave T_a3_rise T_ucA3_rise T_a3_fall T_ucA3_fall T_a3_macron T_ucA3_macron T_a3_nasal T_ucA3_nasal T_q_acute T_ucQ_acute T_q_grave T_ucQ_grave T_q_rise T_ucQ_rise T_q_fall T_ucQ_fall T_q_macron T_ucQ_macron T_q_nasal T_ucQ_nasal T_m_acute T_ucM_acute T_m_grave T_ucM_grave T_m_rise T_ucM_rise T_m_fall T_ucM_fall T_m_macron T_ucM_macron T_down T_up T_right T_left T_null";
   this.KVKL={
   "phone": {
-    "font": "Andika Afr",
-    "fontsize": "1.1em",
-    "displayUnderlying": false,
+    "font": "Andika",
     "layer": [
       {
         "id": "default",
@@ -29,294 +27,480 @@ function Keyboard_naijatype()
             "id": "1",
             "key": [
               {
-                "width": "95",
                 "id": "K_Q",
-                "pad": "1",
                 "text": "q",
+                "pad": "1",
+                "width": "95",
+                "hint": "´ ` ^ 1⯆",
                 "sk": [
                   {
-                    "id": "T_q_acute",
-                    "text": "q\u0301"
+                    "text": "q́",
+                    "id": "T_q_acute"
                   },
                   {
-                    "id": "T_q_grave",
-                    "text": "q\u0300"
+                    "text": "q̀",
+                    "id": "T_q_grave"
                   },
                   {
-                    "id": "T_q_nasal",
-                    "text": "q\u0303"
+                    "text": "q̃",
+                    "id": "T_q_nasal"
                   },
                   {
-                    "nextlayer": "default",
+                    "text": "́",
                     "id": "U_0301",
-                    "text": "\u0301"
+                    "nextlayer": "default"
                   },
                   {
-                    "nextlayer": "default",
+                    "text": "̀",
                     "id": "U_0300",
-                    "text": "\u0300"
+                    "nextlayer": "default"
                   },
                   {
-                    "nextlayer": "default",
+                    "text": "̂",
                     "id": "U_0302",
-                    "text": "\u0302"
+                    "nextlayer": "default"
                   },
                   {
-                    "nextlayer": "default",
+                    "text": "̌",
                     "id": "U_030C",
-                    "text": "\u030C"
+                    "nextlayer": "default"
                   },
                   {
-                    "nextlayer": "default",
+                    "text": "̃",
                     "id": "U_0303",
-                    "text": "\u0303"
+                    "nextlayer": "default"
                   },
                   {
-                    "nextlayer": "default",
+                    "text": "̄",
                     "id": "U_0304",
-                    "text": "\u0304"
+                    "nextlayer": "default"
                   },
                   {
-                    "nextlayer": "default",
+                    "text": "̱",
                     "id": "U_0331",
-                    "text": "\u0331"
+                    "nextlayer": "default"
                   },
                   {
-                    "nextlayer": "default",
+                    "text": "̣",
                     "id": "U_0323",
-                    "text": "\u0323"
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̇",
+                    "id": "U_0307"
+                  },
+                  {
+                    "text": "̍",
+                    "id": "U_030D"
                   }
-                ]
+                ],
+                "flick": {
+                  "s": {
+                    "text": "1",
+                    "id": "K_1"
+                  },
+                  "ne": {
+                    "text": "q́",
+                    "id": "T_q_acute"
+                  },
+                  "se": {
+                    "text": "q̀",
+                    "id": "T_q_grave"
+                  }
+                }
               },
               {
-                "width": "95",
                 "id": "K_W",
+                "text": "w",
                 "pad": "3",
-                "text": "w"
+                "width": "95",
+                "hint": "2⯆",
+                "flick": {
+                  "s": {
+                    "text": "2",
+                    "id": "K_2"
+                  }
+                }
               },
               {
-                "width": "95",
                 "id": "K_E",
-                "pad": "3",
                 "text": "e",
+                "pad": "3",
+                "width": "95",
+                "hint": "3⯆",
                 "sk": [
                   {
+                    "text": "ɛ",
                     "id": "U_025B",
-                    "text": "\u025B"
+                    "default": true
                   },
                   {
-                    "id": "T_e_underline",
-                    "text": "e\u0331"
+                    "text": "e̱",
+                    "id": "T_e_underline"
                   },
                   {
-                    "id": "T_e_underdot",
-                    "text": "e\u0323"
+                    "text": "ẹ",
+                    "id": "T_e_underdot"
                   },
                   {
-                    "id": "T_e_nasal",
-                    "text": "e\u0303"
+                    "text": "ẽ",
+                    "id": "T_e_nasal"
                   },
                   {
-                    "id": "T_e2_nasal",
-                    "text": "\u025B\u0303"
+                    "text": "ɛ̃",
+                    "id": "T_e2_nasal"
                   },
                   {
-                    "id": "U_00E8",
-                    "text": "\u00E8"
+                    "text": "è",
+                    "id": "T_e_grave"
                   },
                   {
-                    "id": "U_00E9",
-                    "text": "\u00E9"
+                    "text": "é",
+                    "id": "T_e_acute"
                   },
                   {
-                    "id": "U_00EA",
-                    "text": "\u00EA"
+                    "text": "ê",
+                    "id": "T_e_fall"
                   },
                   {
-                    "id": "U_00EB",
-                    "text": "\u00EB"
+                    "text": "ë",
+                    "id": "U_00EB"
+                  }
+                ],
+                "flick": {
+                  "s": {
+                    "text": "3",
+                    "id": "K_3"
+                  },
+                  "sw": {
+                    "text": "é",
+                    "id": "T_e_acute"
+                  },
+                  "se": {
+                    "text": "è",
+                    "id": "T_e_grave"
+                  },
+                  "ne": {
+                    "text": "é",
+                    "id": "T_e_acute"
+                  },
+                  "nw": {
+                    "text": "è",
+                    "id": "T_e_grave"
+                  },
+                  "n": {
+                    "text": "ɛ",
+                    "id": "U_025B"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "ẹ",
+                    "id": "T_e_underdot"
                   }
                 ]
               },
               {
-                "width": "95",
                 "id": "K_R",
+                "text": "r",
                 "pad": "3",
-                "text": "r"
+                "width": "95",
+                "hint": "4⯆",
+                "flick": {
+                  "s": {
+                    "text": "4",
+                    "id": "K_4"
+                  }
+                }
               },
               {
-                "width": "95",
                 "id": "K_T",
-                "pad": "3",
                 "text": "t",
+                "pad": "3",
+                "width": "95",
+                "hint": "5⯆",
                 "sk": [
                   {
-                    "id": "U_00FE",
-                    "text": "\u00FE"
+                    "text": "þ",
+                    "id": "U_00FE"
                   }
-                ]
+                ],
+                "flick": {
+                  "s": {
+                    "text": "5",
+                    "id": "K_5"
+                  }
+                }
               },
               {
-                "width": "95",
                 "id": "K_Y",
-                "pad": "3",
                 "text": "y",
+                "pad": "3",
+                "width": "95",
+                "hint": "6⯆",
                 "sk": [
                   {
-                    "id": "U_01B4",
-                    "text": "\u01B4"
+                    "text": "ƴ",
+                    "id": "U_01B4"
                   },
                   {
-                    "id": "U_00FD",
-                    "text": "\u00FD"
+                    "text": "ý",
+                    "id": "U_00FD"
                   }
-                ]
+                ],
+                "flick": {
+                  "s": {
+                    "text": "6",
+                    "id": "K_6"
+                  }
+                }
               },
               {
-                "width": "95",
                 "id": "K_U",
-                "pad": "3",
                 "text": "u",
+                "pad": "3",
+                "width": "95",
+                "hint": "7⯆",
                 "sk": [
                   {
+                    "text": "ʉ",
                     "id": "U_0289",
-                    "text": "\u0289"
+                    "default": true
                   },
                   {
-                    "id": "U_028A",
-                    "text": "\u028A"
+                    "text": "ʊ",
+                    "id": "U_028A"
                   },
                   {
-                    "id": "T_u_underline",
-                    "text": "u\u0331"
+                    "text": "u̱",
+                    "id": "T_u_underline"
                   },
                   {
-                    "id": "T_u_underdot",
-                    "text": "u\u0323"
+                    "text": "ụ",
+                    "id": "T_u_underdot"
                   },
                   {
-                    "id": "T_u_nasal",
-                    "text": "u\u0303"
+                    "text": "ũ",
+                    "id": "T_u_nasal"
                   },
                   {
-                    "id": "U_00F9",
-                    "text": "\u00F9"
+                    "text": "ù",
+                    "id": "U_00F9"
                   },
                   {
-                    "id": "U_00FA",
-                    "text": "\u00FA"
+                    "text": "ú",
+                    "id": "U_00FA"
                   },
                   {
-                    "id": "U_00FB",
-                    "text": "\u00FB"
+                    "text": "û",
+                    "id": "U_00FB"
                   },
                   {
-                    "id": "U_00FC",
-                    "text": "\u00FC"
+                    "text": "ü",
+                    "id": "U_00FC"
+                  }
+                ],
+                "flick": {
+                  "s": {
+                    "text": "7",
+                    "id": "K_7"
+                  },
+                  "n": {
+                    "text": "ʊ",
+                    "id": "U_028A"
+                  },
+                  "nw": {
+                    "text": "ù",
+                    "id": "T_u_grave"
+                  },
+                  "ne": {
+                    "text": "ú",
+                    "id": "T_u_acute"
+                  },
+                  "se": {
+                    "text": "ù",
+                    "id": "T_u_grave"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "ụ",
+                    "id": "T_u_underdot"
                   }
                 ]
               },
               {
-                "width": "95",
                 "id": "K_I",
-                "pad": "3",
                 "text": "i",
+                "pad": "3",
+                "width": "95",
+                "hint": "8⯆",
                 "sk": [
                   {
+                    "text": "ɨ",
                     "id": "U_0268",
-                    "text": "\u0268"
+                    "default": true
                   },
                   {
-                    "id": "T_i_underline",
-                    "text": "i\u0331"
+                    "text": "i̱",
+                    "id": "T_i_underline"
                   },
                   {
-                    "id": "T_i_underdot",
-                    "text": "i\u0323"
+                    "text": "ị",
+                    "id": "T_i_underdot"
                   },
                   {
-                    "id": "T_i_nasal",
-                    "text": "i\u0303"
+                    "text": "ĩ",
+                    "id": "T_i_nasal"
                   },
                   {
-                    "id": "T_i2_nasal",
-                    "text": "\u0268\u0303"
+                    "text": "ɨ̃",
+                    "id": "T_i2_nasal"
                   },
                   {
-                    "id": "U_026A",
-                    "text": "\u026A"
+                    "text": "ɪ",
+                    "id": "U_026A"
                   },
                   {
-                    "id": "U_00EC",
-                    "text": "\u00EC"
+                    "text": "ì",
+                    "id": "T_i_grave"
                   },
                   {
-                    "id": "U_00ED",
-                    "text": "\u00ED"
+                    "text": "í",
+                    "id": "T_i_acute"
                   },
                   {
-                    "id": "U_00EE",
-                    "text": "\u00EE"
+                    "text": "î",
+                    "id": "T_i_fall"
                   },
                   {
-                    "id": "U_00EF",
-                    "text": "\u00EF"
+                    "text": "ï",
+                    "id": "U_00EF"
+                  }
+                ],
+                "flick": {
+                  "s": {
+                    "text": "8",
+                    "id": "K_8"
+                  },
+                  "ne": {
+                    "text": "í",
+                    "id": "T_i_acute"
+                  },
+                  "nw": {
+                    "text": "ì",
+                    "id": "T_i_grave"
+                  },
+                  "se": {
+                    "text": "ì",
+                    "id": "T_i_grave"
+                  },
+                  "n": {
+                    "text": "ɨ",
+                    "id": "U_0268"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "ị",
+                    "id": "T_i_underdot"
                   }
                 ]
               },
               {
-                "width": "95",
                 "id": "K_O",
-                "pad": "3",
                 "text": "o",
+                "pad": "3",
+                "width": "95",
+                "hint": "9⯆",
                 "sk": [
                   {
+                    "text": "ɔ",
                     "id": "U_0254",
-                    "text": "\u0254"
+                    "default": true
                   },
                   {
-                    "id": "T_o_underline",
-                    "text": "o\u0331"
+                    "text": "o̱",
+                    "id": "T_o_underline"
                   },
                   {
-                    "id": "T_o_underdot",
-                    "text": "o\u0323"
+                    "text": "ọ",
+                    "id": "T_o_underdot"
                   },
                   {
-                    "id": "T_o_nasal",
-                    "text": "\u00F5"
+                    "text": "õ",
+                    "id": "T_o_nasal"
                   },
                   {
-                    "id": "T_o2_nasal",
-                    "text": "\u0254\u0303"
+                    "text": "ɔ̃",
+                    "id": "T_o2_nasal"
                   },
                   {
-                    "id": "U_00F2",
-                    "text": "\u00F2"
+                    "text": "ò",
+                    "id": "T_o_grave"
                   },
                   {
-                    "id": "U_00F3",
-                    "text": "\u00F3"
+                    "text": "ó",
+                    "id": "T_o_acute"
                   },
                   {
-                    "id": "U_00F4",
-                    "text": "\u00F4"
+                    "text": "ô",
+                    "id": "T_o_fall"
                   },
                   {
-                    "id": "U_00F6",
-                    "text": "\u00F6"
+                    "text": "ö",
+                    "id": "U_00F6"
                   },
                   {
-                    "id": "U_00F8",
-                    "text": "\u00F8"
+                    "text": "ø",
+                    "id": "U_00F8"
+                  },
+                  {
+                    "text": "∅",
+                    "id": "U_2205"
+                  }
+                ],
+                "flick": {
+                  "s": {
+                    "text": "9",
+                    "id": "K_9"
+                  },
+                  "nw": {
+                    "text": "ò",
+                    "id": "T_o_grave"
+                  },
+                  "ne": {
+                    "text": "ó",
+                    "id": "T_o_acute"
+                  },
+                  "n": {
+                    "text": "ɔ",
+                    "id": "U_0254"
+                  },
+                  "se": {
+                    "text": "ò",
+                    "id": "T_o_grave"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "ọ",
+                    "id": "T_o_underdot"
                   }
                 ]
               },
               {
-                "width": "95",
                 "id": "K_P",
+                "text": "p",
                 "pad": "3",
-                "text": "p"
+                "width": "95",
+                "hint": "0⯆",
+                "flick": {
+                  "s": {
+                    "text": "0",
+                    "id": "K_0"
+                  }
+                }
               }
             ]
           },
@@ -325,105 +509,182 @@ function Keyboard_naijatype()
             "key": [
               {
                 "id": "K_A",
-                "pad": "30",
                 "text": "a",
+                "pad": "30",
                 "sk": [
                   {
+                    "text": "ə",
                     "id": "U_0259",
-                    "text": "\u0259"
+                    "default": true
                   },
                   {
-                    "id": "T_a_underline",
-                    "text": "a\u0331"
+                    "text": "a̱",
+                    "id": "T_a_underline"
                   },
                   {
-                    "id": "T_a_underdot",
-                    "text": "a\u0323"
+                    "text": "ạ",
+                    "id": "T_a_underdot"
                   },
                   {
-                    "id": "T_a_nasal",
-                    "text": "\u00E3"
+                    "text": "ã",
+                    "id": "T_a_nasal"
                   },
                   {
-                    "id": "T_a2_nasal",
-                    "text": "\u0259\u0303"
+                    "text": "ə̃",
+                    "id": "T_a2_nasal"
                   },
                   {
-                    "id": "U_00E0",
-                    "text": "\u00E0"
+                    "text": "à",
+                    "id": "T_a_grave"
                   },
                   {
-                    "id": "U_00E1",
-                    "text": "\u00E1"
+                    "text": "á",
+                    "id": "T_a_acute"
                   },
                   {
-                    "id": "U_00E2",
-                    "text": "\u00E2"
+                    "text": "â",
+                    "id": "T_a_fall"
+                  }
+                ],
+                "flick": {
+                  "ne": {
+                    "text": "á",
+                    "id": "T_a_acute"
+                  },
+                  "nw": {
+                    "text": "à",
+                    "id": "T_a_grave"
+                  },
+                  "n": {
+                    "text": "ə",
+                    "id": "U_0259"
+                  },
+                  "se": {
+                    "text": "à",
+                    "id": "T_a_grave"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "ạ",
+                    "id": "T_a_underdot"
                   }
                 ]
               },
               {
                 "id": "K_S",
-                "pad": "3",
                 "text": "s",
+                "pad": "3",
                 "sk": [
                   {
-                    "id": "U_00DF",
-                    "text": "\u00DF"
+                    "text": "ß",
+                    "id": "U_00DF"
+                  },
+                  {
+                    "text": "ṣ",
+                    "id": "T_s_underdot",
+                    "default": true
+                  },
+                  {
+                    "text": "Ṣ",
+                    "id": "T_ucS_underdot"
                   }
                 ]
               },
               {
                 "id": "K_D",
-                "pad": "3",
                 "text": "d",
+                "pad": "3",
                 "sk": [
                   {
-                    "layer": "default",
+                    "text": "ɗ",
                     "id": "U_0257",
-                    "text": "\u0257"
+                    "layer": "default",
+                    "default": true
+                  },
+                  {
+                    "text": "ḍ",
+                    "id": "T_d_underdot"
                   }
-                ]
+                ],
+                "flick": {
+                  "s": {
+                    "text": "ɗ",
+                    "id": "U_0257"
+                  },
+                  "n": {
+                    "text": "ɗ",
+                    "id": "U_0257"
+                  }
+                }
               },
               {
                 "id": "K_F",
-                "pad": "3",
-                "text": "f"
+                "text": "f",
+                "pad": "3"
               },
               {
                 "id": "K_G",
+                "text": "g",
                 "pad": "3",
-                "text": "g"
-              },
-              {
-                "id": "K_H",
-                "pad": "3",
-                "text": "h"
-              },
-              {
-                "id": "K_J",
-                "pad": "3",
-                "text": "j"
-              },
-              {
-                "id": "K_K",
-                "pad": "3",
-                "text": "k",
                 "sk": [
                   {
-                    "id": "U_0199",
-                    "text": "\u0199"
+                    "text": "g̱",
+                    "id": "T_g_underline",
+                    "default": true
                   }
                 ]
               },
               {
-                "id": "K_L",
+                "id": "K_H",
+                "text": "h",
                 "pad": "3",
-                "text": "l"
+                "sk": [
+                  {
+                    "text": "ɦ",
+                    "id": "U_0266",
+                    "default": true
+                  },
+                  {
+                    "text": "ḥ",
+                    "id": "T_h_underdot"
+                  }
+                ]
               },
               {
-                "width": "5",
+                "id": "K_J",
+                "text": "j",
+                "pad": "3"
+              },
+              {
+                "id": "K_K",
+                "text": "k",
+                "pad": "3",
+                "sk": [
+                  {
+                    "text": "ƙ",
+                    "id": "U_0199"
+                  }
+                ],
+                "flick": {
+                  "s": {
+                    "text": "ƙ",
+                    "id": "U_0199"
+                  },
+                  "n": {
+                    "text": "ƙ",
+                    "id": "U_0199"
+                  }
+                }
+              },
+              {
+                "id": "K_L",
+                "text": "l",
+                "pad": "3"
+              },
+              {
                 "id": "T_spacer_default",
+                "width": "5",
                 "sp": "10"
               }
             ]
@@ -432,115 +693,246 @@ function Keyboard_naijatype()
             "id": "3",
             "key": [
               {
-                "nextlayer": "shift",
-                "width": "125",
                 "id": "K_SHIFT",
-                "pad": "1",
-                "sp": "1",
                 "text": "*Shift*",
+                "pad": "1",
+                "width": "125",
+                "sp": "1",
+                "nextlayer": "shift",
                 "sk": [
                   {
-                    "nextlayer": "capslock",
+                    "text": "*Caps*",
                     "id": "K_CAPS",
                     "sp": "1",
-                    "text": "*Caps*"
+                    "nextlayer": "capslock"
+                  }
+                ],
+                "multitap": [
+                  {
+                    "text": "*Caps*",
+                    "id": "K_CAPS",
+                    "sp": "1",
+                    "nextlayer": "capslock"
                   }
                 ]
               },
               {
                 "id": "K_Z",
+                "text": "z",
                 "pad": "9",
-                "text": "z"
+                "sk": [
+                  {
+                    "text": "ẓ",
+                    "id": "T_z_underdot",
+                    "default": true
+                  }
+                ]
               },
               {
                 "id": "K_X",
+                "text": "x",
                 "pad": "3",
-                "text": "x"
+                "sk": [
+                  {
+                    "text": "∅",
+                    "id": "U_2205"
+                  }
+                ]
               },
               {
                 "id": "K_C",
-                "pad": "3",
                 "text": "c",
+                "pad": "3",
                 "sk": [
                   {
-                    "id": "U_00E7",
-                    "text": "\u00E7"
+                    "text": "ç",
+                    "id": "U_00E7"
                   },
                   {
-                    "id": "U_0254",
-                    "text": "\u0254"
+                    "text": "ɔ",
+                    "id": "U_0254"
                   }
                 ]
               },
               {
                 "id": "K_V",
+                "text": "v",
                 "pad": "3",
-                "text": "v"
+                "sk": [
+                  {
+                    "text": "ʌ",
+                    "id": "U_028C"
+                  },
+                  {
+                    "text": "ⱱ",
+                    "id": "U_2C71",
+                    "default": true
+                  },
+                  {
+                    "text": "́",
+                    "id": "U_0301",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̀",
+                    "id": "U_0300",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̂",
+                    "id": "U_0302",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̌",
+                    "id": "U_030C",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̃",
+                    "id": "U_0303",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̄",
+                    "id": "U_0304",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̱",
+                    "id": "U_0331",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̣",
+                    "id": "U_0323",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̇",
+                    "id": "U_0307"
+                  },
+                  {
+                    "text": "̍",
+                    "id": "U_030D"
+                  }
+                ],
+                "flick": {
+                  "sw": {
+                    "text": "́",
+                    "id": "U_0301"
+                  },
+                  "se": {
+                    "text": "̀",
+                    "id": "U_0300"
+                  }
+                }
               },
               {
                 "id": "K_B",
-                "pad": "3",
                 "text": "b",
+                "pad": "3",
                 "sk": [
                   {
+                    "text": "ɓ",
                     "id": "U_0253",
-                    "text": "\u0253"
+                    "default": true
+                  },
+                  {
+                    "text": "ḅ",
+                    "id": "T_b_underdot"
                   }
-                ]
+                ],
+                "flick": {
+                  "s": {
+                    "text": "ɓ",
+                    "id": "U_0253"
+                  },
+                  "n": {
+                    "text": "ɓ",
+                    "id": "U_0253"
+                  }
+                }
               },
               {
                 "id": "K_N",
-                "pad": "3",
                 "text": "n",
+                "pad": "3",
                 "sk": [
                   {
+                    "text": "ŋ",
                     "id": "U_014B",
-                    "text": "\u014B"
+                    "default": true
                   },
                   {
-                    "id": "U_0272",
-                    "text": "\u0272"
+                    "text": "ɲ",
+                    "id": "U_0272"
                   },
                   {
-                    "id": "U_00F1",
-                    "text": "\u00F1"
+                    "text": "ñ",
+                    "id": "T_n_nasal"
                   },
                   {
-                    "id": "T_n_underdot",
-                    "text": "n\u0323"
+                    "text": "ṇ",
+                    "id": "T_n_underdot"
                   },
                   {
-                    "id": "T_n_underline",
-                    "text": "n\u0331"
+                    "text": "ṉ",
+                    "id": "T_n_underline"
                   },
                   {
-                    "id": "T_n_bar",
-                    "text": "n\u0304"
+                    "text": "n̄",
+                    "id": "T_n_macron"
                   }
-                ]
+                ],
+                "flick": {
+                  "s": {
+                    "text": "̃",
+                    "id": "U_0303"
+                  },
+                  "n": {
+                    "text": "ŋ",
+                    "id": "U_014B"
+                  }
+                }
               },
               {
                 "id": "K_M",
-                "pad": "3",
                 "text": "m",
+                "pad": "3",
                 "sk": [
                   {
+                    "text": "ɱ",
                     "id": "U_0271",
-                    "text": "\u0271"
+                    "default": true
                   },
                   {
-                    "id": "U_0303",
-                    "text": "_\u0303"
+                    "text": "m̃",
+                    "id": "T_m_nasal"
+                  },
+                  {
+                    "text": "_̃",
+                    "id": "U_0303"
                   }
-                ]
+                ],
+                "flick": {
+                  "s": {
+                    "text": "̃",
+                    "id": "U_0303"
+                  },
+                  "n": {
+                    "text": "ɱ",
+                    "id": "U_0271"
+                  }
+                }
               },
               {
-                "nextlayer": "default",
-                "width": "115",
                 "id": "K_BKSP",
+                "text": "*BkSp*",
                 "pad": "10",
+                "width": "115",
                 "sp": "1",
-                "text": "*BkSp*"
+                "nextlayer": "default"
               }
             ]
           },
@@ -548,133 +940,196 @@ function Keyboard_naijatype()
             "id": "4",
             "key": [
               {
-                "nextlayer": "numeric",
-                "width": "125",
                 "id": "K_NUMLOCK",
+                "text": "*123*",
                 "pad": "1",
+                "width": "125",
                 "sp": "1",
-                "text": "*123*"
+                "nextlayer": "numeric"
               },
               {
-                "width": "80",
                 "id": "K_LOPT",
+                "text": "*Menu*",
                 "pad": "3",
-                "sp": "1",
-                "text": "*Menu*"
+                "width": "80",
+                "sp": "1"
               },
               {
                 "id": "K_COMMA",
-                "pad": "10",
                 "text": ",",
+                "pad": "10",
                 "sk": [
                   {
-                    "id": "U_2018",
-                    "text": "\u2018"
+                    "text": "ꞌ",
+                    "id": "U_a78c"
                   },
                   {
-                    "id": "U_2019",
-                    "text": "\u2019"
+                    "text": "Ꞌ",
+                    "id": "U_a78b"
                   },
                   {
-                    "id": "U_201C",
-                    "text": "\u201C"
+                    "text": "‘",
+                    "id": "U_2018"
                   },
                   {
-                    "id": "U_201D",
-                    "text": "\u201D"
+                    "text": "’",
+                    "id": "U_2019"
                   },
                   {
-                    "id": "U_003C",
-                    "text": "<"
+                    "text": "“",
+                    "id": "U_201C"
                   },
                   {
-                    "id": "U_003E",
-                    "text": ">"
+                    "text": "”",
+                    "id": "U_201D"
+                  },
+                  {
+                    "text": "<",
+                    "id": "U_003C"
+                  },
+                  {
+                    "text": ">",
+                    "id": "U_003E"
+                  },
+                  {
+                    "text": "@",
+                    "id": "U_0040"
                   }
-                ]
+                ],
+                "flick": {
+                  "nw": {
+                    "text": "‘",
+                    "id": "U_2018"
+                  },
+                  "ne": {
+                    "text": "’",
+                    "id": "U_2019"
+                  }
+                }
               },
               {
-                "width": "350",
                 "id": "K_SPACE",
                 "pad": "3",
+                "width": "428",
                 "sk": [
                   {
-                    "layer": "shift",
+                    "text": "_",
                     "id": "K_HYPHEN",
-                    "text": "_"
+                    "layer": "shift"
                   },
                   {
-                    "id": "K_HYPHEN",
-                    "text": "-"
+                    "text": "-",
+                    "id": "K_HYPHEN"
                   },
                   {
-                    "id": "U_2013",
-                    "text": "\u2013"
+                    "text": "–",
+                    "id": "U_2013"
                   },
                   {
-                    "id": "U_2014",
-                    "text": "\u2014"
+                    "text": "—",
+                    "id": "U_2014"
+                  }
+                ],
+                "flick": {
+                  "n": {
+                    "text": "ɴʙꜱᴘ",
+                    "id": "U_00A0"
+                  },
+                  "e": {
+                    "text": "-",
+                    "id": "K_HYPHEN"
+                  },
+                  "w": {
+                    "text": "_",
+                    "id": "U_005F"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": ". ",
+                    "id": "T_end_sentence",
+                    "nextlayer": "shift"
                   }
                 ]
               },
               {
                 "id": "K_PERIOD",
-                "pad": "3",
                 "text": ".",
+                "pad": "3",
                 "sk": [
                   {
-                    "id": "U_0022",
-                    "text": "\""
+                    "text": "\"",
+                    "id": "U_0022"
                   },
                   {
-                    "id": "K_SLASH",
-                    "text": "/"
+                    "text": "'",
+                    "id": "U_0027"
                   },
                   {
-                    "id": "U_005C",
-                    "text": "\\"
+                    "text": "/",
+                    "id": "K_SLASH"
                   },
                   {
-                    "id": "U_003A",
-                    "text": ":"
+                    "text": "\\",
+                    "id": "U_005C"
                   },
                   {
-                    "id": "U_003B",
-                    "text": ";"
+                    "text": ":",
+                    "id": "U_003A"
                   },
                   {
-                    "id": "U_0027",
-                    "text": "'"
+                    "text": ";",
+                    "id": "U_003B"
                   },
                   {
-                    "id": "U_002C",
-                    "text": ","
-                  },
-                  {
+                    "text": "?",
+                    "id": "U_003F",
                     "nextlayer": "shift",
-                    "layer": "shift",
-                    "id": "K_SLASH",
-                    "text": "?"
+                    "default": true
                   },
                   {
-                    "nextlayer": "shift",
-                    "layer": "shift",
-                    "id": "K_1",
-                    "text": "!"
+                    "text": "!",
+                    "id": "U_0021",
+                    "nextlayer": "shift"
                   },
                   {
-                    "id": "U_2026",
-                    "text": "\u2026"
+                    "text": "¿",
+                    "id": "U_00BF"
+                  },
+                  {
+                    "text": "…",
+                    "id": "U_2026"
                   }
-                ]
+                ],
+                "flick": {
+                  "n": {
+                    "text": "!",
+                    "id": "U_0021"
+                  },
+                  "w": {
+                    "text": "̣",
+                    "id": "U_0323"
+                  },
+                  "e": {
+                    "text": "̱",
+                    "id": "U_0331"
+                  }
+                }
               },
               {
-                "nextlayer": "shift",
-                "width": "193",
                 "id": "K_ENTER",
+                "text": "*Enter*",
                 "pad": "10",
+                "width": "115",
                 "sp": "1",
-                "text": "*Enter*"
+                "nextlayer": "shift",
+                "multitap": [
+                  {
+                    "text": "ɴʟ",
+                    "id": "K_ENTER",
+                    "layer": "shift"
+                  }
+                ]
               }
             ]
           }
@@ -687,292 +1142,548 @@ function Keyboard_naijatype()
             "id": "1",
             "key": [
               {
-                "nextlayer": "default",
-                "width": "95",
                 "id": "K_Q",
+                "text": "Q",
                 "pad": "1",
-                "text": "Q"
+                "width": "95",
+                "nextlayer": "default",
+                "hint": "1⯆",
+                "sk": [
+                  {
+                    "text": "Q́",
+                    "id": "T_ucQ_acute",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "Q̀",
+                    "id": "T_ucQ_grave",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "Q̃",
+                    "id": "T_ucQ_nasal",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "́",
+                    "id": "U_0301",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̀",
+                    "id": "U_0300",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̂",
+                    "id": "U_0302",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̌",
+                    "id": "U_030C",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̃",
+                    "id": "U_0303",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̄",
+                    "id": "U_0304",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̱",
+                    "id": "U_0331",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̣",
+                    "id": "U_0323",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̇",
+                    "id": "U_0307"
+                  },
+                  {
+                    "text": "̍",
+                    "id": "U_030D"
+                  }
+                ],
+                "flick": {
+                  "s": {
+                    "text": "1",
+                    "id": "K_1",
+                    "layer": "default"
+                  },
+                  "ne": {
+                    "text": "Q́",
+                    "id": "T_ucQ_acute",
+                    "nextlayer": "default"
+                  },
+                  "se": {
+                    "text": "Q̀",
+                    "id": "T_ucQ_grave",
+                    "nextlayer": "default"
+                  }
+                }
               },
               {
-                "nextlayer": "default",
-                "width": "95",
                 "id": "K_W",
+                "text": "W",
                 "pad": "3",
-                "text": "W"
+                "width": "95",
+                "nextlayer": "default",
+                "hint": "2⯆",
+                "flick": {
+                  "s": {
+                    "text": "2",
+                    "id": "K_2"
+                  }
+                }
               },
               {
-                "nextlayer": "default",
-                "width": "95",
                 "id": "K_E",
-                "pad": "3",
                 "text": "E",
+                "pad": "3",
+                "width": "95",
+                "nextlayer": "default",
+                "hint": "3⯆",
                 "sk": [
                   {
-                    "nextlayer": "default",
-                    "layer": "default",
+                    "text": "Ɛ",
                     "id": "U_0190",
-                    "text": "\u0190"
+                    "nextlayer": "default",
+                    "layer": "default"
                   },
                   {
-                    "nextlayer": "default",
-                    "layer": "default",
+                    "text": "E̱",
                     "id": "T_ucE_underline",
-                    "text": "E\u0331"
-                  },
-                  {
                     "nextlayer": "default",
                     "layer": "default",
+                    "default": true
+                  },
+                  {
+                    "text": "Ẹ",
                     "id": "T_ucE_underdot",
-                    "text": "E\u0323"
-                  },
-                  {
-                    "id": "T_E_nasal",
-                    "text": "E\u0303"
-                  },
-                  {
-                    "id": "T_E2_nasal",
-                    "text": "\u0190\u0303"
-                  },
-                  {
                     "nextlayer": "default",
-                    "layer": "default",
-                    "id": "U_00C8",
-                    "text": "\u00C8"
+                    "layer": "default"
                   },
                   {
+                    "text": "Ẽ",
+                    "id": "T_ucE_nasal",
                     "nextlayer": "default",
-                    "layer": "default",
-                    "id": "U_00C9",
-                    "text": "\u00C9"
+                    "layer": "default"
                   },
                   {
+                    "text": "Ɛ̃",
+                    "id": "T_ucE2_nasal",
                     "nextlayer": "default",
-                    "id": "U_00CA",
-                    "text": "\u00CA"
+                    "layer": "default"
                   },
                   {
+                    "text": "È",
+                    "id": "T_ucE_grave",
                     "nextlayer": "default",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "É",
+                    "id": "T_ucE_acute",
+                    "nextlayer": "default",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "Ê",
+                    "id": "T_ucE_fall",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "Ë",
                     "id": "U_00CB",
-                    "text": "\u00CB"
+                    "nextlayer": "default"
+                  }
+                ],
+                "flick": {
+                  "s": {
+                    "text": "3",
+                    "id": "K_3",
+                    "layer": "default"
+                  },
+                  "n": {
+                    "text": "Ɛ",
+                    "id": "U_0190"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "Ẹ",
+                    "id": "T_ucE_underdot"
                   }
                 ]
               },
               {
-                "nextlayer": "default",
-                "width": "95",
                 "id": "K_R",
+                "text": "R",
                 "pad": "3",
-                "text": "R"
+                "width": "95",
+                "nextlayer": "default",
+                "hint": "4⯆",
+                "flick": {
+                  "s": {
+                    "text": "4",
+                    "id": "K_4",
+                    "layer": "default"
+                  }
+                }
               },
               {
-                "nextlayer": "default",
-                "width": "95",
                 "id": "K_T",
+                "text": "T",
                 "pad": "3",
-                "text": "T"
+                "width": "95",
+                "nextlayer": "default",
+                "hint": "5⯆",
+                "flick": {
+                  "s": {
+                    "text": "5",
+                    "id": "K_5",
+                    "layer": "default"
+                  }
+                }
               },
               {
-                "nextlayer": "default",
-                "width": "95",
                 "id": "K_Y",
-                "pad": "3",
                 "text": "Y",
+                "pad": "3",
+                "width": "95",
+                "nextlayer": "default",
+                "hint": "6⯆",
                 "sk": [
                   {
-                    "nextlayer": "default",
+                    "text": "Ƴ",
                     "id": "U_01B3",
-                    "text": "\u01B3"
+                    "nextlayer": "default",
+                    "layer": "default",
+                    "default": true
                   },
                   {
-                    "nextlayer": "default",
+                    "text": "Ý",
                     "id": "U_00DD",
-                    "text": "\u00DD"
+                    "nextlayer": "default",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "Y̱",
+                    "id": "T_ucY_underline"
                   }
-                ]
+                ],
+                "flick": {
+                  "s": {
+                    "text": "6",
+                    "id": "K_6",
+                    "layer": "default"
+                  },
+                  "n": {
+                    "text": "Ƴ",
+                    "id": "U_01B3"
+                  }
+                }
               },
               {
-                "nextlayer": "default",
-                "width": "95",
                 "id": "K_U",
-                "pad": "3",
                 "text": "U",
+                "pad": "3",
+                "width": "95",
+                "nextlayer": "default",
+                "hint": "7⯆",
                 "sk": [
                   {
-                    "nextlayer": "default",
+                    "text": "Ʉ",
                     "id": "U_0244",
-                    "text": "\u0244"
+                    "nextlayer": "default",
+                    "layer": "default"
                   },
                   {
-                    "nextlayer": "default",
+                    "text": "Ʊ",
                     "id": "U_01B1",
-                    "text": "\u01B1"
+                    "nextlayer": "default",
+                    "layer": "default"
                   },
                   {
-                    "nextlayer": "default",
-                    "layer": "default",
+                    "text": "U̱",
                     "id": "T_ucU_underline",
-                    "text": "U\u0331"
-                  },
-                  {
                     "nextlayer": "default",
                     "layer": "default",
+                    "default": true
+                  },
+                  {
+                    "text": "Ụ",
                     "id": "T_ucU_underdot",
-                    "text": "U\u0323"
+                    "nextlayer": "default",
+                    "layer": "default"
                   },
                   {
+                    "text": "Ũ",
+                    "id": "T_ucU_nasal",
                     "nextlayer": "default",
-                    "id": "T_U_nasal",
-                    "text": "U\u0303"
+                    "layer": "default"
                   },
                   {
-                    "nextlayer": "default",
-                    "id": "U_00D9",
-                    "text": "\u00D9"
+                    "text": "Ù",
+                    "id": "T_ucU_grave",
+                    "nextlayer": "default"
                   },
                   {
+                    "text": "Ú",
+                    "id": "T_ucU_acute",
                     "nextlayer": "default",
-                    "id": "U_00DA",
-                    "text": "\u00DA"
+                    "layer": "default"
                   },
                   {
-                    "nextlayer": "default",
+                    "text": "Û",
                     "id": "U_00DB",
-                    "text": "\u00DB"
+                    "nextlayer": "default",
+                    "layer": "default"
                   },
                   {
-                    "nextlayer": "default",
+                    "text": "Ü",
                     "id": "U_00DC",
-                    "text": "\u00DC"
+                    "nextlayer": "default",
+                    "layer": "default"
+                  }
+                ],
+                "flick": {
+                  "s": {
+                    "text": "7",
+                    "id": "K_7",
+                    "layer": "default"
+                  },
+                  "n": {
+                    "text": "Ʊ",
+                    "id": "U_01B1",
+                    "nextlayer": "default"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "Ụ",
+                    "id": "T_ucU_underdot"
                   }
                 ]
               },
               {
-                "nextlayer": "default",
-                "width": "95",
                 "id": "K_I",
-                "pad": "3",
                 "text": "I",
+                "pad": "3",
+                "width": "95",
+                "nextlayer": "default",
+                "hint": "8⯆",
                 "sk": [
                   {
-                    "nextlayer": "default",
+                    "text": "Ɨ",
                     "id": "U_0197",
-                    "text": "\u0197"
+                    "nextlayer": "default",
+                    "layer": "default"
                   },
                   {
-                    "nextlayer": "default",
-                    "layer": "default",
+                    "text": "I̱",
                     "id": "T_ucI_underline",
-                    "text": "I\u0331"
-                  },
-                  {
                     "nextlayer": "default",
                     "layer": "default",
+                    "default": true
+                  },
+                  {
+                    "text": "Ị",
                     "id": "T_ucI_underdot",
-                    "text": "I\u0323"
-                  },
-                  {
-                    "id": "T_I_nasal",
-                    "text": "I\u0303"
-                  },
-                  {
-                    "id": "T_I2_nasal",
-                    "text": "\u0197\u0303"
-                  },
-                  {
                     "nextlayer": "default",
-                    "id": "U_00CC",
-                    "text": "\u00CC"
+                    "layer": "default"
                   },
                   {
-                    "nextlayer": "default",
-                    "id": "U_00CD",
-                    "text": "\u00CD"
+                    "text": "Ĩ",
+                    "id": "T_ucI_nasal",
+                    "layer": "default"
                   },
                   {
-                    "nextlayer": "default",
-                    "id": "U_00CE",
-                    "text": "\u00CE"
+                    "text": "Ɨ̃",
+                    "id": "T_ucI2_nasal",
+                    "layer": "default"
                   },
                   {
+                    "text": "Ì",
+                    "id": "T_ucI_grave",
                     "nextlayer": "default",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "Í",
+                    "id": "T_ucI_acute",
+                    "nextlayer": "default",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "Î",
+                    "id": "T_ucI_fall",
+                    "nextlayer": "default",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "Ï",
                     "id": "U_00CF",
-                    "text": "\u00CF"
+                    "nextlayer": "default",
+                    "layer": "default"
+                  }
+                ],
+                "flick": {
+                  "s": {
+                    "text": "8",
+                    "id": "K_8",
+                    "layer": "default"
+                  },
+                  "n": {
+                    "text": "Ɨ",
+                    "id": "U_0197",
+                    "nextlayer": "default"
+                  },
+                  "ne": {
+                    "text": "Í",
+                    "id": "T_ucI_acute",
+                    "nextlayer": "default"
+                  },
+                  "se": {
+                    "text": "Ì",
+                    "id": "T_ucI_grave",
+                    "nextlayer": "default"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "Ị",
+                    "id": "T_ucI_underdot"
                   }
                 ]
               },
               {
-                "nextlayer": "default",
-                "width": "95",
                 "id": "K_O",
-                "pad": "3",
                 "text": "O",
+                "pad": "3",
+                "width": "95",
+                "nextlayer": "default",
+                "hint": "9⯆",
                 "sk": [
                   {
-                    "nextlayer": "default",
-                    "layer": "default",
+                    "text": "Ɔ",
                     "id": "U_0186",
-                    "text": "\u0186"
+                    "nextlayer": "default",
+                    "layer": "default"
                   },
                   {
-                    "nextlayer": "default",
-                    "layer": "default",
+                    "text": "O̱",
                     "id": "T_ucO_underline",
-                    "text": "O\u0331"
-                  },
-                  {
                     "nextlayer": "default",
                     "layer": "default",
+                    "default": true
+                  },
+                  {
+                    "text": "Ọ",
                     "id": "T_ucO_underdot",
-                    "text": "O\u0323"
-                  },
-                  {
                     "nextlayer": "default",
-                    "layer": "default",
-                    "id": "T_O_nasal",
-                    "text": "\u00D5"
+                    "layer": "default"
                   },
                   {
-                    "id": "T_O2_nasal",
-                    "text": "\u0186\u0303"
-                  },
-                  {
+                    "text": "Õ",
+                    "id": "T_ucO_nasal",
                     "nextlayer": "default",
-                    "layer": "default",
-                    "id": "U_00D2",
-                    "text": "\u00D2"
+                    "layer": "default"
                   },
                   {
+                    "text": "Ɔ̃",
+                    "id": "T_ucO2_nasal",
                     "nextlayer": "default",
-                    "layer": "default",
-                    "id": "U_00D3",
-                    "text": "\u00D3"
+                    "layer": "default"
                   },
                   {
+                    "text": "Ò",
+                    "id": "T_ucO_grave",
                     "nextlayer": "default",
-                    "layer": "default",
-                    "id": "U_00D4",
-                    "text": "\u00D4"
+                    "layer": "default"
                   },
                   {
+                    "text": "Ó",
+                    "id": "T_ucO_acute",
                     "nextlayer": "default",
-                    "layer": "default",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "Ô",
+                    "id": "T_ucO_fall",
+                    "nextlayer": "default",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "Ö",
                     "id": "U_00D6",
-                    "text": "\u00D6"
+                    "nextlayer": "default",
+                    "layer": "default"
                   },
                   {
-                    "nextlayer": "default",
-                    "layer": "default",
+                    "text": "Ø",
                     "id": "U_00D8",
-                    "text": "\u00D8"
+                    "nextlayer": "default",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "∅",
+                    "id": "T_null",
+                    "layer": "default"
+                  }
+                ],
+                "flick": {
+                  "s": {
+                    "text": "9",
+                    "id": "K_9",
+                    "layer": "default"
+                  },
+                  "n": {
+                    "text": "Ɔ",
+                    "id": "U_0186",
+                    "nextlayer": "default"
+                  },
+                  "ne": {
+                    "text": "Ó",
+                    "id": "T_ucO_acute",
+                    "nextlayer": "default"
+                  },
+                  "se": {
+                    "text": "Ò",
+                    "id": "T_ucO_grave",
+                    "nextlayer": "default"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "Ọ",
+                    "id": "T_ucO_underdot"
                   }
                 ]
               },
               {
-                "nextlayer": "default",
-                "width": "95",
                 "id": "K_P",
+                "text": "P",
                 "pad": "3",
-                "text": "P"
+                "width": "95",
+                "nextlayer": "default",
+                "hint": "0⯆",
+                "flick": {
+                  "s": {
+                    "text": "0",
+                    "id": "K_0",
+                    "layer": "default"
+                  }
+                }
               }
             ]
           },
@@ -980,141 +1691,218 @@ function Keyboard_naijatype()
             "id": "2",
             "key": [
               {
-                "nextlayer": "default",
                 "id": "K_A",
-                "pad": "30",
                 "text": "A",
+                "pad": "30",
+                "nextlayer": "default",
                 "sk": [
                   {
-                    "nextlayer": "default",
+                    "text": "Ə",
                     "id": "U_018F",
-                    "text": "\u018F"
+                    "nextlayer": "default",
+                    "layer": "default"
                   },
                   {
-                    "nextlayer": "default",
-                    "layer": "default",
+                    "text": "A̱",
                     "id": "T_ucA_underline",
-                    "text": "A\u0331"
-                  },
-                  {
                     "nextlayer": "default",
                     "layer": "default",
+                    "default": true
+                  },
+                  {
+                    "text": "Ạ",
                     "id": "T_ucA_underdot",
-                    "text": "A\u0323"
-                  },
-                  {
                     "nextlayer": "default",
-                    "id": "T_A_nasal",
-                    "text": "\u00C3"
+                    "layer": "default"
                   },
                   {
-                    "id": "T_A2_nasal",
-                    "text": "\u018F\u0303"
-                  },
-                  {
+                    "text": "Ã",
+                    "id": "T_ucA_nasal",
                     "nextlayer": "default",
-                    "id": "U_00C0",
-                    "text": "\u00C0"
+                    "layer": "default"
                   },
                   {
-                    "nextlayer": "default",
-                    "id": "U_00C1",
-                    "text": "\u00C1"
+                    "text": "Ə̃",
+                    "id": "T_ucA2_nasal",
+                    "layer": "default"
                   },
                   {
+                    "text": "À",
+                    "id": "T_ucA_grave",
                     "nextlayer": "default",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "Á",
+                    "id": "T_ucA_acute",
+                    "nextlayer": "default",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "Â",
                     "id": "U_00C2",
-                    "text": "\u00C2"
+                    "nextlayer": "default",
+                    "layer": "default"
                   },
                   {
-                    "nextlayer": "default",
+                    "text": "Ä",
                     "id": "U_00C4",
-                    "text": "\u00C4"
+                    "nextlayer": "default"
                   },
                   {
-                    "nextlayer": "default",
+                    "text": "Å",
                     "id": "U_00C5",
-                    "text": "\u00C5"
+                    "nextlayer": "default"
                   },
                   {
-                    "nextlayer": "default",
+                    "text": "Æ",
                     "id": "U_00C6",
-                    "text": "\u00C6"
+                    "nextlayer": "default"
+                  }
+                ],
+                "flick": {
+                  "n": {
+                    "text": "Ə",
+                    "id": "U_018F"
+                  },
+                  "ne": {
+                    "text": "Á",
+                    "id": "T_ucA_acute",
+                    "nextlayer": "default"
+                  },
+                  "se": {
+                    "text": "À",
+                    "id": "T_ucA_grave",
+                    "nextlayer": "default"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "Ạ",
+                    "id": "T_ucA_underdot"
                   }
                 ]
               },
               {
-                "nextlayer": "default",
                 "id": "K_S",
+                "text": "S",
                 "pad": "3",
-                "text": "S"
-              },
-              {
                 "nextlayer": "default",
-                "id": "K_D",
-                "pad": "3",
-                "text": "D",
                 "sk": [
                   {
+                    "text": "Ṣ",
+                    "id": "T_ucS_underdot",
+                    "nextlayer": "default"
+                  }
+                ]
+              },
+              {
+                "id": "K_D",
+                "text": "D",
+                "pad": "3",
+                "nextlayer": "default",
+                "sk": [
+                  {
+                    "text": "Ɗ",
+                    "id": "U_018A",
                     "nextlayer": "default",
                     "layer": "default",
-                    "id": "U_018A",
-                    "text": "\u018A"
+                    "default": true
                   },
                   {
-                    "nextlayer": "default",
-                    "layer": "default",
+                    "text": "Ð",
                     "id": "U_00D0",
-                    "text": "\u00D0"
+                    "nextlayer": "default",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "Ḍ",
+                    "id": "T_ucD_underdot"
                   }
-                ]
+                ],
+                "flick": {
+                  "n": {
+                    "text": "Ɗ",
+                    "id": "U_018A",
+                    "nextlayer": "default"
+                  }
+                }
               },
               {
-                "nextlayer": "default",
                 "id": "K_F",
+                "text": "F",
                 "pad": "3",
-                "text": "F"
+                "nextlayer": "default"
               },
               {
-                "nextlayer": "default",
                 "id": "K_G",
+                "text": "G",
                 "pad": "3",
-                "text": "G"
-              },
-              {
                 "nextlayer": "default",
-                "id": "K_H",
-                "pad": "3",
-                "text": "H"
-              },
-              {
-                "nextlayer": "default",
-                "id": "K_J",
-                "pad": "3",
-                "text": "J"
-              },
-              {
-                "nextlayer": "default",
-                "id": "K_K",
-                "pad": "3",
-                "text": "K",
                 "sk": [
                   {
-                    "nextlayer": "default",
-                    "id": "U_0198",
-                    "text": "\u0198"
+                    "text": "G̱",
+                    "id": "T_ucG_underline",
+                    "default": true
                   }
                 ]
               },
               {
-                "nextlayer": "default",
-                "id": "K_L",
+                "id": "K_H",
+                "text": "H",
                 "pad": "3",
-                "text": "L"
+                "nextlayer": "default",
+                "sk": [
+                  {
+                    "text": "Ɦ",
+                    "id": "U_0A7AA",
+                    "default": true
+                  },
+                  {
+                    "text": "Ḥ",
+                    "id": "T_ucH_underdot"
+                  }
+                ]
               },
               {
-                "width": "5",
+                "id": "K_J",
+                "text": "J",
+                "pad": "3",
+                "nextlayer": "default"
+              },
+              {
+                "id": "K_K",
+                "text": "K",
+                "pad": "3",
+                "nextlayer": "default",
+                "sk": [
+                  {
+                    "text": "Ƙ",
+                    "id": "U_0198",
+                    "nextlayer": "default",
+                    "default": true
+                  },
+                  {
+                    "text": "Ḵ",
+                    "id": "T_ucK_underline"
+                  }
+                ],
+                "flick": {
+                  "n": {
+                    "text": "Ƙ",
+                    "id": "U_0198"
+                  }
+                }
+              },
+              {
+                "id": "K_L",
+                "text": "L",
+                "pad": "3",
+                "nextlayer": "default"
+              },
+              {
                 "id": "T_new_404",
+                "width": "5",
                 "sp": "10"
               }
             ]
@@ -1123,123 +1911,218 @@ function Keyboard_naijatype()
             "id": "3",
             "key": [
               {
-                "nextlayer": "default",
-                "width": "125",
                 "id": "K_SHIFT",
-                "pad": "1",
-                "sp": "2",
                 "text": "*Shift*",
+                "pad": "1",
+                "width": "125",
+                "sp": "2",
+                "nextlayer": "default",
                 "sk": [
                   {
-                    "nextlayer": "capslock",
+                    "text": "*Caps*",
                     "id": "K_CAPS",
                     "sp": "1",
-                    "text": "*Caps*"
+                    "nextlayer": "capslock"
                   }
                 ]
               },
               {
-                "nextlayer": "default",
                 "id": "K_Z",
-                "pad": "5",
-                "text": "Z"
+                "text": "Z",
+                "pad": "9",
+                "nextlayer": "default",
+                "sk": [
+                  {
+                    "text": "Ẓ",
+                    "id": "T_ucZ_underdot",
+                    "default": true
+                  }
+                ]
               },
               {
-                "nextlayer": "default",
                 "id": "K_X",
+                "text": "X",
                 "pad": "3",
-                "text": "X"
+                "nextlayer": "default"
               },
               {
-                "nextlayer": "default",
                 "id": "K_C",
-                "pad": "3",
                 "text": "C",
+                "pad": "3",
+                "nextlayer": "default",
                 "sk": [
                   {
-                    "nextlayer": "default",
+                    "text": "Ç",
                     "id": "U_00C7",
-                    "text": "\u00C7"
+                    "nextlayer": "default"
                   }
                 ]
               },
               {
-                "nextlayer": "default",
                 "id": "K_V",
+                "text": "V",
                 "pad": "3",
-                "text": "V"
+                "nextlayer": "default",
+                "sk": [
+                  {
+                    "text": "Ʌ",
+                    "id": "U_0245"
+                  },
+                  {
+                    "text": "Ʋ",
+                    "id": "U_01B2"
+                  },
+                  {
+                    "text": "́",
+                    "id": "U_0301",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̀",
+                    "id": "U_0300",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̂",
+                    "id": "U_0302",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̌",
+                    "id": "U_030C",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̃",
+                    "id": "U_0303",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̄",
+                    "id": "U_0304",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̱",
+                    "id": "U_0331",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̣",
+                    "id": "U_0323",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "̇",
+                    "id": "U_0307"
+                  },
+                  {
+                    "text": "̍",
+                    "id": "U_030D"
+                  }
+                ]
               },
               {
-                "nextlayer": "default",
                 "id": "K_B",
-                "pad": "3",
                 "text": "B",
+                "pad": "3",
+                "nextlayer": "default",
                 "sk": [
                   {
-                    "nextlayer": "default",
+                    "text": "Ɓ",
                     "id": "U_0181",
-                    "text": "\u0181"
+                    "nextlayer": "default",
+                    "default": true
+                  },
+                  {
+                    "text": "Ḅ",
+                    "id": "T_ucB_underdot"
                   }
                 ]
               },
               {
-                "nextlayer": "default",
                 "id": "K_N",
-                "pad": "3",
                 "text": "N",
-                "sk": [
-                  {
-                    "nextlayer": "default",
-                    "layer": "default",
-                    "id": "U_014A",
-                    "text": "\u014A"
-                  },
-                  {
-                    "nextlayer": "default",
-                    "layer": "default",
-                    "id": "U_019D",
-                    "text": "\u019D"
-                  },
-                  {
-                    "nextlayer": "default",
-                    "layer": "default",
-                    "id": "U_00D1",
-                    "text": "\u00D1"
-                  },
-                  {
-                    "nextlayer": "default",
-                    "layer": "default",
-                    "id": "T_ucN_underdot",
-                    "text": "N\u0323"
-                  },
-                  {
-                    "nextlayer": "default",
-                    "layer": "default",
-                    "id": "T_ucN_underline",
-                    "text": "\u1E48"
-                  }
-                ]
-              },
-              {
-                "nextlayer": "default",
-                "id": "K_M",
                 "pad": "3",
-                "text": "M",
+                "nextlayer": "default",
                 "sk": [
                   {
+                    "text": "Ŋ",
+                    "id": "U_014A",
                     "nextlayer": "default",
-                    "id": "U_2C6E",
-                    "text": "\u2C6E"
+                    "layer": "default",
+                    "default": true
+                  },
+                  {
+                    "text": "Ɲ",
+                    "id": "U_019D",
+                    "nextlayer": "default",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "Ñ",
+                    "id": "T_ucN_nasal",
+                    "nextlayer": "default",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "Ṇ",
+                    "id": "T_ucN_underdot",
+                    "nextlayer": "default",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "Ṉ",
+                    "id": "T_ucN_underline",
+                    "nextlayer": "default",
+                    "layer": "default"
                   }
-                ]
+                ],
+                "flick": {
+                  "s": {
+                    "text": "₦",
+                    "id": "U_20A6",
+                    "nextlayer": "numeric",
+                    "layer": "default"
+                  },
+                  "n": {
+                    "text": "Ŋ",
+                    "id": "U_014A",
+                    "nextlayer": "default"
+                  }
+                }
               },
               {
+                "id": "K_M",
+                "text": "M",
+                "pad": "3",
                 "nextlayer": "default",
-                "width": "115",
+                "sk": [
+                  {
+                    "text": "Ɱ",
+                    "id": "U_2C6E",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "M̃",
+                    "id": "T_ucM_nasal"
+                  }
+                ],
+                "flick": {
+                  "s": {
+                    "text": "̃",
+                    "id": "U_0303",
+                    "nextlayer": "default"
+                  }
+                }
+              },
+              {
                 "id": "K_BKSP",
-                "pad": "5",
+                "text": "*BkSp*",
+                "pad": "10",
+                "width": "115",
                 "sp": "1",
-                "text": "*BkSp*"
+                "nextlayer": "default"
               }
             ]
           },
@@ -1247,294 +2130,338 @@ function Keyboard_naijatype()
             "id": "4",
             "key": [
               {
-                "nextlayer": "numeric",
-                "width": "125",
                 "id": "K_NUMLOCK",
+                "text": "*123*",
                 "pad": "1",
+                "width": "125",
                 "sp": "1",
-                "text": "*123*"
+                "nextlayer": "numeric"
               },
               {
-                "width": "80",
                 "id": "K_LOPT",
-                "pad": "3",
-                "sp": "1",
                 "text": "*Menu*",
+                "pad": "3",
+                "width": "80",
+                "sp": "1",
                 "sk": [
                   {
+                    "text": "😁",
                     "id": "U_1F601",
-                    "sp": "1",
-                    "text": "\uD83D\uDE01"
+                    "sp": "1"
                   },
                   {
+                    "text": "😂",
                     "id": "U_1F602",
-                    "sp": "1",
-                    "text": "\uD83D\uDE02"
+                    "sp": "1"
                   },
                   {
+                    "text": "😆",
                     "id": "U_1F606",
-                    "sp": "1",
-                    "text": "\uD83D\uDE06"
+                    "sp": "1"
                   },
                   {
+                    "text": "😉",
                     "id": "U_1F609",
-                    "sp": "1",
-                    "text": "\uD83D\uDE09"
+                    "sp": "1"
                   },
                   {
+                    "text": "😏",
                     "id": "U_1F60F",
-                    "sp": "1",
-                    "text": "\uD83D\uDE0F"
+                    "sp": "1"
                   },
                   {
+                    "text": "😐",
                     "id": "U_1F610",
-                    "sp": "1",
-                    "text": "\uD83D\uDE10"
+                    "sp": "1"
                   },
                   {
+                    "text": "😕",
                     "id": "U_1F615",
-                    "sp": "1",
-                    "text": "\uD83D\uDE15"
+                    "sp": "1"
                   },
                   {
+                    "text": "😗",
                     "id": "U_1F617",
-                    "sp": "1",
-                    "text": "\uD83D\uDE17"
+                    "sp": "1"
                   },
                   {
+                    "text": "😢",
                     "id": "U_1F622",
-                    "sp": "1",
-                    "text": "\uD83D\uDE22"
+                    "sp": "1"
                   },
                   {
+                    "text": "😮",
                     "id": "U_1F62E",
-                    "sp": "1",
-                    "text": "\uD83D\uDE2E"
+                    "sp": "1"
                   },
                   {
+                    "text": "🙃",
                     "id": "U_1F643",
-                    "sp": "1",
-                    "text": "\uD83D\uDE43"
+                    "sp": "1"
                   },
                   {
+                    "text": "🙄",
                     "id": "U_1F644",
-                    "sp": "1",
-                    "text": "\uD83D\uDE44"
+                    "sp": "1"
                   },
                   {
+                    "text": "🙏",
                     "id": "T_hands_together",
-                    "sp": "1",
-                    "text": "\uD83D\uDE4F"
+                    "sp": "1"
                   },
                   {
+                    "text": "👍",
                     "id": "T_thumbs_up",
-                    "sp": "1",
-                    "text": "\uD83D\uDC4D"
+                    "sp": "1"
                   }
                 ]
               },
               {
-                "layer": "default",
                 "id": "K_COMMA",
-                "pad": "5",
                 "text": ",",
+                "pad": "10",
+                "layer": "default",
                 "sk": [
                   {
-                    "layer": "default",
+                    "text": "ˈ",
+                    "id": "U_02C8"
+                  },
+                  {
+                    "text": "ꞌ",
+                    "id": "U_a78c"
+                  },
+                  {
+                    "text": "Ꞌ",
+                    "id": "U_a78b"
+                  },
+                  {
+                    "text": "‘",
                     "id": "U_2018",
-                    "text": "\u2018"
+                    "layer": "default"
                   },
                   {
-                    "layer": "default",
+                    "text": "’",
                     "id": "U_2019",
-                    "text": "\u2019"
+                    "layer": "default"
                   },
                   {
-                    "layer": "default",
+                    "text": "“",
                     "id": "U_201C",
-                    "text": "\u201C"
+                    "layer": "default"
                   },
                   {
-                    "layer": "default",
+                    "text": "”",
                     "id": "U_201D",
-                    "text": "\u201D"
+                    "layer": "default"
                   },
                   {
-                    "layer": "default",
+                    "text": "<",
                     "id": "U_003C",
-                    "text": "<"
+                    "layer": "default"
                   },
                   {
-                    "layer": "default",
+                    "text": ">",
                     "id": "U_003E",
-                    "text": ">"
+                    "layer": "default"
                   }
                 ]
               },
               {
+                "id": "K_SPACE",
+                "pad": "3",
+                "width": "428",
                 "nextlayer": "shift",
                 "layer": "shift",
-                "width": "350",
-                "id": "K_SPACE",
-                "pad": "5",
                 "sk": [
                   {
+                    "text": "_",
+                    "id": "K_HYPHEN",
                     "nextlayer": "shift",
-                    "layer": "shift",
-                    "id": "K_HYPHEN",
-                    "text": "_"
+                    "layer": "shift"
                   },
                   {
-                    "id": "K_HYPHEN",
-                    "text": "-"
+                    "text": "-",
+                    "id": "K_HYPHEN"
                   },
                   {
-                    "id": "U_2013",
-                    "text": "\u2013"
+                    "text": "–",
+                    "id": "U_2013"
                   },
                   {
-                    "id": "U_2014",
-                    "text": "\u2014"
+                    "text": "—",
+                    "id": "U_2014"
                   }
-                ]
+                ],
+                "flick": {
+                  "s": {
+                    "text": "down",
+                    "id": "T_down"
+                  },
+                  "n": {
+                    "text": "up",
+                    "id": "T_up"
+                  },
+                  "e": {
+                    "text": "right",
+                    "id": "T_right"
+                  },
+                  "w": {
+                    "text": "left",
+                    "id": "T_left"
+                  }
+                }
               },
               {
-                "layer": "default",
                 "id": "K_PERIOD",
-                "pad": "3",
                 "text": ".",
+                "pad": "3",
+                "layer": "default",
                 "sk": [
                   {
-                    "layer": "default",
+                    "text": "\"",
                     "id": "U_0022",
-                    "text": "\""
+                    "layer": "default"
                   },
                   {
-                    "layer": "default",
-                    "id": "K_SLASH",
-                    "text": "/"
-                  },
-                  {
-                    "layer": "default",
-                    "id": "U_005C",
-                    "text": "\\"
-                  },
-                  {
-                    "layer": "default",
-                    "id": "U_003A",
-                    "text": ":"
-                  },
-                  {
-                    "layer": "default",
-                    "id": "U_003B",
-                    "text": ";"
-                  },
-                  {
-                    "layer": "default",
+                    "text": "'",
                     "id": "U_0027",
-                    "text": "'"
+                    "layer": "default"
                   },
                   {
-                    "layer": "default",
-                    "id": "U_002C",
-                    "text": ","
+                    "text": "/",
+                    "id": "K_SLASH",
+                    "layer": "default"
                   },
                   {
-                    "nextlayer": "shift",
-                    "layer": "default",
+                    "text": "\\",
+                    "id": "U_005C",
+                    "layer": "default"
+                  },
+                  {
+                    "text": ":",
+                    "id": "U_003A",
+                    "layer": "default"
+                  },
+                  {
+                    "text": ";",
+                    "id": "U_003B",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "?",
                     "id": "U_003F",
-                    "text": "?"
-                  },
-                  {
                     "nextlayer": "shift",
                     "layer": "default",
-                    "id": "U_0021",
-                    "text": "!"
+                    "default": true
                   },
                   {
-                    "layer": "default",
+                    "text": "!",
+                    "id": "U_0021",
+                    "nextlayer": "shift",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "¿",
+                    "id": "U_00BF"
+                  },
+                  {
+                    "text": "…",
                     "id": "U_2026",
-                    "text": "\u2026"
+                    "layer": "default"
                   }
-                ]
+                ],
+                "flick": {
+                  "w": {
+                    "text": "̣",
+                    "id": "U_0323"
+                  },
+                  "e": {
+                    "text": "̱",
+                    "id": "U_0331"
+                  },
+                  "n": {
+                    "text": "!",
+                    "id": "U_0021"
+                  }
+                }
               },
               {
-                "nextlayer": "shift",
-                "width": "193",
                 "id": "K_ENTER",
-                "pad": "5",
+                "text": "*Enter*",
+                "pad": "10",
+                "width": "115",
                 "sp": "1",
-                "text": "*Enter*"
+                "nextlayer": "shift"
               }
             ]
           }
         ]
       },
       {
-        "id": "numeric",
+        "id": "numeric_old",
         "row": [
           {
             "id": "1",
             "key": [
               {
-                "width": "95",
                 "id": "K_1",
+                "text": "1",
                 "pad": "1",
-                "text": "1"
+                "width": "95"
               },
               {
-                "width": "95",
                 "id": "K_2",
+                "text": "2",
                 "pad": "3",
-                "text": "2"
+                "width": "95"
               },
               {
-                "width": "95",
                 "id": "K_3",
+                "text": "3",
                 "pad": "3",
-                "text": "3"
+                "width": "95"
               },
               {
-                "width": "95",
                 "id": "K_4",
+                "text": "4",
                 "pad": "3",
-                "text": "4"
+                "width": "95"
               },
               {
-                "width": "95",
                 "id": "K_5",
+                "text": "5",
                 "pad": "3",
-                "text": "5"
+                "width": "95"
               },
               {
-                "width": "95",
                 "id": "K_6",
+                "text": "6",
                 "pad": "3",
-                "text": "6"
+                "width": "95"
               },
               {
-                "width": "95",
                 "id": "K_7",
+                "text": "7",
                 "pad": "3",
-                "text": "7"
+                "width": "95"
               },
               {
-                "width": "95",
                 "id": "K_8",
+                "text": "8",
                 "pad": "3",
-                "text": "8"
+                "width": "95"
               },
               {
-                "width": "95",
                 "id": "K_9",
+                "text": "9",
                 "pad": "3",
-                "text": "9"
+                "width": "95"
               },
               {
-                "width": "95",
                 "id": "K_0",
+                "text": "0",
                 "pad": "3",
-                "text": "0"
+                "width": "95"
               }
             ]
           },
@@ -1543,81 +2470,81 @@ function Keyboard_naijatype()
             "key": [
               {
                 "id": "U_20A6",
+                "text": "₦",
                 "pad": "30",
-                "text": "\u20A6",
                 "sk": [
                   {
-                    "id": "U_20A6",
-                    "text": "\u20A6"
+                    "text": "₦",
+                    "id": "U_20A6"
                   },
                   {
-                    "layer": "shift",
+                    "text": "$",
                     "id": "K_4",
-                    "text": "$"
+                    "layer": "shift"
                   },
                   {
-                    "id": "U_00A3",
-                    "text": "\u00A3"
+                    "text": "£",
+                    "id": "U_00A3"
                   }
                 ]
               },
               {
-                "layer": "shift",
                 "id": "K_2",
+                "text": "@",
                 "pad": "3",
-                "text": "@"
+                "layer": "shift"
               },
               {
-                "layer": "shift",
                 "id": "K_3",
-                "pad": "3",
                 "text": "#",
+                "pad": "3",
+                "layer": "shift",
                 "sk": [
                   {
-                    "id": "U_20A6",
-                    "text": "\u20A6"
+                    "text": "₦",
+                    "id": "U_20A6"
                   }
                 ]
               },
               {
-                "layer": "shift",
                 "id": "K_5",
+                "text": "%",
                 "pad": "3",
-                "text": "%"
+                "layer": "shift"
               },
               {
-                "layer": "shift",
                 "id": "K_7",
+                "text": "&",
                 "pad": "3",
-                "text": "&"
+                "layer": "shift"
               },
               {
-                "layer": "shift",
                 "id": "K_HYPHEN",
+                "text": "_",
                 "pad": "3",
-                "text": "_"
+                "layer": "shift"
               },
               {
-                "layer": "default",
                 "id": "K_EQUAL",
+                "text": "=",
                 "pad": "3",
-                "text": "="
+                "layer": "default"
               },
               {
-                "layer": "shift",
                 "id": "K_BKSLASH",
+                "text": "|",
                 "pad": "3",
-                "text": "|"
+                "layer": "shift"
               },
               {
-                "layer": "default",
                 "id": "K_BKSLASH",
+                "text": "\\",
                 "pad": "3",
-                "text": "\\"
+                "layer": "default"
               },
               {
-                "width": "5",
                 "id": "T_new_574",
+                "width": "5",
                 "sp": "10"
               }
             ]
@@ -1626,21 +2553,21 @@ function Keyboard_naijatype()
             "id": "3",
             "key": [
               {
-                "nextlayer": "symbol",
-                "width": "125",
                 "id": "K_SYMBOLS",
+                "text": "*Symbol*",
                 "pad": "1",
+                "width": "125",
                 "sp": "1",
-                "text": "*Symbol*"
+                "nextlayer": "symbol"
               },
               {
                 "id": "K_LBRKT",
-                "pad": "5",
                 "text": "[",
+                "pad": "9",
                 "sk": [
                   {
                     "id": "U_00AB",
-                    "text": "\u00AB"
+                    "text": "«"
                   },
                   {
                     "id": "U_003C",
@@ -1653,25 +2580,25 @@ function Keyboard_naijatype()
                 ]
               },
               {
-                "layer": "shift",
                 "id": "K_9",
+                "text": "(",
                 "pad": "3",
-                "text": "("
+                "layer": "shift"
               },
               {
-                "layer": "shift",
                 "id": "K_0",
+                "text": ")",
                 "pad": "3",
-                "text": ")"
+                "layer": "shift"
               },
               {
                 "id": "K_RBRKT",
-                "pad": "3",
                 "text": "]",
+                "pad": "3",
                 "sk": [
                   {
                     "id": "U_00BB",
-                    "text": "\u00BB"
+                    "text": "»"
                   },
                   {
                     "id": "U_003E",
@@ -1684,29 +2611,29 @@ function Keyboard_naijatype()
                 ]
               },
               {
-                "layer": "shift",
                 "id": "K_EQUAL",
+                "text": "+",
                 "pad": "3",
-                "text": "+"
+                "layer": "shift"
               },
               {
-                "layer": "default",
                 "id": "K_HYPHEN",
+                "text": "-",
                 "pad": "3",
-                "text": "-"
+                "layer": "default"
               },
               {
-                "layer": "default",
                 "id": "K_SLASH",
+                "text": "/",
                 "pad": "3",
-                "text": "/"
+                "layer": "default"
               },
               {
-                "width": "115",
                 "id": "K_BKSP",
-                "pad": "5",
-                "sp": "1",
-                "text": "*BkSp*"
+                "text": "*BkSp*",
+                "pad": "10",
+                "width": "115",
+                "sp": "1"
               }
             ]
           },
@@ -1714,108 +2641,108 @@ function Keyboard_naijatype()
             "id": "4",
             "key": [
               {
-                "nextlayer": "default",
-                "width": "125",
                 "id": "K_LOWER",
+                "text": "*abc*",
                 "pad": "1",
+                "width": "125",
                 "sp": "2",
-                "text": "*abc*"
+                "nextlayer": "default"
               },
               {
-                "width": "80",
                 "id": "U_1F600",
-                "pad": "3",
-                "text": "\uD83D\uDE00",
+                "text": "😀",
+                "pad": "9",
                 "sk": [
                   {
+                    "text": "*Menu*",
                     "id": "K_LOPT",
-                    "text": "*Menu*"
+                    "sp": "1"
                   },
                   {
-                    "id": "U_1F601",
-                    "text": "\uD83D\uDE01"
+                    "text": "😁",
+                    "id": "U_1F601"
                   },
                   {
-                    "id": "U_1F602",
-                    "text": "\uD83D\uDE02"
+                    "text": "😂",
+                    "id": "U_1F602"
                   },
                   {
-                    "id": "U_1F606",
-                    "text": "\uD83D\uDE06"
+                    "text": "😆",
+                    "id": "U_1F606"
                   },
                   {
-                    "id": "U_1F609",
-                    "text": "\uD83D\uDE09"
+                    "text": "😉",
+                    "id": "U_1F609"
                   },
                   {
-                    "id": "U_1F60F",
-                    "text": "\uD83D\uDE0F"
+                    "text": "😏",
+                    "id": "U_1F60F"
                   },
                   {
-                    "id": "U_1F610",
-                    "text": "\uD83D\uDE10"
+                    "text": "😐",
+                    "id": "U_1F610"
                   },
                   {
-                    "id": "U_1F615",
-                    "text": "\uD83D\uDE15"
+                    "text": "😕",
+                    "id": "U_1F615"
                   },
                   {
-                    "id": "U_1F617",
-                    "text": "\uD83D\uDE17"
+                    "text": "😗",
+                    "id": "U_1F617"
                   },
                   {
-                    "id": "U_1F622",
-                    "text": "\uD83D\uDE22"
+                    "text": "😢",
+                    "id": "U_1F622"
                   },
                   {
-                    "id": "U_1F62E",
-                    "text": "\uD83D\uDE2E"
+                    "text": "😮",
+                    "id": "U_1F62E"
                   },
                   {
-                    "id": "U_1F643",
-                    "text": "\uD83D\uDE43"
+                    "text": "🙃",
+                    "id": "U_1F643"
                   },
                   {
-                    "id": "U_1F644",
-                    "text": "\uD83D\uDE44"
+                    "text": "🙄",
+                    "id": "U_1F644"
                   },
                   {
-                    "id": "T_hands_together",
-                    "text": "\uD83D\uDE4F"
+                    "text": "🙏",
+                    "id": "T_hands_together"
                   },
                   {
-                    "id": "T_thumbs_up",
-                    "text": "\uD83D\uDC4D"
+                    "text": "👍",
+                    "id": "T_thumbs_up"
                   }
                 ]
               },
               {
-                "layer": "shift",
                 "id": "K_8",
+                "text": "*",
                 "pad": "5",
-                "text": "*"
+                "layer": "shift"
               },
               {
-                "width": "350",
                 "id": "K_SPACE",
-                "pad": "5",
+                "pad": "3",
+                "width": "407",
                 "sk": [
                   {
-                    "layer": "shift",
+                    "text": "_",
                     "id": "K_HYPHEN",
-                    "text": "_"
+                    "layer": "shift"
                   },
                   {
-                    "id": "K_HYPHEN",
-                    "text": "-"
+                    "text": "-",
+                    "id": "K_HYPHEN"
                   },
                   {
-                    "id": "U_2013",
-                    "text": "\u2013"
+                    "text": "–",
+                    "id": "U_2013"
                   },
                   {
-                    "id": "U_2014",
-                    "text": "\u2014"
+                    "text": "—",
+                    "id": "U_2014"
                   },
                   {
                     "id": "T_new_635",
@@ -1824,61 +2751,60 @@ function Keyboard_naijatype()
                 ]
               },
               {
-                "nextlayer": "shift",
                 "id": "K_PERIOD",
-                "pad": "3",
                 "text": ".",
+                "pad": "3",
                 "sk": [
                   {
-                    "id": "U_0022",
-                    "text": "\""
+                    "text": "\"",
+                    "id": "U_0022"
                   },
                   {
-                    "id": "K_SLASH",
-                    "text": "/"
+                    "text": "/",
+                    "id": "K_SLASH"
                   },
                   {
-                    "id": "U_005C",
-                    "text": "\\"
+                    "text": "\\",
+                    "id": "U_005C"
                   },
                   {
-                    "id": "U_003A",
-                    "text": ":"
+                    "text": ":",
+                    "id": "U_003A"
                   },
                   {
-                    "id": "U_003B",
-                    "text": ";"
+                    "text": ";",
+                    "id": "U_003B"
                   },
                   {
-                    "id": "U_0027",
-                    "text": "'"
+                    "text": "'",
+                    "id": "U_0027"
                   },
                   {
-                    "id": "U_002C",
-                    "text": ","
+                    "text": ",",
+                    "id": "U_002C"
                   },
                   {
-                    "nextlayer": "shift",
+                    "text": "?",
                     "id": "U_003F",
-                    "text": "?"
+                    "nextlayer": "shift"
                   },
                   {
-                    "nextlayer": "shift",
+                    "text": "!",
                     "id": "U_0021",
-                    "text": "!"
+                    "nextlayer": "shift"
                   },
                   {
-                    "id": "U_2026",
-                    "text": "\u2026"
+                    "text": "…",
+                    "id": "U_2026"
                   }
                 ]
               },
               {
-                "width": "193",
                 "id": "K_ENTER",
-                "pad": "5",
-                "sp": "1",
-                "text": "*Enter*"
+                "text": "*Enter*",
+                "pad": "10",
+                "width": "115",
+                "sp": "1"
               }
             ]
           }
@@ -1891,64 +2817,64 @@ function Keyboard_naijatype()
             "id": "1",
             "key": [
               {
-                "width": "95",
-                "id": "K_1",
+                "id": "U_0060",
+                "text": "`",
                 "pad": "1",
-                "text": "1"
+                "width": "95"
               },
               {
-                "width": "95",
-                "id": "K_2",
+                "id": "U_007E",
+                "text": "~",
                 "pad": "3",
-                "text": "2"
+                "width": "95"
               },
               {
-                "width": "95",
-                "id": "K_3",
+                "id": "U_005E",
+                "text": "^",
                 "pad": "3",
-                "text": "3"
+                "width": "95"
               },
               {
-                "width": "95",
-                "id": "K_4",
+                "id": "U_00A8",
+                "text": "¨",
                 "pad": "3",
-                "text": "4"
+                "width": "95"
               },
               {
-                "width": "95",
-                "id": "K_5",
+                "id": "U_00B4",
+                "text": "´",
                 "pad": "3",
-                "text": "5"
+                "width": "95"
               },
               {
-                "width": "95",
-                "id": "K_6",
+                "id": "U_00B8",
+                "text": "¸",
                 "pad": "3",
-                "text": "6"
+                "width": "95"
               },
               {
-                "width": "95",
-                "id": "K_7",
+                "id": "U_00AF",
+                "text": "¯",
                 "pad": "3",
-                "text": "7"
+                "width": "95"
               },
               {
-                "width": "95",
-                "id": "K_8",
+                "id": "U_00BF",
+                "text": "¿",
                 "pad": "3",
-                "text": "8"
+                "width": "95"
               },
               {
-                "width": "95",
-                "id": "K_9",
+                "id": "U_00A1",
+                "text": "¡",
                 "pad": "3",
-                "text": "9"
+                "width": "95"
               },
               {
-                "width": "95",
-                "id": "K_0",
+                "id": "U_00AC",
+                "text": "¬",
                 "pad": "3",
-                "text": "0"
+                "width": "94"
               }
             ]
           },
@@ -1956,64 +2882,54 @@ function Keyboard_naijatype()
             "id": "2",
             "key": [
               {
-                "width": "95",
-                "id": "U_0060",
-                "pad": "1",
-                "text": "`"
+                "id": "U_00AA",
+                "text": "ª",
+                "pad": "30"
               },
               {
-                "width": "95",
-                "id": "U_007E",
-                "pad": "3",
-                "text": "~"
+                "id": "U_00BA",
+                "text": "º",
+                "pad": "3"
               },
               {
-                "width": "95",
-                "id": "U_005E",
-                "pad": "3",
-                "text": "^"
+                "id": "U_00B6",
+                "text": "¶",
+                "pad": "3"
               },
               {
-                "width": "95",
-                "id": "U_00A8",
-                "pad": "3",
-                "text": "\u00A8"
+                "id": "U_00A7",
+                "text": "§",
+                "pad": "3"
               },
               {
-                "width": "95",
-                "id": "U_00B4",
-                "pad": "3",
-                "text": "\u00B4"
+                "id": "U_00B1",
+                "text": "±",
+                "pad": "3"
               },
               {
-                "width": "95",
-                "id": "U_00B8",
-                "pad": "3",
-                "text": "\u00B8"
+                "id": "U_00D7",
+                "text": "×",
+                "pad": "3"
               },
               {
-                "width": "95",
-                "id": "U_00AF",
-                "pad": "3",
-                "text": "\u00AF"
+                "id": "U_00F7",
+                "text": "÷",
+                "pad": "3"
               },
               {
-                "width": "95",
-                "id": "U_00BF",
-                "pad": "3",
-                "text": "\u00BF"
+                "id": "U_00A6",
+                "text": "¦",
+                "pad": "3"
               },
               {
-                "width": "95",
-                "id": "U_00A1",
-                "pad": "3",
-                "text": "\u00A1"
+                "id": "U_00B0",
+                "text": "°",
+                "pad": "3"
               },
               {
-                "width": "94",
-                "id": "U_00AC",
-                "pad": "3",
-                "text": "\u00AC"
+                "id": "T_new_221",
+                "width": "5",
+                "sp": "10"
               }
             ]
           },
@@ -2021,54 +2937,54 @@ function Keyboard_naijatype()
             "id": "3",
             "key": [
               {
-                "id": "U_00AA",
-                "pad": "30",
-                "text": "\u00AA"
+                "id": "K_NUMLOCK",
+                "text": "*123*",
+                "pad": "1",
+                "width": "125",
+                "sp": "2",
+                "nextlayer": "numeric_old"
               },
               {
-                "id": "U_00BA",
-                "pad": "3",
-                "text": "\u00BA"
+                "id": "U_00B5",
+                "text": "µ",
+                "pad": "9"
               },
               {
-                "id": "U_00B6",
-                "pad": "3",
-                "text": "\u00B6"
+                "id": "U_00A9",
+                "text": "©",
+                "pad": "3"
               },
               {
-                "id": "U_00A7",
-                "pad": "3",
-                "text": "\u00A7"
+                "id": "U_00AE",
+                "text": "®",
+                "pad": "3"
               },
               {
-                "id": "U_00B1",
-                "pad": "3",
-                "text": "\u00B1"
+                "id": "U_00A3",
+                "text": "£",
+                "pad": "3"
               },
               {
-                "id": "U_00D7",
-                "pad": "3",
-                "text": "\u00D7"
+                "id": "U_20AC",
+                "text": "€",
+                "pad": "3"
               },
               {
-                "id": "U_00F7",
-                "pad": "3",
-                "text": "\u00F7"
+                "id": "U_00A5",
+                "text": "¥",
+                "pad": "3"
               },
               {
-                "id": "U_00A6",
-                "pad": "3",
-                "text": "\u00A6"
+                "id": "U_2022",
+                "text": "•",
+                "pad": "3"
               },
               {
-                "id": "U_00B0",
-                "pad": "3",
-                "text": "\u00B0"
-              },
-              {
-                "width": "5",
-                "id": "T_new_221",
-                "sp": "10"
+                "id": "K_BKSP",
+                "text": "*BkSp*",
+                "pad": "10",
+                "width": "115",
+                "sp": "1"
               }
             ]
           },
@@ -2076,246 +2992,202 @@ function Keyboard_naijatype()
             "id": "4",
             "key": [
               {
-                "nextlayer": "numeric",
-                "width": "125",
-                "id": "K_NUMLOCK",
-                "pad": "1",
-                "sp": "2",
-                "text": "*123*"
-              },
-              {
-                "id": "U_00B5",
-                "pad": "5",
-                "text": "\u00B5"
-              },
-              {
-                "id": "U_00A9",
-                "pad": "3",
-                "text": "\u00A9"
-              },
-              {
-                "id": "U_00AE",
-                "pad": "3",
-                "text": "\u00AE"
-              },
-              {
-                "id": "U_00A3",
-                "pad": "3",
-                "text": "\u00A3"
-              },
-              {
-                "id": "U_20AC",
-                "pad": "3",
-                "text": "\u20AC"
-              },
-              {
-                "id": "U_00A5",
-                "pad": "3",
-                "text": "\u00A5"
-              },
-              {
-                "id": "U_2022",
-                "pad": "3",
-                "text": "\u2022"
-              },
-              {
-                "width": "115",
-                "id": "K_BKSP",
-                "pad": "5",
-                "sp": "1",
-                "text": "*BkSp*"
-              }
-            ]
-          },
-          {
-            "id": "5",
-            "key": [
-              {
-                "nextlayer": "default",
-                "width": "200",
                 "id": "K_LOWER",
+                "text": "*abc*",
                 "pad": "1",
+                "width": "125",
                 "sp": "1",
-                "text": "*abc*"
+                "nextlayer": "default"
               },
               {
                 "id": "U_1F600",
-                "pad": "3",
-                "text": "\uD83D\uDE00",
+                "text": "😀",
+                "pad": "9",
                 "sk": [
                   {
+                    "text": "*Menu*",
                     "id": "K_LOPT",
-                    "text": "*Menu*"
+                    "sp": "1"
                   },
                   {
-                    "id": "U_1F601",
-                    "text": "\uD83D\uDE01"
+                    "text": "😁",
+                    "id": "U_1F601"
                   },
                   {
-                    "id": "U_1F602",
-                    "text": "\uD83D\uDE02"
+                    "text": "😂",
+                    "id": "U_1F602"
                   },
                   {
-                    "id": "U_1F606",
-                    "text": "\uD83D\uDE06"
+                    "text": "😆",
+                    "id": "U_1F606"
                   },
                   {
-                    "id": "U_1F609",
-                    "text": "\uD83D\uDE09"
+                    "text": "😉",
+                    "id": "U_1F609"
                   },
                   {
-                    "id": "U_1F60F",
-                    "text": "\uD83D\uDE0F"
+                    "text": "😏",
+                    "id": "U_1F60F"
                   },
                   {
-                    "id": "U_1F610",
-                    "text": "\uD83D\uDE10"
+                    "text": "😐",
+                    "id": "U_1F610"
                   },
                   {
-                    "id": "U_1F615",
-                    "text": "\uD83D\uDE15"
+                    "text": "😕",
+                    "id": "U_1F615"
                   },
                   {
-                    "id": "U_1F617",
-                    "text": "\uD83D\uDE17"
+                    "text": "😗",
+                    "id": "U_1F617"
                   },
                   {
-                    "id": "U_1F622",
-                    "text": "\uD83D\uDE22"
+                    "text": "😢",
+                    "id": "U_1F622"
                   },
                   {
-                    "id": "U_1F62E",
-                    "text": "\uD83D\uDE2E"
+                    "text": "😮",
+                    "id": "U_1F62E"
                   },
                   {
-                    "id": "U_1F643",
-                    "text": "\uD83D\uDE43"
+                    "text": "🙃",
+                    "id": "U_1F643"
                   },
                   {
-                    "id": "U_1F644",
-                    "text": "\uD83D\uDE44"
+                    "text": "🙄",
+                    "id": "U_1F644"
                   },
                   {
-                    "id": "T_hands_together",
-                    "text": "\uD83D\uDE4F"
+                    "text": "🙏",
+                    "id": "T_hands_together"
                   },
                   {
-                    "id": "T_thumbs_up",
-                    "text": "\uD83D\uDC4D"
+                    "text": "👍",
+                    "id": "T_thumbs_up"
                   }
                 ]
               },
               {
                 "id": "K_COMMA",
-                "pad": "5",
                 "text": ",",
+                "pad": "3",
                 "sk": [
                   {
-                    "id": "U_2018",
-                    "text": "\u2018"
+                    "text": "ꞌ",
+                    "id": "U_a78c"
                   },
                   {
-                    "id": "U_2019",
-                    "text": "\u2019"
+                    "text": "Ꞌ",
+                    "id": "U_a78b"
                   },
                   {
-                    "id": "U_201C",
-                    "text": "\u201C"
+                    "text": "‘",
+                    "id": "U_2018"
                   },
                   {
-                    "id": "U_201D",
-                    "text": "\u201D"
+                    "text": "’",
+                    "id": "U_2019"
                   },
                   {
-                    "id": "U_003C",
-                    "text": "<"
+                    "text": "“",
+                    "id": "U_201C"
                   },
                   {
-                    "id": "U_003E",
-                    "text": ">"
+                    "text": "”",
+                    "id": "U_201D"
+                  },
+                  {
+                    "text": "<",
+                    "id": "U_003C"
+                  },
+                  {
+                    "text": ">",
+                    "id": "U_003E"
                   }
                 ]
               },
               {
-                "width": "210",
                 "id": "K_SPACE",
                 "pad": "5",
+                "width": "304",
                 "sk": [
                   {
-                    "layer": "shift",
+                    "text": "_",
                     "id": "K_HYPHEN",
-                    "text": "_"
+                    "layer": "shift"
                   },
                   {
-                    "id": "K_HYPHEN",
-                    "text": "-"
+                    "text": "-",
+                    "id": "K_HYPHEN"
                   },
                   {
-                    "id": "U_2013",
-                    "text": "\u2013"
+                    "text": "–",
+                    "id": "U_2013"
                   },
                   {
-                    "id": "U_2014",
-                    "text": "\u2014"
+                    "text": "—",
+                    "id": "U_2014"
                   }
                 ]
               },
               {
-                "nextlayer": "shift",
                 "id": "K_PERIOD",
-                "pad": "3",
                 "text": ".",
+                "pad": "3",
+                "nextlayer": "shift",
                 "sk": [
                   {
-                    "id": "U_0022",
-                    "text": "\""
+                    "text": "\"",
+                    "id": "U_0022"
                   },
                   {
-                    "id": "U_005C",
-                    "text": "\\"
+                    "text": "'",
+                    "id": "U_0027"
                   },
                   {
-                    "id": "U_003A",
-                    "text": ":"
+                    "text": "\\",
+                    "id": "U_005C"
                   },
                   {
-                    "id": "U_003B",
-                    "text": ";"
+                    "text": ":",
+                    "id": "U_003A"
                   },
                   {
-                    "id": "U_0027",
-                    "text": "'"
+                    "text": ";",
+                    "id": "U_003B"
                   },
                   {
-                    "id": "U_002C",
-                    "text": ","
+                    "text": ",",
+                    "id": "U_002C"
                   },
                   {
-                    "nextlayer": "shift",
+                    "text": "?",
                     "id": "U_003F",
-                    "text": "?"
-                  },
-                  {
                     "nextlayer": "shift",
-                    "id": "U_0021",
-                    "text": "!"
+                    "default": true
                   },
                   {
-                    "id": "U_2026",
-                    "text": "\u2026"
+                    "text": "!",
+                    "id": "U_0021",
+                    "nextlayer": "shift"
+                  },
+                  {
+                    "text": "…",
+                    "id": "U_2026"
                   }
                 ]
               },
               {
                 "id": "U_00B7",
-                "text": "\u00B7"
+                "text": "·",
+                "pad": "3"
               },
               {
-                "width": "135",
                 "id": "K_ENTER",
-                "pad": "5",
-                "sp": "1",
-                "text": "*Enter*"
+                "text": "*Enter*",
+                "pad": "10",
+                "width": "115",
+                "sp": "1"
               }
             ]
           }
@@ -2328,228 +3200,238 @@ function Keyboard_naijatype()
             "id": "1",
             "key": [
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
-                "width": "95",
                 "id": "K_Q",
+                "text": "Q",
                 "pad": "1",
-                "text": "Q"
+                "width": "95",
+                "nextlayer": "capslock",
+                "layer": "shift"
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
-                "width": "95",
                 "id": "K_W",
+                "text": "W",
                 "pad": "3",
-                "text": "W"
+                "width": "95",
+                "nextlayer": "capslock",
+                "layer": "shift"
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
-                "width": "95",
                 "id": "K_E",
-                "pad": "3",
                 "text": "E",
+                "pad": "3",
+                "width": "95",
+                "nextlayer": "capslock",
+                "layer": "shift",
                 "sk": [
                   {
-                    "id": "U_0190",
-                    "text": "\u0190"
+                    "text": "Ɛ",
+                    "id": "U_0190"
                   },
                   {
-                    "id": "T_ucE_underline",
-                    "text": "E\u0331"
+                    "text": "E̱",
+                    "id": "T_ucE_underline"
                   },
                   {
-                    "id": "T_ucE_underdot",
-                    "text": "E\u0323"
+                    "text": "Ẹ",
+                    "id": "T_ucE_underdot"
                   },
                   {
-                    "id": "U_00C8",
-                    "text": "\u00C8"
+                    "text": "È",
+                    "id": "U_00C8"
                   },
                   {
-                    "id": "U_00C9",
-                    "text": "\u00C9"
+                    "text": "É",
+                    "id": "U_00C9"
                   },
                   {
-                    "id": "U_00CA",
-                    "text": "\u00CA"
+                    "text": "Ê",
+                    "id": "U_00CA"
                   },
                   {
-                    "id": "U_00CB",
-                    "text": "\u00CB"
+                    "text": "Ë",
+                    "id": "U_00CB"
                   }
                 ]
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
-                "width": "95",
                 "id": "K_R",
+                "text": "R",
                 "pad": "3",
-                "text": "R"
+                "width": "95",
+                "nextlayer": "capslock",
+                "layer": "shift"
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
-                "width": "95",
                 "id": "K_T",
-                "pad": "3",
                 "text": "T",
+                "pad": "3",
+                "width": "95",
+                "nextlayer": "capslock",
+                "layer": "shift",
                 "sk": [
                   {
-                    "id": "U_00DE",
-                    "text": "\u00DE"
+                    "text": "Þ",
+                    "id": "U_00DE"
                   }
                 ]
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
-                "width": "95",
                 "id": "K_Y",
-                "pad": "3",
                 "text": "Y",
+                "pad": "3",
+                "width": "95",
+                "nextlayer": "capslock",
+                "layer": "shift",
                 "sk": [
                   {
-                    "id": "U_00DD",
-                    "text": "\u00DD"
+                    "text": "Ý",
+                    "id": "U_00DD"
                   }
                 ]
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
-                "width": "95",
                 "id": "K_U",
-                "pad": "3",
                 "text": "U",
+                "pad": "3",
+                "width": "95",
+                "nextlayer": "capslock",
+                "layer": "shift",
                 "sk": [
                   {
-                    "id": "U_0244",
-                    "text": "\u0244"
+                    "text": "Ʉ",
+                    "id": "U_0244"
                   },
                   {
-                    "id": "U_01B1",
-                    "text": "\u01B1"
+                    "text": "Ʊ",
+                    "id": "U_01B1"
                   },
                   {
-                    "id": "T_ucU_underline",
-                    "text": "U\u0331"
+                    "text": "U̱",
+                    "id": "T_ucU_underline"
                   },
                   {
-                    "id": "T_ucU_underdot",
-                    "text": "U\u0323"
+                    "text": "Ụ",
+                    "id": "T_ucU_underdot"
                   },
                   {
-                    "id": "U_00D9",
-                    "text": "\u00D9"
+                    "text": "Ù",
+                    "id": "U_00D9"
                   },
                   {
-                    "id": "U_00DA",
-                    "text": "\u00DA"
+                    "text": "Ú",
+                    "id": "U_00DA"
                   },
                   {
-                    "id": "U_00DB",
-                    "text": "\u00DB"
+                    "text": "Û",
+                    "id": "U_00DB"
                   },
                   {
-                    "id": "U_00DC",
-                    "text": "\u00DC"
+                    "text": "Ü",
+                    "id": "U_00DC"
                   }
                 ]
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
-                "width": "95",
                 "id": "K_I",
-                "pad": "3",
                 "text": "I",
+                "pad": "3",
+                "width": "95",
+                "nextlayer": "capslock",
+                "layer": "shift",
                 "sk": [
                   {
+                    "text": "Ɨ",
                     "id": "U_0197",
-                    "text": "\u0197"
+                    "nextlayer": "capslock"
                   },
                   {
+                    "text": "I̱",
                     "id": "T_ucI_underline",
-                    "text": "I\u0331"
+                    "nextlayer": "capslock"
                   },
                   {
+                    "text": "Ị",
                     "id": "T_ucI_underdot",
-                    "text": "I\u0323"
+                    "nextlayer": "capslock",
+                    "default": true
                   },
                   {
+                    "text": "Ì",
                     "id": "U_00CC",
-                    "text": "\u00CC"
+                    "nextlayer": "capslock"
                   },
                   {
+                    "text": "Í",
                     "id": "U_00CD",
-                    "text": "\u00CD"
+                    "nextlayer": "capslock"
                   },
                   {
+                    "text": "Î",
                     "id": "U_00CE",
-                    "text": "\u00CE"
+                    "nextlayer": "capslock"
                   },
                   {
+                    "text": "Ï",
                     "id": "U_00CF",
-                    "text": "\u00CF"
+                    "nextlayer": "capslock"
                   }
                 ]
               },
               {
+                "id": "K_O",
+                "text": "O",
+                "pad": "3",
+                "width": "95",
                 "nextlayer": "capslock",
                 "layer": "shift",
-                "width": "95",
-                "id": "K_O",
-                "pad": "3",
-                "text": "O",
                 "sk": [
                   {
+                    "text": "Ɔ",
                     "id": "U_0186",
-                    "text": "\u0186"
+                    "nextlayer": "capslock"
                   },
                   {
-                    "id": "T_ucO_underline",
-                    "text": "O\u0331"
+                    "text": "O̱",
+                    "id": "T_ucO_underline"
                   },
                   {
+                    "text": "Ọ",
                     "id": "T_ucO_underdot",
-                    "text": "O\u0323"
+                    "default": true
                   },
                   {
-                    "id": "U_00D2",
-                    "text": "\u00D2"
+                    "text": "Ò",
+                    "id": "U_00D2"
                   },
                   {
-                    "id": "U_00D3",
-                    "text": "\u00D3"
+                    "text": "Ó",
+                    "id": "U_00D3"
                   },
                   {
-                    "id": "U_00D4",
-                    "text": "\u00D4"
+                    "text": "Ô",
+                    "id": "U_00D4"
                   },
                   {
-                    "id": "U_00D5",
-                    "text": "\u00D5"
+                    "text": "Õ",
+                    "id": "U_00D5"
                   },
                   {
-                    "id": "U_00D6",
-                    "text": "\u00D6"
+                    "text": "Ö",
+                    "id": "U_00D6"
                   },
                   {
-                    "id": "U_00D8",
-                    "text": "\u00D8"
+                    "text": "Ø",
+                    "id": "U_00D8"
                   }
                 ]
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
-                "width": "95",
                 "id": "K_P",
+                "text": "P",
                 "pad": "3",
-                "text": "P"
+                "width": "95",
+                "nextlayer": "capslock",
+                "layer": "shift"
               }
             ]
           },
@@ -2557,129 +3439,140 @@ function Keyboard_naijatype()
             "id": "2",
             "key": [
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
                 "id": "K_A",
-                "pad": "30",
                 "text": "A",
+                "pad": "30",
+                "nextlayer": "capslock",
+                "layer": "shift",
                 "sk": [
                   {
+                    "text": "Ə",
                     "id": "U_018F",
-                    "text": "\u018F"
+                    "nextlayer": "capslock",
+                    "default": true
                   },
                   {
+                    "text": "A̱",
                     "id": "T_ucA_underline",
-                    "text": "A\u0331"
+                    "nextlayer": "capslock"
                   },
                   {
+                    "text": "Ạ",
                     "id": "T_ucA_underdot",
-                    "text": "A\u0323"
+                    "nextlayer": "capslock"
                   },
                   {
+                    "text": "Ã",
                     "id": "U_00C3",
-                    "text": "\u00C3"
+                    "nextlayer": "capslock"
                   },
                   {
+                    "text": "À",
                     "id": "U_00C0",
-                    "text": "\u00C0"
+                    "nextlayer": "capslock"
                   },
                   {
+                    "text": "Á",
                     "id": "U_00C1",
-                    "text": "\u00C1"
+                    "nextlayer": "capslock"
                   },
                   {
+                    "text": "Â",
                     "id": "U_00C2",
-                    "text": "\u00C2"
+                    "nextlayer": "capslock"
                   },
                   {
+                    "text": "Ä",
                     "id": "U_00C4",
-                    "text": "\u00C4"
+                    "nextlayer": "capslock"
                   },
                   {
+                    "text": "Å",
                     "id": "U_00C5",
-                    "text": "\u00C5"
+                    "nextlayer": "capslock"
                   },
                   {
+                    "text": "Æ",
                     "id": "U_00C6",
-                    "text": "\u00C6"
+                    "nextlayer": "capslock"
                   }
                 ]
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
                 "id": "K_S",
+                "text": "S",
                 "pad": "3",
-                "text": "S"
+                "nextlayer": "capslock",
+                "layer": "shift"
               },
               {
+                "id": "K_D",
+                "text": "D",
+                "pad": "3",
                 "nextlayer": "capslock",
                 "layer": "shift",
-                "id": "K_D",
-                "pad": "3",
-                "text": "D",
                 "sk": [
                   {
-                    "id": "U_018A",
-                    "text": "\u018A"
+                    "text": "Ɗ",
+                    "id": "U_018A"
                   },
                   {
-                    "id": "U_00D0",
-                    "text": "\u00D0"
+                    "text": "Ð",
+                    "id": "U_00D0"
                   }
                 ]
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
                 "id": "K_F",
+                "text": "F",
                 "pad": "3",
-                "text": "F"
+                "nextlayer": "capslock",
+                "layer": "shift"
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
                 "id": "K_G",
+                "text": "G",
                 "pad": "3",
-                "text": "G"
+                "nextlayer": "capslock",
+                "layer": "shift"
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
                 "id": "K_H",
+                "text": "H",
                 "pad": "3",
-                "text": "H"
+                "nextlayer": "capslock",
+                "layer": "shift"
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
                 "id": "K_J",
+                "text": "J",
                 "pad": "3",
-                "text": "J"
+                "nextlayer": "capslock",
+                "layer": "shift"
               },
               {
+                "id": "K_K",
+                "text": "K",
+                "pad": "3",
                 "nextlayer": "capslock",
                 "layer": "shift",
-                "id": "K_K",
-                "pad": "3",
-                "text": "K",
                 "sk": [
                   {
-                    "id": "U_0198",
-                    "text": "\u0198"
+                    "text": "Ƙ",
+                    "id": "U_0198"
                   }
                 ]
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
                 "id": "K_L",
+                "text": "L",
                 "pad": "3",
-                "text": "L"
+                "nextlayer": "capslock",
+                "layer": "shift"
               },
               {
-                "width": "5",
                 "id": "T_new_404",
+                "width": "5",
                 "sp": "10"
               }
             ]
@@ -2688,110 +3581,110 @@ function Keyboard_naijatype()
             "id": "3",
             "key": [
               {
-                "nextlayer": "default",
-                "width": "125",
                 "id": "K_CAPS",
+                "text": "*Caps*",
                 "pad": "1",
+                "width": "125",
                 "sp": "2",
-                "text": "*Caps*"
+                "nextlayer": "default"
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
                 "id": "K_Z",
-                "pad": "5",
-                "text": "Z"
+                "text": "Z",
+                "pad": "9",
+                "nextlayer": "capslock",
+                "layer": "shift"
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
                 "id": "K_X",
+                "text": "X",
                 "pad": "3",
-                "text": "X"
+                "nextlayer": "capslock",
+                "layer": "shift"
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
                 "id": "K_C",
-                "pad": "3",
                 "text": "C",
+                "pad": "3",
+                "nextlayer": "capslock",
+                "layer": "shift",
                 "sk": [
                   {
-                    "id": "U_00C7",
-                    "text": "\u00C7"
+                    "text": "Ç",
+                    "id": "U_00C7"
                   }
                 ]
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
                 "id": "K_V",
-                "pad": "3",
                 "text": "V",
+                "pad": "3",
+                "nextlayer": "capslock",
+                "layer": "shift",
                 "sk": [
                   {
-                    "id": "U_01B2",
-                    "text": "\u01B2"
+                    "text": "Ʋ",
+                    "id": "U_01B2"
                   }
                 ]
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
                 "id": "K_B",
-                "pad": "3",
                 "text": "B",
+                "pad": "3",
+                "nextlayer": "capslock",
+                "layer": "shift",
                 "sk": [
                   {
-                    "id": "U_0181",
-                    "text": "\u0181"
+                    "text": "Ɓ",
+                    "id": "U_0181"
                   }
                 ]
               },
               {
-                "nextlayer": "capslock",
-                "layer": "shift",
                 "id": "K_N",
-                "pad": "3",
                 "text": "N",
-                "sk": [
-                  {
-                    "id": "U_014A",
-                    "text": "\u014A"
-                  },
-                  {
-                    "id": "U_019D",
-                    "text": "\u019D"
-                  },
-                  {
-                    "id": "U_00D1",
-                    "text": "\u00D1"
-                  },
-                  {
-                    "id": "T_ucN_underdot",
-                    "text": "N\u0323"
-                  }
-                ]
-              },
-              {
+                "pad": "3",
                 "nextlayer": "capslock",
                 "layer": "shift",
-                "id": "K_M",
-                "pad": "3",
-                "text": "M",
                 "sk": [
                   {
-                    "id": "U_2C6E",
-                    "text": "\u2C6E"
+                    "text": "Ŋ",
+                    "id": "U_014A"
+                  },
+                  {
+                    "text": "Ɲ",
+                    "id": "U_019D"
+                  },
+                  {
+                    "text": "Ñ",
+                    "id": "U_00D1"
+                  },
+                  {
+                    "text": "Ṇ",
+                    "id": "T_ucN_underdot"
                   }
                 ]
               },
               {
-                "width": "115",
+                "id": "K_M",
+                "text": "M",
+                "pad": "3",
+                "nextlayer": "capslock",
+                "layer": "shift",
+                "sk": [
+                  {
+                    "text": "Ɱ",
+                    "id": "U_2C6E"
+                  }
+                ]
+              },
+              {
                 "id": "K_BKSP",
-                "pad": "5",
-                "sp": "1",
-                "text": "*BkSp*"
+                "text": "*BkSp*",
+                "pad": "10",
+                "width": "115",
+                "sp": "1"
               }
             ]
           },
@@ -2799,126 +3692,135 @@ function Keyboard_naijatype()
             "id": "4",
             "key": [
               {
-                "nextlayer": "numeric",
-                "width": "170",
                 "id": "K_NUMLOCK",
+                "text": "*123*",
                 "pad": "1",
+                "width": "125",
                 "sp": "1",
-                "text": "*123*"
+                "nextlayer": "numeric_old"
               },
               {
-                "width": "80",
                 "id": "U_1F600",
-                "pad": "3",
-                "text": "\uD83D\uDE00",
+                "text": "😀",
+                "pad": "9",
+                "width": "80",
                 "sk": [
                   {
+                    "text": "*Menu*",
                     "id": "K_LOPT",
-                    "text": "*Menu*"
+                    "sp": "1"
                   },
                   {
-                    "id": "U_1F601",
-                    "text": "\uD83D\uDE01"
+                    "text": "😁",
+                    "id": "U_1F601"
                   },
                   {
-                    "id": "U_1F602",
-                    "text": "\uD83D\uDE02"
+                    "text": "😂",
+                    "id": "U_1F602"
                   },
                   {
-                    "id": "U_1F606",
-                    "text": "\uD83D\uDE06"
+                    "text": "😆",
+                    "id": "U_1F606"
                   },
                   {
-                    "id": "U_1F609",
-                    "text": "\uD83D\uDE09"
+                    "text": "😉",
+                    "id": "U_1F609"
                   },
                   {
-                    "id": "U_1F60F",
-                    "text": "\uD83D\uDE0F"
+                    "text": "😏",
+                    "id": "U_1F60F"
                   },
                   {
-                    "id": "U_1F610",
-                    "text": "\uD83D\uDE10"
+                    "text": "😐",
+                    "id": "U_1F610"
                   },
                   {
-                    "id": "U_1F615",
-                    "text": "\uD83D\uDE15"
+                    "text": "😕",
+                    "id": "U_1F615"
                   },
                   {
-                    "id": "U_1F617",
-                    "text": "\uD83D\uDE17"
+                    "text": "😗",
+                    "id": "U_1F617"
                   },
                   {
-                    "id": "U_1F622",
-                    "text": "\uD83D\uDE22"
+                    "text": "😢",
+                    "id": "U_1F622"
                   },
                   {
-                    "id": "U_1F62E",
-                    "text": "\uD83D\uDE2E"
+                    "text": "😮",
+                    "id": "U_1F62E"
                   },
                   {
-                    "id": "U_1F643",
-                    "text": "\uD83D\uDE43"
+                    "text": "🙃",
+                    "id": "U_1F643"
                   },
                   {
-                    "id": "U_1F644",
-                    "text": "\uD83D\uDE44"
+                    "text": "🙄",
+                    "id": "U_1F644"
                   },
                   {
-                    "id": "T_hands_together",
-                    "text": "\uD83D\uDE4F"
+                    "text": "🙏",
+                    "id": "T_hands_together"
                   },
                   {
-                    "id": "T_thumbs_up",
-                    "text": "\uD83D\uDC4D"
+                    "text": "👍",
+                    "id": "T_thumbs_up"
                   }
                 ]
               },
               {
                 "id": "K_COMMA",
-                "pad": "5",
                 "text": ",",
+                "pad": "5",
                 "sk": [
                   {
-                    "id": "U_2018",
-                    "text": "\u2018"
+                    "text": "ꞌ",
+                    "id": "U_a78c"
                   },
                   {
-                    "id": "U_2019",
-                    "text": "\u2019"
+                    "text": "Ꞌ",
+                    "id": "U_a78b"
                   },
                   {
-                    "id": "U_201C",
-                    "text": "\u201C"
+                    "text": "‘",
+                    "id": "U_2018"
                   },
                   {
-                    "id": "U_201D",
-                    "text": "\u201D"
+                    "text": "’",
+                    "id": "U_2019"
                   },
                   {
-                    "id": "U_003C",
-                    "text": "<"
+                    "text": "“",
+                    "id": "U_201C"
                   },
                   {
-                    "id": "U_003E",
-                    "text": ">"
+                    "text": "”",
+                    "id": "U_201D"
+                  },
+                  {
+                    "text": "<",
+                    "id": "U_003C"
+                  },
+                  {
+                    "text": ">",
+                    "id": "U_003E"
                   }
                 ]
               },
               {
-                "nextlayer": "capslock",
-                "width": "320",
                 "id": "K_SPACE",
                 "pad": "5",
+                "width": "425",
+                "nextlayer": "capslock",
                 "sk": [
                   {
-                    "layer": "shift",
+                    "text": "_",
                     "id": "K_HYPHEN",
-                    "text": "_"
+                    "layer": "shift"
                   },
                   {
-                    "id": "K_HYPHEN",
-                    "text": "-"
+                    "text": "-",
+                    "id": "K_HYPHEN"
                   },
                   {
                     "id": "T_new_270",
@@ -2929,792 +3831,4067 @@ function Keyboard_naijatype()
                     "sp": "10"
                   },
                   {
-                    "id": "U_2013",
-                    "text": "\u2013"
+                    "text": "–",
+                    "id": "U_2013"
                   },
                   {
-                    "id": "U_2014",
-                    "text": "\u2014"
+                    "text": "—",
+                    "id": "U_2014"
                   }
                 ]
               },
               {
-                "nextlayer": "shift",
                 "id": "K_PERIOD",
-                "pad": "3",
                 "text": ".",
+                "pad": "3",
+                "nextlayer": "shift",
                 "sk": [
                   {
-                    "id": "U_0022",
-                    "text": "\""
+                    "text": "\"",
+                    "id": "U_0022"
                   },
                   {
-                    "id": "U_005C",
-                    "text": "\\"
+                    "text": "'",
+                    "id": "U_0027"
                   },
                   {
-                    "id": "U_003A",
-                    "text": ":"
+                    "text": "\\",
+                    "id": "U_005C"
                   },
                   {
-                    "id": "U_003B",
-                    "text": ";"
+                    "text": ":",
+                    "id": "U_003A"
                   },
                   {
-                    "id": "U_0027",
-                    "text": "'"
+                    "text": ";",
+                    "id": "U_003B"
                   },
                   {
-                    "id": "U_002C",
-                    "text": ","
+                    "text": ",",
+                    "id": "U_002C"
                   },
                   {
-                    "nextlayer": "shift",
+                    "text": "?",
                     "id": "U_003F",
-                    "text": "?"
-                  },
-                  {
                     "nextlayer": "shift",
-                    "id": "U_0021",
-                    "text": "!"
+                    "default": true
                   },
                   {
-                    "id": "U_2026",
-                    "text": "\u2026"
+                    "text": "!",
+                    "id": "U_0021",
+                    "nextlayer": "shift"
+                  },
+                  {
+                    "text": "…",
+                    "id": "U_2026"
                   }
                 ]
               },
               {
-                "nextlayer": "shift",
-                "width": "170",
                 "id": "K_ENTER",
-                "pad": "5",
+                "text": "*Enter*",
+                "pad": "10",
+                "width": "115",
                 "sp": "1",
-                "text": "*Enter*"
+                "nextlayer": "shift"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "numeric",
+        "row": [
+          {
+            "id": "1",
+            "key": [
+              {
+                "id": "K_1",
+                "text": "1",
+                "pad": "1",
+                "width": "195"
+              },
+              {
+                "id": "K_2",
+                "text": "2",
+                "pad": "5",
+                "width": "195"
+              },
+              {
+                "id": "K_3",
+                "text": "3",
+                "pad": "5",
+                "width": "195"
+              },
+              {
+                "id": "K_SLASH",
+                "text": "/",
+                "pad": "30",
+                "nextlayer": "numeric",
+                "layer": "default"
+              },
+              {
+                "id": "K_8",
+                "text": "*",
+                "pad": "3",
+                "nextlayer": "numeric",
+                "layer": "shift"
+              },
+              {
+                "id": "K_HYPHEN",
+                "text": "-",
+                "pad": "3",
+                "nextlayer": "numeric",
+                "layer": "default"
+              },
+              {
+                "id": "K_LBRKT",
+                "text": "[",
+                "pad": "3",
+                "sk": [
+                  {
+                    "id": "U_00AB",
+                    "text": "«"
+                  },
+                  {
+                    "id": "U_003C",
+                    "text": "<"
+                  },
+                  {
+                    "id": "U_007B",
+                    "text": "{"
+                  }
+                ]
+              },
+              {
+                "id": "K_RBRKT",
+                "text": "]",
+                "pad": "3",
+                "sk": [
+                  {
+                    "id": "U_00BB",
+                    "text": "»"
+                  },
+                  {
+                    "id": "U_003E",
+                    "text": ">"
+                  },
+                  {
+                    "id": "U_007D",
+                    "text": "}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "key": [
+              {
+                "id": "K_4",
+                "text": "4",
+                "pad": "1",
+                "width": "195"
+              },
+              {
+                "id": "K_5",
+                "text": "5",
+                "pad": "5",
+                "width": "195"
+              },
+              {
+                "id": "K_6",
+                "text": "6",
+                "pad": "5",
+                "width": "195"
+              },
+              {
+                "id": "K_BKSLASH",
+                "text": "\\",
+                "pad": "30",
+                "layer": "default"
+              },
+              {
+                "id": "K_5",
+                "text": "%",
+                "pad": "3",
+                "layer": "shift"
+              },
+              {
+                "id": "K_EQUAL",
+                "text": "+",
+                "pad": "3",
+                "nextlayer": "numeric",
+                "layer": "shift"
+              },
+              {
+                "id": "K_9",
+                "text": "(",
+                "pad": "3",
+                "layer": "shift"
+              },
+              {
+                "id": "K_0",
+                "text": ")",
+                "pad": "3",
+                "layer": "shift"
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "key": [
+              {
+                "id": "K_7",
+                "text": "7",
+                "pad": "1",
+                "width": "195"
+              },
+              {
+                "id": "K_8",
+                "text": "8",
+                "pad": "5",
+                "width": "195"
+              },
+              {
+                "id": "K_9",
+                "text": "9",
+                "pad": "5",
+                "width": "195"
+              },
+              {
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "pad": "30",
+                "sp": "1",
+                "nextlayer": "symbol"
+              },
+              {
+                "id": "K_HYPHEN",
+                "text": "_",
+                "pad": "3",
+                "layer": "shift"
+              },
+              {
+                "id": "K_EQUAL",
+                "text": "=",
+                "pad": "3",
+                "nextlayer": "numeric",
+                "layer": "default"
+              },
+              {
+                "id": "K_BKSLASH",
+                "text": "|",
+                "pad": "3",
+                "layer": "shift"
+              },
+              {
+                "id": "K_BKSP",
+                "text": "*BkSp*",
+                "pad": "3",
+                "sp": "1"
+              }
+            ]
+          },
+          {
+            "id": "4",
+            "key": [
+              {
+                "id": "K_LOWER",
+                "text": "*abc*",
+                "pad": "1",
+                "width": "112",
+                "sp": "2",
+                "nextlayer": "default"
+              },
+              {
+                "id": "K_LOPT",
+                "text": "*Menu*",
+                "pad": "3",
+                "width": "80",
+                "sp": "1"
+              },
+              {
+                "id": "K_0",
+                "text": "0",
+                "pad": "5",
+                "width": "195"
+              },
+              {
+                "id": "K_PERIOD",
+                "text": ".",
+                "pad": "5",
+                "width": "95",
+                "nextlayer": "numeric",
+                "sk": [
+                  {
+                    "text": "\"",
+                    "id": "U_0022"
+                  },
+                  {
+                    "text": "'",
+                    "id": "U_0027"
+                  },
+                  {
+                    "text": ":",
+                    "id": "U_003A"
+                  },
+                  {
+                    "text": ";",
+                    "id": "U_003B"
+                  },
+                  {
+                    "text": ",",
+                    "id": "U_002C"
+                  },
+                  {
+                    "text": "?",
+                    "id": "U_003F",
+                    "nextlayer": "shift",
+                    "default": true
+                  },
+                  {
+                    "text": "!",
+                    "id": "U_0021",
+                    "nextlayer": "shift"
+                  },
+                  {
+                    "text": "…",
+                    "id": "U_2026"
+                  }
+                ]
+              },
+              {
+                "id": "U_20A6",
+                "text": "₦",
+                "pad": "5",
+                "width": "95",
+                "nextlayer": "numeric",
+                "sk": [
+                  {
+                    "text": "$",
+                    "id": "K_4",
+                    "nextlayer": "numeric",
+                    "layer": "shift"
+                  },
+                  {
+                    "text": "¢",
+                    "id": "U_00A2"
+                  },
+                  {
+                    "text": "£",
+                    "id": "U_00A3",
+                    "nextlayer": "numeric"
+                  },
+                  {
+                    "text": "€",
+                    "id": "U_20AC",
+                    "nextlayer": "numeric"
+                  },
+                  {
+                    "text": "#",
+                    "id": "K_3",
+                    "layer": "shift"
+                  },
+                  {
+                    "text": "₦",
+                    "id": "U_20A6"
+                  }
+                ]
+              },
+              {
+                "id": "K_SPACE",
+                "pad": "30",
+                "width": "208",
+                "nextlayer": "default"
+              },
+              {
+                "id": "K_2",
+                "text": "@",
+                "pad": "3",
+                "layer": "shift"
+              },
+              {
+                "id": "K_7",
+                "text": "&",
+                "pad": "3",
+                "layer": "shift"
+              },
+              {
+                "id": "K_ENTER",
+                "text": "*Enter*",
+                "pad": "3",
+                "sp": "1"
               }
             ]
           }
         ]
       }
-    ]
+    ],
+    "displayUnderlying": false,
+    "fontsize": "1.1em"
   }
-}
-;
-  this.KCSS="body {\n     x-background: rgb(193, 194, 193);\n     font-family: \"Andika\",\"AndikaAfr\",\"Andika New Basic Compact\";\n }\n .kmw-key-row {\n }\n .phone.android .kmw-key.kmw-key-default, .phone.ios .kmw-key.kmw-key-default {\n color: black;\n background: none; /* white;*/\n border: none;\n font-size: 1.2em;\n }\n \n .phone.android .kmw-key-layer-group, .phone.ios .kmw-key-layer-group {\n     background: #eee;\n }\n .phone.android .kmw-key.kmw-key-shift, .phone.android .kmw-key.kmw-key-special, .phone.ios .kmw-key.kmw-key-shift, .phone.ios .kmw-key.kmw-key-special {\n     color: #333;\n     background: #ccc;\n }\n .phone.android .kmw-key.kmw-key-default.kmw-spacebar, .phone.ios .kmw-key.kmw-key-default.kmw-spacebar {\n     border: 1pt solid white;\n     border-bottom: none;\n }\n \n .phone.android .kmw-key-popup-icon, .phone.ios .kmw-key-popup-icon {\n     font-size: 0.8em;\n     /*top: 70%;\n     bottom: 0px;\n     right: 8%;\n     left: initial;*/\n     color: #8b8;\n }\n \n .phone.android .kmw-banner-bar, .phone.ios .kmw-banner-bar {\n     background: #cdc;\n     color: #131;\n }\n \n .phone.android .kmw-suggestion-text, .phone.ios .kmw-suggestion-text {\n     color: #131;\n }\n \n .phone.android #kmw-popup-keys, .phone.ios #kmw-popup-keys {\n     background: #fff;\n }\n \n .phone.android #kmw-popup-keys .kmw-key.kmw-key-default, #kmw-popup-keys .kmw-key.kmw-key-default {\n background: #eee;\n }\n \n .phone.android #kmw-popup-keys .kmw-key.kmw-key-default.kmw-key-touched, #kmw-popup-keys .kmw-key.kmw-key-default.kmw-key-touched {\n background-color: #9e9;\n }\n \n .phone.android .kmw-key-touched,  .kmw-key-touched {\n background-color: #9e9;\n }\n \n .phone.android #kmw-popup-keys .kmw-key-square-ex .kmw-key,  #kmw-popup-keys .kmw-key-square-ex .kmw-key {\n margin-bottom: 30px;\n background: #eee;\n color: black;\n }\n .phone.android .kmw-keytip,  .kmw-keytip {\n margin-bottom: 15px;\n }\n #kmw-popup-keys { background-color: #eee; color: black;}\n \n @media (prefers-color-scheme: dark) {\n   div.ios div.kmw-keytip {\n     color:#333;\n   }\n \n   /* Style for callout used on phones */\n   #kmw-popup-callout {\n     background-color: #eff3f9;\n   }\n }\n ";
-  this.s_LtrsKey_16=";";
-  this.s_ToneKey_17="`";
-  this.s_NasalKey_18="~";
-  this.s_LtrsSET1_19="aəeɛiɨɪoɔuʊʉbɓcçdɗgɣhɦkƙnŋɲsʃvⱱyƴzʒ$₦£ˈAƏEƐIƗƗOƆUƱɄBƁCÇDƊGƔHꞪKƘNŊƝSƩVƲYƳZƷ$₦£ˈ";
-  this.s_LtrsSET2_20="əaɛeɨɪiɔoʊʉuɓbçcɗdɣgɦhƙkŋɲnʃsⱱvƴyʒz₦£ˈ$ƏAƐEƗƗIƆOƱɄUƁBÇCƊDƔGꞪHƘKŊƝNƩSƲVƳYƷZ₦£ˈ$";
-  this.s_LtrsUnderlinable_21="aeiouhnsAEIOUHNS";
-  this.s_LtrsUnderlineAfter_22="əɛɪɔʉɦɲʃƏƐƗƆɄꞪƝƩ";
-  this.s_UnderLine_23="̱";
-  this.s_UnderDot_24="̣";
-  this.s_LtrsWithTone_25="qaəeɛiɨɪoɔuʉʊnQAƏEƐIƗOƆɄUƱmnŋɲMNŊƝ̱̣";
-  this.s_LtrsWithNasal_26="qaəeɛiɨɪoɔuʉʊnQAƏEƐIƗOƆɄUƱṈ̣";
-  this.s_Tone1st_27="́";
-  this.s_ToneLast_28="̄";
-  this.s_ToneCore_29="̀̂̌";
-  this.s_ToneRota1_30="́̀̂̌";
-  this.s_ToneRota2_31="̀̂̌̄";
-  this.s_ToneSubset_32="́̀̂̌̄";
-  this.s_TonesAll_33="́̀̂̌̄̋̏᷄᷅᷆᷇";
-  this.s_changeshape_36=KeymanWeb.KLOAD(this.KI,"changeshape","1");
-  this.s_canunderline_37="0";
-  this.s39="1";
-  this.s40="1";
-  this.s41="1";
-  this.s42="shift";
-  this.s43="shift";
-  this.s44="shift";
-  this.s45="shift";
-  this.s46="shift";
-  this.s47="shift";
-  this.s48="shift";
-  this.s49="shift";
-  this.s50="default";
-  this.s51="default";
-  this.s52="default";
-  this.s53="shift";
-  this.s54="shift";
-  this.s55="shift";
-  this.KVER="14.0.277.0";
+};
+  this.KCSS="h1 {\n font-size: 250%;\n color: rgb(200,10,10);\n     }\n \n body {\n     background: rgb(193, 194, 193);\n     font-family: \"Andika\",\"DejaVu Sans\",\"AndikaAfr\",\"Andika Afr\",\"Andika New Basic Compact\";\n }\n .kmw-key-row {\n }\n /* easier selecting from below *//*\n .phone .kmw-key-square-ex  {\n    margin: 0 0 -30px 5px;\n }\n .phone .kmw-key-square-ex .kmw-key-default {\n    margin: 0 0 30px 5px;\n }*/\n \n .phone.android .kmw-key.kmw-key-default, .phone.ios .kmw-key.kmw-key-default {\n color: black;\n background: none; /* white;*/\n border: none;\n font-size: 1.2em;\n }\n \n .phone.android .kmw-key-layer-group, .phone.ios .kmw-key-layer-group {\n     background: #eee;\n }\n .phone.android .kmw-key.kmw-key-shift, .phone.android .kmw-key.kmw-key-special, .phone.ios .kmw-key.kmw-key-shift, .phone.ios .kmw-key.kmw-key-special {\n     color: #333;\n     background: #ccc;\n }\n .phone.android .kmw-key.kmw-key-default.kmw-spacebar, .phone.ios .kmw-key.kmw-key-default.kmw-spacebar {\n     border: 1pt solid white;\n     border-bottom: none;\n }\n \n .phone.android .kmw-key-popup-icon, .phone.ios .kmw-key-popup-icon {\n     font-size: 50%;\n     /*top: 70%;\n     bottom: 0px;\n     right: 8%;\n     left: initial;*/\n     color: #7b7;\n }\n \n .phone.android #kmw-popup-keys {\n    border-radius: 10px;\n }\n \n .phone.android .kmw-banner-bar, .phone.ios .kmw-banner-bar {\n     background: #cdc;\n     color: #131;\n }\n \n .phone.android .kmw-suggestion-text, .phone.ios .kmw-suggestion-text {\n     color: #131;\n }\n \n .kmw-banner-bar .kmw-suggest-option {\n /* height: auto; */\n font-size: 85%;\n }\n \n .phone.android #kmw-popup-keys, .phone.ios #kmw-popup-keys {\n     background: #fff;\n }\n \n .phone.android #kmw-popup-keys .kmw-key.kmw-key-default, #kmw-popup-keys .kmw-key.kmw-key-default {\n background: #eee;\n }\n \n .phone.android #kmw-popup-keys .kmw-key.kmw-key-default.kmw-key-touched, #kmw-popup-keys .kmw-key.kmw-key-default.kmw-key-touched {\n background-color: #9e9;\n }\n \n .phone.android .kmw-key-touched,  .kmw-key-touched {\n background-color: #9e9;\n }\n \n .phone.android #kmw-popup-keys .kmw-key-square-ex .kmw-key,  #kmw-popup-keys .kmw-key-square-ex .kmw-key {\n margin-bottom: 30px;\n background: #eee;\n color: black;\n }\n .phone.android .kmw-keytip,  .kmw-keytip {\n margin-bottom: 15px;\n }\n #kmw-popup-keys { background-color: #eee; color: black;}\n \n @media (prefers-color-scheme: dark) {\n   div.ios div.kmw-keytip, div.android div.kmw-keytip {\n     background-color:#cdc;\n     color: #333;\n   }\n \n   /* Style for callout used on phones */\n   #kmw-popup-callout {\n     background-color: #eff3f9;\n   }\n }\n ";
+  this.s_LtrsKey_11=";";
+  this.s_ToneKey_12="`";
+  this.s_NasalKey_13="~";
+  this.s_smallCapsOn_14=KeymanWeb.KLOAD(this.KI,"smallCapsOn","");
+  this.s_LtrsSET1_15="aəeɛiɨɪoɔøuʊʉbɓcçdɗgɣhɦkƙnŋɲsʃvⱱʌyƴzʒ$₦£€₵qm!¡'ꞌꞋ?¿ˈʔ‘ꞌ’ꞌ“Ꞌ”ꞋAƏEƐIƗꞮOƆØUƱɄBƁCÇDƊGƔHꞪKƘNŊƝSƩVƲɅYƳZƷ$₦£€₵QM!¡'ꞋꞋ?¿ˈʔ‘Ꞌ’Ꞌ“Ꞌ”Ꞌ";
+  this.s_LtrsSET2_16="əaɛeɨɪiɔøoʊʉuɓbçcɗdɣgɦhƙkŋɲnʃsⱱʌvƴyʒz₦£€₵$qm¡!ꞌꞋ'¿ˈʔ?ꞌ‘ꞌ’Ꞌ“Ꞌ”ƏAƐEƗꞮIƆØOƱɄUƁBÇCƊDƔGꞪHƘKŊƝNƩSƲɅVƳYƷZ₦£€₵$QM¡!ꞋꞋ'¿ˈʔ?Ꞌ‘Ꞌ’Ꞌ“Ꞌ”";
+  this.s_LtrsUnderlinable_17="aeioubdghknsyzAEIOUBDGHKNSYZ";
+  this.s_LtrsUnderlineAfter_18="əɛɪøʉɓɗɣɦƙɲʃƴʒƏƐꞮØɄƁƊƔꞪƘƝƩƳƷ";
+  this.s_SmallCapsRef_19="abcdefghijklmnopqrstuvwyz";
+  this.s_SmallCaps_20="ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘꞯʀꜱᴛᴜᴠᴡʏᴢ";
+  this.s_Nasal_21="̃";
+  this.s_Underline_22="̱";
+  this.s_Underdot_23="̣";
+  this.s_LtrsWithTone_24="aəeɛiɨɪoɔøuʊʉnŋɲvⱱʌqmAƏEƐIƗꞮOƆØUƱɄNŊƝVƲɅQM̱̣";
+  this.s_LtrsWithNasal_25="aəeɛiɨɪoɔøuʊʉnŋɲvⱱʌqmAƏEƐIƗꞮOƆØUƱɄNŊƝVƲɅQM̱̣";
+  this.s_Tone1st_26="́";
+  this.s_ToneLast_27="̇";
+  this.s_ToneCore_28="̀̂̌̄̍";
+  this.s_ToneRota1_29="́̀̂̌̄̍";
+  this.s_ToneRota2_30="̀̂̌̄̍̇";
+  this.s_ToneSubset_31="́̀̂̌̄̍̇";
+  this.s_TonesAll_32="́̀̂̌̄̍̇̋̏᷄᷅᷆᷇";
+  this.s_WhiteSpace_33=". .";
+  this.s_CurlyQuoteOpenBefore_34="QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopsdfghjklzxcvbnm";
+  this.s_CurlyQuoteCloseAfter_35=".,!?";
+  this.s_key_39="....................................................";
+  this.s_out_40="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  this.s_caps_41="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  this.s_digit_42="0123456789";
+  this.s_sentencePunctuation_46=".?!";
+  this.s_changeshape_48=KeymanWeb.KLOAD(this.KI,"changeshape","1");
+  this.s_canunderline_49="0";
+  this.s54="";
+  this.s55="numeric";
+  this.s56="caps";
+  this.s57="";
+  this.s58="shift";
+  this.s59="shift";
+  this.s60="shift";
+  this.s61="default";
+  this.s63="1";
+  this.s64="1";
+  this.s65="1";
+  this.s66="1";
+  this.s67="1";
+  this.s68="0";
+  this.s69="1";
+  this.s70="1";
+  this.s71="shift";
+  this.s72="shift";
+  this.s73="shift";
+  this.s74="shift";
+  this.s75="shift";
+  this.s76="default";
+  this.s77="default";
+  this.s78="default";
+  this.s79="default";
+  this.s80="shift";
+  this.s81="shift";
+  this.s82="shift";
+  this.KVER="17.0.326.0";
+  this.KVS=['s_smallCapsOn_14','s_changeshape_48'];
   this.gs=function(t,e) {
-    return this.g_main_0(t,e);
+    return this.g_main_3(t,e);
   };
-  this.g_main_0=function(t,e) {
+  this.gn=function(t,e) {
+    return this.g_NewContext_0(t,e);
+  };
+  this.gpk=function(t,e) {
+    return this.g_PostKeystroke_1(t,e);
+  };
+  this.gs=function(t,e) {
+    return this.g_main_3(t,e);
+  };
+  this.g_NewContext_0=function(t,e) {
+    var k=KeymanWeb,r=1,m=0;
+    if(!m) {
+    
+      r=this.g_detectStartOfSentence_2(t,e);
+      m=2;
+    }
+    return r;
+  };
+  this.g_PostKeystroke_1=function(t,e) {
+    var k=KeymanWeb,r=1,m=0;
+      if(k.KIFS(42,this.s54,t)&&k.KIFS(33,this.s55,t)&&k.KA(0,k.KC(1,1,t),this.s_digit_42)){
+        m=1;   // Line 180
+      }
+      else if(k.KIFS(33,this.s56,t)){
+        m=1;   // Line 183
+      }
+      else if(k.KIFS(42,this.s57,t)){
+        m=1;   // Line 187
+        r=this.g_detectStartOfSentence_2(t,e);
+        m=2;
+      }
+    return r;
+  };
+  this.g_detectStartOfSentence_2=function(t,e) {
+    var k=KeymanWeb,r=1,m=0;
+      if(k.KA(0,k.KC(3,1,t),this.s_sentencePunctuation_46)&&k.KCM(2,t,"  ",2)){
+        m=1;   // Line 203
+        k.KSETS(33,this.s60,t);
+      }
+      else if(k.KA(0,k.KC(2,1,t),this.s_sentencePunctuation_46)&&k.KCM(1,t," ",1)){
+        m=1;   // Line 202
+        k.KSETS(33,this.s59,t);
+      }
+      else if(k.KN(0,t)){
+        m=1;   // Line 198
+        k.KSETS(33,this.s58,t);
+      }
+    if(!m) {
+    
+      k.KSETS(33,this.s61,t);
+    }
+    return r;
+  };
+  this.g_main_3=function(t,e) {
     var k=KeymanWeb,r=0,m=0;
     if(k.KKM(e, 0x4000, 0x08)) {
       if(k.KCM(2,t,". ",2)){
-        r=m=1;   // Line 225
+        r=m=1;   // Line 676
         k.KO(2,t,".");
-        k.KSETS(33,this.s53,t);
+        k.KSETS(33,this.s80,t);
       }
       else if(k.KCM(2,t,"! ",2)){
-        r=m=1;   // Line 226
+        r=m=1;   // Line 677
         k.KO(2,t,"!");
-        k.KSETS(33,this.s54,t);
+        k.KSETS(33,this.s81,t);
       }
       else if(k.KCM(2,t,"? ",2)){
-        r=m=1;   // Line 227
+        r=m=1;   // Line 678
         k.KO(2,t,"?");
-        k.KSETS(33,this.s55,t);
+        k.KSETS(33,this.s82,t);
       }
       else if(k.KCM(1,t,"̱",1)){
-        r=m=1;   // Line 96
+        r=m=1;   // Line 232
         k.KO(1,t,"");
-        this.s_changeshape_36=this.s39;
+        this.s_changeshape_48=this.s63;
       }
       else if(k.KCM(1,t,"̣",1)){
-        r=m=1;   // Line 97
+        r=m=1;   // Line 233
         k.KO(1,t,"");
-        this.s_changeshape_36=this.s40;
+        this.s_changeshape_48=this.s64;
       }
-      else if(k.KA(0,k.KC(1,1,t),this.s_LtrsSET1_19)){
-        r=m=1;   // Line 98
+      else if(k.KA(0,k.KC(1,1,t),this.s_LtrsSET1_15)){
+        r=m=1;   // Line 234
         k.KO(1,t,"");
-        this.s_changeshape_36=this.s41;
+        this.s_changeshape_48=this.s65;
       }
       else if(k.KCM(1,t,".",1)){
-        r=m=1;   // Line 220
+        r=m=1;   // Line 414
         k.KO(1,t,"");
-        k.KSETS(33,this.s50,t);
+        k.KSETS(33,this.s76,t);
       }
       else if(k.KCM(1,t,"!",1)){
-        r=m=1;   // Line 221
+        r=m=1;   // Line 415
         k.KO(1,t,"");
-        k.KSETS(33,this.s51,t);
+        k.KSETS(33,this.s77,t);
       }
       else if(k.KCM(1,t,"?",1)){
-        r=m=1;   // Line 222
+        r=m=1;   // Line 416
         k.KO(1,t,"");
-        k.KSETS(33,this.s52,t);
+        k.KSETS(33,this.s78,t);
       }
-    }
-    else if(k.KKM(e, 0x4000, 0x0D)) {
-      if(k.KCM(1,t,".",1)){
-        r=m=1;   // Line 216
-        k.KSETS(33,this.s49,t);
+      else if(k.KCM(1,t," ",1)){
+        r=m=1;   // Line 417
+        k.KO(1,t,"");
+        k.KSETS(33,this.s79,t);
       }
     }
     else if(k.KKM(e, 0x4000, 0x100)) {
       if(1){
-        r=m=1;   // Line 125
-        k.KO(0,t,"a̱");
-      }
-      else if(1){
-        r=m=1;   // Line 138
+        r=m=1;   // Line 342
         k.KO(0,t,"a̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x101)) {
       if(1){
-        r=m=1;   // Line 126
-        k.KO(0,t,"e̱");
-      }
-      else if(1){
-        r=m=1;   // Line 139
+        r=m=1;   // Line 343
         k.KO(0,t,"e̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x102)) {
       if(1){
-        r=m=1;   // Line 127
-        k.KO(0,t,"i̱");
-      }
-      else if(1){
-        r=m=1;   // Line 140
+        r=m=1;   // Line 344
         k.KO(0,t,"i̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x103)) {
       if(1){
-        r=m=1;   // Line 128
-        k.KO(0,t,"o̱");
-      }
-      else if(1){
-        r=m=1;   // Line 141
+        r=m=1;   // Line 345
         k.KO(0,t,"o̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x104)) {
       if(1){
-        r=m=1;   // Line 129
-        k.KO(0,t,"u̱");
-      }
-      else if(1){
-        r=m=1;   // Line 142
+        r=m=1;   // Line 346
         k.KO(0,t,"u̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x105)) {
       if(1){
-        r=m=1;   // Line 130
-        k.KO(0,t,"ạ");
-      }
-      else if(1){
-        r=m=1;   // Line 143
-        k.KO(0,t,"ạ");
+        r=m=1;   // Line 347
+        k.KO(0,t,"ṉ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x106)) {
       if(1){
-        r=m=1;   // Line 131
-        k.KO(0,t,"ẹ");
-      }
-      else if(1){
-        r=m=1;   // Line 144
-        k.KO(0,t,"ẹ");
+        r=m=1;   // Line 348
+        k.KO(0,t,"ạ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x107)) {
       if(1){
-        r=m=1;   // Line 132
-        k.KO(0,t,"ị");
-      }
-      else if(1){
-        r=m=1;   // Line 145
-        k.KO(0,t,"ị");
+        r=m=1;   // Line 349
+        k.KO(0,t,"ẹ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x108)) {
       if(1){
-        r=m=1;   // Line 133
-        k.KO(0,t,"ọ");
-      }
-      else if(1){
-        r=m=1;   // Line 146
-        k.KO(0,t,"ọ");
+        r=m=1;   // Line 350
+        k.KO(0,t,"ị");
       }
     }
     else if(k.KKM(e, 0x4000, 0x109)) {
       if(1){
-        r=m=1;   // Line 134
-        k.KO(0,t,"ụ");
-      }
-      else if(1){
-        r=m=1;   // Line 147
-        k.KO(0,t,"ụ");
+        r=m=1;   // Line 351
+        k.KO(0,t,"ọ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x10A)) {
       if(1){
-        r=m=1;   // Line 135
-        k.KO(0,t,"ṇ");
+        r=m=1;   // Line 352
+        k.KO(0,t,"ụ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x10B)) {
       if(1){
-        r=m=1;   // Line 136
-        k.KO(0,t,"ṉ");
+        r=m=1;   // Line 353
+        k.KO(0,t,"ṇ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x10C)) {
       if(1){
-        r=m=1;   // Line 137
-        k.KO(0,t,"ḥ");
+        r=m=1;   // Line 354
+        k.KO(0,t,"ṣ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x10D)) {
       if(1){
-        r=m=1;   // Line 148
-        k.KO(0,t,"A̱");
+        r=m=1;   // Line 355
+        k.KO(0,t,"ẓ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x10E)) {
       if(1){
-        r=m=1;   // Line 149
-        k.KO(0,t,"E̱");
+        r=m=1;   // Line 356
+        k.KO(0,t,"ḥ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x10F)) {
       if(1){
-        r=m=1;   // Line 150
-        k.KO(0,t,"I̱");
+        r=m=1;   // Line 357
+        k.KO(0,t,"ɦ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x110)) {
       if(1){
-        r=m=1;   // Line 151
-        k.KO(0,t,"O̱");
+        r=m=1;   // Line 358
+        k.KO(0,t,"ḅ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x111)) {
       if(1){
-        r=m=1;   // Line 152
-        k.KO(0,t,"U̱");
+        r=m=1;   // Line 359
+        k.KO(0,t,"ḍ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x112)) {
       if(1){
-        r=m=1;   // Line 153
-        k.KO(0,t,"Ạ");
+        r=m=1;   // Line 360
+        k.KO(0,t,"g̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x113)) {
       if(1){
-        r=m=1;   // Line 154
-        k.KO(0,t,"Ẹ");
+        r=m=1;   // Line 361
+        k.KO(0,t,"ḵ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x114)) {
       if(1){
-        r=m=1;   // Line 155
-        k.KO(0,t,"Ị");
+        r=m=1;   // Line 362
+        k.KO(0,t,"y̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x115)) {
       if(1){
-        r=m=1;   // Line 156
-        k.KO(0,t,"Ọ");
+        r=m=1;   // Line 363
+        k.KO(0,t,"m̃");
+      }
+      else if(1){
+        r=m=1;   // Line 671
+        k.KO(0,t,"m̃");
       }
     }
     else if(k.KKM(e, 0x4000, 0x116)) {
       if(1){
-        r=m=1;   // Line 157
-        k.KO(0,t,"Ụ");
+        r=m=1;   // Line 364
+        k.KO(0,t,"ñ");
+      }
+      else if(1){
+        r=m=1;   // Line 587
+        k.KO(0,t,"ñ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x117)) {
       if(1){
-        r=m=1;   // Line 158
-        k.KO(0,t,"Ṇ");
+        r=m=1;   // Line 365
+        k.KO(0,t,"A̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x118)) {
       if(1){
-        r=m=1;   // Line 159
-        k.KO(0,t,"Ṉ");
+        r=m=1;   // Line 366
+        k.KO(0,t,"E̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x119)) {
       if(1){
-        r=m=1;   // Line 160
-        k.KO(0,t,"Ḥ");
+        r=m=1;   // Line 367
+        k.KO(0,t,"I̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x11A)) {
       if(1){
-        r=m=1;   // Line 161
-        k.KO(0,t,"n̄");
+        r=m=1;   // Line 368
+        k.KO(0,t,"O̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x11B)) {
       if(1){
-        r=m=1;   // Line 162
-        k.KO(0,t,"N̄");
+        r=m=1;   // Line 369
+        k.KO(0,t,"U̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x11C)) {
       if(1){
-        r=m=1;   // Line 163
-        k.KO(0,t,"q́");
+        r=m=1;   // Line 370
+        k.KO(0,t,"Ṉ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x11D)) {
       if(1){
-        r=m=1;   // Line 164
-        k.KO(0,t,"q̀");
+        r=m=1;   // Line 371
+        k.KO(0,t,"Ạ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x11E)) {
       if(1){
-        r=m=1;   // Line 165
-        k.KO(0,t,"q̃");
+        r=m=1;   // Line 372
+        k.KO(0,t,"Ẹ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x11F)) {
       if(1){
-        r=m=1;   // Line 166
-        k.KO(0,t,"Q́");
+        r=m=1;   // Line 373
+        k.KO(0,t,"Ị");
       }
     }
     else if(k.KKM(e, 0x4000, 0x120)) {
       if(1){
-        r=m=1;   // Line 167
-        k.KO(0,t,"Q̀");
+        r=m=1;   // Line 374
+        k.KO(0,t,"Ọ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x121)) {
       if(1){
-        r=m=1;   // Line 168
-        k.KO(0,t,"Q̃");
+        r=m=1;   // Line 375
+        k.KO(0,t,"Ụ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x122)) {
       if(1){
-        r=m=1;   // Line 169
-        k.KO(0,t,". ");
+        r=m=1;   // Line 376
+        k.KO(0,t,"Ṇ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x123)) {
       if(1){
-        r=m=1;   // Line 172
-        k.KO(0,t,"ã");
-      }
-      else if(1){
-        r=m=1;   // Line 173
-        k.KO(0,t,"Ã");
+        r=m=1;   // Line 377
+        k.KO(0,t,"Ṣ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x124)) {
       if(1){
-        r=m=1;   // Line 174
-        k.KO(0,t,"ə̃");
-      }
-      else if(1){
-        r=m=1;   // Line 175
-        k.KO(0,t,"Ə̃");
+        r=m=1;   // Line 378
+        k.KO(0,t,"Ẓ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x125)) {
       if(1){
-        r=m=1;   // Line 176
-        k.KO(0,t,"ẽ");
-      }
-      else if(1){
-        r=m=1;   // Line 177
-        k.KO(0,t,"Ẽ");
+        r=m=1;   // Line 379
+        k.KO(0,t,"Ḥ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x126)) {
       if(1){
-        r=m=1;   // Line 178
-        k.KO(0,t,"ɛ̃");
-      }
-      else if(1){
-        r=m=1;   // Line 179
-        k.KO(0,t,"Ɛ̃");
+        r=m=1;   // Line 380
+        k.KO(0,t,"Ɦ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x127)) {
       if(1){
-        r=m=1;   // Line 180
-        k.KO(0,t,"ĩ");
-      }
-      else if(1){
-        r=m=1;   // Line 181
-        k.KO(0,t,"Ĩ");
+        r=m=1;   // Line 381
+        k.KO(0,t,"Ḅ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x128)) {
       if(1){
-        r=m=1;   // Line 182
-        k.KO(0,t,"ɨ̃");
-      }
-      else if(1){
-        r=m=1;   // Line 183
-        k.KO(0,t,"Ɨ̃");
+        r=m=1;   // Line 382
+        k.KO(0,t,"Ḍ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x129)) {
       if(1){
-        r=m=1;   // Line 184
-        k.KO(0,t,"ũ");
-      }
-      else if(1){
-        r=m=1;   // Line 185
-        k.KO(0,t,"Ũ");
+        r=m=1;   // Line 383
+        k.KO(0,t,"Ḵ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x12A)) {
       if(1){
-        r=m=1;   // Line 186
-        k.KO(0,t,"õ");
-      }
-      else if(1){
-        r=m=1;   // Line 187
-        k.KO(0,t,"Õ");
+        r=m=1;   // Line 384
+        k.KO(0,t,"G̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x12B)) {
       if(1){
-        r=m=1;   // Line 188
-        k.KO(0,t,"ɔ̃");
-      }
-      else if(1){
-        r=m=1;   // Line 189
-        k.KO(0,t,"Ɔ̃");
+        r=m=1;   // Line 385
+        k.KO(0,t,"Y̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0x12C)) {
       if(1){
-        r=m=1;   // Line 230
-        k.KO(0,t,"👍🏾");
+        r=m=1;   // Line 386
+        k.KO(0,t,"M̃");
+      }
+      else if(1){
+        r=m=1;   // Line 672
+        k.KO(0,t,"M̃");
       }
     }
     else if(k.KKM(e, 0x4000, 0x12D)) {
       if(1){
-        r=m=1;   // Line 231
+        r=m=1;   // Line 387
+        k.KO(0,t,"Ñ");
+      }
+      else if(1){
+        r=m=1;   // Line 588
+        k.KO(0,t,"Ñ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x12E)) {
+      if(1){
+        r=m=1;   // Line 388
+        k.KO(0,t,". ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x12F)) {
+      if(1){
+        r=m=1;   // Line 391
+        k.KO(0,t,"👍🏾");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x130)) {
+      if(1){
+        r=m=1;   // Line 392
         k.KO(0,t,"🙏🏾");
       }
     }
+    else if(k.KKM(e, 0x4000, 0x131)) {
+      if(1){
+        r=m=1;   // Line 421
+        k.KO(0,t,"á");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x132)) {
+      if(1){
+        r=m=1;   // Line 422
+        k.KO(0,t,"Á");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x133)) {
+      if(1){
+        r=m=1;   // Line 423
+        k.KO(0,t,"à");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x134)) {
+      if(1){
+        r=m=1;   // Line 424
+        k.KO(0,t,"À");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x135)) {
+      if(1){
+        r=m=1;   // Line 425
+        k.KO(0,t,"â");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x136)) {
+      if(1){
+        r=m=1;   // Line 426
+        k.KO(0,t,"Â");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x137)) {
+      if(1){
+        r=m=1;   // Line 427
+        k.KO(0,t,"ǎ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x138)) {
+      if(1){
+        r=m=1;   // Line 428
+        k.KO(0,t,"Ǎ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x139)) {
+      if(1){
+        r=m=1;   // Line 429
+        k.KO(0,t,"ā");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x13A)) {
+      if(1){
+        r=m=1;   // Line 430
+        k.KO(0,t,"Ā");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x13B)) {
+      if(1){
+        r=m=1;   // Line 431
+        k.KO(0,t,"ã");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x13C)) {
+      if(1){
+        r=m=1;   // Line 432
+        k.KO(0,t,"Ã");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x13D)) {
+      if(1){
+        r=m=1;   // Line 433
+        k.KO(0,t,"ə́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x13E)) {
+      if(1){
+        r=m=1;   // Line 434
+        k.KO(0,t,"Ə́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x13F)) {
+      if(1){
+        r=m=1;   // Line 435
+        k.KO(0,t,"ə̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x140)) {
+      if(1){
+        r=m=1;   // Line 436
+        k.KO(0,t,"Ə̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x141)) {
+      if(1){
+        r=m=1;   // Line 437
+        k.KO(0,t,"ə̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x142)) {
+      if(1){
+        r=m=1;   // Line 438
+        k.KO(0,t,"Ə̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x143)) {
+      if(1){
+        r=m=1;   // Line 439
+        k.KO(0,t,"ə̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x144)) {
+      if(1){
+        r=m=1;   // Line 440
+        k.KO(0,t,"Ə̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x145)) {
+      if(1){
+        r=m=1;   // Line 441
+        k.KO(0,t,"ə̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x146)) {
+      if(1){
+        r=m=1;   // Line 442
+        k.KO(0,t,"Ə̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x147)) {
+      if(1){
+        r=m=1;   // Line 443
+        k.KO(0,t,"ə̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x148)) {
+      if(1){
+        r=m=1;   // Line 444
+        k.KO(0,t,"Ə̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x149)) {
+      if(1){
+        r=m=1;   // Line 445
+        k.KO(0,t,"é");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x14A)) {
+      if(1){
+        r=m=1;   // Line 446
+        k.KO(0,t,"É");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x14B)) {
+      if(1){
+        r=m=1;   // Line 447
+        k.KO(0,t,"è");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x14C)) {
+      if(1){
+        r=m=1;   // Line 448
+        k.KO(0,t,"È");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x14D)) {
+      if(1){
+        r=m=1;   // Line 449
+        k.KO(0,t,"ê");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x14E)) {
+      if(1){
+        r=m=1;   // Line 450
+        k.KO(0,t,"Ê");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x14F)) {
+      if(1){
+        r=m=1;   // Line 451
+        k.KO(0,t,"ě");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x150)) {
+      if(1){
+        r=m=1;   // Line 452
+        k.KO(0,t,"Ě");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x151)) {
+      if(1){
+        r=m=1;   // Line 453
+        k.KO(0,t,"ē");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x152)) {
+      if(1){
+        r=m=1;   // Line 454
+        k.KO(0,t,"Ē");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x153)) {
+      if(1){
+        r=m=1;   // Line 455
+        k.KO(0,t,"ẽ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x154)) {
+      if(1){
+        r=m=1;   // Line 456
+        k.KO(0,t,"Ẽ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x155)) {
+      if(1){
+        r=m=1;   // Line 457
+        k.KO(0,t,"ɛ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x156)) {
+      if(1){
+        r=m=1;   // Line 458
+        k.KO(0,t,"Ɛ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x157)) {
+      if(1){
+        r=m=1;   // Line 459
+        k.KO(0,t,"ɛ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x158)) {
+      if(1){
+        r=m=1;   // Line 460
+        k.KO(0,t,"Ɛ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x159)) {
+      if(1){
+        r=m=1;   // Line 461
+        k.KO(0,t,"ɛ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x15A)) {
+      if(1){
+        r=m=1;   // Line 462
+        k.KO(0,t,"Ɛ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x15B)) {
+      if(1){
+        r=m=1;   // Line 463
+        k.KO(0,t,"ɛ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x15C)) {
+      if(1){
+        r=m=1;   // Line 464
+        k.KO(0,t,"Ɛ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x15D)) {
+      if(1){
+        r=m=1;   // Line 465
+        k.KO(0,t,"ɛ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x15E)) {
+      if(1){
+        r=m=1;   // Line 466
+        k.KO(0,t,"Ɛ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x15F)) {
+      if(1){
+        r=m=1;   // Line 467
+        k.KO(0,t,"ɛ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x160)) {
+      if(1){
+        r=m=1;   // Line 468
+        k.KO(0,t,"Ɛ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x161)) {
+      if(1){
+        r=m=1;   // Line 469
+        k.KO(0,t,"í");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x162)) {
+      if(1){
+        r=m=1;   // Line 470
+        k.KO(0,t,"Í");
+      }
+    }
+      if(m) {}
+    else if(k.KKM(e, 0x4000, 0x163)) {
+      if(1){
+        r=m=1;   // Line 471
+        k.KO(0,t,"ì");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x164)) {
+      if(1){
+        r=m=1;   // Line 472
+        k.KO(0,t,"Ì");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x165)) {
+      if(1){
+        r=m=1;   // Line 473
+        k.KO(0,t,"î");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x166)) {
+      if(1){
+        r=m=1;   // Line 474
+        k.KO(0,t,"Î");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x167)) {
+      if(1){
+        r=m=1;   // Line 475
+        k.KO(0,t,"ǐ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x168)) {
+      if(1){
+        r=m=1;   // Line 476
+        k.KO(0,t,"Ǐ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x169)) {
+      if(1){
+        r=m=1;   // Line 477
+        k.KO(0,t,"ī");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x16A)) {
+      if(1){
+        r=m=1;   // Line 478
+        k.KO(0,t,"Ī");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x16B)) {
+      if(1){
+        r=m=1;   // Line 479
+        k.KO(0,t,"ĩ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x16C)) {
+      if(1){
+        r=m=1;   // Line 480
+        k.KO(0,t,"Ĩ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x16D)) {
+      if(1){
+        r=m=1;   // Line 481
+        k.KO(0,t,"ɨ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x16E)) {
+      if(1){
+        r=m=1;   // Line 482
+        k.KO(0,t,"Ɨ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x16F)) {
+      if(1){
+        r=m=1;   // Line 483
+        k.KO(0,t,"ɨ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x170)) {
+      if(1){
+        r=m=1;   // Line 484
+        k.KO(0,t,"Ɨ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x171)) {
+      if(1){
+        r=m=1;   // Line 485
+        k.KO(0,t,"ɨ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x172)) {
+      if(1){
+        r=m=1;   // Line 486
+        k.KO(0,t,"Ɨ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x173)) {
+      if(1){
+        r=m=1;   // Line 487
+        k.KO(0,t,"ɨ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x174)) {
+      if(1){
+        r=m=1;   // Line 488
+        k.KO(0,t,"Ɨ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x175)) {
+      if(1){
+        r=m=1;   // Line 489
+        k.KO(0,t,"ɨ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x176)) {
+      if(1){
+        r=m=1;   // Line 490
+        k.KO(0,t,"Ɨ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x177)) {
+      if(1){
+        r=m=1;   // Line 491
+        k.KO(0,t,"ɨ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x178)) {
+      if(1){
+        r=m=1;   // Line 492
+        k.KO(0,t,"Ɨ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x179)) {
+      if(1){
+        r=m=1;   // Line 493
+        k.KO(0,t,"ɪ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x17A)) {
+      if(1){
+        r=m=1;   // Line 494
+        k.KO(0,t,"Ɪ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x17B)) {
+      if(1){
+        r=m=1;   // Line 495
+        k.KO(0,t,"ɪ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x17C)) {
+      if(1){
+        r=m=1;   // Line 496
+        k.KO(0,t,"Ɪ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x17D)) {
+      if(1){
+        r=m=1;   // Line 497
+        k.KO(0,t,"ɪ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x17E)) {
+      if(1){
+        r=m=1;   // Line 498
+        k.KO(0,t,"Ɪ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x17F)) {
+      if(1){
+        r=m=1;   // Line 499
+        k.KO(0,t,"ɪ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x180)) {
+      if(1){
+        r=m=1;   // Line 500
+        k.KO(0,t,"Ɪ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x181)) {
+      if(1){
+        r=m=1;   // Line 501
+        k.KO(0,t,"ɪ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x182)) {
+      if(1){
+        r=m=1;   // Line 502
+        k.KO(0,t,"Ɪ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x183)) {
+      if(1){
+        r=m=1;   // Line 503
+        k.KO(0,t,"ɪ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x184)) {
+      if(1){
+        r=m=1;   // Line 504
+        k.KO(0,t,"Ɪ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x185)) {
+      if(1){
+        r=m=1;   // Line 505
+        k.KO(0,t,"ó");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x186)) {
+      if(1){
+        r=m=1;   // Line 506
+        k.KO(0,t,"Ó");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x187)) {
+      if(1){
+        r=m=1;   // Line 507
+        k.KO(0,t,"ò");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x188)) {
+      if(1){
+        r=m=1;   // Line 508
+        k.KO(0,t,"Ò");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x189)) {
+      if(1){
+        r=m=1;   // Line 509
+        k.KO(0,t,"ô");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x18A)) {
+      if(1){
+        r=m=1;   // Line 510
+        k.KO(0,t,"Ô");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x18B)) {
+      if(1){
+        r=m=1;   // Line 511
+        k.KO(0,t,"ǒ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x18C)) {
+      if(1){
+        r=m=1;   // Line 512
+        k.KO(0,t,"Ǒ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x18D)) {
+      if(1){
+        r=m=1;   // Line 513
+        k.KO(0,t,"ō");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x18E)) {
+      if(1){
+        r=m=1;   // Line 514
+        k.KO(0,t,"Ō");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x18F)) {
+      if(1){
+        r=m=1;   // Line 515
+        k.KO(0,t,"õ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x190)) {
+      if(1){
+        r=m=1;   // Line 516
+        k.KO(0,t,"Õ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x191)) {
+      if(1){
+        r=m=1;   // Line 517
+        k.KO(0,t,"ɔ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x192)) {
+      if(1){
+        r=m=1;   // Line 518
+        k.KO(0,t,"Ɔ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x193)) {
+      if(1){
+        r=m=1;   // Line 519
+        k.KO(0,t,"ɔ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x194)) {
+      if(1){
+        r=m=1;   // Line 520
+        k.KO(0,t,"Ɔ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x195)) {
+      if(1){
+        r=m=1;   // Line 521
+        k.KO(0,t,"ɔ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x196)) {
+      if(1){
+        r=m=1;   // Line 522
+        k.KO(0,t,"Ɔ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x197)) {
+      if(1){
+        r=m=1;   // Line 523
+        k.KO(0,t,"ɔ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x198)) {
+      if(1){
+        r=m=1;   // Line 524
+        k.KO(0,t,"Ɔ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x199)) {
+      if(1){
+        r=m=1;   // Line 525
+        k.KO(0,t,"ɔ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x19A)) {
+      if(1){
+        r=m=1;   // Line 526
+        k.KO(0,t,"Ɔ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x19B)) {
+      if(1){
+        r=m=1;   // Line 527
+        k.KO(0,t,"ɔ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x19C)) {
+      if(1){
+        r=m=1;   // Line 528
+        k.KO(0,t,"Ɔ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x19D)) {
+      if(1){
+        r=m=1;   // Line 529
+        k.KO(0,t,"ǿ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x19E)) {
+      if(1){
+        r=m=1;   // Line 530
+        k.KO(0,t,"Ǿ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x19F)) {
+      if(1){
+        r=m=1;   // Line 531
+        k.KO(0,t,"ø̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1A0)) {
+      if(1){
+        r=m=1;   // Line 532
+        k.KO(0,t,"Ø̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1A1)) {
+      if(1){
+        r=m=1;   // Line 533
+        k.KO(0,t,"ø̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1A2)) {
+      if(1){
+        r=m=1;   // Line 534
+        k.KO(0,t,"Ø̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1A3)) {
+      if(1){
+        r=m=1;   // Line 535
+        k.KO(0,t,"ø̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1A4)) {
+      if(1){
+        r=m=1;   // Line 536
+        k.KO(0,t,"Ø̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1A5)) {
+      if(1){
+        r=m=1;   // Line 537
+        k.KO(0,t,"ø̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1A6)) {
+      if(1){
+        r=m=1;   // Line 538
+        k.KO(0,t,"Ø̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1A7)) {
+      if(1){
+        r=m=1;   // Line 539
+        k.KO(0,t,"ø̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1A8)) {
+      if(1){
+        r=m=1;   // Line 540
+        k.KO(0,t,"Ø̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1A9)) {
+      if(1){
+        r=m=1;   // Line 541
+        k.KO(0,t,"ú");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1AA)) {
+      if(1){
+        r=m=1;   // Line 542
+        k.KO(0,t,"Ú");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1AB)) {
+      if(1){
+        r=m=1;   // Line 543
+        k.KO(0,t,"ù");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1AC)) {
+      if(1){
+        r=m=1;   // Line 544
+        k.KO(0,t,"Ù");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1AD)) {
+      if(1){
+        r=m=1;   // Line 545
+        k.KO(0,t,"û");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1AE)) {
+      if(1){
+        r=m=1;   // Line 546
+        k.KO(0,t,"Û");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1AF)) {
+      if(1){
+        r=m=1;   // Line 547
+        k.KO(0,t,"ǔ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1B0)) {
+      if(1){
+        r=m=1;   // Line 548
+        k.KO(0,t,"Ǔ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1B1)) {
+      if(1){
+        r=m=1;   // Line 549
+        k.KO(0,t,"ū");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1B2)) {
+      if(1){
+        r=m=1;   // Line 550
+        k.KO(0,t,"Ū");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1B3)) {
+      if(1){
+        r=m=1;   // Line 551
+        k.KO(0,t,"ũ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1B4)) {
+      if(1){
+        r=m=1;   // Line 552
+        k.KO(0,t,"Ũ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1B5)) {
+      if(1){
+        r=m=1;   // Line 553
+        k.KO(0,t,"ʊ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1B6)) {
+      if(1){
+        r=m=1;   // Line 554
+        k.KO(0,t,"Ʊ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1B7)) {
+      if(1){
+        r=m=1;   // Line 555
+        k.KO(0,t,"ʊ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1B8)) {
+      if(1){
+        r=m=1;   // Line 556
+        k.KO(0,t,"Ʊ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1B9)) {
+      if(1){
+        r=m=1;   // Line 557
+        k.KO(0,t,"ʊ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1BA)) {
+      if(1){
+        r=m=1;   // Line 558
+        k.KO(0,t,"Ʊ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1BB)) {
+      if(1){
+        r=m=1;   // Line 559
+        k.KO(0,t,"ʊ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1BC)) {
+      if(1){
+        r=m=1;   // Line 560
+        k.KO(0,t,"Ʊ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1BD)) {
+      if(1){
+        r=m=1;   // Line 561
+        k.KO(0,t,"ʊ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1BE)) {
+      if(1){
+        r=m=1;   // Line 562
+        k.KO(0,t,"Ʊ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1BF)) {
+      if(1){
+        r=m=1;   // Line 563
+        k.KO(0,t,"ʊ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1C0)) {
+      if(1){
+        r=m=1;   // Line 564
+        k.KO(0,t,"Ʊ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1C1)) {
+      if(1){
+        r=m=1;   // Line 565
+        k.KO(0,t,"ʉ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1C2)) {
+      if(1){
+        r=m=1;   // Line 566
+        k.KO(0,t,"Ʉ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1C3)) {
+      if(1){
+        r=m=1;   // Line 567
+        k.KO(0,t,"ʉ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1C4)) {
+      if(1){
+        r=m=1;   // Line 568
+        k.KO(0,t,"Ʉ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1C5)) {
+      if(1){
+        r=m=1;   // Line 569
+        k.KO(0,t,"ʉ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1C6)) {
+      if(1){
+        r=m=1;   // Line 570
+        k.KO(0,t,"Ʉ̂");
+      }
+    }
+      if(m) {}
+    else if(k.KKM(e, 0x4000, 0x1C7)) {
+      if(1){
+        r=m=1;   // Line 571
+        k.KO(0,t,"ʉ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1C8)) {
+      if(1){
+        r=m=1;   // Line 572
+        k.KO(0,t,"Ʉ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1C9)) {
+      if(1){
+        r=m=1;   // Line 573
+        k.KO(0,t,"ʉ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1CA)) {
+      if(1){
+        r=m=1;   // Line 574
+        k.KO(0,t,"Ʉ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1CB)) {
+      if(1){
+        r=m=1;   // Line 575
+        k.KO(0,t,"ʉ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1CC)) {
+      if(1){
+        r=m=1;   // Line 576
+        k.KO(0,t,"Ʉ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1CD)) {
+      if(1){
+        r=m=1;   // Line 577
+        k.KO(0,t,"ń");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1CE)) {
+      if(1){
+        r=m=1;   // Line 578
+        k.KO(0,t,"Ń");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1CF)) {
+      if(1){
+        r=m=1;   // Line 579
+        k.KO(0,t,"ǹ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1D0)) {
+      if(1){
+        r=m=1;   // Line 580
+        k.KO(0,t,"Ǹ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1D1)) {
+      if(1){
+        r=m=1;   // Line 581
+        k.KO(0,t,"n̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1D2)) {
+      if(1){
+        r=m=1;   // Line 582
+        k.KO(0,t,"N̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1D3)) {
+      if(1){
+        r=m=1;   // Line 583
+        k.KO(0,t,"ň");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1D4)) {
+      if(1){
+        r=m=1;   // Line 584
+        k.KO(0,t,"Ň");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1D5)) {
+      if(1){
+        r=m=1;   // Line 585
+        k.KO(0,t,"n̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1D6)) {
+      if(1){
+        r=m=1;   // Line 586
+        k.KO(0,t,"N̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1D7)) {
+      if(1){
+        r=m=1;   // Line 589
+        k.KO(0,t,"ŋ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1D8)) {
+      if(1){
+        r=m=1;   // Line 590
+        k.KO(0,t,"Ŋ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1D9)) {
+      if(1){
+        r=m=1;   // Line 591
+        k.KO(0,t,"ŋ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1DA)) {
+      if(1){
+        r=m=1;   // Line 592
+        k.KO(0,t,"Ŋ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1DB)) {
+      if(1){
+        r=m=1;   // Line 593
+        k.KO(0,t,"ŋ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1DC)) {
+      if(1){
+        r=m=1;   // Line 594
+        k.KO(0,t,"Ŋ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1DD)) {
+      if(1){
+        r=m=1;   // Line 595
+        k.KO(0,t,"ŋ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1DE)) {
+      if(1){
+        r=m=1;   // Line 596
+        k.KO(0,t,"Ŋ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1DF)) {
+      if(1){
+        r=m=1;   // Line 597
+        k.KO(0,t,"ŋ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1E0)) {
+      if(1){
+        r=m=1;   // Line 598
+        k.KO(0,t,"Ŋ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1E1)) {
+      if(1){
+        r=m=1;   // Line 599
+        k.KO(0,t,"ŋ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1E2)) {
+      if(1){
+        r=m=1;   // Line 600
+        k.KO(0,t,"Ŋ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1E3)) {
+      if(1){
+        r=m=1;   // Line 601
+        k.KO(0,t,"ɲ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1E4)) {
+      if(1){
+        r=m=1;   // Line 602
+        k.KO(0,t,"Ɲ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1E5)) {
+      if(1){
+        r=m=1;   // Line 603
+        k.KO(0,t,"ɲ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1E6)) {
+      if(1){
+        r=m=1;   // Line 604
+        k.KO(0,t,"Ɲ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1E7)) {
+      if(1){
+        r=m=1;   // Line 605
+        k.KO(0,t,"ɲ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1E8)) {
+      if(1){
+        r=m=1;   // Line 606
+        k.KO(0,t,"Ɲ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1E9)) {
+      if(1){
+        r=m=1;   // Line 607
+        k.KO(0,t,"ɲ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1EA)) {
+      if(1){
+        r=m=1;   // Line 608
+        k.KO(0,t,"Ɲ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1EB)) {
+      if(1){
+        r=m=1;   // Line 609
+        k.KO(0,t,"ɲ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1EC)) {
+      if(1){
+        r=m=1;   // Line 610
+        k.KO(0,t,"Ɲ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1ED)) {
+      if(1){
+        r=m=1;   // Line 611
+        k.KO(0,t,"ɲ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1EE)) {
+      if(1){
+        r=m=1;   // Line 612
+        k.KO(0,t,"Ɲ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1EF)) {
+      if(1){
+        r=m=1;   // Line 613
+        k.KO(0,t,"v́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1F0)) {
+      if(1){
+        r=m=1;   // Line 614
+        k.KO(0,t,"V́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1F1)) {
+      if(1){
+        r=m=1;   // Line 615
+        k.KO(0,t,"v̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1F2)) {
+      if(1){
+        r=m=1;   // Line 616
+        k.KO(0,t,"V̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1F3)) {
+      if(1){
+        r=m=1;   // Line 617
+        k.KO(0,t,"v̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1F4)) {
+      if(1){
+        r=m=1;   // Line 618
+        k.KO(0,t,"V̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1F5)) {
+      if(1){
+        r=m=1;   // Line 619
+        k.KO(0,t,"v̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1F6)) {
+      if(1){
+        r=m=1;   // Line 620
+        k.KO(0,t,"V̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1F7)) {
+      if(1){
+        r=m=1;   // Line 621
+        k.KO(0,t,"v̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1F8)) {
+      if(1){
+        r=m=1;   // Line 622
+        k.KO(0,t,"V̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1F9)) {
+      if(1){
+        r=m=1;   // Line 623
+        k.KO(0,t,"ṽ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1FA)) {
+      if(1){
+        r=m=1;   // Line 624
+        k.KO(0,t,"Ṽ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1FB)) {
+      if(1){
+        r=m=1;   // Line 625
+        k.KO(0,t,"ⱱ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1FC)) {
+      if(1){
+        r=m=1;   // Line 626
+        k.KO(0,t,"ⱱ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1FD)) {
+      if(1){
+        r=m=1;   // Line 627
+        k.KO(0,t,"ⱱ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1FE)) {
+      if(1){
+        r=m=1;   // Line 628
+        k.KO(0,t,"ⱱ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x1FF)) {
+      if(1){
+        r=m=1;   // Line 629
+        k.KO(0,t,"ⱱ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x200)) {
+      if(1){
+        r=m=1;   // Line 630
+        k.KO(0,t,"ⱱ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x201)) {
+      if(1){
+        r=m=1;   // Line 631
+        k.KO(0,t,"ⱱ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x202)) {
+      if(1){
+        r=m=1;   // Line 632
+        k.KO(0,t,"ⱱ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x203)) {
+      if(1){
+        r=m=1;   // Line 633
+        k.KO(0,t,"ⱱ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x204)) {
+      if(1){
+        r=m=1;   // Line 634
+        k.KO(0,t,"ⱱ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x205)) {
+      if(1){
+        r=m=1;   // Line 635
+        k.KO(0,t,"ⱱ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x206)) {
+      if(1){
+        r=m=1;   // Line 636
+        k.KO(0,t,"ⱱ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x207)) {
+      if(1){
+        r=m=1;   // Line 637
+        k.KO(0,t,"ʌ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x208)) {
+      if(1){
+        r=m=1;   // Line 638
+        k.KO(0,t,"Ʌ́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x209)) {
+      if(1){
+        r=m=1;   // Line 639
+        k.KO(0,t,"ʌ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x20A)) {
+      if(1){
+        r=m=1;   // Line 640
+        k.KO(0,t,"Ʌ̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x20B)) {
+      if(1){
+        r=m=1;   // Line 641
+        k.KO(0,t,"ʌ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x20C)) {
+      if(1){
+        r=m=1;   // Line 642
+        k.KO(0,t,"Ʌ̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x20D)) {
+      if(1){
+        r=m=1;   // Line 643
+        k.KO(0,t,"ʌ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x20E)) {
+      if(1){
+        r=m=1;   // Line 644
+        k.KO(0,t,"Ʌ̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x20F)) {
+      if(1){
+        r=m=1;   // Line 645
+        k.KO(0,t,"ʌ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x210)) {
+      if(1){
+        r=m=1;   // Line 646
+        k.KO(0,t,"Ʌ̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x211)) {
+      if(1){
+        r=m=1;   // Line 647
+        k.KO(0,t,"ʌ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x212)) {
+      if(1){
+        r=m=1;   // Line 648
+        k.KO(0,t,"Ʌ̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x213)) {
+      if(1){
+        r=m=1;   // Line 649
+        k.KO(0,t,"q́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x214)) {
+      if(1){
+        r=m=1;   // Line 650
+        k.KO(0,t,"Q́");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x215)) {
+      if(1){
+        r=m=1;   // Line 651
+        k.KO(0,t,"q̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x216)) {
+      if(1){
+        r=m=1;   // Line 652
+        k.KO(0,t,"Q̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x217)) {
+      if(1){
+        r=m=1;   // Line 653
+        k.KO(0,t,"q̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x218)) {
+      if(1){
+        r=m=1;   // Line 654
+        k.KO(0,t,"Q̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x219)) {
+      if(1){
+        r=m=1;   // Line 655
+        k.KO(0,t,"q̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x21A)) {
+      if(1){
+        r=m=1;   // Line 656
+        k.KO(0,t,"Q̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x21B)) {
+      if(1){
+        r=m=1;   // Line 657
+        k.KO(0,t,"q̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x21C)) {
+      if(1){
+        r=m=1;   // Line 658
+        k.KO(0,t,"Q̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x21D)) {
+      if(1){
+        r=m=1;   // Line 659
+        k.KO(0,t,"q̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x21E)) {
+      if(1){
+        r=m=1;   // Line 660
+        k.KO(0,t,"Q̃");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x21F)) {
+      if(1){
+        r=m=1;   // Line 661
+        k.KO(0,t,"ḿ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x220)) {
+      if(1){
+        r=m=1;   // Line 662
+        k.KO(0,t,"Ḿ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x221)) {
+      if(1){
+        r=m=1;   // Line 663
+        k.KO(0,t,"m̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x222)) {
+      if(1){
+        r=m=1;   // Line 664
+        k.KO(0,t,"M̀");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x223)) {
+      if(1){
+        r=m=1;   // Line 665
+        k.KO(0,t,"m̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x224)) {
+      if(1){
+        r=m=1;   // Line 666
+        k.KO(0,t,"M̂");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x225)) {
+      if(1){
+        r=m=1;   // Line 667
+        k.KO(0,t,"m̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x226)) {
+      if(1){
+        r=m=1;   // Line 668
+        k.KO(0,t,"M̌");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x227)) {
+      if(1){
+        r=m=1;   // Line 669
+        k.KO(0,t,"m̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x228)) {
+      if(1){
+        r=m=1;   // Line 670
+        k.KO(0,t,"M̄");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x229)) {
+      if(1){
+        r=m=1;   // Line 680
+        k.KO(0,t,"down");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x22A)) {
+      if(1){
+        r=m=1;   // Line 681
+        k.KO(0,t,"up");
+      }
+    }
+      if(m) {}
+    else if(k.KKM(e, 0x4000, 0x22B)) {
+      if(1){
+        r=m=1;   // Line 682
+        k.KO(0,t,"right");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x22C)) {
+      if(1){
+        r=m=1;   // Line 683
+        k.KO(0,t,"left");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x22D)) {
+      if(1){
+        r=m=1;   // Line 688
+        k.KO(0,t,"∅");
+      }
+    }
     else if(k.KKM(e, 0x4000, 0x20)) {
-      if(k.KCM(1,t," ",1)){
-        r=m=1;   // Line 209
+      if(k.KCM(2,t,". ",2)){
+        r=m=1;   // Line 399
+        k.KO(2,t,"   ");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 223
+        k.KO(1,t,"” ");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 226
+        k.KO(1,t,"’ ");
+      }
+      else if(k.KCM(1,t," ",1)){
+        r=m=1;   // Line 400
         k.KO(1,t,". ");
-        k.KSETS(33,this.s42,t);
+        k.KSETS(33,this.s71,t);
       }
       else if(k.KCM(1,t,".",1)){
-        r=m=1;   // Line 215
-        k.KSETS(33,this.s48,t);
+        r=m=1;   // Line 406
+        k.KO(1,t,". ");
+        k.KSETS(33,this.s75,t);
       }
     }
     else if(k.KKM(e, 0x4010, 0x31)) {
       if(k.KCM(1,t," ",1)){
-        r=m=1;   // Line 212
+        r=m=1;   // Line 405
         k.KO(1,t,"! ");
-        k.KSETS(33,this.s45,t);
+        k.KSETS(33,this.s74,t);
       }
-      else if(k.KCM(1,t," ",1)){
-        r=m=1;   // Line 214
-        k.KO(1,t,"! ");
-        k.KSETS(33,this.s47,t);
+    }
+    else if(k.KKM(e, 0x4010, 0xDE)) {
+      if(k.KA(0,k.KC(1,1,t),this.s_CurlyQuoteCloseAfter_35)){
+        r=m=1;   // Line 224
+        k.KO(-1,t,"”");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 268
+        k.KO(1,t,"Ꞌ");
+      }
+      else if(k.KCM(1,t,"”",1)){
+        r=m=1;   // Line 269
+        k.KO(1,t,"Ꞌ");
+      }
+      else if(k.KCM(1,t,"“",1)){
+        r=m=1;   // Line 270
+        k.KO(1,t,"Ꞌ");
+      }
+    }
+    else if(k.KKM(e, 0x4050, 0xDE)) {
+      if(1){
+        r=m=1;   // Line 221
+        k.KO(0,t,"\"");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0xDE)) {
+      if(k.KA(0,k.KC(1,1,t),this.s_CurlyQuoteCloseAfter_35)){
+        r=m=1;   // Line 227
+        k.KO(-1,t,"’");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 265
+        k.KO(1,t,"ꞌ");
+      }
+      else if(k.KCM(1,t,"‘",1)){
+        r=m=1;   // Line 266
+        k.KO(1,t,"ꞌ");
+      }
+      else if(k.KCM(1,t,"’",1)){
+        r=m=1;   // Line 267
+        k.KO(1,t,"ꞌ");
+      }
+    }
+    else if(k.KKM(e, 0x4040, 0xDE)) {
+      if(1){
+        r=m=1;   // Line 222
+        k.KO(0,t,"'");
       }
     }
     else if(k.KKM(e, 0x4000, 0xBC)) {
       if(k.KCM(1,t," ",1)){
-        r=m=1;   // Line 207
+        r=m=1;   // Line 397
         k.KO(1,t,", ");
+      }
+    }
+    else if(k.KKM(e, 0x4060, 0xBD)) {
+      if(1){
+        r=m=1;   // Line 300
+        k.KO(0,t,"=");
+      }
+    }
+    else if(k.KKM(e, 0x4040, 0xBD)) {
+      if(1){
+        r=m=1;   // Line 315
+        k.KO(0,t,"̱");
       }
     }
     else if(k.KKM(e, 0x4000, 0xBE)) {
       if(k.KCM(1,t," ",1)){
-        r=m=1;   // Line 210
+        r=m=1;   // Line 401
         k.KO(1,t,". ");
-        k.KSETS(33,this.s43,t);
+        k.KSETS(33,this.s72,t);
+      }
+    }
+    else if(k.KKM(e, 0x4040, 0xBE)) {
+      if(1){
+        r=m=1;   // Line 312
+        k.KO(0,t,"̣");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0xBF)) {
+      if(k.KCM(2,t,"0/",2)){
+        r=m=1;   // Line 687
+        k.KO(2,t,"∅");
       }
     }
     else if(k.KKM(e, 0x4000, 0xBA)) {
       if(k.KCM(7,t,"version",7)){
-        r=m=1;   // Line 92
-        k.KO(7,t,"Keyboard version 30");
+        r=m=1;   // Line 217
+        k.KO(7,t,"Keyboard version 60");
+      }
+      else if(k.KCM(2,t,"00",2)){
+        r=m=1;   // Line 686
+        k.KO(2,t,"∅");
       }
       else if(k.KCM(1,t,"̱",1)){
-        r=m=1;   // Line 247
+        r=m=1;   // Line 286
         k.KO(1,t,"̣");
       }
       else if(k.KCM(1,t,"̣",1)){
-        r=m=1;   // Line 249
+        r=m=1;   // Line 288
         k.KO(1,t,"");
       }
-      else if(k.KA(0,k.KC(1,1,t),this.s_LtrsUnderlineAfter_22)){
-        r=m=1;   // Line 252
-        k.KIO(1,this.s_LtrsUnderlinable_21,1,t);
+      else if(k.KA(0,k.KC(1,1,t),this.s_LtrsUnderlineAfter_18)){
+        r=m=1;   // Line 291
+        k.KIO(1,this.s_LtrsUnderlinable_17,1,t);
         k.KO(-1,t,"̱");
       }
-      else if(k.KA(0,k.KC(1,1,t),this.s_LtrsSET1_19)){
-        r=m=1;   // Line 253
-        k.KIO(1,this.s_LtrsSET2_20,1,t);
+      else if(k.KA(0,k.KC(1,1,t),this.s_LtrsSET1_15)){
+        r=m=1;   // Line 292
+        k.KIO(1,this.s_LtrsSET2_16,1,t);
+      }
+      else if(k.KCM(1,t,"]",1)){
+        r=m=1;   // Line 302
+        k.KO(1,t,"[");
+      }
+      else if(k.KCM(1,t,"[",1)){
+        r=m=1;   // Line 303
+        k.KO(1,t,"]");
+      }
+      else if(k.KCM(1,t,"}",1)){
+        r=m=1;   // Line 304
+        k.KO(1,t,"{");
+      }
+      else if(k.KCM(1,t,"{",1)){
+        r=m=1;   // Line 305
+        k.KO(1,t,"}");
+      }
+      else if(k.KCM(1,t,"_",1)){
+        r=m=1;   // Line 306
+        k.KO(1,t,"+");
+      }
+      else if(k.KCM(1,t,"-",1)){
+        r=m=1;   // Line 307
+        k.KO(1,t,"=");
+      }
+      else if(k.KCM(1,t,"<",1)){
+        r=m=1;   // Line 308
+        k.KO(1,t,"M");
+      }
+      else if(k.KCM(1,t,",",1)){
+        r=m=1;   // Line 309
+        k.KO(1,t,"m");
       }
       else if(1){
-        r=m=1;   // Line 240
+        r=m=1;   // Line 279
         k.KO(0,t,";");
       }
     }
     else if(k.KKM(e, 0x4040, 0xBA)) {
       if(1){
-        r=m=1;   // Line 122
+        r=m=1;   // Line 250
         k.KO(0,t,";");
       }
-      else if(1){
-        r=m=1;   // Line 235
-        k.KO(0,t,";");
+    }
+    else if(k.KKM(e, 0x4000, 0xBB)) {
+      if(this.s_smallCapsOn_14===this.s67&&k.KCM(1,t,"=",1)){
+        r=m=1;   // Line 246
+        k.KO(1,t,"");
+        this.s_smallCapsOn_14=this.s68;
+      }
+      else if(this.s_smallCapsOn_14!==this.s69&&k.KCM(1,t,"=",1)){
+        r=m=1;   // Line 248
+        k.KO(1,t,"");
+        this.s_smallCapsOn_14=this.s70;
+      }
+    }
+    else if(k.KKM(e, 0x4050, 0xBE)) {
+      if(1){
+        r=m=1;   // Line 313
+        k.KO(0,t,"̇");
       }
     }
     else if(k.KKM(e, 0x4010, 0xBF)) {
       if(k.KCM(1,t," ",1)){
-        r=m=1;   // Line 211
+        r=m=1;   // Line 404
         k.KO(1,t,"? ");
-        k.KSETS(33,this.s44,t);
+        k.KSETS(33,this.s73,t);
       }
-      else if(k.KCM(1,t," ",1)){
-        r=m=1;   // Line 213
-        k.KO(1,t,"? ");
-        k.KSETS(33,this.s46,t);
+    }
+    else if(k.KKM(e, 0x4010, 0x32)) {
+      if(k.KCM(1,t,"@",1)){
+        r=m=1;   // Line 271
+        k.KO(1,t,"Ꞌ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x41)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“A");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘A");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴀ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x41)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“A");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘A");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴀ");
+      }
+    }
+    else if(k.KKM(e, 0x4060, 0x41)) {
+      if(1){
+        r=m=1;   // Line 339
+        k.KO(0,t,"Ə");
+      }
+      else if(1){
+        r=m=1;   // Line 329
+        k.KO(0,t,"ə");
       }
     }
     else if(k.KKM(e, 0x4070, 0x41)) {
       if(1){
-        r=m=1;   // Line 120
+        r=m=1;   // Line 339
         k.KO(0,t,"Ə");
+      }
+      else if(1){
+        r=m=1;   // Line 329
+        k.KO(0,t,"ə");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x42)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“B");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘B");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“b");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘b");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ʙ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x42)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“B");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘B");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“b");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘b");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ʙ");
+      }
+    }
+    else if(k.KKM(e, 0x4060, 0x42)) {
+      if(1){
+        r=m=1;   // Line 332
+        k.KO(0,t,"Ɓ");
+      }
+      else if(1){
+        r=m=1;   // Line 322
+        k.KO(0,t,"ɓ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x42)) {
       if(1){
-        r=m=1;   // Line 113
+        r=m=1;   // Line 332
         k.KO(0,t,"Ɓ");
+      }
+      else if(1){
+        r=m=1;   // Line 322
+        k.KO(0,t,"ɓ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x43)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“C");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘C");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“c");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘c");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴄ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x43)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“C");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘C");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“c");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘c");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴄ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x44)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“D");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘D");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“d");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘d");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴅ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x44)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“D");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘D");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“d");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘d");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴅ");
+      }
+    }
+    else if(k.KKM(e, 0x4060, 0x44)) {
+      if(1){
+        r=m=1;   // Line 333
+        k.KO(0,t,"Ɗ");
+      }
+      else if(1){
+        r=m=1;   // Line 323
+        k.KO(0,t,"ɗ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x44)) {
       if(1){
-        r=m=1;   // Line 114
+        r=m=1;   // Line 333
         k.KO(0,t,"Ɗ");
+      }
+      else if(1){
+        r=m=1;   // Line 323
+        k.KO(0,t,"ɗ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x45)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“E");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘E");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“e");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘e");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴇ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x45)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“E");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘E");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“e");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘e");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴇ");
+      }
+    }
+    else if(k.KKM(e, 0x4060, 0x45)) {
+      if(1){
+        r=m=1;   // Line 338
+        k.KO(0,t,"Ɛ");
+      }
+      else if(1){
+        r=m=1;   // Line 328
+        k.KO(0,t,"ɛ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x45)) {
       if(1){
-        r=m=1;   // Line 119
+        r=m=1;   // Line 338
         k.KO(0,t,"Ɛ");
+      }
+      else if(1){
+        r=m=1;   // Line 328
+        k.KO(0,t,"ɛ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x46)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“F");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘F");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“f");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘f");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ꜰ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x46)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“F");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘F");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“f");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘f");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ꜰ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x47)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“G");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘G");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“g");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘g");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ɢ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x47)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“G");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘G");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“g");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘g");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ɢ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x48)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“H");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘H");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“h");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘h");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ʜ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x48)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“H");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘H");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“h");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘h");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ʜ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x49)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“I");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘I");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“i");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘i");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ɪ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x49)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“I");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘I");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“i");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘i");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ɪ");
+      }
+    }
+    else if(k.KKM(e, 0x4060, 0x49)) {
+      if(1){
+        r=m=1;   // Line 336
+        k.KO(0,t,"Ɨ");
+      }
+      else if(1){
+        r=m=1;   // Line 326
+        k.KO(0,t,"ɨ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x49)) {
       if(1){
-        r=m=1;   // Line 117
+        r=m=1;   // Line 336
         k.KO(0,t,"Ɨ");
+      }
+      else if(1){
+        r=m=1;   // Line 326
+        k.KO(0,t,"ɨ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x4A)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“J");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘J");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“j");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘j");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴊ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x4A)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“J");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘J");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“j");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘j");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴊ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x4B)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“K");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘K");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“k");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘k");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴋ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x4B)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“K");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘K");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“k");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘k");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴋ");
+      }
+    }
+    else if(k.KKM(e, 0x4060, 0x4B)) {
+      if(1){
+        r=m=1;   // Line 331
+        k.KO(0,t,"Ƙ");
+      }
+      else if(1){
+        r=m=1;   // Line 321
+        k.KO(0,t,"ƙ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x4B)) {
       if(1){
-        r=m=1;   // Line 112
+        r=m=1;   // Line 331
         k.KO(0,t,"Ƙ");
+      }
+      else if(1){
+        r=m=1;   // Line 321
+        k.KO(0,t,"ƙ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x4C)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“L");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘L");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“l");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘l");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ʟ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x4C)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“L");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘L");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“l");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘l");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ʟ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x4D)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“M");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘M");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“m");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘m");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴍ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x4D)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“M");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘M");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“m");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘m");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴍ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x4E)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“N");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘N");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“n");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘n");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ɴ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x4E)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“N");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘N");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“n");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘n");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ɴ");
+      }
+    }
+    else if(k.KKM(e, 0x4060, 0x4E)) {
+      if(1){
+        r=m=1;   // Line 334
+        k.KO(0,t,"Ŋ");
+      }
+      else if(1){
+        r=m=1;   // Line 324
+        k.KO(0,t,"ŋ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x4E)) {
       if(1){
-        r=m=1;   // Line 115
+        r=m=1;   // Line 334
         k.KO(0,t,"Ŋ");
+      }
+      else if(1){
+        r=m=1;   // Line 324
+        k.KO(0,t,"ŋ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x4F)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“O");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘O");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“o");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘o");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴏ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x4F)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“O");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘O");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“o");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘o");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴏ");
+      }
+    }
+    else if(k.KKM(e, 0x4060, 0x4F)) {
+      if(1){
+        r=m=1;   // Line 335
+        k.KO(0,t,"Ɔ");
+      }
+      else if(1){
+        r=m=1;   // Line 325
+        k.KO(0,t,"ɔ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x4F)) {
       if(1){
-        r=m=1;   // Line 116
+        r=m=1;   // Line 335
         k.KO(0,t,"Ɔ");
+      }
+      else if(1){
+        r=m=1;   // Line 325
+        k.KO(0,t,"ɔ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x50)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“P");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘P");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“p");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘p");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴘ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x50)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“P");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘P");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“p");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘p");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴘ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x51)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“Q");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘Q");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“q");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘q");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ꞯ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x51)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“Q");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘Q");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“q");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘q");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ꞯ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x52)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“R");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘R");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“r");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘r");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ʀ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x52)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“R");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘R");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“r");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘r");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ʀ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x53)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“S");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘S");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“s");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘s");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ꜱ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x53)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“S");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘S");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“s");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘s");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ꜱ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x54)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“T");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘T");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“t");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘t");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴛ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x54)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“T");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘T");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“t");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘t");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴛ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x55)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“U");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘U");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“u");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘u");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴜ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x55)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“U");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘U");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“u");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘u");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴜ");
+      }
+    }
+    else if(k.KKM(e, 0x4060, 0x55)) {
+      if(1){
+        r=m=1;   // Line 337
+        k.KO(0,t,"Ʊ");
+      }
+      else if(1){
+        r=m=1;   // Line 327
+        k.KO(0,t,"ʊ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x55)) {
       if(1){
-        r=m=1;   // Line 118
+        r=m=1;   // Line 337
         k.KO(0,t,"Ʊ");
+      }
+      else if(1){
+        r=m=1;   // Line 327
+        k.KO(0,t,"ʊ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x56)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“V");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘V");
+      }
+      else if(k.KCM(2,t,"kb",2)){
+        r=m=1;   // Line 216
+        k.KO(2,t,"Keyboard version 60");
+      }
+      else if(k.KCM(2,t,"vv",2)){
+        r=m=1;   // Line 218
+        k.KO(2,t,"Keyboard version 60");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“v");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘v");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴠ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x56)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“V");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘V");
+      }
+      else if(k.KCM(2,t,"kb",2)){
+        r=m=1;   // Line 216
+        k.KO(2,t,"Keyboard version 60");
+      }
+      else if(k.KCM(2,t,"vv",2)){
+        r=m=1;   // Line 218
+        k.KO(2,t,"Keyboard version 60");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“v");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘v");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴠ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x57)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“W");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘W");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“w");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘w");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴡ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x57)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“W");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘W");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“w");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘w");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴡ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x58)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“X");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘X");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“x");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘x");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x58)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“X");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘X");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“x");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘x");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x59)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“Y");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘Y");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“y");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘y");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ʏ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x59)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“Y");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘Y");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“y");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘y");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ʏ");
+      }
+    }
+    else if(k.KKM(e, 0x4060, 0x59)) {
+      if(1){
+        r=m=1;   // Line 330
+        k.KO(0,t,"Ƴ");
+      }
+      else if(1){
+        r=m=1;   // Line 320
+        k.KO(0,t,"ƴ");
       }
     }
     else if(k.KKM(e, 0x4070, 0x59)) {
       if(1){
-        r=m=1;   // Line 111
+        r=m=1;   // Line 330
         k.KO(0,t,"Ƴ");
+      }
+      else if(1){
+        r=m=1;   // Line 320
+        k.KO(0,t,"ƴ");
+      }
+    }
+    else if(k.KKM(e, 0x4000, 0x5A)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“Z");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘Z");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“z");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘z");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴢ");
+      }
+    }
+    else if(k.KKM(e, 0x4010, 0x5A)) {
+      if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“Z");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘Z");
+      }
+      else if(k.KCM(1,t,"\"",1)){
+        r=m=1;   // Line 225
+        k.KO(1,t,"“z");
+      }
+      else if(k.KCM(1,t,"'",1)){
+        r=m=1;   // Line 228
+        k.KO(1,t,"‘z");
+      }
+      else if(this.s_smallCapsOn_14===this.s66){
+        r=m=1;   // Line 238
+        k.KO(0,t,"ᴢ");
+      }
+    }
+    else if(k.KKM(e, 0x4060, 0xDB)) {
+      if(1){
+        r=m=1;   // Line 296
+        k.KO(0,t,"]");
+      }
+    }
+    else if(k.KKM(e, 0x4040, 0xDC)) {
+      if(1){
+        r=m=1;   // Line 316
+        k.KO(0,t,"̍");
+      }
+    }
+    else if(k.KKM(e, 0x4060, 0xDD)) {
+      if(1){
+        r=m=1;   // Line 297
+        k.KO(0,t,"[");
+      }
+    }
+    else if(k.KKM(e, 0x4070, 0xBD)) {
+      if(1){
+        r=m=1;   // Line 301
+        k.KO(0,t,"+");
+      }
+    }
+    else if(k.KKM(e, 0x4050, 0xBD)) {
+      if(1){
+        r=m=1;   // Line 314
+        k.KO(0,t,"̄");
       }
     }
     else if(k.KKM(e, 0x4000, 0xC0)) {
-      if(k.KA(0,k.KC(1,1,t),this.s_LtrsWithTone_25)){
-        r=m=1;   // Line 194
+      if(k.KA(0,k.KC(1,1,t),this.s_LtrsWithTone_24)){
+        r=m=1;   // Line 253
         k.KO(-1,t,"́");
       }
-      else if(k.KA(0,k.KC(1,1,t),this.s_ToneRota1_30)){
-        r=m=1;   // Line 195
-        k.KIO(1,this.s_ToneRota2_31,1,t);
+      else if(k.KA(0,k.KC(1,1,t),this.s_ToneRota1_29)){
+        r=m=1;   // Line 254
+        k.KIO(1,this.s_ToneRota2_30,1,t);
       }
-      else if(k.KCM(1,t,"̄",1)){
-        r=m=1;   // Line 196
+      else if(k.KCM(1,t,"̇",1)){
+        r=m=1;   // Line 255
         k.KO(1,t,"");
       }
       else if(k.KCM(1,t,"̃",1)){
-        r=m=1;   // Line 197
+        r=m=1;   // Line 256
         k.KO(-1,t,"́");
       }
       else if(1){
-        r=m=1;   // Line 241
+        r=m=1;   // Line 280
         k.KO(0,t,"`");
       }
     }
     else if(k.KKM(e, 0x4040, 0xC0)) {
       if(1){
-        r=m=1;   // Line 236
+        r=m=1;   // Line 275
         k.KO(0,t,"`");
       }
     }
-    else if(k.KKM(e, 0x4060, 0x41)) {
+      if(m) {}
+    else if(k.KKM(e, 0x4070, 0xDB)) {
       if(1){
-        r=m=1;   // Line 110
-        k.KO(0,t,"ə");
+        r=m=1;   // Line 298
+        k.KO(0,t,"}");
       }
     }
-    else if(k.KKM(e, 0x4060, 0x42)) {
+    else if(k.KKM(e, 0x4050, 0xDC)) {
       if(1){
-        r=m=1;   // Line 103
-        k.KO(0,t,"ɓ");
+        r=m=1;   // Line 317
+        k.KO(0,t,"̍");
       }
     }
-    else if(k.KKM(e, 0x4060, 0x44)) {
+    else if(k.KKM(e, 0x4070, 0xDD)) {
       if(1){
-        r=m=1;   // Line 104
-        k.KO(0,t,"ɗ");
-      }
-    }
-    else if(k.KKM(e, 0x4060, 0x45)) {
-      if(1){
-        r=m=1;   // Line 109
-        k.KO(0,t,"ɛ");
-      }
-    }
-    else if(k.KKM(e, 0x4060, 0x49)) {
-      if(1){
-        r=m=1;   // Line 107
-        k.KO(0,t,"ɨ");
-      }
-    }
-    else if(k.KKM(e, 0x4060, 0x4B)) {
-      if(1){
-        r=m=1;   // Line 102
-        k.KO(0,t,"ƙ");
-      }
-    }
-    else if(k.KKM(e, 0x4060, 0x4E)) {
-      if(1){
-        r=m=1;   // Line 105
-        k.KO(0,t,"ŋ");
-      }
-    }
-    else if(k.KKM(e, 0x4060, 0x4F)) {
-      if(1){
-        r=m=1;   // Line 106
-        k.KO(0,t,"ɔ");
-      }
-    }
-    else if(k.KKM(e, 0x4060, 0x55)) {
-      if(1){
-        r=m=1;   // Line 108
-        k.KO(0,t,"ʊ");
-      }
-    }
-    else if(k.KKM(e, 0x4000, 0x56)) {
-      if(k.KCM(2,t,"kb",2)){
-        r=m=1;   // Line 91
-        k.KO(2,t,"Keyboard version 30");
-      }
-    }
-    else if(k.KKM(e, 0x4060, 0x59)) {
-      if(1){
-        r=m=1;   // Line 101
-        k.KO(0,t,"ƴ");
+        r=m=1;   // Line 299
+        k.KO(0,t,"{");
       }
     }
     else if(k.KKM(e, 0x4010, 0xC0)) {
-      if(k.KCM(2,t,"̃",1)&&k.KA(1,k.KC(1,1,t),this.s_ToneSubset_32)){
-        r=m=1;   // Line 202
-        k.KIO(2,this.s_ToneSubset_32,2,t);
+      if(k.KCM(2,t,"̃",1)&&k.KA(1,k.KC(1,1,t),this.s_ToneSubset_31)){
+        r=m=1;   // Line 261
+        k.KIO(2,this.s_ToneSubset_31,2,t);
       }
-      else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal_26)&&k.KA(1,k.KC(1,1,t),this.s_ToneSubset_32)){
-        r=m=1;   // Line 203
-        k.KIO(2,this.s_LtrsWithNasal_26,1,t);
+      else if(k.KA(0,k.KC(2,1,t),this.s_LtrsWithNasal_25)&&k.KA(1,k.KC(1,1,t),this.s_ToneSubset_31)){
+        r=m=1;   // Line 262
+        k.KIO(2,this.s_LtrsWithNasal_25,1,t);
         k.KO(-1,t,"̃");
-        k.KIO(-1,this.s_ToneSubset_32,2,t);
+        k.KIO(-1,this.s_ToneSubset_31,2,t);
       }
-      else if(k.KA(0,k.KC(1,1,t),this.s_LtrsWithNasal_26)){
-        r=m=1;   // Line 200
+      else if(k.KA(0,k.KC(1,1,t),this.s_LtrsWithNasal_25)){
+        r=m=1;   // Line 259
         k.KO(-1,t,"̃");
       }
       else if(k.KCM(1,t,"̃",1)){
-        r=m=1;   // Line 201
+        r=m=1;   // Line 260
         k.KO(1,t,"");
       }
       else if(1){
-        r=m=1;   // Line 242
+        r=m=1;   // Line 281
         k.KO(0,t,"~");
       }
     }
     else if(k.KKM(e, 0x4050, 0xC0)) {
       if(1){
-        r=m=1;   // Line 237
+        r=m=1;   // Line 276
         k.KO(0,t,"~");
       }
     }
